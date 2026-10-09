@@ -1,0 +1,20 @@
+{
+  "block_positions": 19,
+  "candidate_count": 0,
+  "candidate_supports": [],
+  "clique_witness_ids": [],
+  "clique_witness_masks": [],
+  "distinguished_point_mask": 524287,
+  "edge_count": 0,
+  "edge_encoding": "ASCII header left_id,right_id then sorted i,j, LF newline",
+  "edge_file": "edges_m19.csv",
+  "edges_sha256": "bb99cf765b9703bafbf398e7159eff71d00ffe6270b4fbf1f420cff27b1433eb",
+  "incidence_equation": "266 - m >= 4*a + 5*(51-a) = 255-a",
+  "isolated_ids": [],
+  "m": 19,
+  "maximum_clique_size": 0,
+  "minimum_tight_points_from_incidence": 8,
+  "pairs_checked": 0,
+  "proper_color_count": 0,
+  "scope": "Complete support graph for a necessary pairwise condition; not a covering witness"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "PASS_BOUNDED_PUBLISHED_FORMULA_COMPARISON",
+  "retrieved_date_utc": "2026-10-08",
+  "sources": [
+    "https://arxiv.org/html/1409.0485v3",
+    "https://arxiv.org/html/1706.06825v2"
+  ],
+  "horsley2014_pair": {
+    "v": 52,
+    "k": 14,
+    "r": 4,
+    "d": 1,
+    "n": 3,
+    "theorem1_exact": "52/3",
+    "theorem1_ceiling": 18,
+    "theorem14a_exact": "2574/145",
+    "theorem14a_ceiling": 18,
+    "theorem14b_applicable": false,
+    "theorem14c_applicable": false,
+    "theorem14c_test": {
+      "left": 160,
+      "right": 225
+    }
+  },
+  "published_floor_chain": {
+    "triple": 4,
+    "pair": 18,
+    "point": 64,
+    "target": 216
+  },
+  "horsley_singh2017_natural_floor_cases": [
+    {
+      "v": 54,
+      "k": 16,
+      "t": 4,
+      "s": 1,
+      "floor_inputs": {
+        "1": 64,
+        "2": 18
+      },
+      "a_s": 46,
+      "d": 6,
+      "choose_k_s": 16,
+      "theorem6_applicable": true,
+      "theorem15_applicable": false,
+      "theorem18_applicable": false,
+      "theorem6_exact": "3510/17",
+      "theorem6_ceiling": 207
+    },
+    {
+      "v": 54,
+      "k": 16,
+      "t": 4,
+      "s": 2,
+      "floor_inputs": {
+        "2": 18,
+        "3": 4,
+        "4": 1
+      },
+      "a_s": 11,
+      "d": 400,
+      "choose_k_s": 120,
+      "theorem6_applicable": false,
+      "theorem15_applicable": true,
+      "theorem18_applicable": false,
+      "theorem15_exact": "5713983/73550",
+      "theorem15_ceiling": 78
+    },
+    {
+      "v": 53,
+      "k": 15,
+      "t": 3,
+      "s": 1,
+      "floor_inputs": {
+        "1": 18,
+        "2": 4
+      },
+      "a_s": 14,
+      "d": 44,
+      "choose_k_s": 15,
+      "theorem6_applicable": false,
+      "theorem15_applicable": false,
+      "theorem18_applicable": false
+    }
+  ],
+  "target224_found": false,
+  "establishes_priority": false,
+  "limitations": "Checks only the identified formulas with the displayed published floor inputs. It is not an exhaustive literature/theorem catalog, all auxiliary-floor choices, later papers, or unpublished results. General moment/rank and LP/IP methods are established prior art."
+}

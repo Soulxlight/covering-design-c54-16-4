@@ -1,0 +1,72 @@
+{
+  "child_lower_bound": 66,
+  "dependency_dag": {
+    "all_case_maps": [
+      "definition",
+      "direct_floor18",
+      "tight_geometry",
+      "occurrence_moments",
+      "avoidance18_19",
+      "five_partitions"
+    ],
+    "all_case_signed_duals": [
+      "all_case_maps"
+    ],
+    "avoidance18_19": [
+      "definition",
+      "tight_geometry"
+    ],
+    "child66": [
+      "definition",
+      "direct_floor18",
+      "tight_geometry",
+      "occurrence_moments",
+      "avoidance18_19"
+    ],
+    "definition": [],
+    "direct_floor18": [
+      "definition"
+    ],
+    "five_partitions": [
+      "target_point_floor66"
+    ],
+    "no223": [
+      "all_case_signed_duals"
+    ],
+    "occurrence_moments": [
+      "definition"
+    ],
+    "padding": [
+      "definition"
+    ],
+    "target224": [
+      "no223",
+      "padding"
+    ],
+    "target_point_floor66": [
+      "definition",
+      "child66"
+    ],
+    "tight_geometry": [
+      "definition"
+    ]
+  },
+  "formal_kernel_verified": false,
+  "historical_model_metadata_pins": "Unchanged historical producer/base/proof SHA fields are source provenance. Runtime checks use complete independent reconstructions and included semantic proofs, not those private producers.",
+  "human_expert_accepted": false,
+  "novelty_certified": false,
+  "required_proof_assets": [
+    "proof/CHILD_BOUND_66.md",
+    "proof/PETA_CHILD_SOURCE.md",
+    "proof/COMMON_MODEL.md",
+    "proof/MULTIPLICITY_PROOF.md",
+    "proof/CASE1111_LINKS.md",
+    "proof/CASE1111_ENDPOINT.md",
+    "proof/CASE4.md",
+    "proof/CASE31.md",
+    "proof/CASE22.md",
+    "proof/CASE211.md",
+    "proof/ASSEMBLY.md"
+  ],
+  "scope": "complete indexed uniform covering"
+}

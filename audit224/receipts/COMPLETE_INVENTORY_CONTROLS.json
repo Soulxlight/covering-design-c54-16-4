@@ -1,0 +1,204 @@
+{
+  "github_writes": 0,
+  "independently_recomputed_fixture_pins": true,
+  "manifest_variants": 13,
+  "network_calls": 0,
+  "normal_and_optimized_rejected_all": true,
+  "physical_process_rejections": 32,
+  "rejections": [
+    {
+      "exit_code": 1,
+      "fixture": "wrong independently supplied overall pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: external public manifest pin"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong independently supplied overall pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: external public manifest pin"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong schema with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: release schema/base"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong schema with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: release schema/base"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong base with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: release schema/base"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong base with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: release schema/base"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty whitelist with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty whitelist with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing member with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing member with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra member with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra member with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count substitution with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count substitution with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate member with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate member with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "traversal alias with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "traversal alias with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "absolute alias with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "absolute alias with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: fixed exact release whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "boolean size with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: integer size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "boolean size with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: integer size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "negative size with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: integer size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "negative size with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: integer size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "bad hash with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: release member hash"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "bad hash with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: release member hash"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate JSON key with recomputed fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: duplicate JSON key"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate JSON key with recomputed fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: duplicate JSON key"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra actual release file",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra release file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra actual release file",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra release file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty checksum index",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: complete checksum index"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty checksum index",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: complete checksum index"
+    }
+  ],
+  "solver_calls": 0,
+  "status": "PASS_COMPLETE_RELEASE_INVENTORY_CONTROLS"
+}

@@ -1,0 +1,315 @@
+{
+  "assets": [
+    {
+      "original_sha256": "699b619ccc7f70fe104143d654ab192719c4cf6d6e506c26fa3097c53619f35a",
+      "package_path": "proof/CHILD_BOUND_66.md",
+      "packaged_sha256": "699b619ccc7f70fe104143d654ab192719c4cf6d6e506c26fa3097c53619f35a",
+      "source_label": "Independent reviewer: compact analytic child semantic certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "fc0a9961a3cc010daaf2d2f5914f5fac05c8b021cb3275d568c0408f973e9b35",
+      "package_path": "proof/PETA_CHILD_SOURCE.md",
+      "packaged_sha256": "fc0a9961a3cc010daaf2d2f5914f5fac05c8b021cb3275d568c0408f973e9b35",
+      "source_label": "Peta: original analytic child proof; direct floor is supplied by compact semantic certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "5811c8e1789345e4797e4745417c9d45c8627d0730f9f95dac9d56289e160cd7",
+      "package_path": "proof/COMMON_MODEL.md",
+      "packaged_sha256": "5811c8e1789345e4797e4745417c9d45c8627d0730f9f95dac9d56289e160cd7",
+      "source_label": "Scout: SMALL_EXCESS_LEMMAS_AND_MODEL.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "84fafad589b17671751baa23ee61ab44fecee211dbddfa9f69feb5750e4d010c",
+      "package_path": "proof/MULTIPLICITY_PROOF.md",
+      "packaged_sha256": "84fafad589b17671751baa23ee61ab44fecee211dbddfa9f69feb5750e4d010c",
+      "source_label": "Scout: MULTIPLICITY_SECOND_PROOF.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "e441b0082832d970ee808b283549a2031db26a0b60f1873a704125d5a7be9324",
+      "package_path": "proof/CASE1111_LINKS.md",
+      "packaged_sha256": "e441b0082832d970ee808b283549a2031db26a0b60f1873a704125d5a7be9324",
+      "source_label": "Scout: SEMANTIC_MAP_AND_LINKING_PROOF.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "c55c8ebdb1309f101ab53ddd2f459f47b0b26c415b4910b5b95df33695e86993",
+      "package_path": "proof/CASE1111_ENDPOINT.md",
+      "packaged_sha256": "c55c8ebdb1309f101ab53ddd2f459f47b0b26c415b4910b5b95df33695e86993",
+      "source_label": "Scout: POINT_SHARING_AND_ENDPOINT_PROOF.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "1d97f8dbd3ec4d4ff365ebcbc45dfddd9d6f16d17f8e2a4e231112d5cfe8f63f",
+      "package_path": "proof/CASE4.md",
+      "packaged_sha256": "1d97f8dbd3ec4d4ff365ebcbc45dfddd9d6f16d17f8e2a4e231112d5cfe8f63f",
+      "source_label": "Scout: CASE4_ARBITRARY_COVER_MAP.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "8451da5aa59dff4c3ac052c1f616dbfb9c0954000e9398475abd6fbaf7aa3f21",
+      "package_path": "proof/CASE31.md",
+      "packaged_sha256": "8451da5aa59dff4c3ac052c1f616dbfb9c0954000e9398475abd6fbaf7aa3f21",
+      "source_label": "Scout: CASE31_ARBITRARY_COVER_MAP.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "325723adc91af140d042e5b55ac501422b7c944bafb9eec2a102507f1fe709f2",
+      "package_path": "proof/CASE22.md",
+      "packaged_sha256": "325723adc91af140d042e5b55ac501422b7c944bafb9eec2a102507f1fe709f2",
+      "source_label": "Scout: CASE22_ARBITRARY_COVER_MAP.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "462814f2fadfe6ff6547cd6e8ad441a4737dea86081999ee0bed61214f36b061",
+      "package_path": "proof/CASE211.md",
+      "packaged_sha256": "462814f2fadfe6ff6547cd6e8ad441a4737dea86081999ee0bed61214f36b061",
+      "source_label": "Scout: CASE211_ARBITRARY_COVER_MAP.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "dd5e4b9d9274b06fe641aad43dde14822f5749de81600840e04e7bf1078c0ee3",
+      "package_path": "REPORT.md",
+      "packaged_sha256": "dd5e4b9d9274b06fe641aad43dde14822f5749de81600840e04e7bf1078c0ee3",
+      "source_label": "Scout: portable version01 REPORT.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "afbcc418b28426aec29555423544cf8110ef662dbcb5c2f2266eb14464554a07",
+      "package_path": "README.md",
+      "packaged_sha256": "afbcc418b28426aec29555423544cf8110ef662dbcb5c2f2266eb14464554a07",
+      "source_label": "Scout: portable version01 README.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "a1855452903a5409b98e3658b143ea58a6183d6370cea7d75254becc9883bbda",
+      "package_path": "proof/ASSEMBLY.md",
+      "packaged_sha256": "a1855452903a5409b98e3658b143ea58a6183d6370cea7d75254becc9883bbda",
+      "source_label": "Scout: portable version01 proof/ASSEMBLY.md",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "dd4db37147e7388837ea3983ea0022f6d79c9f71965e3203ca67088a9362507b",
+      "package_path": "verify.py",
+      "packaged_sha256": "dd4db37147e7388837ea3983ea0022f6d79c9f71965e3203ca67088a9362507b",
+      "source_label": "Scout: portable version01 verify.py",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "b8ec40994ccdd45af8b02e84f87537750ebffcc0e524c090a8733f3b060a1573",
+      "package_path": "cases/4/MODEL.json",
+      "packaged_sha256": "b8ec40994ccdd45af8b02e84f87537750ebffcc0e524c090a8733f3b060a1573",
+      "source_label": "Scout Pass29: complete frozen necessary model",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "a45934ca637409c705e3308bb66780ad4d975b285d60ca2a7e07b9412f559c9a",
+      "package_path": "cases/4/CERTIFICATE.json",
+      "packaged_sha256": "a45934ca637409c705e3308bb66780ad4d975b285d60ca2a7e07b9412f559c9a",
+      "source_label": "Scout Pass29: frozen exact signed certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "fa4d842d2766715bc5a8daad2b5ae797170407fe92b5a26cce4da2e2acaa3766",
+      "package_path": "audits/reconstruct_4.py",
+      "packaged_sha256": "87642413e1a0d1a4fdd2644467f36ef5cc269e357dd0f1ae6dcb80e42af8f277",
+      "source_label": "Independent reviewer: independent_case4.py",
+      "transformation": "AST extraction: need/reconstruct/validate, V/R/CAPCHECKS/META assignments, standard-library mathematical imports; private paths, file I/O, main, and unrelated tests omitted; ast.unparse formatting"
+    },
+    {
+      "original_sha256": "2dd5551f90ac9fd06a57e37ca70dd3e971c0973790788914e7b103c8f64e792d",
+      "package_path": "review/CASE4_NORMAL.json",
+      "packaged_sha256": "2e92bfee27d5e667a04edb7c79313d865ab8541b8c27f1726dfd1d3381d2a451",
+      "source_label": "Independent reviewer Pass29: normal numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "859ade288d71fc08c65783b1e0e19c47cf7a65bf15e2b9357751cc0b72889987",
+      "package_path": "review/CASE4_OPTIMIZED.json",
+      "packaged_sha256": "2e92bfee27d5e667a04edb7c79313d865ab8541b8c27f1726dfd1d3381d2a451",
+      "source_label": "Independent reviewer Pass29: optimized numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "bea28e679c0b4f4c36309ccc4302e78e81830a622c1b0e14bb62848d2953eb2a",
+      "package_path": "cases/31/MODEL.json",
+      "packaged_sha256": "bea28e679c0b4f4c36309ccc4302e78e81830a622c1b0e14bb62848d2953eb2a",
+      "source_label": "Scout Pass30: complete frozen necessary model",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "b2f8f1cf267d7b3d26c8d9e3098b6b6ac7c57684c0c76ecca2f0df9512748125",
+      "package_path": "cases/31/CERTIFICATE.json",
+      "packaged_sha256": "b2f8f1cf267d7b3d26c8d9e3098b6b6ac7c57684c0c76ecca2f0df9512748125",
+      "source_label": "Scout Pass30: frozen exact signed certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "d2664ef280e28e88cf1d1a0faf84c063d558cf8df2b977ac71c85fa3fe3e6f48",
+      "package_path": "audits/reconstruct_31.py",
+      "packaged_sha256": "8e79eb063466403635cdabcf0e8d3aa660658490663983130ae852a2cc13489b",
+      "source_label": "Independent reviewer: independent_case31.py",
+      "transformation": "AST extraction: need/reconstruct/validate, V/R/CAPCHECKS/META assignments, standard-library mathematical imports; private paths, file I/O, main, and unrelated tests omitted; ast.unparse formatting"
+    },
+    {
+      "original_sha256": "3848a8223f5e944b886bca46253f30912399a25ed027003bb3b8c7347cabe735",
+      "package_path": "review/CASE31_NORMAL.json",
+      "packaged_sha256": "718ffc1363a1e194bc79af0da84f7347f5ec1286ee9baa8619583a238bcca0b9",
+      "source_label": "Independent reviewer Pass30: normal numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "121b174ea5396bd7df287aca1e8cf79270df92f3aee0d853dfde60158f552655",
+      "package_path": "review/CASE31_OPTIMIZED.json",
+      "packaged_sha256": "718ffc1363a1e194bc79af0da84f7347f5ec1286ee9baa8619583a238bcca0b9",
+      "source_label": "Independent reviewer Pass30: optimized numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "8908e73d0b75ee5f7f1acac5c98c0cbff5489f6128a97cfb73fc44e90da1abd8",
+      "package_path": "cases/22/MODEL.json",
+      "packaged_sha256": "8908e73d0b75ee5f7f1acac5c98c0cbff5489f6128a97cfb73fc44e90da1abd8",
+      "source_label": "Scout Pass31: complete frozen necessary model",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "dd183351d67a8c5443cb9a18f7f1fa1d44640ff69f7f5de48c3c70087100639b",
+      "package_path": "cases/22/CERTIFICATE.json",
+      "packaged_sha256": "dd183351d67a8c5443cb9a18f7f1fa1d44640ff69f7f5de48c3c70087100639b",
+      "source_label": "Scout Pass31: frozen exact signed certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "d6d3c1a3c6e8dc1b3d110b322289e0a276721a578e7b0f9ff29dbe2cf13d969a",
+      "package_path": "audits/reconstruct_22.py",
+      "packaged_sha256": "7c84aeb77df0782a38e4a8f7d7516a9402e2060227082dacb20bec4f310fb781",
+      "source_label": "Independent reviewer: independent_case22.py",
+      "transformation": "AST extraction: need/reconstruct/validate, V/R/CAPCHECKS/META assignments, standard-library mathematical imports; private paths, file I/O, main, and unrelated tests omitted; ast.unparse formatting"
+    },
+    {
+      "original_sha256": "d035e62c86d716a0407c5f0279cea00c18881f5de113cb20cfd4df94a473a117",
+      "package_path": "review/CASE22_NORMAL.json",
+      "packaged_sha256": "4d3bfd9c67dea80213ec1bf758770ebceb62aae58d096f7de74332637e8da6a5",
+      "source_label": "Independent reviewer Pass31: normal numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "048eeae2c9b050c9efd2d4a7af4cfe6aa418a6f0aa8028203bdc30275654e51c",
+      "package_path": "review/CASE22_OPTIMIZED.json",
+      "packaged_sha256": "4d3bfd9c67dea80213ec1bf758770ebceb62aae58d096f7de74332637e8da6a5",
+      "source_label": "Independent reviewer Pass31: optimized numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "53bfcddc844c6deeb37c33c892167857610f7e1a3b45fd02df33f8c533eb3a94",
+      "package_path": "cases/211/MODEL.json",
+      "packaged_sha256": "53bfcddc844c6deeb37c33c892167857610f7e1a3b45fd02df33f8c533eb3a94",
+      "source_label": "Scout Pass32: complete frozen necessary model",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "b1216be346dd322b2f8320c14bca291c22d1dc8fc96da86868af521381363f6d",
+      "package_path": "cases/211/CERTIFICATE.json",
+      "packaged_sha256": "b1216be346dd322b2f8320c14bca291c22d1dc8fc96da86868af521381363f6d",
+      "source_label": "Scout Pass32: frozen exact signed certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "192ff7fd328994c5f9499b6b43d4370b067e8f36ccfd0e167cfc2c12a3fc71a6",
+      "package_path": "audits/reconstruct_211.py",
+      "packaged_sha256": "db8d34eb8deaa1b45f1d93db7fdd86eae0f85bb0f0d4df4775f59b15eaa82b6b",
+      "source_label": "Independent reviewer: independent_case211.py",
+      "transformation": "AST extraction: need/reconstruct/validate, V/R/CAPCHECKS/META assignments, standard-library mathematical imports; private paths, file I/O, main, and unrelated tests omitted; ast.unparse formatting"
+    },
+    {
+      "original_sha256": "356f46b97a5b6ab67c6084f1f3aa37876fc2ac17248220c3aa5725e879e71dd8",
+      "package_path": "review/CASE211_NORMAL.json",
+      "packaged_sha256": "bf28a07995280ca8c2d584a564f12daac299811d0ec08f94e2d8711439cd5c00",
+      "source_label": "Independent reviewer Pass32: normal numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "ba60085828369f5033a2acb129e2652795cd5a8ef828d0ccad9eee9e49931132",
+      "package_path": "review/CASE211_OPTIMIZED.json",
+      "packaged_sha256": "bf28a07995280ca8c2d584a564f12daac299811d0ec08f94e2d8711439cd5c00",
+      "source_label": "Independent reviewer Pass32: optimized numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "4be1d6e6c1b92e3bb1f2f2d2a03d0ef5527dd9f2acb77634eb3a94f867398812",
+      "package_path": "cases/1111/MODEL.json",
+      "packaged_sha256": "4be1d6e6c1b92e3bb1f2f2d2a03d0ef5527dd9f2acb77634eb3a94f867398812",
+      "source_label": "Scout Pass27: complete frozen necessary model",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "5492c628058b440dd54bb7252fad26f6da172fef75200ec8ea532b3af92f29cc",
+      "package_path": "cases/1111/CERTIFICATE.json",
+      "packaged_sha256": "5492c628058b440dd54bb7252fad26f6da172fef75200ec8ea532b3af92f29cc",
+      "source_label": "Scout Pass27: frozen exact signed certificate",
+      "transformation": "unchanged bytes"
+    },
+    {
+      "original_sha256": "551a37566bd6ea19a1815ecc1c94cf71529fd975fb5802221ac6a7ebd5ecba1f",
+      "package_path": "audits/reconstruct_1111.py",
+      "packaged_sha256": "2d97f7ae730c48d2fc77bdb9f8670ab0bcc630f343a845ed8422dcd96694821d",
+      "source_label": "Independent reviewer: independent_scout27.py",
+      "transformation": "AST extraction: need/reconstruct/validate, V/R/CAPCHECKS/META assignments, standard-library mathematical imports; private paths, file I/O, main, and unrelated tests omitted; ast.unparse formatting"
+    },
+    {
+      "original_sha256": "9fc5649fd0a48058ad37bc761af9be2242bb71b886c4deeec08c5fb92c89b6ea",
+      "package_path": "review/CASE1111_NORMAL.json",
+      "packaged_sha256": "ab71653fcf4942a775b99d176eb86dc794604573495c20a4c3b83ecdca169c15",
+      "source_label": "Independent reviewer Pass27: normal numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "e018420e19099854bd375276309454de232dacd61d7c9478e4ee733e8ed7b5bf",
+      "package_path": "review/CASE1111_OPTIMIZED.json",
+      "packaged_sha256": "ab71653fcf4942a775b99d176eb86dc794604573495c20a4c3b83ecdca169c15",
+      "source_label": "Independent reviewer Pass27: optimized numerical receipt",
+      "transformation": "Whitelisted mathematical projection; host paths, inventories, source lists and execution metadata omitted"
+    },
+    {
+      "original_sha256": "b00eb393a6e0e65458c7da239e1227d736b98b139ccc392de6c18315850de928",
+      "package_path": "review/GLOBAL_NORMAL.json",
+      "packaged_sha256": "b383f1adc428ca28083361599b153c2ed17d0b35122c4d40d0517bde65143c97",
+      "source_label": "Independent reviewer: assembled proof normal receipt",
+      "transformation": "Whitelisted mathematical projection; private paths, raw source inventories and operational metadata omitted"
+    },
+    {
+      "original_sha256": "7af50297fe64d283d9d5f49ace82a9e6704764db0fe15d6b20a836a75d38f67d",
+      "package_path": "review/GLOBAL_OPTIMIZED.json",
+      "packaged_sha256": "b383f1adc428ca28083361599b153c2ed17d0b35122c4d40d0517bde65143c97",
+      "source_label": "Independent reviewer: assembled proof optimized receipt",
+      "transformation": "Whitelisted mathematical projection; private paths, raw source inventories and operational metadata omitted"
+    },
+    {
+      "original_sha256": "4ebe4ad5c23dca871c82e5b57880dbfce6c2d7e078d291d195d4023a39205e2b",
+      "package_path": "review/CHILD_STATUS.json",
+      "packaged_sha256": "ba864245fd9f3e868c626ff83079831e4e71e03004f4ec11af6e0b03fcde31c8",
+      "source_label": "Independent reviewer: child66 status",
+      "transformation": "Whitelisted child proof and review-limitation projection"
+    }
+  ],
+  "byte_preservation": "All five mathematical models and certificates are byte-identical to the reviewed frozen inputs. Mathematical source documents are unchanged. Adapted code and review projections are explicitly labelled.",
+  "generated_index_assets": [
+    "CASE_LEDGER.json",
+    "PROOF_DEPENDENCIES.json",
+    "review/REVIEW_STATUS.md",
+    "REFERENCES.md",
+    "PROVENANCE.json",
+    "MANIFEST.json"
+  ],
+  "original_frozen_pass32_manifest_sha256": "f56458996676177e5d01ab8374e9643e397a1a044f4267f4010534c025062b83",
+  "original_global_review_manifest_sha256": "db43478522c7e77680e7c312671520a0bb3a32d230bb3331b89e803464e061fb",
+  "scope": "mathematical source attribution; private metadata omitted",
+  "source_contributors": [
+    "Peta (internal research agent)",
+    "Scout (internal research agent)",
+    "Independent internal reviewer"
+  ]
+}

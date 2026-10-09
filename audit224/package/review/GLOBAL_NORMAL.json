@@ -1,0 +1,233 @@
+{
+  "acyclic_nodes": [
+    "all_case_maps",
+    "all_case_signed_duals",
+    "avoidance18_19",
+    "child66",
+    "definition",
+    "direct_floor18",
+    "five_partitions",
+    "no223",
+    "occurrence_moments",
+    "padding",
+    "target224",
+    "target_point_floor66",
+    "tight_geometry"
+  ],
+  "all_five_exclusions_reviewed": true,
+  "assembled_semantic_review_completed": true,
+  "cases": [
+    {
+      "certificate_sha256": "a45934ca637409c705e3308bb66780ad4d975b285d60ca2a7e07b9412f559c9a",
+      "exact": {
+        "combined_numerator": -456886790013600,
+        "denominator": 1000000000000,
+        "finite_correction_numerator": 66263335,
+        "nonzero_weights": 244,
+        "positive_residual_columns": 137,
+        "row_sum_numerator": -456886856276935,
+        "upper": "-571108487517/1250000000"
+      },
+      "labelled_assignments": 54,
+      "model_sha256": "b8ec40994ccdd45af8b02e84f87537750ebffcc0e524c090a8733f3b060a1573",
+      "partition": [
+        4
+      ],
+      "profile": "66^53,70^1",
+      "review_manifest_sha256": "18b1d504668d87d617c55ea78cf160b003ee93a734a9c97a399ef5a15856f6b1",
+      "rows": 276,
+      "status": "PASSWITHLIMITS",
+      "tag": "4",
+      "variables": 1875
+    },
+    {
+      "certificate_sha256": "b2f8f1cf267d7b3d26c8d9e3098b6b6ac7c57684c0c76ecca2f0df9512748125",
+      "exact": {
+        "combined_numerator": -284555466605386,
+        "denominator": 1000000000000,
+        "finite_correction_numerator": 88999769,
+        "nonzero_weights": 282,
+        "positive_residual_columns": 126,
+        "row_sum_numerator": -284555555605155,
+        "upper": "-142277733302693/500000000000"
+      },
+      "labelled_assignments": 2862,
+      "model_sha256": "bea28e679c0b4f4c36309ccc4302e78e81830a622c1b0e14bb62848d2953eb2a",
+      "partition": [
+        3,
+        1
+      ],
+      "profile": "66^52,67^1,69^1",
+      "review_manifest_sha256": "4c6f2dbc4151d1c7d365f9fc85bc368399d48f391ce5a75a999a0bcdb3ba0400",
+      "rows": 318,
+      "status": "PASSWITHLIMITS",
+      "tag": "31",
+      "variables": 2404
+    },
+    {
+      "certificate_sha256": "dd183351d67a8c5443cb9a18f7f1fa1d44640ff69f7f5de48c3c70087100639b",
+      "exact": {
+        "combined_numerator": -132999957096373,
+        "denominator": 1000000000000,
+        "finite_correction_numerator": 42902437,
+        "nonzero_weights": 232,
+        "positive_residual_columns": 56,
+        "row_sum_numerator": -132999999998810,
+        "upper": "-132999957096373/1000000000000"
+      },
+      "labelled_assignments": 1431,
+      "model_sha256": "8908e73d0b75ee5f7f1acac5c98c0cbff5489f6128a97cfb73fc44e90da1abd8",
+      "partition": [
+        2,
+        2
+      ],
+      "profile": "66^52,68^2",
+      "review_manifest_sha256": "a29577a8c00fb6db704e6b2afb060d56f639f0fe5087c62343fb3b4fc643964c",
+      "rows": 319,
+      "status": "PASSWITHLIMITS",
+      "tag": "22",
+      "variables": 2402
+    },
+    {
+      "certificate_sha256": "b1216be346dd322b2f8320c14bca291c22d1dc8fc96da86868af521381363f6d",
+      "exact": {
+        "combined_numerator": -123950043338948,
+        "denominator": 1000000000000,
+        "finite_correction_numerator": 1345674378,
+        "nonzero_weights": 295,
+        "positive_residual_columns": 551,
+        "row_sum_numerator": -123951389013326,
+        "upper": "-30987510834737/250000000000"
+      },
+      "labelled_assignments": 74412,
+      "model_sha256": "53bfcddc844c6deeb37c33c892167857610f7e1a3b45fd02df33f8c533eb3a94",
+      "partition": [
+        2,
+        1,
+        1
+      ],
+      "profile": "66^51,67^2,68^1",
+      "review_manifest_sha256": "37e43bdb582f0956e10e8c8b82f132e4b1ea0673dad1405f8b2224d89a9fbc9e",
+      "rows": 348,
+      "status": "PASSWITHLIMITS",
+      "tag": "211",
+      "variables": 2867
+    },
+    {
+      "certificate_sha256": "5492c628058b440dd54bb7252fad26f6da172fef75200ec8ea532b3af92f29cc",
+      "exact": {
+        "combined_numerator": -3331152841998,
+        "denominator": 1000000000000,
+        "finite_correction_numerator": 2180698965,
+        "nonzero_weights": 296,
+        "positive_residual_columns": 658,
+        "row_sum_numerator": -3333333540963,
+        "upper": "-1665576420999/500000000000"
+      },
+      "labelled_assignments": 316251,
+      "model_sha256": "4be1d6e6c1b92e3bb1f2f2d2a03d0ef5527dd9f2acb77634eb3a94f867398812",
+      "partition": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": "66^50,67^4",
+      "review_manifest_sha256": "48c68b9ce6cba30c3ff1ed423e69a41563c9af0389501bff06f88d4d9931edce",
+      "rows": 358,
+      "status": "PASSWITHLIMITS",
+      "tag": "1111",
+      "variables": 2840
+    }
+  ],
+  "corruption_rejections": [
+    "omit final211 case",
+    "duplicate earlier case",
+    "wrong final degree profile",
+    "wrong producer-case binding",
+    "weaken final strict upper to zero",
+    "alter final matrix hash",
+    "wrong certificate source path",
+    "circular child-target premise",
+    "undeclared mathematical dependency",
+    "4: omitted positive correction",
+    "4: wrong row sign",
+    "4: missing row multiplier",
+    "31: omitted positive correction",
+    "31: wrong row sign",
+    "31: missing row multiplier",
+    "22: omitted positive correction",
+    "22: wrong row sign",
+    "22: missing row multiplier",
+    "211: omitted positive correction",
+    "211: wrong row sign",
+    "211: missing row multiplier",
+    "1111: omitted positive correction",
+    "1111: wrong row sign",
+    "1111: missing row multiplier"
+  ],
+  "dependency_dag": {
+    "all_case_maps": [
+      "definition",
+      "direct_floor18",
+      "tight_geometry",
+      "occurrence_moments",
+      "avoidance18_19",
+      "five_partitions"
+    ],
+    "all_case_signed_duals": [
+      "all_case_maps"
+    ],
+    "avoidance18_19": [
+      "definition",
+      "tight_geometry"
+    ],
+    "child66": [
+      "definition",
+      "direct_floor18",
+      "tight_geometry",
+      "occurrence_moments",
+      "avoidance18_19"
+    ],
+    "definition": [],
+    "direct_floor18": [
+      "definition"
+    ],
+    "five_partitions": [
+      "target_point_floor66"
+    ],
+    "no223": [
+      "all_case_signed_duals"
+    ],
+    "occurrence_moments": [
+      "definition"
+    ],
+    "padding": [
+      "definition"
+    ],
+    "target224": [
+      "no223",
+      "padding"
+    ],
+    "target_point_floor66": [
+      "definition",
+      "child66"
+    ],
+    "tight_geometry": [
+      "definition"
+    ]
+  },
+  "formal_kernel_verification": false,
+  "human_expert_acceptance": false,
+  "internally_audited_theorem": "C(54,16,4)>=224",
+  "labelled_vectors": 395010,
+  "novelty_or_priority_certification": false,
+  "padding_toys": {
+    "nonempty_uniform_multisets": 125,
+    "padding_moment_checks": 1500,
+    "point_links_checked": 6
+  },
+  "scope": "Complete indexed (54,16,4) coverings, repeated legal16-subset occurrences allowed.",
+  "solver_calls": 0,
+  "status": "PASSWITHLIMITS"
+}

@@ -1,0 +1,84 @@
+{
+  "blocks": 223,
+  "cases": [
+    {
+      "certificate_sha256": "a45934ca637409c705e3308bb66780ad4d975b285d60ca2a7e07b9412f559c9a",
+      "model_sha256": "b8ec40994ccdd45af8b02e84f87537750ebffcc0e524c090a8733f3b060a1573",
+      "partition": [
+        4
+      ],
+      "profile": "66^53,70^1",
+      "review_manifest_original_sha256": "18b1d504668d87d617c55ea78cf160b003ee93a734a9c97a399ef5a15856f6b1",
+      "rows": 276,
+      "scoped_review": "PASSWITHLIMITS",
+      "tag": "4",
+      "upper": "-571108487517/1250000000",
+      "variables": 1875
+    },
+    {
+      "certificate_sha256": "b2f8f1cf267d7b3d26c8d9e3098b6b6ac7c57684c0c76ecca2f0df9512748125",
+      "model_sha256": "bea28e679c0b4f4c36309ccc4302e78e81830a622c1b0e14bb62848d2953eb2a",
+      "partition": [
+        3,
+        1
+      ],
+      "profile": "66^52,67^1,69^1",
+      "review_manifest_original_sha256": "4c6f2dbc4151d1c7d365f9fc85bc368399d48f391ce5a75a999a0bcdb3ba0400",
+      "rows": 318,
+      "scoped_review": "PASSWITHLIMITS",
+      "tag": "31",
+      "upper": "-142277733302693/500000000000",
+      "variables": 2404
+    },
+    {
+      "certificate_sha256": "dd183351d67a8c5443cb9a18f7f1fa1d44640ff69f7f5de48c3c70087100639b",
+      "model_sha256": "8908e73d0b75ee5f7f1acac5c98c0cbff5489f6128a97cfb73fc44e90da1abd8",
+      "partition": [
+        2,
+        2
+      ],
+      "profile": "66^52,68^2",
+      "review_manifest_original_sha256": "a29577a8c00fb6db704e6b2afb060d56f639f0fe5087c62343fb3b4fc643964c",
+      "rows": 319,
+      "scoped_review": "PASSWITHLIMITS",
+      "tag": "22",
+      "upper": "-132999957096373/1000000000000",
+      "variables": 2402
+    },
+    {
+      "certificate_sha256": "b1216be346dd322b2f8320c14bca291c22d1dc8fc96da86868af521381363f6d",
+      "model_sha256": "53bfcddc844c6deeb37c33c892167857610f7e1a3b45fd02df33f8c533eb3a94",
+      "partition": [
+        2,
+        1,
+        1
+      ],
+      "profile": "66^51,67^2,68^1",
+      "review_manifest_original_sha256": "37e43bdb582f0956e10e8c8b82f132e4b1ea0673dad1405f8b2224d89a9fbc9e",
+      "rows": 348,
+      "scoped_review": "PASSWITHLIMITS",
+      "tag": "211",
+      "upper": "-30987510834737/250000000000",
+      "variables": 2867
+    },
+    {
+      "certificate_sha256": "5492c628058b440dd54bb7252fad26f6da172fef75200ec8ea532b3af92f29cc",
+      "model_sha256": "4be1d6e6c1b92e3bb1f2f2d2a03d0ef5527dd9f2acb77634eb3a94f867398812",
+      "partition": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "profile": "66^50,67^4",
+      "review_manifest_original_sha256": "48c68b9ce6cba30c3ff1ed423e69a41563c9af0389501bff06f88d4d9931edce",
+      "rows": 358,
+      "scoped_review": "PASSWITHLIMITS",
+      "tag": "1111",
+      "upper": "-1665576420999/500000000000",
+      "variables": 2840
+    }
+  ],
+  "child_floor": 66,
+  "point_excess": 4
+}

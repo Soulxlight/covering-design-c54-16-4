@@ -1,0 +1,892 @@
+{
+  "corrupt_file_rejections": [
+    {
+      "exit_code": 1,
+      "fixture": "222 model",
+      "optimized": false,
+      "reason": "ValueError: immutable source hash: data/model.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "222 model",
+      "optimized": true,
+      "reason": "ValueError: immutable source hash: data/model.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "222 certificate",
+      "optimized": false,
+      "reason": "ValueError: immutable source hash: data/certificate.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "222 certificate",
+      "optimized": true,
+      "reason": "ValueError: immutable source hash: data/certificate.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "223 model",
+      "optimized": false,
+      "reason": "ValueError: immutable source hash: audit/data/scout/POINT_LINK_65_MODEL.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "223 model",
+      "optimized": true,
+      "reason": "ValueError: immutable source hash: audit/data/scout/POINT_LINK_65_MODEL.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "223 certificate",
+      "optimized": false,
+      "reason": "ValueError: immutable source hash: audit/data/scout/POINT_LINK_65_EXACT_UPPER_CERTIFICATE.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "223 certificate",
+      "optimized": true,
+      "reason": "ValueError: immutable source hash: audit/data/scout/POINT_LINK_65_EXACT_UPPER_CERTIFICATE.json"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "support edge",
+      "optimized": false,
+      "reason": "ValueError: entire edge list"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "support edge",
+      "optimized": true,
+      "reason": "ValueError: entire edge list"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty manifest and empty checksums",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty manifest and empty checksums",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing manifest entry",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing manifest entry",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "unexpected manifest entry",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "unexpected manifest entry",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count unexpected substitution",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count unexpected substitution",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "aliased manifest path",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "aliased manifest path",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "case-aliased manifest path",
+      "optimized": false,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "case-aliased manifest path",
+      "optimized": true,
+      "reason": "ValueError: manifest exact canonical inventory"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate manifest entry",
+      "optimized": false,
+      "reason": "ValueError: manifest duplicate names"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate manifest entry",
+      "optimized": true,
+      "reason": "ValueError: manifest duplicate names"
+    }
+  ],
+  "manifest_inventory_cases_per_mode": 7,
+  "manifest_inventory_process_rejections": 14,
+  "normal_optimized_math_identical": true,
+  "process_timeout_seconds": 30,
+  "python_version": "3.12.14",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "audit/verify_audit.py"
+      ],
+      "exit_code": 0,
+      "mathematical_receipt": {
+        "corruptions_rejected": [
+          "222 omit n16",
+          "222 reverse objective",
+          "222 change bound",
+          "222 reverse tight cut",
+          "222 omit transport row",
+          "222 positive lower-only multiplier",
+          "222 zero denominator",
+          "222 drop multiplier",
+          "222 omit residual",
+          "222 undercharge correction",
+          "222 alter stated fraction",
+          "drop n15",
+          "reverse objective",
+          "change bound",
+          "change load",
+          "drop row",
+          "reverse cut",
+          "negative cut weight",
+          "zero denominator",
+          "undercharge residuals",
+          "drop multiplier",
+          "omit residual"
+        ],
+        "direct_floor": {
+          "excluded_integer_sizes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "floor": 18,
+          "incidence_constant": 260,
+          "matching_isomorphism_types": 729,
+          "rank_bound": "15b>=260"
+        },
+        "formal_assistant_verification": false,
+        "human_expert_acceptance": false,
+        "lifting": {
+          "ceiling": 223,
+          "incidences": 3564,
+          "lower_boundary": 3552,
+          "upper_boundary": 3568
+        },
+        "peta": {
+          "chord_cases": 557,
+          "contradictions": {
+            "64": -7086,
+            "65": -63
+          },
+          "generic_degree19_envelope_violation": 12,
+          "generic_g19_without_avoidance": -1463,
+          "local_g18": -1764,
+          "local_g19": "-1475",
+          "minimum_generic_envelope_slack": 334
+        },
+        "priority_established": false,
+        "proposed223": {
+          "coefficient_positions": 152100,
+          "correction": 867398,
+          "denominator": 1000000000,
+          "inequality_multipliers": {
+            "tight_pair_intersection2": 6000000000,
+            "tight_pair_intersection3": 1000000000,
+            "tight_point_neighbors": 11750000000
+          },
+          "nonzero_row_multipliers": 127,
+          "numerator": -1210499129210,
+          "positive_residuals": {
+            "M17_24": "14",
+            "M5_16": "9",
+            "M5_17": "9",
+            "M5_18": "10",
+            "M5_19": "10",
+            "N12_16": "2",
+            "N4_8": "2",
+            "N7_11": "1",
+            "N9_13": "1",
+            "p10": "5",
+            "p13": "101",
+            "p14": "14",
+            "p2": "5",
+            "p3": "10",
+            "p6": "31",
+            "p8": "20",
+            "u10": "96",
+            "u11": "104",
+            "u14": "44",
+            "u15": "114",
+            "u19": "196",
+            "u2": "28",
+            "u3": "12",
+            "u4": "16",
+            "u6": "124",
+            "u8": "136"
+          },
+          "reduced_upper": "-121049912921/100000000",
+          "row_bound_sum": -1210499996608,
+          "rows": 156,
+          "variables": 975
+        },
+        "public222": {
+          "coefficient_positions": 1535616,
+          "correction": 88273944,
+          "denominator": 1000000000,
+          "diagnostic_objective": -19318,
+          "numerator": -2660206470854,
+          "positive_residuals": {
+            "M10_28": "5",
+            "M11_29": "9",
+            "M14_31": "9",
+            "M14_32": "9",
+            "M17_35": "11",
+            "M18_36": "11",
+            "M20_38": "6",
+            "M21_35": "12",
+            "M21_36": "12",
+            "M21_37": "13",
+            "M21_38": "13",
+            "M21_39": "13",
+            "M21_5": "2",
+            "M23_41": "5",
+            "M24_42": "13",
+            "M25_42": "13",
+            "M25_43": "13",
+            "M26_42": "13",
+            "M26_43": "13",
+            "M26_44": "13",
+            "M27_42": "13",
+            "M27_43": "13",
+            "M27_44": "13",
+            "M27_45": "14",
+            "M28_42": "13",
+            "M28_43": "13",
+            "M28_44": "13",
+            "M28_45": "14",
+            "M28_46": "14",
+            "M2_20": "3",
+            "M30_48": "12",
+            "M32_50": "12",
+            "M34_52": "26",
+            "M38_55": "12",
+            "M38_56": "12",
+            "M39_57": "18",
+            "M45_63": "10",
+            "M47_65": "10",
+            "M4_5": "1",
+            "M51_68": "13",
+            "M51_69": "13",
+            "M52_70": "31",
+            "M55_72": "14",
+            "M55_73": "14",
+            "M56_74": "25",
+            "M57_75": "14",
+            "M58_5": "1",
+            "M58_75": "19",
+            "M58_76": "19",
+            "M60_77": "23",
+            "M60_78": "23",
+            "M61_79": "23",
+            "M63_81": "28",
+            "M64_81": "22",
+            "M65_81": "17",
+            "M67_81": "1",
+            "M6_24": "8",
+            "M70_81": "34",
+            "M70_82": "34",
+            "M70_83": "35",
+            "M70_84": "35",
+            "M70_87": "36",
+            "M70_88": "37",
+            "M74_92": "7",
+            "M79_97": "22",
+            "M7_5": "1",
+            "M81_99": "1",
+            "M82_100": "38",
+            "M82_4": "1",
+            "M83_100": "31",
+            "M83_101": "31",
+            "M84_101": "35",
+            "M84_102": "35",
+            "M85_103": "11",
+            "M8_5": "1",
+            "n3": "1",
+            "n4": "1",
+            "n6": "7",
+            "p3": "18",
+            "t102": "1",
+            "t24": "1",
+            "t27": "1",
+            "t30": "1",
+            "t39": "1",
+            "t4": "3",
+            "t51": "1",
+            "t54": "1",
+            "t57": "1",
+            "t63": "1",
+            "t66": "1",
+            "t78": "1",
+            "t90": "1",
+            "t93": "1",
+            "t96": "1",
+            "t99": "1"
+          },
+          "reduced_upper": "-1330103235427/500000000",
+          "row_bound_sum": -2660294744798,
+          "rows": 288,
+          "variables": 5332
+        },
+        "saved_graph_checks": [
+          {
+            "isolated": 16,
+            "m": 16,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 136,
+            "m": 17,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 0,
+            "m": 18,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 0,
+            "m": 19,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          }
+        ],
+        "semantic_fixtures": {
+          "complete_covers_with_duplicate_blocks": 400,
+          "complete_covers_with_tight_pairs": 265,
+          "complete_padding_fixture": true,
+          "complete_pair_covers": 95,
+          "complete_triple_covers": 406,
+          "duplicate_omission_objective_error": 6,
+          "incomplete_cover_guard_fixture": true,
+          "pair_multisets_checked": 210,
+          "tight_point_instances": 48,
+          "triple_multisets_checked": 1287
+        },
+        "solver_calls": 0,
+        "status": "PASS_INTERNAL_AUDIT_WITH_LIMITS",
+        "support": {
+          "cases": [
+            {
+              "candidates": 376,
+              "edges": 32760,
+              "forced_tight_points": 5,
+              "isolated": 16,
+              "m": 16,
+              "pairs": 70500,
+              "proper_color_cap": 3
+            },
+            {
+              "candidates": 136,
+              "edges": 0,
+              "forced_tight_points": 6,
+              "isolated": 136,
+              "m": 17,
+              "pairs": 9180,
+              "proper_color_cap": 1
+            },
+            {
+              "candidates": 0,
+              "edges": 0,
+              "forced_tight_points": 7,
+              "isolated": 0,
+              "m": 18,
+              "pairs": 0,
+              "proper_color_cap": 0
+            },
+            {
+              "candidates": 0,
+              "edges": 0,
+              "forced_tight_points": 8,
+              "isolated": 0,
+              "m": 19,
+              "pairs": 0,
+              "proper_color_cap": 0
+            }
+          ],
+          "raw_supports": 15504,
+          "total_candidate_pairs": 79680
+        }
+      },
+      "stdout_sha256": "be13133f68532fb7437bf0ac46963570f1e6d31c5f58adf4380ba19c46fc991b"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stderr_sha256": "ac7fc2bdd628858cdfe7cc1c12f85a2c50d0a7261eacd69efcedab521fa5d185",
+      "test_output": [
+        "test_222_full_reconstruction_and_certificate (test_audit.AuditTests.test_222_full_reconstruction_and_certificate) ... ok",
+        "test_223_full_reconstruction_and_certificate_mutations (test_audit.AuditTests.test_223_full_reconstruction_and_certificate_mutations) ... ok",
+        "test_all_degree_cases_and_avoidance_needed (test_audit.AuditTests.test_all_degree_cases_and_avoidance_needed) ... ok",
+        "test_manifest_empty_inventory_with_empty_checksums_rejected (test_audit.AuditTests.test_manifest_empty_inventory_with_empty_checksums_rejected) ... ok",
+        "test_manifest_equal_count_substitution_rejected (test_audit.AuditTests.test_manifest_equal_count_substitution_rejected) ... ok",
+        "test_manifest_missing_entry_rejected (test_audit.AuditTests.test_manifest_missing_entry_rejected) ... ok",
+        "test_manifest_path_aliases_and_duplicate_rejected (test_audit.AuditTests.test_manifest_path_aliases_and_duplicate_rejected) ... ok",
+        "test_manifest_unexpected_entry_rejected (test_audit.AuditTests.test_manifest_unexpected_entry_rejected) ... ok",
+        "test_padding_complete_and_incomplete_boundaries (test_audit.AuditTests.test_padding_complete_and_incomplete_boundaries) ... ok",
+        "test_rank_floor_covers_empty_case_and_all_matching_types (test_audit.AuditTests.test_rank_floor_covers_empty_case_and_all_matching_types) ... ok",
+        "test_reject_bool_and_fractional_matrix_coefficients (test_audit.AuditTests.test_reject_bool_and_fractional_matrix_coefficients) ... ok",
+        "test_support_universe_and_supplied_witnesses (test_audit.AuditTests.test_support_universe_and_supplied_witnesses) ... ok",
+        "test_221_scalar_bound (test_verify.CertificateTests.test_221_scalar_bound) ... ok",
+        "test_all_zero_certificate_is_rejected (test_verify.CertificateTests.test_all_zero_certificate_is_rejected) ... ok",
+        "test_changed_certificate_weight_is_rejected (test_verify.CertificateTests.test_changed_certificate_weight_is_rejected) ... ok",
+        "test_changed_model_row_is_rejected (test_verify.CertificateTests.test_changed_model_row_is_rejected) ... ok",
+        "test_exact_certificate_and_diagnostic (test_verify.CertificateTests.test_exact_certificate_and_diagnostic) ... ok",
+        "test_standard_third_moment_identity (test_verify.CertificateTests.test_standard_third_moment_identity) ... ok",
+        "test_truncated_moment_is_not_an_all_family_identity (test_verify.CertificateTests.test_truncated_moment_is_not_an_all_family_identity) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 19 tests in 0.721s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "53aeeeb768ac77a8333e464871a99472c2fc2d8e67410447551d61b4904e5b93"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "audit/verify_audit.py"
+      ],
+      "exit_code": 0,
+      "mathematical_receipt": {
+        "corruptions_rejected": [
+          "222 omit n16",
+          "222 reverse objective",
+          "222 change bound",
+          "222 reverse tight cut",
+          "222 omit transport row",
+          "222 positive lower-only multiplier",
+          "222 zero denominator",
+          "222 drop multiplier",
+          "222 omit residual",
+          "222 undercharge correction",
+          "222 alter stated fraction",
+          "drop n15",
+          "reverse objective",
+          "change bound",
+          "change load",
+          "drop row",
+          "reverse cut",
+          "negative cut weight",
+          "zero denominator",
+          "undercharge residuals",
+          "drop multiplier",
+          "omit residual"
+        ],
+        "direct_floor": {
+          "excluded_integer_sizes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "floor": 18,
+          "incidence_constant": 260,
+          "matching_isomorphism_types": 729,
+          "rank_bound": "15b>=260"
+        },
+        "formal_assistant_verification": false,
+        "human_expert_acceptance": false,
+        "lifting": {
+          "ceiling": 223,
+          "incidences": 3564,
+          "lower_boundary": 3552,
+          "upper_boundary": 3568
+        },
+        "peta": {
+          "chord_cases": 557,
+          "contradictions": {
+            "64": -7086,
+            "65": -63
+          },
+          "generic_degree19_envelope_violation": 12,
+          "generic_g19_without_avoidance": -1463,
+          "local_g18": -1764,
+          "local_g19": "-1475",
+          "minimum_generic_envelope_slack": 334
+        },
+        "priority_established": false,
+        "proposed223": {
+          "coefficient_positions": 152100,
+          "correction": 867398,
+          "denominator": 1000000000,
+          "inequality_multipliers": {
+            "tight_pair_intersection2": 6000000000,
+            "tight_pair_intersection3": 1000000000,
+            "tight_point_neighbors": 11750000000
+          },
+          "nonzero_row_multipliers": 127,
+          "numerator": -1210499129210,
+          "positive_residuals": {
+            "M17_24": "14",
+            "M5_16": "9",
+            "M5_17": "9",
+            "M5_18": "10",
+            "M5_19": "10",
+            "N12_16": "2",
+            "N4_8": "2",
+            "N7_11": "1",
+            "N9_13": "1",
+            "p10": "5",
+            "p13": "101",
+            "p14": "14",
+            "p2": "5",
+            "p3": "10",
+            "p6": "31",
+            "p8": "20",
+            "u10": "96",
+            "u11": "104",
+            "u14": "44",
+            "u15": "114",
+            "u19": "196",
+            "u2": "28",
+            "u3": "12",
+            "u4": "16",
+            "u6": "124",
+            "u8": "136"
+          },
+          "reduced_upper": "-121049912921/100000000",
+          "row_bound_sum": -1210499996608,
+          "rows": 156,
+          "variables": 975
+        },
+        "public222": {
+          "coefficient_positions": 1535616,
+          "correction": 88273944,
+          "denominator": 1000000000,
+          "diagnostic_objective": -19318,
+          "numerator": -2660206470854,
+          "positive_residuals": {
+            "M10_28": "5",
+            "M11_29": "9",
+            "M14_31": "9",
+            "M14_32": "9",
+            "M17_35": "11",
+            "M18_36": "11",
+            "M20_38": "6",
+            "M21_35": "12",
+            "M21_36": "12",
+            "M21_37": "13",
+            "M21_38": "13",
+            "M21_39": "13",
+            "M21_5": "2",
+            "M23_41": "5",
+            "M24_42": "13",
+            "M25_42": "13",
+            "M25_43": "13",
+            "M26_42": "13",
+            "M26_43": "13",
+            "M26_44": "13",
+            "M27_42": "13",
+            "M27_43": "13",
+            "M27_44": "13",
+            "M27_45": "14",
+            "M28_42": "13",
+            "M28_43": "13",
+            "M28_44": "13",
+            "M28_45": "14",
+            "M28_46": "14",
+            "M2_20": "3",
+            "M30_48": "12",
+            "M32_50": "12",
+            "M34_52": "26",
+            "M38_55": "12",
+            "M38_56": "12",
+            "M39_57": "18",
+            "M45_63": "10",
+            "M47_65": "10",
+            "M4_5": "1",
+            "M51_68": "13",
+            "M51_69": "13",
+            "M52_70": "31",
+            "M55_72": "14",
+            "M55_73": "14",
+            "M56_74": "25",
+            "M57_75": "14",
+            "M58_5": "1",
+            "M58_75": "19",
+            "M58_76": "19",
+            "M60_77": "23",
+            "M60_78": "23",
+            "M61_79": "23",
+            "M63_81": "28",
+            "M64_81": "22",
+            "M65_81": "17",
+            "M67_81": "1",
+            "M6_24": "8",
+            "M70_81": "34",
+            "M70_82": "34",
+            "M70_83": "35",
+            "M70_84": "35",
+            "M70_87": "36",
+            "M70_88": "37",
+            "M74_92": "7",
+            "M79_97": "22",
+            "M7_5": "1",
+            "M81_99": "1",
+            "M82_100": "38",
+            "M82_4": "1",
+            "M83_100": "31",
+            "M83_101": "31",
+            "M84_101": "35",
+            "M84_102": "35",
+            "M85_103": "11",
+            "M8_5": "1",
+            "n3": "1",
+            "n4": "1",
+            "n6": "7",
+            "p3": "18",
+            "t102": "1",
+            "t24": "1",
+            "t27": "1",
+            "t30": "1",
+            "t39": "1",
+            "t4": "3",
+            "t51": "1",
+            "t54": "1",
+            "t57": "1",
+            "t63": "1",
+            "t66": "1",
+            "t78": "1",
+            "t90": "1",
+            "t93": "1",
+            "t96": "1",
+            "t99": "1"
+          },
+          "reduced_upper": "-1330103235427/500000000",
+          "row_bound_sum": -2660294744798,
+          "rows": 288,
+          "variables": 5332
+        },
+        "saved_graph_checks": [
+          {
+            "isolated": 16,
+            "m": 16,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 136,
+            "m": 17,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 0,
+            "m": 18,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          },
+          {
+            "isolated": 0,
+            "m": 19,
+            "saved_clique_checked": true,
+            "saved_coloring_checked": true
+          }
+        ],
+        "semantic_fixtures": {
+          "complete_covers_with_duplicate_blocks": 400,
+          "complete_covers_with_tight_pairs": 265,
+          "complete_padding_fixture": true,
+          "complete_pair_covers": 95,
+          "complete_triple_covers": 406,
+          "duplicate_omission_objective_error": 6,
+          "incomplete_cover_guard_fixture": true,
+          "pair_multisets_checked": 210,
+          "tight_point_instances": 48,
+          "triple_multisets_checked": 1287
+        },
+        "solver_calls": 0,
+        "status": "PASS_INTERNAL_AUDIT_WITH_LIMITS",
+        "support": {
+          "cases": [
+            {
+              "candidates": 376,
+              "edges": 32760,
+              "forced_tight_points": 5,
+              "isolated": 16,
+              "m": 16,
+              "pairs": 70500,
+              "proper_color_cap": 3
+            },
+            {
+              "candidates": 136,
+              "edges": 0,
+              "forced_tight_points": 6,
+              "isolated": 136,
+              "m": 17,
+              "pairs": 9180,
+              "proper_color_cap": 1
+            },
+            {
+              "candidates": 0,
+              "edges": 0,
+              "forced_tight_points": 7,
+              "isolated": 0,
+              "m": 18,
+              "pairs": 0,
+              "proper_color_cap": 0
+            },
+            {
+              "candidates": 0,
+              "edges": 0,
+              "forced_tight_points": 8,
+              "isolated": 0,
+              "m": 19,
+              "pairs": 0,
+              "proper_color_cap": 0
+            }
+          ],
+          "raw_supports": 15504,
+          "total_candidate_pairs": 79680
+        }
+      },
+      "stdout_sha256": "ed287fa8e5da24087412aa45f21885712b08fbdfa48bc57173801693b4abea2d"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stderr_sha256": "ceb8b857eb2d86144fc518f208bc2b53ac500d9b70455207d6035e135eb9dfba",
+      "test_output": [
+        "test_222_full_reconstruction_and_certificate (test_audit.AuditTests.test_222_full_reconstruction_and_certificate) ... ok",
+        "test_223_full_reconstruction_and_certificate_mutations (test_audit.AuditTests.test_223_full_reconstruction_and_certificate_mutations) ... ok",
+        "test_all_degree_cases_and_avoidance_needed (test_audit.AuditTests.test_all_degree_cases_and_avoidance_needed) ... ok",
+        "test_manifest_empty_inventory_with_empty_checksums_rejected (test_audit.AuditTests.test_manifest_empty_inventory_with_empty_checksums_rejected) ... ok",
+        "test_manifest_equal_count_substitution_rejected (test_audit.AuditTests.test_manifest_equal_count_substitution_rejected) ... ok",
+        "test_manifest_missing_entry_rejected (test_audit.AuditTests.test_manifest_missing_entry_rejected) ... ok",
+        "test_manifest_path_aliases_and_duplicate_rejected (test_audit.AuditTests.test_manifest_path_aliases_and_duplicate_rejected) ... ok",
+        "test_manifest_unexpected_entry_rejected (test_audit.AuditTests.test_manifest_unexpected_entry_rejected) ... ok",
+        "test_padding_complete_and_incomplete_boundaries (test_audit.AuditTests.test_padding_complete_and_incomplete_boundaries) ... ok",
+        "test_rank_floor_covers_empty_case_and_all_matching_types (test_audit.AuditTests.test_rank_floor_covers_empty_case_and_all_matching_types) ... ok",
+        "test_reject_bool_and_fractional_matrix_coefficients (test_audit.AuditTests.test_reject_bool_and_fractional_matrix_coefficients) ... ok",
+        "test_support_universe_and_supplied_witnesses (test_audit.AuditTests.test_support_universe_and_supplied_witnesses) ... ok",
+        "test_221_scalar_bound (test_verify.CertificateTests.test_221_scalar_bound) ... ok",
+        "test_all_zero_certificate_is_rejected (test_verify.CertificateTests.test_all_zero_certificate_is_rejected) ... ok",
+        "test_changed_certificate_weight_is_rejected (test_verify.CertificateTests.test_changed_certificate_weight_is_rejected) ... ok",
+        "test_changed_model_row_is_rejected (test_verify.CertificateTests.test_changed_model_row_is_rejected) ... ok",
+        "test_exact_certificate_and_diagnostic (test_verify.CertificateTests.test_exact_certificate_and_diagnostic) ... ok",
+        "test_standard_third_moment_identity (test_verify.CertificateTests.test_standard_third_moment_identity) ... ok",
+        "test_truncated_moment_is_not_an_all_family_identity (test_verify.CertificateTests.test_truncated_moment_is_not_an_all_family_identity) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 19 tests in 0.744s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "53aeeeb768ac77a8333e464871a99472c2fc2d8e67410447551d61b4904e5b93"
+    }
+  ],
+  "solver_calls": 0,
+  "source_file_mutation_tests": 24,
+  "status": "PASS_ALL_PUBLIC_CHECKS",
+  "structural_mutations_per_mode": 22
+}

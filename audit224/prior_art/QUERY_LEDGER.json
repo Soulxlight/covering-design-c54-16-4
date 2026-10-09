@@ -1,0 +1,948 @@
+{
+  "purpose": "Dated, reproducible prior-art search for a proposed C(54,16,4)>=224 result",
+  "owner": "Mop\u00ee",
+  "status": "COMPLETE_BOUNDED_SEARCH_NO_IDENTIFIED_PRIOR_224",
+  "claim_of_certified_priority": false,
+  "search_exhaustive": false,
+  "initial_parent_search": {
+    "time_utc": "2026-10-08 19:55 UTC",
+    "independently_repeated": false,
+    "source": "Parent's delegation",
+    "reported_result": "No independent 224-or-stronger claim found; LJCR lower216 and Covering Repository216\u2013336; target theorem checks inconclusive for priority."
+  },
+  "records": [
+    {
+      "id": "web-01",
+      "retrieved_date_utc": "2026-10-08",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"C(54,16,4)\" \"224\""
+          },
+          {
+            "q": "\"C(54, 16, 4)\" lower bound"
+          },
+          {
+            "q": "\"covering\" \"54\" \"16\" \"224\" github"
+          },
+          {
+            "q": "\"54 16 4\" \"224\" covering design"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://infocuria.curia.europa.eu/tabs/redirect/juris/liste.jsf?language=en&num=C-54%2F16",
+        "https://en.wikipedia.org/wiki/Douglas_C-54_Skymaster",
+        "https://dl.acm.org/doi/10.1145/3744916.3787800",
+        "https://epic.org/wp-content/uploads/foia/army/JLENS-Engineering-Services-Contract-Release-1April15_Part2.pdf",
+        "https://www.amcmuseum.org/at-the-museum/aircraft/c-54m-skymaster/",
+        "https://trufflesecurity.com/blog/github-repos-exposed-543699-credentials-nobody-revoked-them",
+        "https://www.oakton.edu/_pdfs/procurement/2026/20260508_oakton_adj_ph3_-_bookstore__welcome_center_-_project_manual_-_r1.pdf",
+        "https://www.sacmuseum.org/visit/exhibit/c-54d-skymaster/",
+        "https://pimaair.org/museum-aircraft/douglas-c-54d/",
+        "https://github.com/frida/frida-gum/blob/main/gum/gumstalker.c",
+        "https://lf-public.deq.utah.gov/WebLink/DocView.aspx?dbid=0&id=503208&repo=Public",
+        "https://museumofaviation.org/portfolio/c-54g-skymaster/",
+        "https://app.aircorpslibrary.com/aircraft/c-54-douglas-skymaster",
+        "https://github.com/brianhie/geosketch/blob/master/geosketch/sketch.py",
+        "https://palisadesparknj.org/wp-content/uploads/2024/10/3-15-21-Pal-Park-BOA-Final_Mini.pdf",
+        "https://wendoverairfield.org/douglas-c-54-skymaster/",
+        "https://github.com/sqlite/sqlite/blob/master/src/global.c",
+        "https://www.sec.gov/Archives/edgar/data/946581/000130817925000567/ttw014220-ars.pdf",
+        "https://www.historyofwar.org/Pictures/pictures_C-54_below.html",
+        "https://github.com/home-assistant/core/blob/dev/homeassistant/components/homekit_controller/cover.py",
+        "https://www.unlv.edu/sites/default/files/page_files/182/Exhibit%20B%20TMC%20Locker%20Room%20Project%20Manual.pdf",
+        "https://commons.wikimedia.org/wiki/Category%3ADouglas_C-54_Skymaster",
+        "https://www.facebook.com/13NewsNow/posts/the-c-54-is-a-military-version-of-the-douglas-dc-4-which-was-a-world-war-ii-era-/822874939887365/",
+        "https://docs.aws.amazon.com/powertools/python/1.29.2/changelog/",
+        "https://dominguezdesign-build.com/wp-content/uploads/2023/08/PCB23-48-Fire-Station-Volume-2.pdf"
+      ],
+      "assessment": "Returned unrelated lexical matches; no independent target lower-bound claim identified. Batched results cannot be assigned individually to each query."
+    },
+    {
+      "id": "prior224round02",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:04:47 UTC",
+      "queries": [
+        {
+          "q": "\"covering design\" \"54\" \"16\" \"lower bound\""
+        },
+        {
+          "q": "\"covering\" \"54,16,4\""
+        },
+        {
+          "q": "\"covering\" \"54, 16, 4\""
+        },
+        {
+          "q": "\"covering designs\" \"224\" \"lower bound\""
+        }
+      ],
+      "result_status": "returned",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2303.08612",
+        "https://www.math.ucdavis.edu/~deloera/MISC/LA-BIBLIO/trunk/Kuperberg/Kuperberg5.pdf",
+        "https://publikationen.bibliothek.kit.edu/1000175555/155259158",
+        "https://neilsloane.com/doc/Me261.pdf",
+        "https://dmgordon.org/papers/hcd.pdf",
+        "https://www.academia.edu/11138023/Pair_covering_designs_with_block_size_5",
+        "https://www.researchgate.net/publication/265514582_Asymptotic_Bounds_for_General_Covering_Designs_ASYMPTOTIC_BOUNDS_FOR_GENERAL_COVERING_DESIGNS",
+        "https://pure.tue.nl/ws/files/2274131/425174.pdf",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5C51B0464367AFCFA93E2463FCD3B556/S0008439500012881a.pdf/infinite-classes-of-covering-numbers.pdf",
+        "https://surface.syr.edu/context/eecs_techreports/article/1178/viewcontent/SU_CIS_94_09.pdf",
+        "https://yaakobi.net.technion.ac.il/files/2022/08/63_PPR_IT22.pdf",
+        "https://www.combinatorics.org/files/Surveys/ds1/ds1v16-2021.pdf",
+        "https://scholar.afit.edu/cgi/viewcontent.cgi?article=2286&context=facpub",
+        "https://www.math.lmu.de/~kpanagio/draft.pdf",
+        "https://d-nb.info/124984066X/34"
+      ],
+      "assessment": "Batched, bounded search results; no independently substantiated target claim identified."
+    },
+    {
+      "id": "prior224round03",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:23 UTC",
+      "queries": [
+        "site:github.com \"covering\" \"54,16,4\"",
+        "site:github.com \"covering design\" \"224\"",
+        "site:arxiv.org \"covering\" \"54\" \"16\" \"4\"",
+        "site:zenodo.org \"covering\" \"54\" \"16\" \"4\""
+      ],
+      "result_status": "returned",
+      "returned_urls": [
+        "https://github.com/EqualifyEverything/equalify-iris/issues/351",
+        "https://github.com/PrestigiousPoolsCA/pool/blob/main/custom-pool-builder-amadar-city-ca-measurement.html",
+        "https://prestigiouspoolsca.github.io/pool/custom-pool-builder-amador-city-ca-measurement.html",
+        "https://schema.org",
+        "https://arxiv.org/html/1511.04293v1",
+        "https://github.com/AmbiqAI/helia-core-tester/issues/53",
+        "https://github.com/BerkeleyLearnVerify/HSCC_2020/blob/master/index.html",
+        "https://arxiv.org/html/2011.12631v3",
+        "https://shamela.ws",
+        "https://shamela.ws/",
+        "https://github.com/MakazhanAlpamys/Soup",
+        "https://github.com/getvmio/free-programming-resources",
+        "https://arxiv.org/html/2609.34910v1",
+        "https://github.com/codecov/python-standard/blob/main/coverage.xml",
+        "https://github.com/atwilson0729/MaskSelector/blob/main/Sorted_material_5_7.csv",
+        "https://arxiv.org/pdf/2507.16135",
+        "https://github.com/YosysHQ/sby/issues/24",
+        "https://arxiv.org/pdf/2502.08424",
+        "https://github.com/pypa/twine/issues/1122",
+        "https://arxiv.org/pdf/2609.34910"
+      ],
+      "assessment": "Batched, bounded search results; no independently substantiated target claim identified."
+    },
+    {
+      "id": "prior224round04_0",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"New lower bounds for t-coverings\" Horsley Singh"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://arxiv.org/abs/1706.06825",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcd.21591",
+        "https://doi.org/10.1002/jcd.21591",
+        "https://arxiv.org/html/1706.06825v2",
+        "https://arxiv.org/pdf/1706.06825",
+        "https://research.monash.edu/en/projects/partitioning-and-ordering-steiner-triple-systems/",
+        "https://onlinelibrary.wiley.com/toc/15206610/2018/26/8",
+        "https://www.researchgate.net/profile/Rakhi-Singh-5",
+        "https://gitlab.dit.htwk-leipzig.de/johannes.waldmann/cover/-/blob/c2a78fdef6d93127c0c3b4ac2aef3daed9da5f28/doc/main.bib",
+        "https://research.monash.edu/en/projects/matchings-in-combinatorial-structures/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+        "https://dl.acm.org/doi/10.1145/3586042",
+        "https://doi.org/10.1002/jcd"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round04_1",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"lower bounds\" \"covering designs\" Soicher 2010"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://arxiv.org/html/1011.3804v2",
+        "https://arxiv.org/pdf/1011.3804",
+        "https://users.aalto.fi/~pat/patric_pub.html",
+        "https://doi.org/10.5281/zenodo.1476058",
+        "https://doi.org/10.5281/zenodo.2585765",
+        "https://doi.org/10.5281/zenodo.2650509",
+        "https://doi.org/10.5281/zenodo.3733060",
+        "https://doi.org/10.5281/zenodo.3899950",
+        "http://users.aalto.fi/~pat/cliquer.html",
+        "https://scispace.com/authors/brett-stevens-1hvdn4u4cq?papers_page=20",
+        "https://kostochk.web.illinois.edu/Zykov90-Topics_in_Graph_Theory.pdf",
+        "https://arxiv.org/pdf/1107.4120",
+        "https://www.researchgate.net/publication/43525051_The_nonexistence_of_a_K6-e-decomposition_of_the_complete_graph_K29",
+        "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=NART72093056",
+        "https://subspacecodes.uni-bayreuth.de/literature/"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round04_2",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"C(54,16,4)\"",
+            "domains": [
+              "github.com",
+              "arxiv.org",
+              "zenodo.org",
+              "combinatorics.org"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://github.com/darkroomengineering/elastica/issues/16",
+        "https://github.com/raspberrypi/pico-sdk/issues/2612",
+        "https://arxiv.org/pdf/math/9912041",
+        "https://arxiv.org/html/2103.01480v2",
+        "https://github.com/CSB5/lofreq/issues/28",
+        "https://github.com/aappleby/smhasher/blob/master/src/PMurHash.c",
+        "https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports",
+        "https://arxiv.org/pdf/1409.8153",
+        "https://arxiv.org/pdf/2409.11448"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round04_3",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"C(53,15,3)\" lower bound"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round05_0",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering design\" \"54\" \"16\"",
+            "domains": [
+              "coveringrepository.com",
+              "dmgordon.org",
+              "ccrwest.org",
+              "ljcr.dmgordon.org"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://dmgordon.org/papers/hcd.pdf"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round05_1",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering\" \"54,16,4\" \"lower\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://sdlegislature.gov/Statutes/54-16",
+        "https://law.justia.com/codes/new-jersey/title-54/section-54-16-4/",
+        "https://theamerican.org/boxscore.aspx?id=ZFozhBpRGwrsYlUeG3xE1Hn95ESa6qIFhCkFwTqzTR9OinoGaQzCYUDu3digJMm7yI1dj8zdRUB%2BVHKFuHFclu8F4uJCU5WnZOUOIs%2FJX6BmdNQzkFVNNbGnM8zAu4NZu5ze0uTGy%2B4te07COgniQLNrJOZvvmz6YjXP8KoEk4U%3D&path=wbball",
+        "https://x.com/TheStalwart/status/2044806567325786573?lang=cs",
+        "https://www.facebook.com/atlhawks/videos/full-game-highlights-hawks-118-raptors-138/1220641823423067/",
+        "https://clips.usframefactory.com/products/400s200-54-16?srsltid=AU7gw4WN8JQ54hbPljK03lqCGeL_momH0mgvI_2KIIMrs4JG9YGChQ6B",
+        "https://sdlegislature.gov/Statutes/54-16-6",
+        "https://www.youtube.com/watch?v=13TCJODO-t4",
+        "https://law.justia.com/codes/south-dakota/title-54/chapter-16/section-54-16-4/",
+        "https://www.facebook.com/linda.riverspolite/videos/gil-kiblers-beautiful-tribute-to-his-sister-dean-camille-kibler-/1289410643000917/"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round05_2",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering designs\" \"lower bounds\" \"2026\"",
+            "domains": [
+              "arxiv.org",
+              "combinatorics.org",
+              "link.springer.com",
+              "onlinelibrary.wiley.com"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2607.23766",
+        "https://arxiv.org/html/2502.11814v2",
+        "https://arxiv.org/pdf/2608.11132",
+        "https://arxiv.org/html/2609.24555v1",
+        "https://arxiv.org/abs/2301.09457",
+        "https://arxiv.org/abs/2505.07706",
+        "https://www.erdosproblems.com/",
+        "https://arxiv.org/abs/2108.00074",
+        "https://arxiv.org/abs/2107.03560",
+        "https://link.springer.com/chapter/10.1007/3-540-46796-3_33",
+        "https://doi.org/10.1007/3-540-46796-3_33",
+        "https://arxiv.org/html/2601.00435v1",
+        "https://arxiv.org/html/2602.04867v1",
+        "https://www.researchgate.net/publication/220567877_Optimal_covering_designs_Complexity_results_and_new_bounds",
+        "https://arxiv.org/pdf/2602.04867"
+      ],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224round05_3",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering designs\" \"block intersection\" Soicher 2010"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [],
+      "assessment": "Assessment pending direct primary-source inspection; an empty or unrelated result is not proof of absence."
+    },
+    {
+      "id": "prior224github01_0",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "query": "\"54,16,4\"",
+        "topn": 20
+      },
+      "result_status": "fulfilled",
+      "isError": false,
+      "returned_count": 20,
+      "returned_urls": [
+        "https://github.com/mtuomi/SecondReality/blob/071a82eddb7a7390dbaa491a8a473e0e923a55c2/PAM/OUT.IN4",
+        "https://github.com/HackerPoet/Beryl/blob/bd7b1eee9a1daf9768ff824348ba065686779086/Maps/R7.1_automorphisms.txt",
+        "https://github.com/wangyuxin87/ContourNet/blob/17f9f800060581a1278362a0fe4fda6e7a4733b0/ctw_eval/ctw_gt/1205.txt",
+        "https://github.com/wangyuxin87/ContourNet/blob/17f9f800060581a1278362a0fe4fda6e7a4733b0/ctw_eval/ctw_gt/1081.txt",
+        "https://github.com/schiele/openscad-ldraw/blob/e473d868f4d8e51d59561208517f1b9ce654cc4f/parts/502.scad",
+        "https://github.com/apachecn/studytonight-zh/blob/a0e7217f74ef76b3e8026fe7f63ad02b3e4d853f/docs/java/0863.md",
+        "https://github.com/INFORMSJoC/2023.0403/blob/320c02d8e3b925585dec86478958b0d17dbfd276/data/store_info.txt",
+        "https://github.com/jrbustosm/uva-solved-exercises/blob/b081be56e4e2162132af672c41ba47e770559dee/Bars/salida",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/2123133.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/1770133.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/2751372.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/2640483.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/1804217.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/2794498.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/1050325.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/1108131.txt",
+        "https://github.com/LinusKra/ECGAssess/blob/2386190e84e8759d9795622320dee1f81b8f60a0/set-a/1607439.txt",
+        "https://github.com/aljazfrancic/myo-readings-dataset/blob/3d98c7090b4168c2dd40bf8814217f9dcc4a7f55/_readings_right_hand/78945-3/2.txt",
+        "https://github.com/aljazfrancic/myo-readings-dataset/blob/3d98c7090b4168c2dd40bf8814217f9dcc4a7f55/_readings_right_hand/95462-3/4.txt",
+        "https://github.com/aljazfrancic/myo-readings-dataset/blob/3d98c7090b4168c2dd40bf8814217f9dcc4a7f55/_readings_right_hand/64917-3/2.txt"
+      ],
+      "assessment": "Bounded connector search; returned count is not a count of all matching public records."
+    },
+    {
+      "id": "prior224github01_1",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:05:52 UTC",
+      "arguments": {
+        "query": "covering-design",
+        "per_page": 30,
+        "page": 1
+      },
+      "result_status": "fulfilled",
+      "isError": false,
+      "returned_count": 30,
+      "returned_urls": [
+        "https://github.com/UKHomeOffice/posters",
+        "https://github.com/Graylab/DL4Proteins-notebooks",
+        "https://github.com/rampstackco/claude-skills",
+        "https://github.com/techreturners/css-key-concepts-responsive-design",
+        "https://github.com/study8677/awesome-architecture",
+        "https://github.com/rookiehpc/rookiehpc.github.io",
+        "https://github.com/microsoft/edgeai-for-beginners",
+        "https://github.com/NotHarshhaa/DevOps-Interview-Questions",
+        "https://github.com/Azure/agent-innovator-lab",
+        "https://github.com/globant-ui/html5bootcamp",
+        "https://github.com/BioTender-max/awesome-bio-agent-skills",
+        "https://github.com/dwyl/book",
+        "https://github.com/maurya-sachin/Frontend-Master-Prep-Series",
+        "https://github.com/Cloudgeni-ai/infrastructure-agents-guide",
+        "https://github.com/michaelsyao/AI-for-Trading",
+        "https://github.com/Pimjo/black-friday-deals",
+        "https://github.com/arm-education/Fundamentals-of-System-on-Chip-Design-on-Arm-Cortex-M-Microcontrollers",
+        "https://github.com/vsingh9076/AI-Agents",
+        "https://github.com/ckflight/FMCW-RADAR",
+        "https://github.com/thiago4go/kubernetes-security-kcsa-mock",
+        "https://github.com/DharminJoshi/Final-Year-Project-Ideas-2025",
+        "https://github.com/JawherKl/api-design",
+        "https://github.com/tech-notes-hub/tech-notes",
+        "https://github.com/rohanmistry231/Claude-OS",
+        "https://github.com/fagun18/Books-Collection",
+        "https://github.com/thil4n/interview-preparation",
+        "https://github.com/virajbhutada/InsightForge",
+        "https://github.com/Gaurav14cs17/DSA",
+        "https://github.com/CelaDaniel/free-ai-resources-x",
+        "https://github.com/stanislav-ilchev/CoveringDesignBuilder"
+      ],
+      "assessment": "Bounded connector search; returned count is not a count of all matching public records."
+    },
+    {
+      "id": "prior224github02_0",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "query": "covering \"54,16,4\"",
+        "topn": 20
+      },
+      "result_status": "fulfilled",
+      "isError": false,
+      "returned_count": 20,
+      "returned_urls": [
+        "https://github.com/umbrae/reddit-top-2.5-million/blob/d0efcade504b8ed735a48ddc2b15552fa924c9d9/data/DessertPorn.csv",
+        "https://github.com/nextml/caption-contest-data-api/blob/9e38b2b73a4541dd26111e05b90bcca6bdcae008/contests/summaries/_raw-dashboards/523_summary_LilUCB.csv",
+        "https://github.com/umbrae/reddit-top-2.5-million/blob/d0efcade504b8ed735a48ddc2b15552fa924c9d9/data/treemusic.csv",
+        "https://github.com/nextml/caption-contest-data-api/blob/9e38b2b73a4541dd26111e05b90bcca6bdcae008/contests/summaries/_data-munging/summaries-unformatted/523_summary_LilUCB.csv",
+        "https://github.com/swam92/datasetsProject/blob/c91dc8d03230ca840b64312b99a6b4727be9a7fa/data/DessertPorn.csv",
+        "https://github.com/pablobarbera/SQL-workshop/blob/2ff5f1efa755376f94c5db64d56210fa2b2d40de/data/posts/repscottperry.csv",
+        "https://github.com/minimaxir/interactive-facebook-reactions/blob/ae1478bbfd8272e9dc386968f92c8a5565e331af/data/instagram_facebook_statuses.csv",
+        "https://github.com/erikgregorywebb/datasets/blob/85b5e213061ca54c889555f672716ef4227a4e76/pitches_all.csv",
+        "https://github.com/fronchetti/JBCS-2018/blob/030885be457e76eb0680d1128da99046ccd61ade/Dataset/git-lfs/closed_pull_requests_summary.csv",
+        "https://github.com/swam92/datasetsProject/blob/c91dc8d03230ca840b64312b99a6b4727be9a7fa/data/treemusic.csv",
+        "https://github.com/Data4DM/BayesSD/blob/94f0c290f044b4fb96c0c70529f79e6c46153465/code/pipeline/agency/functions/Rahmandad10_Rework_Full.mdl",
+        "https://github.com/sonnetx/datacenter-map/blob/774fcbf78a40c41c5ded7646a765e069bbaf7375/index.html",
+        "https://github.com/sagarhv001/Stock_Market_Prediction/blob/dc089e54e66d2d736b26855c12c78c77bbed7f18/merged_data_all.csv",
+        "https://github.com/aliarabat/OpenStack/blob/9c816da9304d0f682083f0d5ad3ed65710343bee/Changes/changes_data_839.csv",
+        "https://github.com/aliarabat/OpenStack/blob/9c816da9304d0f682083f0d5ad3ed65710343bee/Changes/changes_data_554.csv",
+        "https://github.com/rinodung/hello-video-laravel/blob/d61b20c60efaf29dc52cd2f556e755d3337098fb/application/database/dump.sql",
+        "https://github.com/fintecheando/VideoBackEnd/blob/93e5e3b445a6f315d214732853e6934d5dfcf616/application/database/dump.sql",
+        "https://github.com/MichaelAquilina/Reddit-Data/blob/e86dcb26ff625597d3dea9ee6babc5dd9e21421f/pages/developers.slashdot.org/comments.pl?sid=2357190&amp;cid=36936764%$%",
+        "https://github.com/segalgouldn/CMSC251-Final-Project/blob/16df5ad06423ba66dc7e926f40a126502544a5c8/house/repsandylevin.csv",
+        "https://github.com/tantantan12/SUFE2025/blob/6677b5c3391493f23e4868916bc0d199ad5e6280/tweets_openAI.csv"
+      ],
+      "assessment": "Bounded connector search; returned count is not a count of all matching public records."
+    },
+    {
+      "id": "prior224github02_1",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "query": "\"C(54,16,4)\"",
+        "topn": 20
+      },
+      "result_status": "fulfilled",
+      "isError": false,
+      "returned_count": 0,
+      "returned_urls": [],
+      "assessment": "Bounded connector search; returned count is not a count of all matching public records."
+    },
+    {
+      "id": "prior224github02_2",
+      "retrieved_date_utc": "2026-10-08",
+      "retrieval_timestamp_utc": "2026-10-08 20:06:48 UTC",
+      "arguments": {
+        "query": "covering \"224\" \"lower\"",
+        "topn": 30
+      },
+      "result_status": "fulfilled",
+      "isError": false,
+      "returned_count": 30,
+      "returned_urls": [
+        "https://github.com/atheme/atheme/blob/88de242f4755394746444c7bd28da15127d976d2/po/da.po",
+        "https://github.com/atheme/atheme/blob/88de242f4755394746444c7bd28da15127d976d2/po/cy.po",
+        "https://github.com/atheme/atheme/blob/88de242f4755394746444c7bd28da15127d976d2/po/bg.po",
+        "https://github.com/atheme/atheme/blob/88de242f4755394746444c7bd28da15127d976d2/po/tr.po",
+        "https://github.com/atheme/atheme/blob/88de242f4755394746444c7bd28da15127d976d2/po/es.po",
+        "https://github.com/cool-japan/scirs/blob/467efc02ce1a8c738b1d7114f25b4f457cf3601a/TODO.md",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/fi.po",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/eo.po",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/nl.po",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/tr.po",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/de.po",
+        "https://github.com/kurtchen/Lynx/blob/8b3a9d48dc6737e2062c5678a28e2829f05094d0/po/vi.po",
+        "https://github.com/cool-japan/oximedia/blob/5263510374761ec8ef02dace5d26d62fb20e405b/TODO.md",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/eo.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/oc.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/pa.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/az.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/te.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/uk.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/sq.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/sv.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/ar.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/sl.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/rw.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/ca.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/es.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/nl.po",
+        "https://github.com/tim-janik/beast/blob/54fda788c98fda700de4defcbae1ff1dd55b64c7/po/fr.po",
+        "https://github.com/GNOME/gtksourceview/blob/33e813e17f4ae8d2f0e9623fa48765972ec3fe6d/po/kw.po",
+        "https://github.com/GNOME/gtksourceview/blob/33e813e17f4ae8d2f0e9623fa48765972ec3fe6d/po/uz.po"
+      ],
+      "assessment": "Bounded connector search; returned count is not a count of all matching public records."
+    },
+    {
+      "id": "prior224round06_0",
+      "retrieval_timestamp_utc": "2026-10-08 20:08:07 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering number\" \"224\" \"54\""
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2410.06378",
+        "https://link.springer.com/article/10.1007/s10208-026-09762-w",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/d95564314a9cd449603ed4b9d7dda02c-Paper-Conference.pdf",
+        "https://www.ams.org/conm/511",
+        "https://oeis.org/A160560",
+        "https://github.com/teorth/pfr/blob/master/formalization.yaml",
+        "https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json",
+        "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=%2Fcontext%2Fsis_research%2Farticle%2F8214%2F&path_info=85_wrshpnew.pdf",
+        "https://www.math.ucdavis.edu/~deloera/MISC/LA-BIBLIO/trunk/Kuperberg/Kuperberg5.pdf",
+        "https://proceedings.mlr.press/v202/zhang23f/zhang23f.pdf"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round06_1",
+      "retrieval_timestamp_utc": "2026-10-08 20:08:07 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering designs\" \"54\" \"16\" \"216\""
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round06_2",
+      "retrieval_timestamp_utc": "2026-10-08 20:08:07 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"C(53, 15, 3)\""
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://www.gauthmath.com/id/solution/1987583473988868/C-53-15-3-",
+        "https://d.lib.msu.edu/etd/34206?q=The+Age",
+        "https://id.scribd.com/document/889152616/11-BL-Sem-Grelha",
+        "https://www.calameo.com/books/000214501fe82175c0825",
+        "https://www.facebook.com/andwhy2020/videos/%E5%8F%B0%E5%A1%91%E7%8E%8B%E6%B0%8F%E6%95%B8%E5%AD%97%E6%AD%8C%E4%B9%8B%E6%97%A5ayisingingsongs/652502391158382/",
+        "https://www.scribd.com/document/993285045/VIGUETAS",
+        "https://outfit-art.com/product/unisex-crewneck-tee-love-whisper-edition/?srsltid=AU7gw4WJX1QSfVRHOE379EOWSH9zSoHMOjnTJ4CbWQ4Am2MQsW7DQA72"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round06_3",
+      "retrieval_timestamp_utc": "2026-10-08 20:08:07 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"C(54,16,4)\" \"225\" OR \"226\" OR \"227\""
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://en.wikipedia.org/wiki/Douglas_C-54_Skymaster",
+        "https://www.tinker.af.mil/News/Article-Display/Article/1132101/tinker-history-douglas-c-54-skymaster/",
+        "https://museumofaviation.org/portfolio/c-54g-skymaster/",
+        "https://www.amcmuseum.org/at-the-museum/aircraft/c-54m-skymaster/",
+        "https://app.aircorpslibrary.com/aircraft/c-54-douglas-skymaster",
+        "https://wendoverairfield.org/douglas-c-54-skymaster/",
+        "https://pimaair.org/museum-aircraft/douglas-c-54d/",
+        "https://www.facebook.com/13NewsNow/posts/the-c-54-is-a-military-version-of-the-douglas-dc-4-which-was-a-world-war-ii-era-/822874939887365/",
+        "https://www.aelius.com/njh/subnet_sheet.html",
+        "https://www.youtube.com/watch?v=nPrCWRbKOXA"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round07_0",
+      "retrieval_timestamp_utc": "2026-10-08 20:09:43 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"54\" \"16\" \"4\" \"224\"",
+            "domains": [
+              "zenodo.org"
+            ]
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://zenodo.org/records/4898855/files/Komarek%20-%20European%20Constitutionalism%20and%20the%20European%20Arrest%20Warrant.pdf",
+        "http://www.bverfg.de",
+        "https://zenodo.org/records/2092516/files/article.pdf",
+        "https://zenodo.org/records/1258959/files/article.pdf",
+        "https://zenodo.org/records/1413281/files/JAMTS-2-113.pdf",
+        "https://zenodo.org/records/5166379/files/NB_article_63208.pdf?download=1",
+        "https://zenodo.org/records/7559232/files/conversation9_subtopics.pdf?download=1",
+        "https://zenodo.org/record/7997182/files/ZSE_article_101417.pdf",
+        "https://zenodo.org/record/575244/files/NC_article_1335.pdf",
+        "https://zenodo.org/records/17710093/files/paris_dwl_L3V1.42_data_availability_weather.pdf?download=1",
+        "https://zenodo.org/record/901393/files/RIO_article_20696.pdf?download=1"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round07_1",
+      "retrieval_timestamp_utc": "2026-10-08 20:09:43 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"covering\" \"54\" \"16\" \"lower\"",
+            "domains": [
+              "combinatorics.org",
+              "link.springer.com",
+              "onlinelibrary.wiley.com"
+            ]
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/pdf/10.1002/jssc.200301498",
+        "https://alz-journals.onlinelibrary.wiley.com/doi/pdf/10.1002/alz.71703",
+        "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.70422",
+        "https://obgyn.onlinelibrary.wiley.com/doi/10.1002/pd.6488",
+        "https://aapm.onlinelibrary.wiley.com/doi/10.1118/1.3641866",
+        "https://acsjournals.onlinelibrary.wiley.com/doi/pdf/10.1002/1097-0142%2820010915%2992%3A6%3C1541%3A%3AAID-CNCR1480%3E3.0.CO%3B2-D",
+        "https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291099-1700%28199901%2915%3A1%3C27%3A%3AAID-SMI782%3E3.0.CO%3B2-U",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/gcc.20575",
+        "https://agsjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1532-5415.1981.tb01267.x",
+        "https://link.springer.com/article/10.1007/s10623-026-01806-0"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round07_2",
+      "retrieval_timestamp_utc": "2026-10-08 20:09:43 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"Block intersection polynomials\" Cameron Soicher"
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [
+        "https://webspace.maths.qmul.ac.uk/p.j.cameron/csgnotes/soicher09.pdf",
+        "https://www.researchgate.net/publication/31305110_Block_intersection_polynomials",
+        "http://designtheory.org/library/preprints/",
+        "http://www.maplesoft.com/",
+        "http://designtheory.org/software/gap_design/",
+        "https://openurl.ebsco.com/contentitem/gcd%3A34962545?crl=c&id=ebsco%3Agcd%3A34962545&jrnl=00246093&sid=ebsco%3Aplink%3Acrawler-gcd",
+        "https://www.sciencedirect.com/science/article/pii/S0097316510000555",
+        "https://maths.qmul.ac.uk/~leonard/bip.pdf",
+        "https://www.semanticscholar.org/paper/More-on-block-intersection-polynomials-and-new-to-Soicher/8b69c8319f8b1b94e0792b35b84a5b16d65bfbe9",
+        "https://gap-packages.github.io/design/htm/CHAP002.htm",
+        "https://www.researchgate.net/publication/220077821_More_on_block_intersection_polynomials_and_new_applications_to_graphs_and_block_designs",
+        "https://www.sciencedirect.com/science/article/pii/S0097316510000555/pdf"
+      ],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round07_3",
+      "retrieval_timestamp_utc": "2026-10-08 20:09:43 UTC",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"More on block intersection polynomials and new applications\""
+          }
+        ]
+      },
+      "result_status": "fulfilled",
+      "returned_urls": [],
+      "assessment": "Bounded indexed search. No independently substantiated target result identified; unrelated lexical matches are not mathematical evidence."
+    },
+    {
+      "id": "prior224round08",
+      "retrieval_timestamp_utc": "2026-10-08T20:18:30.469Z",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"Tur\u00e1n\" \"54\" \"50\" \"38\""
+          },
+          {
+            "q": "\"covering\" \"54,16,4\" \"224\""
+          },
+          {
+            "q": "\"covering\" \"54\" \"16\" \"lower bound\"",
+            "domains": [
+              "github.com"
+            ]
+          },
+          {
+            "q": "\"covering number\" \"224\"",
+            "domains": [
+              "arxiv.org",
+              "zenodo.org",
+              "combinatorics.org"
+            ]
+          }
+        ],
+        "click_url": "https://dmgordon.org/ljcr/ (GitHub link; failed)"
+      },
+      "returned_urls": [
+        "https://arxiv.org/html/1911.08539v2",
+        "https://www.oakton.edu/_pdfs/procurement/2026/20260508_oakton_adj_ph3_-_bookstore__welcome_center_-_project_manual_-_r1.pdf",
+        "https://github.com/teorth/optimizationproblems",
+        "https://www.researchgate.net/profile/Alexander-Sidorenko/publication/225927716_What_we_know_and_what_we_do_not_know_about_Turan_numbers/links/5d62bd52299bf1f70b0d7b6a/What-we-know-and-what-we-do-not-know-about-Turan-numbers.pdf",
+        "https://lf-public.deq.utah.gov/WebLink/DocView.aspx?dbid=0&id=503208&repo=Public",
+        "https://github.com/wustep/maths/blob/main/problems/covering/result/NOTE.md",
+        "https://www.sciencedirect.com/science/article/pii/S0012365X21002570",
+        "https://bidcondocs.delaware.gov/NAT/NAT22828-BIDENETC-specs%20compressed.pdf",
+        "https://github.com/teorth/optimizationproblems/blob/main/README.md",
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds27/pdf/",
+        "https://jpshealthnet.org/sites/default/files/2022-07/21.0806%20IFC%20combined.pdf",
+        "https://github.com/apache/datafusion/blob/main/datafusion-examples/examples/relation_planner/table_sample.rs",
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70473",
+        "https://ntrs.nasa.gov/api/citations/19760013478/downloads/19760013478.pdf?attachment=true",
+        "https://github.com/tulip-control/omega/blob/main/omega/symbolic/cover.py",
+        "https://link.springer.com/article/10.1007/BF01929486",
+        "https://palisadesparknj.org/wp-content/uploads/2024/10/3-15-21-Pal-Park-BOA-Final_Mini.pdf",
+        "https://github.com/sandialabs/SUTTG/blob/master/README",
+        "https://en.wikipedia.org/wiki/Graph_theory",
+        "https://go.boarddocs.com/ct/norwalkps/Board.nsf/files/CBQSZ474C2F3/%24file/Underground%20Fuel%20Oil%20Storage%20Tank%20Removal-Burner%20Replacement%20NPS%20Front%20End%20and%20Specifications.pdf",
+        "https://github.com/tavisrudd/math-papers-summary",
+        "https://people.math.ethz.ch/~dbradac/Turan_number_of_the_grid_rsa.pdf",
+        "https://www.tarrantcountytx.gov/content/dam/main/purchasing/Bids%20and%20RFPs/2022-bid-rfps-/2022-111_RFB_Volume_2_Project_Manual.pdf",
+        "https://github.com/josephg/diamond-types/blob/master/src/ost/index_tree.rs",
+        "https://www.renyi.hu/~miki/Turan2013W.pdf",
+        "https://kch.hhsc.org/wp-content/uploads/20240405-KCH-Outpatient-Oncology_BID-Spec-Manual-FINAL.pdf",
+        "https://github.com/Actyx/Actyx/blob/master/js/sdk/src/event-fns.ts",
+        "https://www.math.uic.edu/persisting_utilities/people/publications?netid=gyt",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-Y1_3-ad13c3f33de3b95a0cb3559be3c16c02/html/GOVPUB-Y1_3-ad13c3f33de3b95a0cb3559be3c16c02.htm",
+        "https://github.com/rdkit/rdkit/blob/master/Code/GraphMol/DistGeomHelpers/BoundsMatrixBuilder.cpp"
+      ],
+      "assessment": "Batched bounded search; no independent 224-or-stronger covering result identified. The complement/Turan spelling search was included as a missing-representation check."
+    },
+    {
+      "id": "prior224round09",
+      "retrieval_timestamp_utc": "2026-10-08T20:19:04.329Z",
+      "arguments": {
+        "search_query": [
+          {
+            "q": "\"New lower bounds for t-coverings\" \"54\""
+          },
+          {
+            "q": "\"covering designs\" \"224\" \"16\""
+          },
+          {
+            "q": "\"C(54,16,4)\" \"lower\" \"bound\""
+          },
+          {
+            "q": "\"C(53,15,3)\" \"66\""
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://en.wikipedia.org/wiki/Douglas_C-54_Skymaster",
+        "https://www.calameo.com/books/000214501fe82175c0825",
+        "https://www.amcmuseum.org/at-the-museum/aircraft/c-54m-skymaster/",
+        "https://d.lib.msu.edu/etd/34206?q=The+Age",
+        "https://pimaair.org/museum-aircraft/douglas-c-54d/",
+        "https://www.vco-ob.cz/zav_vys/2008/za080329/vys03_29.htm",
+        "https://www.theaviationzone.com/douglas-c-54-skymaster/",
+        "https://app.aircorpslibrary.com/aircraft/c-54-douglas-skymaster",
+        "https://www.travisafbaviationmuseum.org/c-54d",
+        "https://www.marchfield.org/c-54q-skymaster-r5-d/",
+        "https://wendoverairfield.org/douglas-c-54-skymaster/",
+        "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=110",
+        "https://www.airplanes-online.com/c54-skymaster.htm"
+      ],
+      "assessment": "Batched bounded search; no independent 224-or-stronger covering result identified. The complement/Turan spelling search was included as a missing-representation check."
+    },
+    {
+      "id": "prior224direct02",
+      "retrieval_timestamp_utc": "2026-10-08 20:08:07 UTC",
+      "requested_resources": {
+        "click": [
+          {
+            "ref_id": "previously opened primary resource; reproduce through listed source URLs",
+            "id": 24
+          },
+          {
+            "ref_id": "previously opened primary resource; reproduce through listed source URLs",
+            "id": 12
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://dmgordon.org/cover/"
+          },
+          {
+            "ref_id": "https://doi.org/10.1112/blms/bdm034"
+          },
+          {
+            "ref_id": "https://arxiv.org/abs/2607.23766"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://dmgordon.org/cover/\",\"lineno\":null}",
+        "https://dmgordon.org/cover/:",
+        "https://doi.org/10.1112/blms/bdm034\",\"lineno\":null}",
+        "https://doi.org/10.1112/blms/bdm034:",
+        "https://doi.wiley.com/10.1112/blms/bdm034",
+        "https://arxiv.org/abs/2607.23766",
+        "https://arxiv.org/abs/2607.23766\",\"lineno\":null}",
+        "https://doi.org/10.48550/arXiv.2607.23766\u2020doi.org",
+        "https://coveringrepository.com/systems.aspx?k=16&m=4&t=4:",
+        "https://zenodo.org/records/19735294/files/README.md?download=1",
+        "https://doi.org/10.1038/sdata.2016.18",
+        "https://dmgordo.github.io",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "assessment": "Primary sources and formulas inspected; access failures retained in report."
+    },
+    {
+      "id": "prior224direct03",
+      "retrieval_timestamp_utc": "2026-10-08 20:09:11 UTC",
+      "requested_resources": {
+        "open": [
+          {
+            "ref_id": "previously opened primary resource; reproduce through listed source URLs",
+            "lineno": 100
+          },
+          {
+            "ref_id": "previously opened primary resource; reproduce through listed source URLs",
+            "lineno": 370
+          },
+          {
+            "ref_id": "https://maths.qmul.ac.uk/~leonard/bip.pdf"
+          },
+          {
+            "ref_id": "https://webspace.maths.qmul.ac.uk/l.h.soicher/nbip2_v2.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://arxiv.org/html/1706.06825v2",
+        "https://maths.qmul.ac.uk/~leonard/bip.pdf",
+        "https://maths.qmul.ac.uk/~leonard/bip.pdf\",\"lineno\":null}",
+        "https://webspace.maths.qmul.ac.uk/l.h.soicher/nbip2_v2.pdf",
+        "https://webspace.maths.qmul.ac.uk/l.h.soicher/nbip2_v2.pdf\",\"lineno\":null}"
+      ],
+      "assessment": "Primary sources and formulas inspected; access failures retained in report."
+    },
+    {
+      "id": "prior224direct04",
+      "retrieval_timestamp_utc": "2026-10-08 20:11:49 UTC",
+      "requested_resources": {
+        "click": [
+          {
+            "ref_id": "previously opened primary resource; reproduce through listed source URLs",
+            "id": 4
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://dmgordon.org/ljcr/"
+          }
+        ],
+        "response_length": "short"
+      },
+      "returned_urls": [
+        "https://dmgordon.org/ljcr/",
+        "https://dmgordon.org/ljcr/\",\"lineno\":null}",
+        "https://zenodo.org/records/19735294/files/coverdata.json?download=1:"
+      ],
+      "assessment": "LJCR retirement notice read; Zenodo coverdata download exceeds web size cap."
+    },
+    {
+      "id": "prior224direct05",
+      "retrieval_timestamp_utc": "2026-10-08T20:19:50.757Z",
+      "requested_resources": {
+        "open": [
+          "https://arxiv.org/abs/2502.11814",
+          "https://arxiv.org/abs/2609.34910",
+          "https://arxiv.org/html/2607.23766v1"
+        ]
+      },
+      "returned_urls": [
+        "https://arxiv.org/abs/2502.11814",
+        "https://arxiv.org/abs/2502.11814\",\"lineno\":null}",
+        "https://doi.org/10.48550/arXiv.2502.11814\u2020doi.org",
+        "https://arxiv.org/abs/2609.34910",
+        "https://arxiv.org/abs/2609.34910\",\"lineno\":null}",
+        "https://doi.org/10.48550/arXiv.2609.34910\u2020doi.org",
+        "https://arxiv.org/html/2607.23766v1",
+        "https://arxiv.org/html/2607.23766v1\",\"lineno\":null}"
+      ],
+      "assessment": "Recent related preprint abstracts/full text inspected; different parameters or different covering notions, no target result identified."
+    },
+    {
+      "id": "ljcr-github-directory",
+      "retrieval_timestamp_utc": "2026-10-08T20:19:16.401Z",
+      "requested_url": "https://api.github.com/repos/dmgordo/LJCR/contents/coverings",
+      "result_status": "success",
+      "observed_coverdata_git_blob": "2092d2067ecd4f59c5814e0cc573a064baec3300",
+      "observed_coverdata_bytes": 6517686,
+      "assessment": "Directory metadata freshly retrieved. This is not a retrieval or validation of the full data."
+    },
+    {
+      "id": "ljcr-github-data",
+      "retrieval_timestamp_utc": "2026-10-08T20:19:23.733Z",
+      "requested_url": "https://raw.githubusercontent.com/dmgordo/LJCR/main/coverings/coverdata.json",
+      "result_status": "failed",
+      "assessment": "GitHub connector rejected contents as too large or unsupported. No target table values inferred from this failure."
+    }
+  ]
+}

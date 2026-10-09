@@ -1,0 +1,688 @@
+{
+  "formal_kernel_verification": false,
+  "github_writes": 0,
+  "human_expert_acceptance": false,
+  "inventory_variants": 16,
+  "mathematical_in_memory_rejections_per_mode": 51,
+  "network_calls": 0,
+  "normal_optimized_math_identical": true,
+  "physical_process_rejections": 58,
+  "priority_certification": false,
+  "python_version": "3.12.14",
+  "rejections": [
+    {
+      "exit_code": 1,
+      "fixture": "wrong independently supplied manifest pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: external manifest pin"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong independently supplied manifest pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: external manifest pin"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 4/MODEL.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 4/MODEL.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 4/CERTIFICATE.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 4/CERTIFICATE.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 31/MODEL.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 31/MODEL.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 31/CERTIFICATE.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 31/CERTIFICATE.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 22/MODEL.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 22/MODEL.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 22/CERTIFICATE.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 22/CERTIFICATE.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 211/MODEL.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 211/MODEL.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 211/CERTIFICATE.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 211/CERTIFICATE.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 1111/MODEL.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 1111/MODEL.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 1111/CERTIFICATE.json",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "changed frozen 1111/CERTIFICATE.json",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing proof dependency file",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "missing proof dependency file",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra unlisted file",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "extra unlisted file",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong schema with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: manifest schema"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "wrong schema with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: manifest schema"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty inventory with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "empty inventory with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "omitted member with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "omitted member with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "unexpected member with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "unexpected member with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count substitution with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "equal-count substitution with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate member with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: unique exact whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate member with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: unique exact whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "self inclusion with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: unique exact whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "self inclusion with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: unique exact whitelist"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "dot alias with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "dot alias with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "case alias with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "case alias with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "traversal name with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "traversal name with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "absolute name with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "absolute name with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "Windows separator alias with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "Windows separator alias with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: missing or extra package file"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "boolean byte size with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: exact file size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "boolean byte size with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: exact file size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "negative byte size with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: exact file size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "negative byte size with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: exact file size"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "altered member pin with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "altered member pin with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: file integrity"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate JSON manifest key with recomputed external fixture pin",
+      "optimized": false,
+      "reason": "FAIL_CLOSED: duplicate JSON key"
+    },
+    {
+      "exit_code": 1,
+      "fixture": "duplicate JSON manifest key with recomputed external fixture pin",
+      "optimized": true,
+      "reason": "FAIL_CLOSED: duplicate JSON key"
+    }
+  ],
+  "runs": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "audit224/package/verify.py",
+        "--manifest-sha256",
+        "d5ebe7dba35a94b99675c670616a99c5d669760732b8f3e7cf9a935555a78308"
+      ],
+      "exit_code": 0,
+      "mathematics": {
+        "acyclic_dependencies": [
+          "all_case_maps",
+          "all_case_signed_duals",
+          "avoidance18_19",
+          "child66",
+          "definition",
+          "direct_floor18",
+          "five_partitions",
+          "no223",
+          "occurrence_moments",
+          "padding",
+          "target224",
+          "target_point_floor66",
+          "tight_geometry"
+        ],
+        "cases": {
+          "1111": {
+            "coefficient_positions": 1016720,
+            "denominator": 1000000000000,
+            "finite_correction": 2180698965,
+            "labelled_profiles": 316251,
+            "positive_residual_columns": 658,
+            "row_sum": -3333333540963,
+            "rows": 358,
+            "upper": "-1665576420999/500000000000",
+            "variables": 2840
+          },
+          "211": {
+            "coefficient_positions": 997716,
+            "denominator": 1000000000000,
+            "finite_correction": 1345674378,
+            "labelled_profiles": 74412,
+            "positive_residual_columns": 551,
+            "row_sum": -123951389013326,
+            "rows": 348,
+            "upper": "-30987510834737/250000000000",
+            "variables": 2867
+          },
+          "22": {
+            "coefficient_positions": 766238,
+            "denominator": 1000000000000,
+            "finite_correction": 42902437,
+            "labelled_profiles": 1431,
+            "positive_residual_columns": 56,
+            "row_sum": -132999999998810,
+            "rows": 319,
+            "upper": "-132999957096373/1000000000000",
+            "variables": 2402
+          },
+          "31": {
+            "coefficient_positions": 764472,
+            "denominator": 1000000000000,
+            "finite_correction": 88999769,
+            "labelled_profiles": 2862,
+            "positive_residual_columns": 126,
+            "row_sum": -284555555605155,
+            "rows": 318,
+            "upper": "-142277733302693/500000000000",
+            "variables": 2404
+          },
+          "4": {
+            "coefficient_positions": 517500,
+            "denominator": 1000000000000,
+            "finite_correction": 66263335,
+            "labelled_profiles": 54,
+            "positive_residual_columns": 137,
+            "row_sum": -456886856276935,
+            "rows": 276,
+            "upper": "-571108487517/1250000000",
+            "variables": 1875
+          }
+        },
+        "child_arithmetic": {
+          "contradictions": {
+            "64": -7086,
+            "65": -63
+          },
+          "integer_checks": 584,
+          "semantic_proofs_formalized": false
+        },
+        "corruption_rejections": [
+          "4: omitted n16",
+          "4: changed coefficient",
+          "4: wrong profile",
+          "4: missing multiplier",
+          "4: omitted residual correction",
+          "4: wrong model binding",
+          "4: boolean domain",
+          "4: invalid positive lower-only weight",
+          "31: omitted n16",
+          "31: changed coefficient",
+          "31: wrong profile",
+          "31: missing multiplier",
+          "31: omitted residual correction",
+          "31: wrong model binding",
+          "31: boolean domain",
+          "31: invalid positive lower-only weight",
+          "22: omitted n16",
+          "22: changed coefficient",
+          "22: wrong profile",
+          "22: missing multiplier",
+          "22: omitted residual correction",
+          "22: wrong model binding",
+          "22: boolean domain",
+          "22: invalid positive lower-only weight",
+          "211: omitted n16",
+          "211: changed coefficient",
+          "211: wrong profile",
+          "211: missing multiplier",
+          "211: omitted residual correction",
+          "211: wrong model binding",
+          "211: boolean domain",
+          "211: invalid positive lower-only weight",
+          "1111: omitted n16",
+          "1111: changed coefficient",
+          "1111: wrong profile",
+          "1111: missing multiplier",
+          "1111: omitted residual correction",
+          "1111: wrong model binding",
+          "1111: boolean domain",
+          "1111: invalid positive lower-only weight",
+          "omitted case",
+          "duplicate case",
+          "wrong child premise",
+          "child-target cycle",
+          "undeclared dependency",
+          "missing proof obligation",
+          "duplicate JSON key",
+          "path traversal",
+          "absolute path",
+          "missing manifest entry",
+          "altered file pin"
+        ],
+        "formal_kernel_verification": false,
+        "human_expert_acceptance": false,
+        "internally_audited_theorem": "C(54,16,4)>=224",
+        "labelled_profiles": 395010,
+        "network_calls": 0,
+        "novelty_certification": false,
+        "package_files": 47,
+        "package_writes": 0,
+        "padding": {
+          "families": 125,
+          "moment_contexts": 1500
+        },
+        "solver_calls": 0,
+        "status": "PASS_REPRODUCIBILITY_WITH_SEMANTIC_REVIEW_LIMITS"
+      },
+      "stdout_sha256": "38091b595dc6079c815f092093de003ac6b54ed84207def183d9dff7ef55fde3"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "audit224/package/verify.py",
+        "--manifest-sha256",
+        "d5ebe7dba35a94b99675c670616a99c5d669760732b8f3e7cf9a935555a78308"
+      ],
+      "exit_code": 0,
+      "mathematics": {
+        "acyclic_dependencies": [
+          "all_case_maps",
+          "all_case_signed_duals",
+          "avoidance18_19",
+          "child66",
+          "definition",
+          "direct_floor18",
+          "five_partitions",
+          "no223",
+          "occurrence_moments",
+          "padding",
+          "target224",
+          "target_point_floor66",
+          "tight_geometry"
+        ],
+        "cases": {
+          "1111": {
+            "coefficient_positions": 1016720,
+            "denominator": 1000000000000,
+            "finite_correction": 2180698965,
+            "labelled_profiles": 316251,
+            "positive_residual_columns": 658,
+            "row_sum": -3333333540963,
+            "rows": 358,
+            "upper": "-1665576420999/500000000000",
+            "variables": 2840
+          },
+          "211": {
+            "coefficient_positions": 997716,
+            "denominator": 1000000000000,
+            "finite_correction": 1345674378,
+            "labelled_profiles": 74412,
+            "positive_residual_columns": 551,
+            "row_sum": -123951389013326,
+            "rows": 348,
+            "upper": "-30987510834737/250000000000",
+            "variables": 2867
+          },
+          "22": {
+            "coefficient_positions": 766238,
+            "denominator": 1000000000000,
+            "finite_correction": 42902437,
+            "labelled_profiles": 1431,
+            "positive_residual_columns": 56,
+            "row_sum": -132999999998810,
+            "rows": 319,
+            "upper": "-132999957096373/1000000000000",
+            "variables": 2402
+          },
+          "31": {
+            "coefficient_positions": 764472,
+            "denominator": 1000000000000,
+            "finite_correction": 88999769,
+            "labelled_profiles": 2862,
+            "positive_residual_columns": 126,
+            "row_sum": -284555555605155,
+            "rows": 318,
+            "upper": "-142277733302693/500000000000",
+            "variables": 2404
+          },
+          "4": {
+            "coefficient_positions": 517500,
+            "denominator": 1000000000000,
+            "finite_correction": 66263335,
+            "labelled_profiles": 54,
+            "positive_residual_columns": 137,
+            "row_sum": -456886856276935,
+            "rows": 276,
+            "upper": "-571108487517/1250000000",
+            "variables": 1875
+          }
+        },
+        "child_arithmetic": {
+          "contradictions": {
+            "64": -7086,
+            "65": -63
+          },
+          "integer_checks": 584,
+          "semantic_proofs_formalized": false
+        },
+        "corruption_rejections": [
+          "4: omitted n16",
+          "4: changed coefficient",
+          "4: wrong profile",
+          "4: missing multiplier",
+          "4: omitted residual correction",
+          "4: wrong model binding",
+          "4: boolean domain",
+          "4: invalid positive lower-only weight",
+          "31: omitted n16",
+          "31: changed coefficient",
+          "31: wrong profile",
+          "31: missing multiplier",
+          "31: omitted residual correction",
+          "31: wrong model binding",
+          "31: boolean domain",
+          "31: invalid positive lower-only weight",
+          "22: omitted n16",
+          "22: changed coefficient",
+          "22: wrong profile",
+          "22: missing multiplier",
+          "22: omitted residual correction",
+          "22: wrong model binding",
+          "22: boolean domain",
+          "22: invalid positive lower-only weight",
+          "211: omitted n16",
+          "211: changed coefficient",
+          "211: wrong profile",
+          "211: missing multiplier",
+          "211: omitted residual correction",
+          "211: wrong model binding",
+          "211: boolean domain",
+          "211: invalid positive lower-only weight",
+          "1111: omitted n16",
+          "1111: changed coefficient",
+          "1111: wrong profile",
+          "1111: missing multiplier",
+          "1111: omitted residual correction",
+          "1111: wrong model binding",
+          "1111: boolean domain",
+          "1111: invalid positive lower-only weight",
+          "omitted case",
+          "duplicate case",
+          "wrong child premise",
+          "child-target cycle",
+          "undeclared dependency",
+          "missing proof obligation",
+          "duplicate JSON key",
+          "path traversal",
+          "absolute path",
+          "missing manifest entry",
+          "altered file pin"
+        ],
+        "formal_kernel_verification": false,
+        "human_expert_acceptance": false,
+        "internally_audited_theorem": "C(54,16,4)>=224",
+        "labelled_profiles": 395010,
+        "network_calls": 0,
+        "novelty_certification": false,
+        "package_files": 47,
+        "package_writes": 0,
+        "padding": {
+          "families": 125,
+          "moment_contexts": 1500
+        },
+        "solver_calls": 0,
+        "status": "PASS_REPRODUCIBILITY_WITH_SEMANTIC_REVIEW_LIMITS"
+      },
+      "stdout_sha256": "9bbf961627faf454df0f2842820b7d07c6df20cd042b21663bce99688c2912f0"
+    }
+  ],
+  "solver_calls": 0,
+  "status": "PASS_NORMAL_OPTIMIZED_AND_PHYSICAL_CORRUPTION_CONTROLS",
+  "symlink_creation_test": "not exercised; Windows privilege changes not requested"
+}

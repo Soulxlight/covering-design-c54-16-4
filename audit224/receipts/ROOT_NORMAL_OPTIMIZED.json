@@ -1,0 +1,101 @@
+{
+  "child_arithmetic": {
+    "contradictions": {
+      "64": -7086,
+      "65": -63
+    },
+    "integer_checks": 584,
+    "semantic_proofs_formalized": false
+  },
+  "commands": [
+    [
+      "python",
+      "-B",
+      "verify_release.py",
+      "--manifest-sha256",
+      "<independent-handoff-pin>"
+    ],
+    [
+      "python",
+      "-B",
+      "-O",
+      "verify_release.py",
+      "--manifest-sha256",
+      "<independent-handoff-pin>"
+    ]
+  ],
+  "fixed_manifest_members": 106,
+  "formal_kernel_verified": false,
+  "github_writes": 0,
+  "human_expert_accepted": false,
+  "network_calls": 0,
+  "normal_optimized_mathematics_equal": true,
+  "note": "Mathematical projection avoids a receipt/manifest digest cycle; final complete replay and hashes accompany the independent handoff.",
+  "padding": {
+    "families": 125,
+    "moment_contexts": 1500
+  },
+  "priority_certified": false,
+  "proposed223_upper": "-121049912921/100000000",
+  "proposed224_cases": {
+    "1111": {
+      "coefficient_positions": 1016720,
+      "denominator": 1000000000000,
+      "finite_correction": 2180698965,
+      "labelled_profiles": 316251,
+      "positive_residual_columns": 658,
+      "row_sum": -3333333540963,
+      "rows": 358,
+      "upper": "-1665576420999/500000000000",
+      "variables": 2840
+    },
+    "211": {
+      "coefficient_positions": 997716,
+      "denominator": 1000000000000,
+      "finite_correction": 1345674378,
+      "labelled_profiles": 74412,
+      "positive_residual_columns": 551,
+      "row_sum": -123951389013326,
+      "rows": 348,
+      "upper": "-30987510834737/250000000000",
+      "variables": 2867
+    },
+    "22": {
+      "coefficient_positions": 766238,
+      "denominator": 1000000000000,
+      "finite_correction": 42902437,
+      "labelled_profiles": 1431,
+      "positive_residual_columns": 56,
+      "row_sum": -132999999998810,
+      "rows": 319,
+      "upper": "-132999957096373/1000000000000",
+      "variables": 2402
+    },
+    "31": {
+      "coefficient_positions": 764472,
+      "denominator": 1000000000000,
+      "finite_correction": 88999769,
+      "labelled_profiles": 2862,
+      "positive_residual_columns": 126,
+      "row_sum": -284555555605155,
+      "rows": 318,
+      "upper": "-142277733302693/500000000000",
+      "variables": 2404
+    },
+    "4": {
+      "coefficient_positions": 517500,
+      "denominator": 1000000000000,
+      "finite_correction": 66263335,
+      "labelled_profiles": 54,
+      "positive_residual_columns": 137,
+      "row_sum": -456886856276935,
+      "rows": 276,
+      "upper": "-571108487517/1250000000",
+      "variables": 1875
+    }
+  },
+  "public222_upper": "-1330103235427/500000000",
+  "solver_calls": 0,
+  "status": "PASS_COMPLETE_NORMAL_OPTIMIZED_PARITY",
+  "total_release_files": 108
+}

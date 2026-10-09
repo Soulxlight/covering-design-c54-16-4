@@ -1,0 +1,39 @@
+{
+  "all_coefficient_positions": 1016720,
+  "certificate": {
+    "bound_numerator": -3333333540963,
+    "correction_numerator": 2180698965,
+    "denominator": 1000000000000,
+    "exact_upper": "-1665576420999/500000000000",
+    "nonzero_weights": 296,
+    "positive_residual_columns": 658
+  },
+  "corruption_rejections": [
+    "zero denominator",
+    "negative denominator",
+    "missing weight",
+    "wrong upper fraction",
+    "omitted finite correction",
+    "wrong row sum",
+    "missing positive residual",
+    "extra positive residual",
+    "wrong source binding",
+    "wrong multiplier sign for lower cut",
+    "changed coefficient",
+    "weakened endpoint budget coefficient",
+    "wrong endpoint bound",
+    "missing row",
+    "added row",
+    "omitted intersection16",
+    "wrong triple upper bound",
+    "negative variable lower",
+    "changed defect objective",
+    "wrong partition"
+  ],
+  "explicit_coefficients": 10736,
+  "rows": 358,
+  "scope": "Only exactly 223 occurrences with point degrees 66^50,67^4; conditional on reviewed child bound 66.",
+  "solver_calls": 0,
+  "status": "PASSWITHLIMITS",
+  "variables": 2840
+}

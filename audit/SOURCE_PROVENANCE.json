@@ -1,0 +1,165 @@
+{
+  "files": {
+    "peta-stage-02/PETA_LOWER_BOUND_223_PROOF.md": {
+      "bytes": 8984,
+      "sha256": "fc0a9961a3cc010daaf2d2f5914f5fac05c8b021cb3275d568c0408f973e9b35"
+    },
+    "peta-stage-02/PROOF_223_ARITHMETIC.json": {
+      "bytes": 65685,
+      "sha256": "d8ac4d25c9432bad4c052cc1938c83994f82e384fcd3681d89a77e3a3a62afc8"
+    },
+    "peta-stage-02/TIGHT_AVOIDANCE_CENSUS.json": {
+      "bytes": 98016,
+      "sha256": "2d5482bc12a2aa4258e3a74f39a68040282a6b97eeb7c495b4b9fcdc6110a6e7"
+    },
+    "peta-stage-02/portable_verify_223.py": {
+      "bytes": 5293,
+      "sha256": "4f6e8aa7876779e98dc4894ebbd01f5547aa571862d69de0daa17f0544e1158e"
+    },
+    "peta-stage-02/proof_223_checks.py": {
+      "bytes": 5576,
+      "sha256": "ce0094a86b1a6c91a46374668b4fd66138d2c44c594bad74267d9c34c40d93d2"
+    },
+    "peta-stage-03/ADVERSARIAL_ADDENDUM.md": {
+      "bytes": 6290,
+      "sha256": "d600697ca0818d772ba2605d739861429f3696321da4b78de8ddf4ebf2022812"
+    },
+    "peta-stage-03/audit_support_graphs.js": {
+      "bytes": 6785,
+      "sha256": "4d0b45d027e84336c1747a8d37e5164c6b3e011ee418023ddf606eb380f19231"
+    },
+    "peta-stage-03/support_graphs.py": {
+      "bytes": 5908,
+      "sha256": "d74c59d80affe22d16db33c822985930de3eead0596dc2a94b5cb3b13e729b8b"
+    },
+    "peta-stage03/SUPPORT_GRAPH_m16.json": {
+      "bytes": 67660,
+      "sha256": "99cee5b38496eba7f69bea8634b43d0b19dba0c37ff180b7ec69bccab2c0ce1c"
+    },
+    "peta-stage03/SUPPORT_GRAPH_m17.json": {
+      "bytes": 25924,
+      "sha256": "3603e6f8e0266318f600a491d0a1c23a1baae92ed6dc950dc5fb086acb6ff184"
+    },
+    "peta-stage03/SUPPORT_GRAPH_m18.json": {
+      "bytes": 704,
+      "sha256": "f90be8b2cae75514f1e7e9de7fd0b8eeb640224f92fe11afe78111a45571e90a"
+    },
+    "peta-stage03/SUPPORT_GRAPH_m19.json": {
+      "bytes": 704,
+      "sha256": "fca4ce82dca8c56002cb5e6103e374197b082fe5976c06c56028849512631f59"
+    },
+    "peta-stage03/edges_m16.csv": {
+      "bytes": 242077,
+      "sha256": "7cc52298d3241793b1a021e1a9b0503511d9ba2816bf41715a033b94ad9f320a"
+    },
+    "peta-stage03/edges_m17.csv": {
+      "bytes": 17,
+      "sha256": "bb99cf765b9703bafbf398e7159eff71d00ffe6270b4fbf1f420cff27b1433eb"
+    },
+    "peta-stage03/edges_m18.csv": {
+      "bytes": 17,
+      "sha256": "bb99cf765b9703bafbf398e7159eff71d00ffe6270b4fbf1f420cff27b1433eb"
+    },
+    "peta-stage03/edges_m19.csv": {
+      "bytes": 17,
+      "sha256": "bb99cf765b9703bafbf398e7159eff71d00ffe6270b4fbf1f420cff27b1433eb"
+    },
+    "public222-frozen/CITATIONS.md": {
+      "bytes": 2229,
+      "sha256": "6fa4473df8575660b3cc0a50b96b6187a4e9a44fbed49436da4a5b17bda18ffd"
+    },
+    "public222-frozen/README.md": {
+      "bytes": 4178,
+      "sha256": "26073aa268c54af506de1a9728c89354c8fa82b70d306490c8eb5192cb5e3d88"
+    },
+    "public222-frozen/REPRODUCE.md": {
+      "bytes": 1797,
+      "sha256": "5f6a2744f25dadd88b736a1f7c2ca06fe651dcf6b806d8ca26827021d9e52010"
+    },
+    "public222-frozen/SHA256SUMS": {
+      "bytes": 834,
+      "sha256": "6b6fb1e980db9725c4b96db9455321a82350429bab5a6243a00f0cc188616de1"
+    },
+    "public222-frozen/data/certificate.json": {
+      "bytes": 7906,
+      "sha256": "9483912feec907e2f4b2118d1ebd2d83bcf881602d41ecbdf8d5674e03c0d973"
+    },
+    "public222-frozen/data/model.json": {
+      "bytes": 945680,
+      "sha256": "3f65a5e44b96d0ee5844176331b4b5172ba267f29479e995f3d744d4acca1c24"
+    },
+    "public222-frozen/proofs/LOWER_BOUND_221.md": {
+      "bytes": 4408,
+      "sha256": "62511ea8bfd910c39dd0b0ad44bc3fae176edfda624a7381329dd02984c72b7c"
+    },
+    "public222-frozen/proofs/LOWER_BOUND_222.md": {
+      "bytes": 13036,
+      "sha256": "e89185a7490d87190ef78b853dd61cda438781d1d677f7da370bf316f25730f0"
+    },
+    "public222-frozen/requirements.txt": {
+      "bytes": 62,
+      "sha256": "82125400e13ce28b48c5a00e0bc5f9f3c681f2da3ffdf711f38a78bd3e2ae3a1"
+    },
+    "public222-frozen/tests/test_verify.py": {
+      "bytes": 3605,
+      "sha256": "26b4ac6834ca258e6ecbfd895fcfdb3cf91e0476c0685481217e2bd7d531887f"
+    },
+    "public222-frozen/verify.py": {
+      "bytes": 9206,
+      "sha256": "72b7890ef8fd176da313f7fb5c55408de3d9e2e003e7f08f49b3dd01db751150"
+    },
+    "review223/ADVERSARIAL_REVIEW.md": {
+      "bytes": 18046,
+      "sha256": "c0e73fb7e0d8c3380acaa0151cf5cc651b84de96ad8b0e44e0d6a59bde12bd3f"
+    },
+    "review223/FORMALIZATION_ROADMAP.md": {
+      "bytes": 9959,
+      "sha256": "3747708cffc3b337006edd3b10db40d34b716c8dd035e11b0d748110f0da60d7"
+    },
+    "review223/GENERALIZED_AVOIDANCE_ADDENDUM.md": {
+      "bytes": 9865,
+      "sha256": "fa22ef2d479509ea130cda6682730572acd938c6484ee63455d1f0dc67238825"
+    },
+    "review223/REVIEW_VERDICT.json": {
+      "bytes": 1307,
+      "sha256": "4ebe4ad5c23dca871c82e5b57880dbfce6c2d7e078d291d195d4023a39205e2b"
+    },
+    "review223/SEMANTIC_CERTIFICATE_223.md": {
+      "bytes": 6684,
+      "sha256": "699b619ccc7f70fe104143d654ab192719c4cf6d6e506c26fa3097c53619f35a"
+    },
+    "review223/independent_review.py": {
+      "bytes": 20578,
+      "sha256": "ca4a327c0cc77eb16b8f39bdf7ec054009a615af43f176d98fe23c53ee547a07"
+    },
+    "review223/verify_floor.py": {
+      "bytes": 1877,
+      "sha256": "ced942fd11ff46e6ae19eb3d1b816b164eee736c4abcdfc4611c0368f807af7c"
+    },
+    "scout-pass16/CANDIDATE_LOWER_BOUND_223.md": {
+      "bytes": 8788,
+      "sha256": "7368ab16e1b74ae219aca1d8322347ac4604136f4626eef635d5e740d0df2cec"
+    },
+    "scout-pass16/POINT_LINK_65_EXACT_UPPER_CERTIFICATE.json": {
+      "bytes": 3669,
+      "sha256": "51fc7bee0712da2bb6551be0957262a0e840cc494358edb73eafe8c2ba8fface"
+    },
+    "scout-pass16/POINT_LINK_65_MODEL.json": {
+      "bytes": 185200,
+      "sha256": "3f0a02d0fc5ac86b2c08fec8f17f10d895dfceb9f861480f3e0b3fe110f1707a"
+    },
+    "scout-pass16/POINT_LINK_65_SEMANTICS.md": {
+      "bytes": 5114,
+      "sha256": "6a4a6437b0bbcd42b0413b07e152632e618e0f84196341147c8b97b1a6218e14"
+    },
+    "scout-pass16/audit_point_link_65.js": {
+      "bytes": 10103,
+      "sha256": "4f8facdf742d410fdaefcd5e0e214396891bd82b75c0639c8505d22d1b227bee"
+    },
+    "scout-pass16/point_link_65.py": {
+      "bytes": 8656,
+      "sha256": "ef44ffb9842f6d5fe9b0972131fb0880fddc37233dcdedc7a01a95bc4e72c1e6"
+    }
+  },
+  "note": "Identifiers are source labels, not installed paths. Unpublished source hashes establish provenance, not correctness or redistribution rights. Mathematical data copied unchanged; excluded private sources remain outside this packet."
+}

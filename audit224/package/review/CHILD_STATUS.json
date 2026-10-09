@@ -1,0 +1,19 @@
+{
+  "child_lower_bound_proved": 66,
+  "formal_assistant_verification": false,
+  "human_expert_acceptance": false,
+  "mathematical_blockers": [],
+  "novelty_certification": false,
+  "peta_exact_contradictions": {
+    "64": -7086,
+    "65": -63
+  },
+  "shared_dependencies": [
+    "point-link floor 18",
+    "complete one-surplus tight-pair geometry",
+    "occurrence-index intersection moments",
+    "point-incidence lifting"
+  ],
+  "specific_horsley_floor_independently_discharged": true,
+  "status": "PASSWITHLIMITS"
+}
