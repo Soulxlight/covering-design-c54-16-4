@@ -29,3 +29,14 @@ maps/case reviews to the independent internal reviewer. Mopî prepared the
 combined editorial audit and process controls under Perry Kern's direction.
 All contributions used AI assistance. [Source hashes and transformations](audit224/package/PROVENANCE.json)
 are explicit. No general moment, rank or LP/IP framework is claimed as new.
+
+The [230 proof](audit230/PROOF.md) is a standalone18-row pair-cover rank/projection
+argument with a binary containment refinement and classical point-link lifts.
+It invokes no external bound as a premise. The general incidence-rank and
+recurrence methods above remain prior art. Mopi prepared this parameter-specific
+reduction and manuscript; a separate internal investigator independently reviewed
+the semantics and supplied a third exact reconstruction. All work used AI
+assistance under Perry Kern's direction. [Review status](audit230/REVIEW_STATUS.json)
+and [source transformations](audit230/SOURCE_PROVENANCE.json) distinguish completed
+internal checking from pending qualified external acceptance, formal verification
+and literature priority. No new literature search or priority finding is represented.

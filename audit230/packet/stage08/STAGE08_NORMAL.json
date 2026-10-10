@@ -1,0 +1,18 @@
+{
+  "all18_pair_covers_excluded": false,
+  "candidate_parent_floor": null,
+  "complete_toy_allocations": 119328,
+  "full_joint_type_cases": 574,
+  "independently_reconstructed_row_maxima": 2363,
+  "macro_cases": 70,
+  "minimum_full_rank_slack": [
+    -6248,
+    49
+  ],
+  "previous227_assumed": false,
+  "public_bound_changed": false,
+  "result_sha256": "224486fbd98b5dc11e8a0eccbca8d69cb151c2021c1157084cf9771ad37ce287",
+  "status": "PASS_INDEPENDENT_COMPLETE_TIGHT_GRAM_PROJECTION_STAGE",
+  "surviving_joint_type_cases": 15,
+  "toy_load_maxima": 3768
+}

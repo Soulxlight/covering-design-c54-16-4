@@ -1,0 +1,130 @@
+{
+  "base_public_commit": "5c586365ebba71fcf7aa2adf35ae1b48a82c76f4",
+  "certificate_values_and_assumptions_changed": false,
+  "exact_sources_and_transformations": [
+    {
+      "destination": "audit230/packet/stage08/STAGE08_RESULT.json",
+      "source_file": "stage08/STAGE08_RESULT.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "224486fbd98b5dc11e8a0eccbca8d69cb151c2021c1157084cf9771ad37ce287",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage08/verify_stage08.py",
+      "source_file": "stage08/verify_stage08.py",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "6e3bac4bc04a2f97de06accb596203b87947de1b5cd810857e69321864c9b43d",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage08/STAGE08_NORMAL.json",
+      "source_file": "stage08/STAGE08_NORMAL.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "90299e84093f01cda010419ded7ca909b7ef7518dc93739b310d2a6413ad6015",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage08/STAGE08_OPTIMIZED.json",
+      "source_file": "stage08/STAGE08_OPTIMIZED.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "90299e84093f01cda010419ded7ca909b7ef7518dc93739b310d2a6413ad6015",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/STAGE09_RESULT.json",
+      "source_file": "stage09/STAGE09_RESULT.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "01265dd05fadcf550a4fb3190f60e8420f78caea186bfe7bc82b2a9c16b38e63",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/verify_stage09.py",
+      "source_file": "stage09/verify_stage09.py",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "b3cf24a59dd6bbc5c8e775a967a8f55b95c1fe3030b013271f52259c3955f1a1",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/dependencies/STAGE08_RESULT.json",
+      "source_file": "stage09/dependencies/STAGE08_RESULT.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "224486fbd98b5dc11e8a0eccbca8d69cb151c2021c1157084cf9771ad37ce287",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/dependencies/STAGE08_NORMAL.json",
+      "source_file": "stage09/dependencies/STAGE08_NORMAL.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "90299e84093f01cda010419ded7ca909b7ef7518dc93739b310d2a6413ad6015",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/dependencies/STAGE08_OPTIMIZED.json",
+      "source_file": "stage09/dependencies/STAGE08_OPTIMIZED.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "90299e84093f01cda010419ded7ca909b7ef7518dc93739b310d2a6413ad6015",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/CASE_LEDGER.md",
+      "source_file": "CASE_LEDGER.md",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "ea231d8550fe5a95038b5294d133f0fcf72d4ec09c2bf7522e6b21a012a0be48",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/independent_230.py",
+      "source_file": "independent_230.py",
+      "source_label": "independent internal reviewer",
+      "source_sha256": "b4b88e53701398e46b8fd1277ffa3e6c92675f958b785ad8fee65a06f188a64d",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/PROOF.md",
+      "mathematical_sections_1_through10_sha256": "830a4a3819b4139157a26d7f3c7db5da89307ac346f815da26abd17b8c231cf9",
+      "source_file": "PROPOSED_230_PROOF.md",
+      "source_label": "frozen reviewed manuscript",
+      "source_sha256": "813f8a25f85cd2d36b1791cce4382f5d3461c1418d0427f730e44eed738d5391",
+      "transformation": "mathematical sections1-10 byte-identical; publication/review captions and attribution updated; unrelated private context omitted"
+    },
+    {
+      "destination": "audit230/semantic_boundaries.py",
+      "source_file": "semantic_boundaries.py",
+      "source_label": "independent internal reviewer",
+      "source_sha256": "82a3b89a5484d2576c3f2f6fa38f5c3c36d2076087531e53f3e93f14a3f33bc0",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage08/stage08_projection.py",
+      "source_file": "stage08/stage08_projection.py",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "757422aa4983785dfa371e5a13cc72979f17a7b37ea06fb042dd2779d96818d1",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage08/STAGE08_PRODUCER_SOURCE_RECEIPT.json",
+      "source_file": "stage08/STAGE08_PRODUCER_SOURCE_RECEIPT.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "d5c670a50852b73d39d0d7a5756d9bbef834f19fe4c4b07933d7544209b42aaa",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/stage09_binary_cap.py",
+      "source_file": "stage09/stage09_binary_cap.py",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "865b70acad61e38f083d6fd6792a6b709aa7e462190f231685b3094c9b34bebd",
+      "transformation": "exact byte copy"
+    },
+    {
+      "destination": "audit230/packet/stage09/STAGE09_PRODUCER_SOURCE_RECEIPT.json",
+      "source_file": "stage09/STAGE09_PRODUCER_SOURCE_RECEIPT.json",
+      "source_label": "frozen reviewed author packet",
+      "source_sha256": "a9ea6b6c7590bedea90d60385ffe31f6b49b07de3b532c55236458f7a9883395",
+      "transformation": "exact byte copy"
+    }
+  ],
+  "license": "retained project MIT; third-party rights unchanged",
+  "originals_preserved": true,
+  "review_summary_transformation": "selected proof/review facts only; raw private review, source closure, logs and session/account metadata omitted",
+  "schema": "public230-source-provenance-v1"
+}

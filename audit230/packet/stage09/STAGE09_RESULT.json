@@ -1,0 +1,1512 @@
+{
+  "status": "PROPOSED_PAIR19_CHILD68_PARENT230_PENDING_FRESH_REVIEW",
+  "pair_cover_hypothesis": [
+    52,
+    14,
+    2,
+    18
+  ],
+  "stage08_result_sha256": "224486fbd98b5dc11e8a0eccbca8d69cb151c2021c1157084cf9771ad37ce287",
+  "case_count": 15,
+  "cases": [
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          39
+        ],
+        [
+          5,
+          1,
+          3
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          3,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        1090,
+        7
+      ],
+      "frobenius_upper": [
+        1904074,
+        735
+      ],
+      "rank_slack": [
+        228278,
+        245
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 39,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 5,
+          "cap4_neighbors": 38,
+          "row_objective_maximum": [
+            1426,
+            35
+          ],
+          "row_frobenius_upper": [
+            14897,
+            245
+          ]
+        },
+        {
+          "h": 1,
+          "count": 3,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            100991,
+            2205
+          ]
+        },
+        {
+          "h": 2,
+          "count": 1,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            6451,
+            147
+          ]
+        },
+        {
+          "h": 3,
+          "count": 1,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            888,
+            35
+          ],
+          "row_frobenius_upper": [
+            9293,
+            245
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          40
+        ],
+        [
+          5,
+          1,
+          3
+        ],
+        [
+          5,
+          5,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        5454,
+        35
+      ],
+      "frobenius_upper": [
+        9597878,
+        3675
+      ],
+      "rank_slack": [
+        952482,
+        1225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 40,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 4,
+          "cap4_neighbors": 39,
+          "row_objective_maximum": [
+            1434,
+            35
+          ],
+          "row_frobenius_upper": [
+            74777,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 3,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            505147,
+            11025
+          ]
+        },
+        {
+          "h": 5,
+          "count": 1,
+          "residual_diagonal": [
+            171,
+            70
+          ],
+          "row_excess": 9,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            822,
+            35
+          ],
+          "row_frobenius_upper": [
+            119491,
+            3675
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          39
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          2,
+          3
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        16348,
+        105
+      ],
+      "frobenius_upper": [
+        28555564,
+        11025
+      ],
+      "rank_slack": [
+        10257028,
+        11025
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 39,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 5,
+          "cap4_neighbors": 38,
+          "row_objective_maximum": [
+            1422,
+            35
+          ],
+          "row_frobenius_upper": [
+            74343,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 2,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            504923,
+            11025
+          ]
+        },
+        {
+          "h": 2,
+          "count": 3,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            19351,
+            441
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          40
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          4,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        5452,
+        35
+      ],
+      "frobenius_upper": [
+        9579692,
+        3675
+      ],
+      "rank_slack": [
+        985228,
+        1225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 40,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 4,
+          "cap4_neighbors": 39,
+          "row_objective_maximum": [
+            286,
+            7
+          ],
+          "row_frobenius_upper": [
+            74631,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 2,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            505051,
+            11025
+          ]
+        },
+        {
+          "h": 2,
+          "count": 1,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            2151,
+            49
+          ]
+        },
+        {
+          "h": 4,
+          "count": 1,
+          "residual_diagonal": [
+            79,
+            30
+          ],
+          "row_excess": 10,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            118,
+            5
+          ],
+          "row_frobenius_upper": [
+            7711,
+            225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          40
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          3,
+          2
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        16354,
+        105
+      ],
+      "frobenius_upper": [
+        28665256,
+        11025
+      ],
+      "rank_slack": [
+        9466012,
+        11025
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 40,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 4,
+          "cap4_neighbors": 39,
+          "row_objective_maximum": [
+            1426,
+            35
+          ],
+          "row_frobenius_upper": [
+            74489,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 2,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            505019,
+            11025
+          ]
+        },
+        {
+          "h": 3,
+          "count": 2,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            892,
+            35
+          ],
+          "row_frobenius_upper": [
+            46621,
+            1225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          41
+        ],
+        [
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          6,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        16372,
+        105
+      ],
+      "frobenius_upper": [
+        28953814,
+        11025
+      ],
+      "rank_slack": [
+        7458058,
+        11025
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 41,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 3,
+          "cap4_neighbors": 40,
+          "row_objective_maximum": [
+            1438,
+            35
+          ],
+          "row_frobenius_upper": [
+            74927,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 2,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            505307,
+            11025
+          ]
+        },
+        {
+          "h": 6,
+          "count": 1,
+          "residual_diagonal": [
+            159,
+            70
+          ],
+          "row_excess": 8,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            134,
+            7
+          ],
+          "row_frobenius_upper": [
+            32793,
+            1225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          40
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          5,
+          3,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        2336,
+        15
+      ],
+      "frobenius_upper": [
+        4101082,
+        1575
+      ],
+      "rank_slack": [
+        1288534,
+        1575
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 40,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 4,
+          "cap4_neighbors": 39,
+          "row_objective_maximum": [
+            1426,
+            35
+          ],
+          "row_frobenius_upper": [
+            10641,
+            175
+          ]
+        },
+        {
+          "h": 1,
+          "count": 1,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            24047,
+            525
+          ]
+        },
+        {
+          "h": 2,
+          "count": 2,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            395,
+            9
+          ]
+        },
+        {
+          "h": 3,
+          "count": 1,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            892,
+            35
+          ],
+          "row_frobenius_upper": [
+            6659,
+            175
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          41
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          5,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        16364,
+        105
+      ],
+      "frobenius_upper": [
+        28941406,
+        11025
+      ],
+      "rank_slack": [
+        7307842,
+        11025
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 41,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 3,
+          "cap4_neighbors": 40,
+          "row_objective_maximum": [
+            1434,
+            35
+          ],
+          "row_frobenius_upper": [
+            74779,
+            1225
+          ]
+        },
+        {
+          "h": 1,
+          "count": 1,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            56131,
+            1225
+          ]
+        },
+        {
+          "h": 2,
+          "count": 1,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            19367,
+            441
+          ]
+        },
+        {
+          "h": 5,
+          "count": 1,
+          "residual_diagonal": [
+            171,
+            70
+          ],
+          "row_excess": 9,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            822,
+            35
+          ],
+          "row_frobenius_upper": [
+            358601,
+            11025
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          41
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          3,
+          1
+        ],
+        [
+          5,
+          4,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        3272,
+        21
+      ],
+      "frobenius_upper": [
+        5768654,
+        2205
+      ],
+      "rank_slack": [
+        1612034,
+        2205
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 41,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 3,
+          "cap4_neighbors": 40,
+          "row_objective_maximum": [
+            286,
+            7
+          ],
+          "row_frobenius_upper": [
+            14927,
+            245
+          ]
+        },
+        {
+          "h": 1,
+          "count": 1,
+          "residual_diagonal": [
+            697,
+            210
+          ],
+          "row_excess": 13,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            200,
+            7
+          ],
+          "row_frobenius_upper": [
+            101023,
+            2205
+          ]
+        },
+        {
+          "h": 3,
+          "count": 1,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            892,
+            35
+          ],
+          "row_frobenius_upper": [
+            9329,
+            245
+          ]
+        },
+        {
+          "h": 4,
+          "count": 1,
+          "residual_diagonal": [
+            79,
+            30
+          ],
+          "row_excess": 10,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            118,
+            5
+          ],
+          "row_frobenius_upper": [
+            1543,
+            45
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          40
+        ],
+        [
+          5,
+          2,
+          4
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        1090,
+        7
+      ],
+      "frobenius_upper": [
+        382660,
+        147
+      ],
+      "rank_slack": [
+        40120,
+        49
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 40,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 4,
+          "cap4_neighbors": 39,
+          "row_objective_maximum": [
+            1422,
+            35
+          ],
+          "row_frobenius_upper": [
+            14869,
+            245
+          ]
+        },
+        {
+          "h": 2,
+          "count": 4,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            6451,
+            147
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          41
+        ],
+        [
+          5,
+          2,
+          2
+        ],
+        [
+          5,
+          4,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        16358,
+        105
+      ],
+      "frobenius_upper": [
+        28885564,
+        11025
+      ],
+      "rank_slack": [
+        7614088,
+        11025
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 41,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 3,
+          "cap4_neighbors": 40,
+          "row_objective_maximum": [
+            286,
+            7
+          ],
+          "row_frobenius_upper": [
+            74633,
+            1225
+          ]
+        },
+        {
+          "h": 2,
+          "count": 2,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            19361,
+            441
+          ]
+        },
+        {
+          "h": 4,
+          "count": 1,
+          "residual_diagonal": [
+            79,
+            30
+          ],
+          "row_excess": 10,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            118,
+            5
+          ],
+          "row_frobenius_upper": [
+            857,
+            25
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          41
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          3,
+          2
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        5452,
+        35
+      ],
+      "frobenius_upper": [
+        3201164,
+        1225
+      ],
+      "rank_slack": [
+        913828,
+        1225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 41,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 3,
+          "cap4_neighbors": 40,
+          "row_objective_maximum": [
+            1426,
+            35
+          ],
+          "row_frobenius_upper": [
+            74491,
+            1225
+          ]
+        },
+        {
+          "h": 2,
+          "count": 1,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            2151,
+            49
+          ]
+        },
+        {
+          "h": 3,
+          "count": 2,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            892,
+            35
+          ],
+          "row_frobenius_upper": [
+            46629,
+            1225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          42
+        ],
+        [
+          5,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        5458,
+        35
+      ],
+      "frobenius_upper": [
+        3233654,
+        1225
+      ],
+      "rank_slack": [
+        686878,
+        1225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 42,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 2,
+          "cap4_neighbors": 41,
+          "row_objective_maximum": [
+            1438,
+            35
+          ],
+          "row_frobenius_upper": [
+            74929,
+            1225
+          ]
+        },
+        {
+          "h": 2,
+          "count": 1,
+          "residual_diagonal": [
+            43,
+            14
+          ],
+          "row_excess": 12,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            204,
+            7
+          ],
+          "row_frobenius_upper": [
+            2153,
+            49
+          ]
+        },
+        {
+          "h": 6,
+          "count": 1,
+          "residual_diagonal": [
+            159,
+            70
+          ],
+          "row_excess": 8,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            134,
+            7
+          ],
+          "row_frobenius_upper": [
+            32811,
+            1225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          42
+        ],
+        [
+          5,
+          3,
+          1
+        ],
+        [
+          5,
+          5,
+          1
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        5456,
+        35
+      ],
+      "frobenius_upper": [
+        3227436,
+        1225
+      ],
+      "rank_slack": [
+        721012,
+        1225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 42,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 2,
+          "cap4_neighbors": 41,
+          "row_objective_maximum": [
+            1434,
+            35
+          ],
+          "row_frobenius_upper": [
+            74783,
+            1225
+          ]
+        },
+        {
+          "h": 3,
+          "count": 1,
+          "residual_diagonal": [
+            199,
+            70
+          ],
+          "row_excess": 11,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            892,
+            35
+          ],
+          "row_frobenius_upper": [
+            46677,
+            1225
+          ]
+        },
+        {
+          "h": 5,
+          "count": 1,
+          "residual_diagonal": [
+            171,
+            70
+          ],
+          "row_excess": 9,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            822,
+            35
+          ],
+          "row_frobenius_upper": [
+            39873,
+            1225
+          ]
+        }
+      ],
+      "excluded": true
+    },
+    {
+      "a": 8,
+      "j": 0,
+      "normal_types": [
+        [
+          5,
+          0,
+          42
+        ],
+        [
+          5,
+          4,
+          2
+        ]
+      ],
+      "rank_cap": 9,
+      "trace": [
+        2338,
+        15
+      ],
+      "frobenius_upper": [
+        591244,
+        225
+      ],
+      "rank_slack": [
+        145048,
+        225
+      ],
+      "row_receipts": [
+        {
+          "h": 0,
+          "count": 42,
+          "residual_diagonal": [
+            251,
+            70
+          ],
+          "row_excess": 14,
+          "cap3_neighbors": 2,
+          "cap4_neighbors": 41,
+          "row_objective_maximum": [
+            286,
+            7
+          ],
+          "row_frobenius_upper": [
+            10663,
+            175
+          ]
+        },
+        {
+          "h": 4,
+          "count": 2,
+          "residual_diagonal": [
+            79,
+            30
+          ],
+          "row_excess": 10,
+          "cap3_neighbors": 43,
+          "cap4_neighbors": 0,
+          "row_objective_maximum": [
+            118,
+            5
+          ],
+          "row_frobenius_upper": [
+            7721,
+            225
+          ]
+        }
+      ],
+      "excluded": true
+    }
+  ],
+  "survivors": [],
+  "all18_pair_covers_excluded": true,
+  "candidate_pair_floor": 19,
+  "candidate_child_floor": 68,
+  "candidate_parent_floor": 230,
+  "minimum_rank_slack": [
+    686878,
+    1225
+  ],
+  "previous227_assumed": false,
+  "public_bound_changed": false,
+  "complete_cover_found": false,
+  "human_expert_accepted": false,
+  "formal_kernel_verified": false,
+  "priority_certified": false,
+  "fresh_independent_semantic_review_required": true,
+  "search_seconds": 0.125
+}

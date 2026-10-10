@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_ONE_STAGE08_EXACT_PROJECTION_PRODUCER",
+  "producer_sha256": "757422aa4983785dfa371e5a13cc72979f17a7b37ea06fb042dd2779d96818d1",
+  "result_sha256": "224486fbd98b5dc11e8a0eccbca8d69cb151c2021c1157084cf9771ad37ce287",
+  "producer_runs": 1,
+  "covering_solver_or_DP_calls": 0
+}

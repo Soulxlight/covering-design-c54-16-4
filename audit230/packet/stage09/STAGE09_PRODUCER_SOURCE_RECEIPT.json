@@ -1,0 +1,7 @@
+{
+  "status": "ONE_STAGE09_PRODUCER_COMPLETE",
+  "producer_sha256": "865b70acad61e38f083d6fd6792a6b709aa7e462190f231685b3094c9b34bebd",
+  "result_sha256": "01265dd05fadcf550a4fb3190f60e8420f78caea186bfe7bc82b2a9c16b38e63",
+  "producer_runs": 1,
+  "covering_solver_calls": 0
+}

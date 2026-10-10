@@ -1,71 +1,72 @@
-# Reproduction of the complete proposed224 audit
+# Reproduce the complete public release
 
-Use Python3.10 or newer, standard library only, from the repository root.
-No solver, package installation, network, account or external data is used.
-Supply the overall manifest SHA256 from the independent release handoff:
+Python 3.10+; standard library only. Inspect PROOF.md and the executable source.
+Acquire an expected 64-hex SHA256 for PUBLIC_MANIFEST.json from a trusted pinned
+handoff or commit. Replace YOUR_TRUSTED_64_HEX_SHA256 in these commands:
 
-```sh
-python -B verify_release.py --manifest-sha256 <handoff-manifest-sha256>
-python -B -O verify_release.py --manifest-sha256 <handoff-manifest-sha256>
-python -B audit224/run_checks224.py
-python -B audit224/check_release_inventory.py
-python -B audit/run_checks.py --check-manifest
+```text
+python -B verify_release.py --manifest-sha256 YOUR_TRUSTED_64_HEX_SHA256
+python -B -O verify_release.py --manifest-sha256 YOUR_TRUSTED_64_HEX_SHA256
+python -B audit230/run_corruption_checks.py
+python -B -O audit230/run_corruption_checks.py
 ```
 
-Replace the placeholder with the literal64-character digest, without angle
-brackets. `verify_release.py` first checks the fixed exact whitelist and every
-member against the independently supplied manifest, then calls the222/223
-auditor, unchanged224 packet verifier, closed-form arithmetic index and
-published-formula comparison. It rechecks integrity afterward. Only `.git`
-at the root is excluded from on-disk inventory; place fresh output outside
-the release directory and use `-B` to avoid bytecode caches. Symlinks are
-rejected; junctions are also rejected when the Python Path API exposes them.
-No Windows privilege changes are required or requested.
+The release runner checks the exact whole-repository whitelist, preserved 222/223
+arithmetic, all five 224 certificates and the COMPLETE 230 argument. For 230 it
+reconstructs 70 macros, 574 joint types/2363 maxima and 15 refinements/48 maxima,
+then repeats the full argument using the independent reviewer's actual-basis
+bordering, partner-first enumeration and grouped row optimization. It also
+checks the declared repeated-row, containment and all-ones toy boundaries.
+No producer or cover solver is rerun, and no network is used.
 
-The unchanged standalone224 command is:
+The current proof establishes pair floor 19, child 68 and parent 230. The minimum
+refined gap is 686878/1225; the weakest trace is 5458/35 and Frobenius upper is
+3233654/1225. Read [PROOF.md](audit230/PROOF.md) and
+[ENUMERATIONS.md](audit230/ENUMERATIONS.md) for why each finite universe contains
+all actual cases and what the toy checks do not prove. Stage08's15 unresolved
+types are deliberately preserved; Stage09 alone is not complete reproduction.
 
-```sh
-python -B audit224/package/verify.py --manifest-sha256 d5ebe7dba35a94b99675c670616a99c5d669760732b8f3e7cf9a935555a78308
-python -B -O audit224/package/verify.py --manifest-sha256 d5ebe7dba35a94b99675c670616a99c5d669760732b8f3e7cf9a935555a78308
+For only 230, from the root:
+
+```text
+python -B audit230/verify230.py --check-manifest
+python -B -O audit230/verify230.py --check-manifest
 ```
 
-It reports47 manifested members plus its manifest, all five strict negative
-certificate bounds,584 child arithmetic checks,395010 labeled excess profiles,
-125 padding toy multisets/1500 moment contexts and51 in-memory rejections.
-The [fresh physical controls](audit224/receipts/TEST_RECEIPT.json) additionally
-reject modified model/certificate bytes, missing/extra files, malformed
-inventories, duplicate JSON keys and a wrong external pin in both modes.
-Structural fixtures recompute their external test pin so integrity rejection
-does not mask the malformed-inventory test. See [all finite universes](audit224/ENUMERATIONS.md).
-The separate complete-release runner similarly rejects malformed overall
-manifests and missing or extra release/checksum members in both modes.
+These two mathematical JSON outputs must be identical. The corruption runner
+regenerates all 17 reviewed false specimens and checks both interpreter modes,
+34 explicit rejected processes with no false-success file. It checks missing
+cases, coefficients, caps, row maxima, rank gaps, lifts and acceptance claims.
+Assertions are not used for validation, so Python -O cannot erase the checks.
 
-The original222 commands remain valid:
+All 230 checks use temporary COPIES. If the default temporary directory is
+restricted, create a writable scratch directory outside this repository and
+append `--work-dir PATH` to the release runner,230 runner or corruption runner.
+The chosen scratch child is verified to stay within that parent and removed
+afterwards. Preserve the exact published files; use core.autocrlf=false. The
+retained .gitattributes disables newline conversion. Frozen receipt comparison
+uses parsed mathematics so generated platform newlines do not change the result.
 
-```sh
+Retained legacy checks:
+
+```text
 python -B verify.py
 python -B -O verify.py
 python -B -m unittest discover -s tests -v
 python -B -O -m unittest discover -s tests -v
 ```
 
-Expected222 result:5332 variables,288 rows,
-F<=-1330103235427/500000000. The intermediate scout223 result has975
-variables,156 rows,F2<=-121049912921/100000000; the analytic child route
-contradicts64 and65 occurrences with -7086 and -63 respectively.
-The five224 certificate values are in the numbered manuscript and case ledger.
-Every public audit condition uses explicit failure checks; normal/-O exact
-mathematical receipts match and corruption exits remain nonzero.
+Expected 222 certificate: 5332 variables, 288 rows,
+F<=-1330103235427/500000000. The scout 223 certificate has 975 variables, 156 rows,
+F2<=-121049912921/100000000; the analytic child route has contradictions -7086
+and -63. The224 case coefficients and certificates remain in their original packet.
+SHA256SUMS and audit/PUBLIC_MANIFEST.json retain the old 38-path subset domain
+with refreshed hashes for mutable entry-point documents. PUBLIC_MANIFEST.json
+and PUBLIC_SHA256SUMS cover the whole current release. Hashes prove neither a
+semantic implication nor authentication of a replaced code/manifest set.
 
-The complete handoff includes an exact Git patch against
-946f7ee8931ca9a3b64ef3f1c0f4b0a9fe803c35, a public whitelist, source hashes
-and fresh receipts. Inspect/apply it only in a new dedicated clean checkout.
-Use `core.autocrlf=false`; the included `.gitattributes` preserves all bytes.
-The patch and package are independent handoff deliverables, not extra files
-to copy inside this exact release inventory. Publication is separately gated
-by final editorial review and parent coordination; these commands do not publish.
-
-Hashes authenticate neither a fully replaced verifier/manifest set nor the
-semantic necessity of a row. Pin the handoff bytes, inspect the code and read
-the [assumption-to-code map](audit224/ASSUMPTION_CODE_MAP.md). No formal kernel,
-qualified human acceptance or certified priority is supplied.
+Independent internal review is PASS WITH LIMITS for the complete ordinary 230
+proof. Qualified external human acceptance, formal-kernel verification and
+priority remain pending. No exact covering number, upper witness, 335 cover or
+external endorsement is supplied. The recorded upper 336/Franco Atzeni credit
+is unchanged. These commands verify files and arithmetic; they do not publish.

@@ -1,0 +1,52 @@
+{
+  "all_smaller_sizes_covered_by_padding": true,
+  "classification": "Complete computer-assisted ordinary proof; independent internal AI-assisted review",
+  "formal_kernel_acceptance": false,
+  "full_joint_cases": 574,
+  "full_joint_exclusions": 559,
+  "independent_review_report_sha256": "a5a9a9ccab694a87025693f649f0c6d70ada1d515ee519bc0c8f1a9c1cdaceff",
+  "independent_verifier_sha256": "b4b88e53701398e46b8fd1277ffa3e6c92675f958b785ad8fee65a06f188a64d",
+  "indexed_repeated_blocks_allowed": true,
+  "limits": [
+    "ordinary semantic and exact-program trust",
+    "qualified external acceptance and priority pending",
+    "no target-cover enumeration",
+    "no upper witness or exact-number claim"
+  ],
+  "macro_cases": 70,
+  "macro_exclusions": 63,
+  "mathematical_gaps_found": [],
+  "minimum_refined_rank_gap": [
+    686878,
+    1225
+  ],
+  "original_independent_review_manifest_sha256": "7770382aed6462d7a76da2e43149a78944d684cb5dbe1213bb164227c810441e",
+  "previous227_assumed": false,
+  "priority_certification": false,
+  "qualified_human_acceptance": false,
+  "refined_cases": 15,
+  "refined_exclusions": 15,
+  "required_mathematical_edits": [],
+  "reviewed_original_proof_sha256": "813f8a25f85cd2d36b1791cce4382f5d3461c1418d0427f730e44eed738d5391",
+  "reviewed_packet_manifest_sha256": "59740ab87a6c87ca555ba0b227edd5e9ada262d08f2c6abc77583e233f6966b6",
+  "stage08_row_maxima": 2363,
+  "stage09_row_maxima": 48,
+  "status": "PASS_WITH_LIMITS",
+  "theorems": [
+    "C(52,14,2)>=19",
+    "C(53,15,3)>=68",
+    "C(54,16,4)>=230"
+  ],
+  "weakest_frobenius_upper": [
+    3233654,
+    1225
+  ],
+  "weakest_partition": [
+    2,
+    6
+  ],
+  "weakest_trace": [
+    5458,
+    35
+  ]
+}
