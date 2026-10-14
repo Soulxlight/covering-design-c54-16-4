@@ -1,11 +1,24 @@
-# Lower-bound proofs for C(54,16,4)
+# Bounds and a verified335-block cover for C(54,16,4)
 
-The project now records **lower bound 230 and upper bound 336**. The
+The project records **internally reviewed lower bound230 and verified upper bound335**. The
 [reviewer entry point](audit230/REVIEWER_START.md) presents the complete internally
 reviewed computer-assisted proof **C(54,16,4)>=230**. Qualified external human
 acceptance, proof-assistant verification and literature priority remain pending.
 The research, manuscript and independent internal review used AI assistance
-under Perry Kern's direction. No exact covering number or 335-block cover is claimed.
+under Perry Kern's direction. No exact covering number or optimality is claimed.
+
+## Verified upper bound335
+
+The exact [cover-335.txt](data/cover-335.txt) has335 distinct legal16-subsets of
+1..54 and covers all316251 quadruples. Its16415 bytes have SHA256
+`f00db8b4253b98fecf412031948e7de4e5c5f78a9cc021ef483bb01ea9d84bc8`.
+[Two independent exhaustive verifiers and their results](upper335/README.md)
+reproduce C(54,16,4)<=335. Perry Kern directed the AI-assisted work and supplied
+the final file; Grok's final two-hole repair is credited according to Perry's
+account. Construction ancestry beyond that account remains undocumented.
+Curator submission is sent; acceptance is not confirmed at this publication.
+
+## Retained lower-bound work
 
 The proof first excludes every indexed 18-occurrence (52,14,2) pair cover,
 permitting repeated whole rows, then proves C(52,14,2)>=19 by padding. Point-link
@@ -29,10 +42,10 @@ Exact arithmetic supports ordinary semantic proofs; it is not a proof-assistant
 kernel or qualified-human endorsement. Checks cannot alone prove the
 cover-to-model implications.
 
-The recorded upper 336 and **Franco Atzeni** credit are retained from the project's
+The previous upper336 and **Franco Atzeni** credit are retained as historical
 [Covering Repository](https://coveringrepository.com/systems.aspx?li=2) context.
-This release adds no upper-bound witness or construction and does not newly
-certify the table's current status. [Citations](CITATIONS.md) and the retained
+The new335 witness is independently verified here. Repository-curator acceptance
+and literature priority remain separate, unconfirmed statuses. [Citations](CITATIONS.md) and the retained
 [dated search](audit224/prior_art/SEARCH_REPORT.md) state attribution and access
 limits. General rank, projection, moment and point-link methods have prior art;
 parameter-specific priority is unresolved.

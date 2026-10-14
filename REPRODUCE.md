@@ -1,6 +1,7 @@
 # Reproduce the complete public release
 
-Python 3.10+; standard library only. Inspect PROOF.md and the executable source.
+Python3.10+; standard library only for the release runner and lower proofs.
+The independent Node cover check uses Node18+. Inspect the proofs and executable source.
 Acquire an expected 64-hex SHA256 for PUBLIC_MANIFEST.json from a trusted pinned
 handoff or commit. Replace YOUR_TRUSTED_64_HEX_SHA256 in these commands:
 
@@ -47,6 +48,21 @@ afterwards. Preserve the exact published files; use core.autocrlf=false. The
 retained .gitattributes disables newline conversion. Frozen receipt comparison
 uses parsed mathematics so generated platform newlines do not change the result.
 
+Upper-bound witness checks:
+
+```text
+python -B upper335/verify_cover.py
+python -B -O upper335/verify_cover.py
+node upper335/verify_cover.js
+python -B -m unittest discover -s tests -p test_cover335.py -v
+python -B -O -m unittest discover -s tests -p test_cover335.py -v
+```
+
+Each exhaustive verifier must report335 legal distinct blocks,316251 covered
+quadruples and0 uncovered, with the exact published witness hash. Normal and
+optimized Python outputs are identical. The whole-release runner also checks
+the Python upper witness and its deterministic published evidence.
+
 Retained legacy checks:
 
 ```text
@@ -67,6 +83,9 @@ semantic implication nor authentication of a replaced code/manifest set.
 
 Independent internal review is PASS WITH LIMITS for the complete ordinary 230
 proof. Qualified external human acceptance, formal-kernel verification and
-priority remain pending. No exact covering number, upper witness, 335 cover or
-external endorsement is supplied. The recorded upper 336/Franco Atzeni credit
-is unchanged. These commands verify files and arithmetic; they do not publish.
+priority remain pending. The new335 upper witness is independently exhaustively verified; optimality
+and external endorsement are not claimed. The prior336/Franco Atzeni context
+is historical. The frozen230 checker keeps its historical upper336 output;
+current upper335 evidence is separate. The retained manifest base commit
+identifies the lower230 release ancestry, while publication_parent_commit
+identifies this update's parent. These commands verify; they do not publish.

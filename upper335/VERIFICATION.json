@@ -1,0 +1,42 @@
+{
+  "curator_acceptance": "not_confirmed",
+  "node": {
+    "block_size": 16,
+    "bytes": 16415,
+    "control_quadruples": 70,
+    "covered": 316251,
+    "distinct_blocks": 335,
+    "holes": [],
+    "legal_blocks": 335,
+    "method": "Node independently parsed colex-rank Set",
+    "optimality_claimed": false,
+    "points": 54,
+    "quadruples_checked": 316251,
+    "source_sha256": "f00db8b4253b98fecf412031948e7de4e5c5f78a9cc021ef483bb01ea9d84bc8",
+    "status": "PASS_COMPLETE_COVER_335",
+    "uncovered": 0,
+    "upper_bound": 335,
+    "witness": "data/cover-335.txt"
+  },
+  "normal_optimized_python_identical": true,
+  "optimality_claimed": false,
+  "python": {
+    "block_size": 16,
+    "bytes": 16415,
+    "control_quadruples": 70,
+    "covered": 316251,
+    "distinct_blocks": 335,
+    "holes": [],
+    "legal_blocks": 335,
+    "method": "Python integer point-incidence intersection",
+    "optimality_claimed": false,
+    "points": 54,
+    "quadruples_checked": 316251,
+    "source_sha256": "f00db8b4253b98fecf412031948e7de4e5c5f78a9cc021ef483bb01ea9d84bc8",
+    "status": "PASS_COMPLETE_COVER_335",
+    "uncovered": 0,
+    "upper_bound": 335,
+    "witness": "data/cover-335.txt"
+  },
+  "schema": "c54-16-4-upper335-verification-v1"
+}

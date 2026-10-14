@@ -1,6 +1,7 @@
 # Sources and prior methods
 
-This packet cites sources; it does not redistribute their papers or datasets.
+Prior papers and datasets are cited without redistribution. The owner-provided
+335-block witness is published separately under upper335/.
 
 - Daniel Horsley, [“Generalising Fisher’s inequality to coverings and packings”](https://arxiv.org/html/1409.0485v3), Theorem 1. Applied to the `(52,14,2)` link, it gives at least 18 blocks through each pair. This is the key published input to the local point and pair floors.
 - Peter J. Cameron and Leonard H. Soicher, [“Block intersection polynomials”](https://maths.qmul.ac.uk/~leonard/bip.pdf). This is prior framework for block-intersection polynomial and moment reasoning. The linked preprint is dated 2006.
@@ -40,3 +41,15 @@ assistance under Perry Kern's direction. [Review status](audit230/REVIEW_STATUS.
 and [source transformations](audit230/SOURCE_PROVENANCE.json) distinguish completed
 internal checking from pending qualified external acceptance, formal verification
 and literature priority. No new literature search or priority finding is represented.
+
+##335-block upper witness
+
+The owner-provided [cover-335.txt](data/cover-335.txt) is independently verified
+to cover every target quadruple. Perry Kern directed the AI-assisted research
+and supplied the final file. According to his account, Grok performed the
+final repair from two uncovered quadruples to zero. The published verifiers
+establish the resulting upper bound; a repair trace and complete construction
+ancestry are not supplied. Prior Atzeni/LJCR context and all lower-proof
+attributions above remain historical background, with their existing limits.
+Curator submission is sent, acceptance unconfirmed, and no optimality or
+literature-priority claim is made. See [the result and checks](upper335/README.md).
