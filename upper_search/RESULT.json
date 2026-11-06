@@ -1,0 +1,17 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "blocks": 318,
+  "witness": "data/cover-318.txt",
+  "sha256": "1a6fc9eda36010fade6996b371ffb8b30f0bff1b9054d1ea6f6c74544211f364",
+  "date": "2026-11-06",
+  "source_seed": 603,
+  "baseline_blocks": 335,
+  "optimality_claimed": false,
+  "published_upper_bound_checked": 335,
+  "published_bound_source": "https://www.coveringrepository.com/download_archive_vkt.aspx",
+  "starting_repository_commit": "6fb3d962ff4faa202eeb5a8d740b77146a8648d6"
+}

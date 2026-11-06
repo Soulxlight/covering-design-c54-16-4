@@ -1,13 +1,29 @@
-# Bounds and a verified335-block cover for C(54,16,4)
+# Covering designs for C(54,16,4)
 
-The project records **internally reviewed lower bound230 and verified upper bound335**. The
+The project records **internally reviewed lower bound230 and verified upper bound318**. The
 [reviewer entry point](audit230/REVIEWER_START.md) presents the complete internally
 reviewed computer-assisted proof **C(54,16,4)>=230**. Qualified external human
 acceptance, proof-assistant verification and literature priority remain pending.
 The research, manuscript and independent internal review used AI assistance
 under Perry Kern's direction. No exact covering number or optimality is claimed.
 
-## Verified upper bound335
+## New upper-bound search, 6 November 2026
+
+The new search has produced a verified **318-block cover**, improving the
+supplied 335-block incumbent. The [current witness and verification record](upper_search/README.md)
+include two independent exhaustive checks of all 316,251 quadruples, exact
+search source, input snapshots, and run logs. The preserved
+[334-block milestone](upper334/README.md) records the first improvement.
+
+```text
+python -B upper_search/verify_best.py
+```
+
+These artifacts are local research results. This update does not claim
+optimality or public-repository submission. The lower-bound proof and all
+previous witness files remain available.
+
+## Retained upper bound335
 
 The exact [cover-335.txt](data/cover-335.txt) has335 distinct legal16-subsets of
 1..54 and covers all316251 quadruples. Its16415 bytes have SHA256

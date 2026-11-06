@@ -1,0 +1,283 @@
+[
+  {
+    "control": "duplicate_point",
+    "verifier": "colex",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "valid": false,
+      "error": "Line 1: expected exactly 16 distinct points"
+    }
+  },
+  {
+    "control": "duplicate_point",
+    "verifier": "incidence",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "status": "FAIL",
+      "error": "Illegal block at nonempty line 1: (6, 6, 8, 13, 15, 18, 20, 22, 25, 27, 40, 42, 43, 45, 47, 52)"
+    }
+  },
+  {
+    "control": "point_out_of_range",
+    "verifier": "colex",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "valid": false,
+      "error": "Line 1: point outside 1..54"
+    }
+  },
+  {
+    "control": "point_out_of_range",
+    "verifier": "incidence",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "status": "FAIL",
+      "error": "Illegal block at nonempty line 1: (55, 8, 13, 15, 18, 20, 22, 25, 27, 40, 42, 43, 45, 47, 52, 53)"
+    }
+  },
+  {
+    "control": "short_block",
+    "verifier": "colex",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "valid": false,
+      "error": "Line 1: expected exactly 16 distinct points"
+    }
+  },
+  {
+    "control": "short_block",
+    "verifier": "incidence",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "status": "FAIL",
+      "error": "Illegal block at nonempty line 1: (6, 8, 13, 15, 18, 20, 22, 25, 27, 40, 42, 43, 45, 47, 52)"
+    }
+  },
+  {
+    "control": "duplicate_block",
+    "verifier": "colex",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "valid": false,
+      "error": "Line 2: duplicate block"
+    }
+  },
+  {
+    "control": "duplicate_block",
+    "verifier": "incidence",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "status": "FAIL",
+      "error": "Duplicate blocks"
+    }
+  },
+  {
+    "control": "noninteger",
+    "verifier": "colex",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "valid": false,
+      "error": "invalid literal for int() with base 10: 'bad'"
+    }
+  },
+  {
+    "control": "noninteger",
+    "verifier": "incidence",
+    "exit_code": 2,
+    "correctly_rejected": true,
+    "result": {
+      "status": "FAIL",
+      "error": "invalid literal for int() with base 10: 'bad'"
+    }
+  },
+  {
+    "control": "removed_first_block",
+    "verifier": "colex",
+    "exit_code": 1,
+    "correctly_rejected": true,
+    "result": {
+      "parameters": [
+        54,
+        16,
+        4
+      ],
+      "blocks": 333,
+      "total_targets": 316251,
+      "covered_targets": 315636,
+      "uncovered_targets": 615,
+      "valid": false,
+      "sha256": "ff367231da234e1926b5beae9a324767b6a30b72a9fcc85addc39d7e0c2df314"
+    }
+  },
+  {
+    "control": "removed_first_block",
+    "verifier": "incidence",
+    "exit_code": 1,
+    "correctly_rejected": true,
+    "result": {
+      "method": "Point-incidence integer bitset intersections over every increasing quadruple",
+      "candidate_sha256": "ff367231da234e1926b5beae9a324767b6a30b72a9fcc85addc39d7e0c2df314",
+      "candidate_bytes": 15098,
+      "parameters": {
+        "v": 54,
+        "k": 16,
+        "t": 4
+      },
+      "blocks": 333,
+      "distinct_blocks": 333,
+      "all_blocks_legal": true,
+      "quadruples_checked": 316251,
+      "covered_quadruples": 315636,
+      "uncovered_quadruples": 615,
+      "first_uncovered_quadruples": [
+        [
+          6,
+          8,
+          13,
+          20
+        ],
+        [
+          6,
+          8,
+          13,
+          27
+        ],
+        [
+          6,
+          8,
+          13,
+          42
+        ],
+        [
+          6,
+          8,
+          15,
+          20
+        ],
+        [
+          6,
+          8,
+          15,
+          27
+        ],
+        [
+          6,
+          8,
+          15,
+          42
+        ],
+        [
+          6,
+          8,
+          15,
+          43
+        ],
+        [
+          6,
+          8,
+          15,
+          45
+        ],
+        [
+          6,
+          8,
+          18,
+          22
+        ],
+        [
+          6,
+          8,
+          18,
+          27
+        ],
+        [
+          6,
+          8,
+          18,
+          43
+        ],
+        [
+          6,
+          8,
+          18,
+          45
+        ],
+        [
+          6,
+          8,
+          20,
+          25
+        ],
+        [
+          6,
+          8,
+          20,
+          43
+        ],
+        [
+          6,
+          8,
+          20,
+          45
+        ],
+        [
+          6,
+          8,
+          22,
+          25
+        ],
+        [
+          6,
+          8,
+          22,
+          42
+        ],
+        [
+          6,
+          8,
+          22,
+          43
+        ],
+        [
+          6,
+          8,
+          25,
+          40
+        ],
+        [
+          6,
+          8,
+          25,
+          42
+        ]
+      ],
+      "coverage_multiplicity_histogram": {
+        "0": 615,
+        "1": 157768,
+        "2": 89166,
+        "3": 36216,
+        "4": 13409,
+        "5": 10945,
+        "6": 5317,
+        "7": 1921,
+        "8": 589,
+        "9": 196,
+        "10": 80,
+        "11": 23,
+        "12": 5,
+        "13": 1
+      },
+      "total_coverage_incidence": 606060,
+      "status": "FAIL"
+    }
+  }
+]

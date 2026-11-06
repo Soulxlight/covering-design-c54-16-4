@@ -8,9 +8,9 @@
       "sha256": "ae158835b82b917b4ba6b53fc3ba96a7e55cb2c4e299a0bf9b63e018aca8635d"
     },
     {
-      "bytes": 5808,
+      "bytes": 6754,
       "path": "CITATIONS.md",
-      "sha256": "f7eb1aeb5a8e6b5dc6257784b29f8bc7fca467850248fe7de46f138f8ad1674c"
+      "sha256": "2451186f5cbb02c2d20eab4dbe35eae45f56000b29d3e7785a15685d3ddddd34"
     },
     {
       "bytes": 1067,
@@ -18,19 +18,19 @@
       "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
     },
     {
-      "bytes": 4040,
+      "bytes": 4701,
       "path": "README.md",
-      "sha256": "758e03b13ed72c1d0d686595b4608445bde55c120d5d482fa6ec32b7b7a1b258"
+      "sha256": "aa2df80f5a26769649a79c668d842903c6a1cffc92539b84363f4823b1eaea03"
     },
     {
-      "bytes": 4754,
+      "bytes": 5266,
       "path": "REPRODUCE.md",
-      "sha256": "b4a4312d325e65ceb8bf713fd03beefd55e3ba6ead358c5080d6a48bc7c3268d"
+      "sha256": "70ca81f9021c0f2fcf96a49684cb33ca1a62a1f17d43df084b4ed507c15ea258"
     },
     {
-      "bytes": 3423,
+      "bytes": 3386,
       "path": "SHA256SUMS",
-      "sha256": "3dacf5a5594258215f344bdff59c2ba0578bd351ba1bf6a79d2ed7224bde83b2"
+      "sha256": "b03c05f5fe18fc8513b5627ad63b0b6f618cd0302abc1cddc916bc8c60a461b4"
     },
     {
       "bytes": 3889,

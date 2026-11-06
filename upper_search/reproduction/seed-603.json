@@ -1,0 +1,44 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "start_blocks": 318,
+  "input_valid_cover": false,
+  "input_uncovered": 4,
+  "seed": 603,
+  "tenure": 12,
+  "noise": 0.02,
+  "noweight": false,
+  "target": 318,
+  "seconds": 30,
+  "source_file": "/workspace/cover_search/wls/optimized_reproduce/wls64.cpp",
+  "source_sha256": "a5d186a87902d27dba84fe3881eae68e5a7830612bd0c17717486c2ee8d34a3c",
+  "compiler_command": "g++ -O3 -march=native -std=c++17 -o wls64_rank wls64.cpp",
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "run_command": "SAVE_PARTIAL=best_partial.txt ./wls64_rank 54 16 4 318 30 603 /workspace/cover_search/wls/partial_318_snapshot_502.txt 12 0.02 318",
+  "input_sha256": "c5f75bdde902a963e5d5d4a71285263ad6e4ade68fcf38e927bf134f3f0afe21",
+  "result_blocks": 318,
+  "result_file": "/workspace/cover_search/wls/seed_603/shrink_cover_54_16_4_318_603.txt",
+  "result_sha256": "1a6fc9eda36010fade6996b371ffb8b30f0bff1b9054d1ea6f6c74544211f364",
+  "steps_to_result": 67690,
+  "elapsed_to_result_seconds": 6.5,
+  "total_steps": 67690,
+  "total_elapsed_seconds": 6.5,
+  "validation": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 318,
+    "total_targets": 316251,
+    "covered_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "sha256": "1a6fc9eda36010fade6996b371ffb8b30f0bff1b9054d1ea6f6c74544211f364"
+  },
+  "complete_run_log": "/workspace/cover_search/wls/seed_603/run.log",
+  "target_reached": true
+}

@@ -1,0 +1,24 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "start_blocks": 335,
+  "result_blocks": 334,
+  "seed": 201,
+  "tenure": 7,
+  "noise": 0.05,
+  "target": 334,
+  "steps": 48542,
+  "elapsed_seconds": 11.3,
+  "source_file": "/workspace/cover_search/wls/seed_201/reproduce/wls64.cpp",
+  "compiler_command": "g++ -O3 -march=native -std=c++17 -o wls64 wls64.cpp",
+  "run_command": "SAVE_PARTIAL=best_partial.txt ./wls64 54 16 4 335 1800 201 /workspace/covering-design-c54-16-4/data/cover-335.txt 7 0.05 334",
+  "input_sha256": "f00db8b4253b98fecf412031948e7de4e5c5f78a9cc021ef483bb01ea9d84bc8",
+  "output_sha256": "961691b0e66f690460d652b75d949e547862c01394ae11fcdf6ba4ca17e16107",
+  "upstream": "https://github.com/WynandVStaden/covering-design-records",
+  "upstream_source_blob": "9e2769fc0c661483ced24b541e521a29a2d89ebe",
+  "changes": "progress/partial saving and uint64 masks for v<=64; search logic unchanged",
+  "source_sha256": "0f4c4036e289cd58c5af5dbc57e53abdc7da2f7a9bc00a0a6d85e39c753604cd"
+}

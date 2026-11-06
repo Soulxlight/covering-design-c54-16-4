@@ -1,0 +1,18 @@
+{
+  "milestone": "C(54,16,4) <= 334",
+  "verification_date_utc": "2026-11-06",
+  "witness": "data/cover-334.txt",
+  "witness_bytes": 15144,
+  "witness_sha256": "961691b0e66f690460d652b75d949e547862c01394ae11fcdf6ba4ca17e16107",
+  "search_source": "upper334/wls64.cpp",
+  "source_sha256": "0f4c4036e289cd58c5af5dbc57e53abdc7da2f7a9bc00a0a6d85e39c753604cd",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_check": "Compiled successfully with g++ -O3 -march=native -std=c++17; executable excluded from package",
+  "verifiers": [
+    "colex-ranked coverage array",
+    "point-incidence bitset intersections"
+  ],
+  "negative_controls": 12,
+  "scope": "Verified upper-bound milestone; no optimality, worldwide-priority, or lower-bound claim",
+  "original_metadata": "upper334/search_result.json"
+}

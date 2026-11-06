@@ -1,0 +1,13 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "blocks": 334,
+  "total_targets": 316251,
+  "covered_targets": 316251,
+  "uncovered_targets": 0,
+  "valid": true,
+  "sha256": "961691b0e66f690460d652b75d949e547862c01394ae11fcdf6ba4ca17e16107"
+}

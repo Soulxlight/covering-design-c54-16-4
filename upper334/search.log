@@ -1,0 +1,51 @@
+init: loaded 335 blocks, uncovered 0
+FULL 335 blocks at 0.0s
+BEST b=334 uncovered=76 step=1
+BEST b=334 uncovered=71 step=2
+BEST b=334 uncovered=70 step=3
+BEST b=334 uncovered=68 step=4
+BEST b=334 uncovered=63 step=16844
+BEST b=334 uncovered=61 step=19300
+BEST b=334 uncovered=60 step=33318
+BEST b=334 uncovered=57 step=33445
+BEST b=334 uncovered=55 step=35552
+BEST b=334 uncovered=54 step=35553
+BEST b=334 uncovered=53 step=35554
+BEST b=334 uncovered=52 step=35664
+BEST b=334 uncovered=50 step=35924
+BEST b=334 uncovered=42 step=35944
+BEST b=334 uncovered=41 step=35953
+BEST b=334 uncovered=40 step=37130
+BEST b=334 uncovered=37 step=37132
+BEST b=334 uncovered=35 step=37494
+BEST b=334 uncovered=34 step=37503
+BEST b=334 uncovered=31 step=40225
+BEST b=334 uncovered=30 step=40233
+BEST b=334 uncovered=29 step=40361
+BEST b=334 uncovered=28 step=40363
+BEST b=334 uncovered=27 step=41495
+BEST b=334 uncovered=25 step=41496
+BEST b=334 uncovered=24 step=41497
+BEST b=334 uncovered=23 step=42117
+BEST b=334 uncovered=22 step=42260
+BEST b=334 uncovered=21 step=42263
+BEST b=334 uncovered=19 step=42295
+BEST b=334 uncovered=17 step=42793
+BEST b=334 uncovered=16 step=42795
+BEST b=334 uncovered=15 step=43383
+BEST b=334 uncovered=12 step=43385
+BEST b=334 uncovered=11 step=43435
+BEST b=334 uncovered=9 step=43462
+BEST b=334 uncovered=8 step=43710
+BEST b=334 uncovered=7 step=43764
+BEST b=334 uncovered=6 step=43767
+PROGRESS b=334 best=6 current=28 step=44032 elapsed=10.1
+BEST b=334 uncovered=5 step=45014
+BEST b=334 uncovered=4 step=47262
+BEST b=334 uncovered=3 step=47871
+BEST b=334 uncovered=2 step=47924
+BEST b=334 uncovered=1 step=48348
+BEST b=334 uncovered=0 step=48542
+FULL 334 blocks at 11.3s
+SHRINK result: full cover with 334 blocks
+WLS2 C(54,16,4) b=334 seed=201: best 0 uncovered, 48542 steps, 11.3s (4288 steps/s)

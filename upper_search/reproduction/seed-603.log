@@ -1,0 +1,8 @@
+init: loaded 318 blocks, uncovered 4
+BEST b=318 uncovered=3 step=2
+BEST b=318 uncovered=2 step=67247
+BEST b=318 uncovered=1 step=67252
+BEST b=318 uncovered=0 step=67690
+FULL 318 blocks at 6.5s
+SHRINK result: full cover with 318 blocks
+WLS2 C(54,16,4) b=318 seed=603: best 0 uncovered, 67690 steps, 6.5s (10429 steps/s)

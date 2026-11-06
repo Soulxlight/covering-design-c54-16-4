@@ -1,5 +1,18 @@
 # Reproduce the complete public release
 
+Latest upper-bound search (standard-library Python 3.10+):
+
+```text
+python -B upper_search/verify_best.py
+python -B -O upper_search/verify_best.py
+python -B upper334/validate_controls.py
+```
+
+The pinned result in `upper_search/RESULT.json` determines the latest block
+count and witness hash. Both exhaustive methods must report zero uncovered
+quadruples. See `upper_search/README.md` for the search reproduction recipe.
+The older 335-block commands below remain useful historical checks.
+
 Python3.10+; standard library only for the release runner and lower proofs.
 The independent Node cover check uses Node18+. Inspect the proofs and executable source.
 Acquire an expected 64-hex SHA256 for PUBLIC_MANIFEST.json from a trusted pinned
@@ -86,6 +99,6 @@ proof. Qualified external human acceptance, formal-kernel verification and
 priority remain pending. The new335 upper witness is independently exhaustively verified; optimality
 and external endorsement are not claimed. The prior336/Franco Atzeni context
 is historical. The frozen230 checker keeps its historical upper336 output;
-current upper335 evidence is separate. The retained manifest base commit
+current upper-bound search evidence is separate. The retained manifest base commit
 identifies the lower230 release ancestry, while publication_parent_commit
 identifies this update's parent. These commands verify; they do not publish.

@@ -1,0 +1,34 @@
+{
+  "method": "Point-incidence integer bitset intersections over every increasing quadruple",
+  "candidate_sha256": "961691b0e66f690460d652b75d949e547862c01394ae11fcdf6ba4ca17e16107",
+  "candidate_bytes": 15144,
+  "parameters": {
+    "v": 54,
+    "k": 16,
+    "t": 4
+  },
+  "blocks": 334,
+  "distinct_blocks": 334,
+  "all_blocks_legal": true,
+  "quadruples_checked": 316251,
+  "covered_quadruples": 316251,
+  "uncovered_quadruples": 0,
+  "first_uncovered_quadruples": [],
+  "coverage_multiplicity_histogram": {
+    "1": 157996,
+    "2": 89301,
+    "3": 36315,
+    "4": 13351,
+    "5": 11041,
+    "6": 5378,
+    "7": 1958,
+    "8": 600,
+    "9": 196,
+    "10": 82,
+    "11": 27,
+    "12": 5,
+    "13": 1
+  },
+  "total_coverage_incidence": 607880,
+  "status": "PASS"
+}

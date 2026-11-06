@@ -1,0 +1,79 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "start_blocks": 323,
+  "input_valid_cover": false,
+  "input_uncovered": 5,
+  "seed": 502,
+  "tenure": 12,
+  "noise": 0.02,
+  "noweight": false,
+  "target": 230,
+  "seconds": 180,
+  "source_file": "/workspace/cover_search/wls/optimized_reproduce/wls64.cpp",
+  "source_sha256": "a5d186a87902d27dba84fe3881eae68e5a7830612bd0c17717486c2ee8d34a3c",
+  "compiler_command": "g++ -O3 -march=native -std=c++17 -o wls64_rank wls64.cpp",
+  "run_command": "SAVE_PARTIAL=best_partial.txt ./wls64_rank 54 16 4 323 180 502 /workspace/cover_search/wls/partial_323_snapshot_401.txt 12 0.02 230",
+  "input_sha256": "11035dc5b550b6287607f1201ae61b3060d98fca4ff78a6b21135ab0199f7d18",
+  "result_blocks": 319,
+  "result_file": "/workspace/cover_search/wls/seed_502/shrink_cover_54_16_4_319_502.txt",
+  "result_sha256": "ddc23d0e4417ea61ff07cf024cdd66c527681ac61b0c9055f9314b1a42969b85",
+  "steps_to_result": 722768,
+  "elapsed_to_result_seconds": 147.3,
+  "total_steps": 1016832,
+  "total_elapsed_seconds": 180.1,
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "validation": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 319,
+    "total_targets": 316251,
+    "covered_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "sha256": "ddc23d0e4417ea61ff07cf024cdd66c527681ac61b0c9055f9314b1a42969b85"
+  },
+  "partial_file": "/workspace/cover_search/wls/seed_502/best_partial.txt",
+  "partial_validation": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 318,
+    "total_targets": 316251,
+    "covered_targets": 316247,
+    "uncovered_targets": 4,
+    "valid": false,
+    "sha256": "c5f75bdde902a963e5d5d4a71285263ad6e4ade68fcf38e927bf134f3f0afe21"
+  },
+  "complete_run_log": "/workspace/cover_search/wls/seed_502/run.log",
+  "full_covers": {
+    "319": {
+      "step": 722768,
+      "seconds": 147.3
+    },
+    "320": {
+      "step": 188649,
+      "seconds": 37.9
+    },
+    "321": {
+      "step": 166037,
+      "seconds": 33.7
+    },
+    "322": {
+      "step": 89846,
+      "seconds": 20.9
+    },
+    "323": {
+      "step": 55090,
+      "seconds": 12.9
+    }
+  }
+}

@@ -53,3 +53,20 @@ ancestry are not supplied. Prior Atzeni/LJCR context and all lower-proof
 attributions above remain historical background, with their existing limits.
 Curator submission is sent, acceptance unconfirmed, and no optimality or
 literature-priority claim is made. See [the result and checks](upper335/README.md).
+
+
+## November 2026 upper-bound search
+
+The new search adapts `v2/wls2.cpp` from Wynand van Staden,
+[covering-design-records](https://github.com/WynandVStaden/covering-design-records),
+source blob `9e2769fc0c661483ced24b541e521a29a2d89ebe`, under its MIT license.
+The original license and successful first-search source are preserved in
+`upper334/`; the subsequent optimized source and run records are in
+`upper_search/`. Changes include 64-bit point masks, progress checkpoints,
+and cached quadruple ranks. The supplied 335-block witness is the incumbent
+from this project and retains the attribution documented in `upper335/`.
+
+The searches and independent verification were performed with AI assistance
+under Perry Kern's direction. Exhaustive verification establishes the new
+upper bound; the search method does not establish optimality. No curator
+submission or acceptance of these new files is claimed in this local update.
