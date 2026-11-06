@@ -1,0 +1,24 @@
+{
+  "blocks": 301,
+  "covered_quadruples": 316243,
+  "current_complete_upper_bound": 302,
+  "current_complete_witness_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "is_complete_cover": false,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "producer_input_blocks": 301,
+  "producer_input_holes": 9,
+  "producer_job": "exact-protected-point-cp",
+  "producer_kind": "exact-protected-point-cp",
+  "producer_seed": null,
+  "sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402",
+  "staged_utc": "2026-11-06T18:08:58.618355+00:00",
+  "status": "NOT_A_COVER",
+  "uncovered_quadruples": 8,
+  "upper_bound_improvement_claimed": false,
+  "verified_utc": "2026-11-06T18:07:14.451147+00:00",
+  "witness": "partial.txt"
+}

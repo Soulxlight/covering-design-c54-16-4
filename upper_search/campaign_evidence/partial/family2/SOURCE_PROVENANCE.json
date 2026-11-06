@@ -1,0 +1,132 @@
+{
+  "LICENSE": {
+    "bytes": 1067,
+    "original_path": "/workspace/covering-design-c54-16-4/LICENSE",
+    "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
+  },
+  "continuation_engine/original_direct_input.txt": {
+    "bytes": 13613,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/input.txt",
+    "sha256": "60ff969a627f97a9e5e8a2abdbab32d315e3ac3368156d199539ed5642d5aaac"
+  },
+  "continuation_engine/original_input_recipe.json": {
+    "bytes": 955,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/input_recipe.json",
+    "sha256": "ef03408d6e04cf12449367d01552bf9c9d581c617b261439d734a45d5f7f9f1e"
+  },
+  "continuation_engine/original_metadata.json": {
+    "bytes": 3056,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/metadata.json",
+    "sha256": "c221029ada8fb8bf303198b084d418cd63724fd28f09a09a65644d9848da03be"
+  },
+  "continuation_engine/original_run.log": {
+    "bytes": 24835,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/run.log",
+    "sha256": "3eb3b1c48cacbe3a642705e772e4672982b5861451fff22af651f94e3660896f"
+  },
+  "continuation_engine/source/LICENSE": {
+    "bytes": 1075,
+    "original_path": "/workspace/cover_search/campaign/source/LICENSE",
+    "sha256": "c6746cda8606b4759c70cbb1a6ca9ea4494576a3166d73cb1e45ec2badb99ee7"
+  },
+  "continuation_engine/source/background_loss2.hpp": {
+    "bytes": 2941,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/source/background_loss2.hpp",
+    "sha256": "ff9011d807f5fe6a2dabc7541137c6e48206814046abf99c6c5d2004113ed2e3"
+  },
+  "continuation_engine/source/wls_background_loss2_direct.cpp": {
+    "bytes": 18726,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1287/source/wls_background_loss2_direct.cpp",
+    "sha256": "76cf9c27c60748aaab3284e8d7db8c4835d5544b3faf7436c7c778c465296d4b"
+  },
+  "partial.txt": {
+    "bytes": 13611,
+    "original_path": "/workspace/cover_search/campaign/archive/partial/partial_90d3b8659234e50a.txt",
+    "sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402"
+  },
+  "producer/dependency_trace.json": {
+    "bytes": 618,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/candidate.moves.json",
+    "sha256": "34e5240b3d6e5eaf42b348f638797e6b4b48bf0bfa63e3db9e8a9f5b9688556b"
+  },
+  "producer/direct_input.txt": {
+    "bytes": 13612,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/input.txt",
+    "sha256": "2682681740d289d87be8736f23496959840165ed034f16364bd31f243d5fefc3"
+  },
+  "producer/input_metadata.json": {
+    "bytes": 3439,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/input_metadata.json",
+    "sha256": "2798860d9d477ec60d86985d5f166f9725f322796db117c772c5a11e006f7a4b"
+  },
+  "producer/original_run.log": {
+    "bytes": 1597,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/solver.log",
+    "sha256": "c8ecc49d57bdf0ab3f0f2e1a20bb996475b862ae5d1233e613844dd342d0b0ac"
+  },
+  "producer/result_metadata.json": {
+    "bytes": 1763,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/candidate_result.json",
+    "sha256": "83e120c25e2b98b882130332cea3ac02fa8af75dc15157e03ea5f726bea37431"
+  },
+  "producer/solver_result.json": {
+    "bytes": 2535,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/solver.json",
+    "sha256": "d0fffabfdd37116371bf7a4099341ed1d30cf4caec5d67187d42d107e93c58db"
+  },
+  "producer/source/LICENSE": {
+    "bytes": 1067,
+    "original_path": "/workspace/covering-design-c54-16-4/LICENSE",
+    "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
+  },
+  "producer/source/baseline_certificate.json": {
+    "bytes": 4077,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_certificate.json",
+    "sha256": "d4a68a4500134b761a07c8324b928ae82b2a1c1ef5781e520aa0905bac2b81aa"
+  },
+  "producer/source/baseline_kernel.json": {
+    "bytes": 389406,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_kernel.json",
+    "sha256": "458c49981b5502308b02e71d388dc6d783eed9ee21db8ac3d9e20ab1df9d4998"
+  },
+  "producer/source/bootstrap_weak_map.json": {
+    "bytes": 1634,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/bootstrap_weak_map.json",
+    "sha256": "defaefc6d7db4d1024e371e9a6edf5d98a7460a67069797a641bb43e9074a6e9"
+  },
+  "producer/source/kernel_hole_lp.py": {
+    "bytes": 22275,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/kernel_hole_lp.py",
+    "sha256": "cd98cf0fac345f6f2ea9953546d7f2b4c246cdb937945948967b16f7570964a3"
+  },
+  "producer/source/membership_lns.py": {
+    "bytes": 12144,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/membership_lns.py",
+    "sha256": "1689f1c1ace454262f4261e97e6db98192776af2a6c0904b428c0f8b1e66d00a"
+  },
+  "producer/source/price_kernel_release.py": {
+    "bytes": 7312,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/price_kernel_release.py",
+    "sha256": "2bf053b66ccff6acebd6e4756abf4b5a48f208ef2673717f0cb6ae3e0dc1eb3d"
+  },
+  "producer/source/replay.py": {
+    "bytes": 1314,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/replay.py",
+    "sha256": "70c4cbec4dd3a14a5210102d40062f5cf41e7e92a8cb0c8270943bf7025f784d"
+  },
+  "producer/source/run_adaptive.py": {
+    "bytes": 19612,
+    "original_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/run_adaptive.py",
+    "sha256": "dbfa2ac289b11181787ccffc59974ae674253b1a7b8447c02660344ea23b9468"
+  },
+  "verification/verify_colex.py": {
+    "bytes": 2312,
+    "original_path": "/workspace/covering-design-c54-16-4/upper334/verify_colex.py",
+    "sha256": "da37c01a9e45d9bff95457e026a887562289630a8aa53465bea6fc2e3390ab3e"
+  },
+  "verification/verify_incidence.py": {
+    "bytes": 3045,
+    "original_path": "/workspace/covering-design-c54-16-4/upper334/verify_incidence.py",
+    "sha256": "2aeb38d2927c90d0f509c93ba3f47410e79b7e55289d6f099ab1c3d27bb1142e"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "actual_stopping_reason": "more_than_10800_seconds_without_verified_improvement",
+  "campaign_stopped_utc": "2026-11-06T19:32:53.625553+00:00",
+  "compact_scope": "Three complete family/source replay packets, three resumable partial packets, compact neutral recipes, method conclusions and recovery evidence. No platform binaries or all-run archive.",
+  "complete_upper_bound": 302,
+  "created_utc": "2026-11-06T19:36:08.335760+00:00",
+  "current_incumbent_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "existing_lower_proof_bytes_modified": false,
+  "finalized_utc": "2026-11-06T19:38:29.204306+00:00",
+  "fresh_search_replay_executed": false,
+  "full_packets": [
+    {
+      "blocks": 302,
+      "family": "primary",
+      "manifest_sha256": "19c846e090fa6e808dfc35720fa2f625c55297c295793367c3030b2739c2f8a8",
+      "original_manifest_sha256": "8c4cc168e9092b8568e2dcf35bbfe5514dfa368edec1a901efb3968ad5755b86",
+      "packet_directory": "full/primary",
+      "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+      "witness": "full/primary/data/cover-302.txt"
+    },
+    {
+      "blocks": 302,
+      "family": "family2",
+      "manifest_sha256": "94d814f6dd49767026725402b5953782ae9257dbe4093c848a24828de85276a0",
+      "original_manifest_sha256": "357060e93a64ea1e76ff78f033d069e1d5770325994b6c8a4ab04d5d26918569",
+      "packet_directory": "full/family2",
+      "sha256": "f1d5839be398f107bdc677018ff37fd8e3074bfceab602e3ca404bb6f5dde903",
+      "witness": "full/family2/data/cover-302.txt"
+    },
+    {
+      "blocks": 302,
+      "family": "family3",
+      "manifest_sha256": "2e050b354b139102c8686fd538f0b4903913c0413adc6d411572d1bd9fc4e7a3",
+      "original_manifest_sha256": "c199baebfd368b0a1b8456a1dfc91b01bf1cdd73cebe35e72446044f9ba63245",
+      "packet_directory": "full/family3",
+      "sha256": "b02a347dfbc3254bd950ad1d13a0c17834792d4f089594b7feb513f5a874f684",
+      "witness": "full/family3/data/cover-302.txt"
+    }
+  ],
+  "incomplete_packets": [
+    {
+      "blocks": 301,
+      "family": "primary",
+      "holes": 7,
+      "is_complete_cover": false,
+      "manifest_sha256": "666d1a16242a44b7f9299eb1e6a559de0e2a00e70b6975d64778ce5a411d9d8c",
+      "packet_directory": "partial/primary",
+      "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6"
+    },
+    {
+      "blocks": 301,
+      "family": "family2",
+      "holes": 8,
+      "is_complete_cover": false,
+      "manifest_sha256": "7935bb0de71a11a337a0f4c109986c4af4687fc382eb09ded13b885952effa8c",
+      "packet_directory": "partial/family2",
+      "sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402"
+    },
+    {
+      "blocks": 301,
+      "family": "family3",
+      "holes": 19,
+      "is_complete_cover": false,
+      "manifest_sha256": "6a01a4d2193b214715284eda0dd3729b0f1ddc81eaec06cbf9039615f625ac33",
+      "packet_directory": "partial/family3",
+      "sha256": "e8b05593d30ff9f54e4bbdb1bf550686b3ca2964968a953d5e1ec01bfa112f60"
+    }
+  ],
+  "independent_stop_audit": "evidence/FINAL_STOP_AUDIT.json",
+  "last_strict_full_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "lower_bound_status": "The repository230 certificate is unchanged and internally reviewed; external acceptance remains pending. This portable packet verifies upper witnesses and explicit partial deficits.",
+  "lower_proof_payload_included": false,
+  "packaging_adjustments": {
+    "generated_bytecode_removed": [
+      "research/point_pair_switch/__pycache__/model.cpython-312.opt-1.pyc"
+    ],
+    "readme_repository_mutation_sentence_corrected": true,
+    "readme_spacing_normalized": true
+  },
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "point_pair_full_replay_both_modes_verified": true,
+  "provisional_origin_directory": "/workspace/cover_search/campaign_evidence/provisional_20261106T193608285963Z",
+  "provisional_origin_manifest_sha256": "97d87289168043b938fd53e20ee4659115575e5a54a7e912e2baf77ce50d1f0c",
+  "publication_performed": false,
+  "repository_modified": false,
+  "status": "FINAL_STOPPED_VERIFIED",
+  "stop_rule_is_strict": true,
+  "stop_rule_seconds": 10800,
+  "strict_stall_and_final_quiescence_verified": true
+}

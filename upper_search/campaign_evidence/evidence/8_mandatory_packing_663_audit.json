@@ -1,0 +1,17 @@
+{
+  "audit_utc": "2026-11-06T19:07:40.619226+00:00",
+  "available_alternative_slots": 282,
+  "certificate_sha256": "39fb4752f9da5a34b6c7b99dc985000b7349af0f4dc229dc332249134e7dc318",
+  "columns": 644,
+  "global_lower_bound_claimed": false,
+  "infeasibility_proved": false,
+  "integer_weight_sum": 279750000000,
+  "mandatory_supports": 1444,
+  "maximum_column_score": 1000000000,
+  "model_sha256": "89fe1599e99dfe5aaf8edaf5a172c08531806046a252022a0e9a6a5ed93092c2",
+  "necessary_alternative_rows": 280,
+  "overlap_caps_checked": 8,
+  "portable_packet": "/workspace/cover_search/independent_long/mandatory_packing_663",
+  "positive_weight_supports": 319,
+  "status": "PASS_INDEPENDENT_INTEGER_PACKING_ARITHMETIC"
+}

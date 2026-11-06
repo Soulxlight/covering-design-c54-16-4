@@ -1,0 +1,40 @@
+{
+  "audit_utc": "2026-11-06T18:22:21.875953+00:00",
+  "full_bound": 302,
+  "full_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "next_partial_best_holes": 7,
+  "raw_files_examined": 34,
+  "scope": "All raw named complete witnesses with at most302 blocks, plus recent run1287+ ordinary best/equal/final checkpoints. Mixed states are deliberately outside the strict16-uniform witness scope.",
+  "unregistered_raw_hashes": [
+    {
+      "already_archived_by_sweep_end": false,
+      "blocks": 301,
+      "holes": 141,
+      "paths": [
+        {
+          "kind": "ordinary_checkpoint",
+          "path": "/workspace/cover_search/campaign/runs/run_1289/final_state.txt"
+        }
+      ],
+      "sha256": "21e891bda45d19d43e4ea8c9bb39ea3c2911077abbbd9bb5e4c2914d3725e672",
+      "verified_complete": false,
+      "would_improve_full": false,
+      "would_improve_next_partial": false
+    },
+    {
+      "already_archived_by_sweep_end": false,
+      "blocks": 301,
+      "holes": 19794,
+      "paths": [
+        {
+          "kind": "ordinary_checkpoint",
+          "path": "/workspace/cover_search/campaign/runs/run_1294/final_state.txt"
+        }
+      ],
+      "sha256": "8413e30018f76ce3a4ff260e3a866f8374c1d7009fbc21483455111722a10380",
+      "verified_complete": false,
+      "would_improve_full": false,
+      "would_improve_next_partial": false
+    }
+  ]
+}

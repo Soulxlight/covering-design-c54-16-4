@@ -1,0 +1,31 @@
+{
+  "parent_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "rows": 301,
+  "parent_holes": 7,
+  "strict_target": 6,
+  "fixed_bound_rejections": 821,
+  "conditional_parity_rejections": 610,
+  "files": {
+    "input.txt": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+    "survivor_result.json": "bce88ea30b7a1a853ded211b268c5be74e8e6c7e4c1d86f600a9e12d61f3010a",
+    "screen.cpp": "56120ad302efad4d4615865650aa676c36012a2b89610f191d97bb6eed376f1b",
+    "verify.py": "533c4e255c4747b4640e2891ba8862bb6248d3b01fc98b6adf5c08835552607d",
+    "model.py": "7eb8a12f675ec7471e1a617025666887f9a11c551e7eb91e07e3d3b28e465738",
+    "solve.py": "eeff29ceb12c702014ce3a5dfbe56f7ea95eda25179b024e1540be8f7d39b020",
+    "fixed_screen.json": "1c73eecf705784838dfd01ab51f726ad76f0245b6f33e1731da9d194bc4f6954",
+    "initial_controls.json": "046cd2c659062e0b3c4f0e849c3ac259828be682c9766e288dbccdd2b3decd6e"
+  },
+  "verify_argv": [
+    "python3",
+    "verify.py"
+  ],
+  "runtime_note": "Full reproduction recomputes610 weighted-support/parity models and may take roughly30\u201360CPU seconds.",
+  "logic": "Quadruples meeting a,b in zero or two points are invariant. Triple supports from both-containing rows cover both targets. Empty/singleton exclusive supports cost2/1. Remaining supports have their multiplicity as a weighted NAE cost. Only two-variable constraints whose weight exceeds the remaining target budget are made mandatory; their parity components are contracted and forced costs recomputed until contradiction. Conditional forced costs above7 are not unconditional neighborhood optima.",
+  "scope": "Complete exclusion of<=6 holes in this paired-point neighborhood on this exact parent only; not a global covering-design lower bound.",
+  "hardening": "v2 replaces verification asserts with explicit exceptions and a side-effecting parity join inside assert with an unconditional join plus check. Normal Python algorithm is unchanged; Python -O no longer disables validation or merges. Original all1431 proof used normal Python."
+}

@@ -1,0 +1,60 @@
+{
+  "utc": "2026-11-06T19:36:42.547643+00:00",
+  "receipt": "/workspace/cover_search/exact_long/final_inventory/20261106T193534/receipt.json",
+  "receipt_sha256": "96da8d408db03d6dc7d26be5bf989bc14d6c5919326b87976da378e8d7fb614e",
+  "campaign_stopped": true,
+  "exact_supervisor_status": {
+    "status": "stopped",
+    "completed": 790,
+    "utc": "2026-11-06T19:32:54.057787+00:00",
+    "pid": 38927
+  },
+  "quiescence_request_id": "19a46d2a-18f0-47c7-8e11-c2317f175e52",
+  "supervisor_exit": "PID38927 is an exited zombie; no live process to terminate",
+  "candidate_files_checked": 240,
+  "unarchived_canonical_candidates": [
+    {
+      "blocks": 301,
+      "holes": 11,
+      "paths": [
+        "/workspace/cover_search/exact_long/adaptive_kernel/run_1793992230117085691/input.txt"
+      ]
+    },
+    {
+      "blocks": 301,
+      "holes": 7,
+      "paths": [
+        "/workspace/cover_search/exact_long/adaptive_kernel/run_1793990559251567954/round_02/solver.partial.txt"
+      ]
+    }
+  ],
+  "stranded_strict_improvements": 0,
+  "unprocessed_inbox_tickets": [],
+  "aux_lease_exists": false,
+  "post_inventory_process_scan": [
+    {
+      "pid": 38927,
+      "ppid": 1,
+      "state": "Z",
+      "command": "",
+      "classification": "exited zombie, no executing code"
+    },
+    {
+      "pid": 45156,
+      "ppid": 1,
+      "state": "S",
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -u -B /workspace/cover_search/independent_long/audit_campaign.py --watch --interval 20",
+      "classification": "authorized verification or evidence packaging only"
+    },
+    {
+      "pid": 45266,
+      "ppid": 577,
+      "state": "S",
+      "command": "/bin/bash -lc python3 - <<'PY'\nfrom pathlib import Path\nimport json,datetime,os,re\np=Path('/workspace/cover_search/exact_long/final_inventory/20261106T193534/SUMMARY.json');s=json.loads(p.read_text());myids={os.getpid(),os.getppid()};rows=[];unexpected=[]\nfor d in Path('/proc').iterdir():\n if not d.name.isdigit():continue\n try:t=(d/'stat').read_text().split();raw=(d/'cmdline').read_bytes().split(b'\\0');args=[x.decode(errors='replace') for x in raw if x];cmd=' '.join(args)\n except OSError:continue\n if '/workspace/cover_search/' not in cmd and d.name!='38927':continue\n row={'pid':int(d.name),'ppid':int(t[3]),'state':t[2],'command':cmd}\n if int(d.name) in myids:row['classification']='current inventory control'\n elif t[2]=='Z':row['classification']='exited zombie, no executing code'\n elif any('/verify_final_pair_certificate.py' in a or '/certificate_a2e1_v2/verify.py' in a or '/build_campaign_evidence.py' in a or '/independent_long/audit_campaign.py' in a or (a.startswith('/workspace/cover_search/campaign_evidence/') and Path(a).name.startswith('verify')) for a in args):row['classification']='authorized verification or evidence packaging only'\n else:row['classification']='unclassified live research process';unexpected.append(row)\n rows.append(row)\ns['post_inventory_process_scan']=rows;s['unexpected_live_search_processes']=unexpected;s['utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();s['classification_note']='Root-authorized pair-certificate replay, evidence building/verifying, and the read-only audit watcher are verification jobs, not resumed search. Current audit control ancestors are excluded.';p.write_text(json.dumps(s,indent=2)+'\\n');print(json.dumps({'summary':str(p),'unexpected_live_search_processes':unexpected,'classifications':[(r['pid'],r['classification']) for r in rows]},indent=2))\nPY",
+      "classification": "current inventory control"
+    }
+  ],
+  "unexpected_live_search_processes": [],
+  "control_files_preserved": true,
+  "classification_note": "Root-authorized pair-certificate replay, evidence building/verifying, and the read-only audit watcher are verification jobs, not resumed search. Current audit control ancestors are excluded."
+}

@@ -1,0 +1,159 @@
+{
+  "archived_complete_witnesses": 27,
+  "archived_partial_witnesses": 654,
+  "best_full": {
+    "blocks": 302,
+    "covered_targets": 316251,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "path": "/workspace/cover_search/campaign/archive/full/cover_302_96c6adca7d06f51c.txt",
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1243/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1243/metadata.json",
+      "run_id": "run_1243"
+    },
+    "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+    "total_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "verified_utc": "2026-11-06T16:32:33.030679+00:00"
+  },
+  "best_partial": {
+    "blocks": 301,
+    "covered_targets": 316244,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "path": "/workspace/cover_search/campaign/archive/partial/partial_a2e1f34a0ba9b4d4.txt",
+    "provenance": {
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1291/metadata.json",
+      "run_id": "run_1291"
+    },
+    "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+    "total_targets": 316251,
+    "uncovered_targets": 7,
+    "valid": false,
+    "verified_utc": "2026-11-06T18:11:00.779280+00:00"
+  },
+  "complete_incumbent_families": [
+    {
+      "blocks": 302,
+      "covered_targets": 316251,
+      "parameters": [
+        54,
+        16,
+        4
+      ],
+      "path": "/workspace/cover_search/campaign/archive/full/cover_302_96c6adca7d06f51c.txt",
+      "provenance": {
+        "kind": "wls",
+        "log_path": "/workspace/cover_search/campaign/runs/run_1243/run.log",
+        "metadata_path": "/workspace/cover_search/campaign/runs/run_1243/metadata.json",
+        "run_id": "run_1243"
+      },
+      "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+      "total_targets": 316251,
+      "uncovered_targets": 0,
+      "valid": true,
+      "verified_utc": "2026-11-06T16:32:33.032996+00:00"
+    },
+    {
+      "blocks": 302,
+      "covered_targets": 316251,
+      "parameters": [
+        54,
+        16,
+        4
+      ],
+      "path": "/workspace/cover_search/campaign/archive/full/cover_302_f1d5839be398f107.txt",
+      "provenance": {
+        "kind": "wls",
+        "log_path": "/workspace/cover_search/campaign/runs/run_1263/run.log",
+        "metadata_path": "/workspace/cover_search/campaign/runs/run_1263/metadata.json",
+        "run_id": "run_1263"
+      },
+      "sha256": "f1d5839be398f107bdc677018ff37fd8e3074bfceab602e3ca404bb6f5dde903",
+      "total_targets": 316251,
+      "uncovered_targets": 0,
+      "valid": true,
+      "verified_utc": "2026-11-06T17:04:59.443032+00:00"
+    },
+    {
+      "blocks": 302,
+      "covered_targets": 316251,
+      "parameters": [
+        54,
+        16,
+        4
+      ],
+      "path": "/workspace/cover_search/campaign/archive/full/cover_302_b02a347dfbc3254b.txt",
+      "provenance": {
+        "kind": "wls",
+        "log_path": "/workspace/cover_search/campaign/runs/run_1289/run.log",
+        "metadata_path": "/workspace/cover_search/campaign/runs/run_1289/metadata.json",
+        "run_id": "run_1289"
+      },
+      "sha256": "b02a347dfbc3254bd950ad1d13a0c17834792d4f089594b7feb513f5a874f684",
+      "total_targets": 316251,
+      "uncovered_targets": 0,
+      "valid": true,
+      "verified_utc": "2026-11-06T18:05:25.845327+00:00"
+    }
+  ],
+  "controller_source_sha256": "a59d374ed92c0a7ff234713d7a102d3b7f9de9f463d5237e3bcffa57daf6c80a",
+  "event_log_sha256": "0f827e0f66c0dbfce4e325b642de2992ed6205a9e547d77b8b207090df941035",
+  "exact_quiescence_acknowledgment": {
+    "all_candidate_tickets_committed": true,
+    "completed_jobs": 790,
+    "inbox": "/workspace/cover_search/campaign/inbox",
+    "no_active_solver": true,
+    "no_auxiliary_lease": true,
+    "pid": 38927,
+    "request_id": "19a46d2a-18f0-47c7-8e11-c2317f175e52",
+    "utc": "2026-11-06T19:32:53.031527+00:00"
+  },
+  "gap_seconds_monotonic": 10820.592557909999,
+  "gap_seconds_utc": 10820.594874,
+  "generated_utc": "2026-11-06T19:33:18.567519+00:00",
+  "independent_candidate_producer_receipt": {
+    "path": "/workspace/cover_search/independent_long/CANDIDATE_PRODUCER_QUIESCENCE.json",
+    "sha256": "4fa46a67f9ba3a4f0a3e92abddfa86a290beb924a34f910663cdf55ad728cfe5"
+  },
+  "last_verified_size_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "proof_of_optimality": false,
+  "state_snapshot_sha256": "7b3a3a1f1b6ad2f0f9c7999bf331e745a98894b7f3934615861b110168ed4519",
+  "status": "completed_stall_stop",
+  "stop_reason": "more_than_10800_seconds_without_verified_improvement",
+  "stopped_utc": "2026-11-06T19:32:53.625553+00:00",
+  "temporary_checkpoint_audit": [],
+  "total_wls_runs": 223,
+  "unprocessed_inbox_tickets": [],
+  "winning_manifest_sha256": "c2cc1da99627837f01e99297642948a7439fc0e88e66d6c94ecea68e71c2617f",
+  "winning_provenance_bundle": "/workspace/cover_search/campaign/provenance/cover_302_96c6adca7d06f51c",
+  "workers_at_stop": [
+    {
+      "active": false,
+      "pid": 44704,
+      "proc_state": "absent",
+      "run_id": "run_1324"
+    },
+    {
+      "active": false,
+      "pid": 44964,
+      "proc_state": "absent",
+      "run_id": "run_1326"
+    },
+    {
+      "active": false,
+      "pid": 45002,
+      "proc_state": "absent",
+      "run_id": "run_1327"
+    }
+  ]
+}

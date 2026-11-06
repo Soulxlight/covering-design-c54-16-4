@@ -1,0 +1,54 @@
+{
+  "algorithm_environment": {
+    "BACKGROUND_CAP": "28",
+    "BACKGROUND_EVERY": "128",
+    "BACKGROUND_LOSS2_PROB": "0.2",
+    "BACKGROUND_MAX_LOSS": "2",
+    "BACKGROUND_START": "1",
+    "NOWEIGHT": "1"
+  },
+  "background_cap_policy": "Keep the selected continuation engine environment, including any absolute BACKGROUND_CAP.",
+  "checkpoint_environment": {
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "32",
+    "SAVE_EQUAL_PARTIAL": "@WORK_DIR@/equal_partial.txt",
+    "SAVE_FINAL": "@WORK_DIR@/final_state.txt",
+    "SAVE_PARTIAL": "@WORK_DIR@/best_partial.txt"
+  },
+  "cleared_environment_variables": [
+    "BACKGROUND_CAP",
+    "BACKGROUND_EVERY",
+    "BACKGROUND_LOSS2_PROB",
+    "BACKGROUND_MAX_LOSS",
+    "BACKGROUND_START",
+    "EQUAL_INTERVAL",
+    "EQUAL_MAX_HOLES",
+    "MAX_STEPS",
+    "NOWEIGHT",
+    "SAVE_EQUAL_PARTIAL",
+    "SAVE_FINAL",
+    "SAVE_PARTIAL"
+  ],
+  "compile_argv": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "wls_background_loss2_direct.cpp",
+    "-o",
+    "@BINARY@"
+  ],
+  "continuation_engine_run": "run_1319",
+  "default_seconds": 3600,
+  "input_blocks": 301,
+  "input_holes": 19,
+  "input_sha256": "e8b05593d30ff9f54e4bbdb1bf550686b3ca2964968a953d5e1ec01bfa112f60",
+  "noise": 0.05,
+  "producer_relation": "It retains the producing run's algorithm environment, including NOWEIGHT and the absolute background hole cap.",
+  "seed": 1319,
+  "source_directory": "producer/source",
+  "state_initialization": "A new search starts from the included blocks; RNG, tabu state and dynamic weights are initialized afresh.",
+  "status": "SEARCH_FROM_INCOMPLETE_INPUT",
+  "targetB": 301,
+  "tenure": 7
+}

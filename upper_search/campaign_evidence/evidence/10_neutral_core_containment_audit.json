@@ -1,0 +1,4847 @@
+{
+  "scope": "A perfect core-containment matching proves inclusion of the corresponding unordered complete block-family domains. No optimizer was run.",
+  "results": [
+    {
+      "parent_sha256": "69cda9a9b2229aeb3ffcf03a6ea58b48f9c7cd97810c1ece606dd92099188039",
+      "reference_core_contained_in_new_core_matching": {
+        "matching_size": 301,
+        "perfect": true,
+        "matching": [
+          {
+            "left_core": 0,
+            "right_core": 0
+          },
+          {
+            "left_core": 1,
+            "right_core": 1
+          },
+          {
+            "left_core": 2,
+            "right_core": 2
+          },
+          {
+            "left_core": 3,
+            "right_core": 3
+          },
+          {
+            "left_core": 4,
+            "right_core": 4
+          },
+          {
+            "left_core": 5,
+            "right_core": 5
+          },
+          {
+            "left_core": 6,
+            "right_core": 6
+          },
+          {
+            "left_core": 7,
+            "right_core": 7
+          },
+          {
+            "left_core": 8,
+            "right_core": 8
+          },
+          {
+            "left_core": 9,
+            "right_core": 9
+          },
+          {
+            "left_core": 10,
+            "right_core": 10
+          },
+          {
+            "left_core": 11,
+            "right_core": 11
+          },
+          {
+            "left_core": 12,
+            "right_core": 12
+          },
+          {
+            "left_core": 13,
+            "right_core": 13
+          },
+          {
+            "left_core": 14,
+            "right_core": 14
+          },
+          {
+            "left_core": 15,
+            "right_core": 15
+          },
+          {
+            "left_core": 16,
+            "right_core": 16
+          },
+          {
+            "left_core": 17,
+            "right_core": 17
+          },
+          {
+            "left_core": 18,
+            "right_core": 18
+          },
+          {
+            "left_core": 19,
+            "right_core": 19
+          },
+          {
+            "left_core": 20,
+            "right_core": 20
+          },
+          {
+            "left_core": 21,
+            "right_core": 21
+          },
+          {
+            "left_core": 22,
+            "right_core": 22
+          },
+          {
+            "left_core": 23,
+            "right_core": 23
+          },
+          {
+            "left_core": 24,
+            "right_core": 24
+          },
+          {
+            "left_core": 25,
+            "right_core": 25
+          },
+          {
+            "left_core": 26,
+            "right_core": 26
+          },
+          {
+            "left_core": 27,
+            "right_core": 27
+          },
+          {
+            "left_core": 28,
+            "right_core": 28
+          },
+          {
+            "left_core": 29,
+            "right_core": 29
+          },
+          {
+            "left_core": 30,
+            "right_core": 30
+          },
+          {
+            "left_core": 31,
+            "right_core": 31
+          },
+          {
+            "left_core": 32,
+            "right_core": 32
+          },
+          {
+            "left_core": 33,
+            "right_core": 33
+          },
+          {
+            "left_core": 34,
+            "right_core": 34
+          },
+          {
+            "left_core": 35,
+            "right_core": 35
+          },
+          {
+            "left_core": 36,
+            "right_core": 36
+          },
+          {
+            "left_core": 37,
+            "right_core": 37
+          },
+          {
+            "left_core": 38,
+            "right_core": 38
+          },
+          {
+            "left_core": 39,
+            "right_core": 39
+          },
+          {
+            "left_core": 40,
+            "right_core": 40
+          },
+          {
+            "left_core": 41,
+            "right_core": 41
+          },
+          {
+            "left_core": 42,
+            "right_core": 42
+          },
+          {
+            "left_core": 43,
+            "right_core": 43
+          },
+          {
+            "left_core": 44,
+            "right_core": 44
+          },
+          {
+            "left_core": 45,
+            "right_core": 45
+          },
+          {
+            "left_core": 46,
+            "right_core": 46
+          },
+          {
+            "left_core": 47,
+            "right_core": 47
+          },
+          {
+            "left_core": 48,
+            "right_core": 48
+          },
+          {
+            "left_core": 49,
+            "right_core": 49
+          },
+          {
+            "left_core": 50,
+            "right_core": 50
+          },
+          {
+            "left_core": 51,
+            "right_core": 51
+          },
+          {
+            "left_core": 52,
+            "right_core": 52
+          },
+          {
+            "left_core": 53,
+            "right_core": 53
+          },
+          {
+            "left_core": 54,
+            "right_core": 54
+          },
+          {
+            "left_core": 55,
+            "right_core": 55
+          },
+          {
+            "left_core": 56,
+            "right_core": 56
+          },
+          {
+            "left_core": 57,
+            "right_core": 57
+          },
+          {
+            "left_core": 58,
+            "right_core": 58
+          },
+          {
+            "left_core": 59,
+            "right_core": 59
+          },
+          {
+            "left_core": 60,
+            "right_core": 60
+          },
+          {
+            "left_core": 61,
+            "right_core": 61
+          },
+          {
+            "left_core": 62,
+            "right_core": 62
+          },
+          {
+            "left_core": 63,
+            "right_core": 63
+          },
+          {
+            "left_core": 64,
+            "right_core": 64
+          },
+          {
+            "left_core": 65,
+            "right_core": 65
+          },
+          {
+            "left_core": 66,
+            "right_core": 66
+          },
+          {
+            "left_core": 67,
+            "right_core": 67
+          },
+          {
+            "left_core": 68,
+            "right_core": 68
+          },
+          {
+            "left_core": 69,
+            "right_core": 69
+          },
+          {
+            "left_core": 70,
+            "right_core": 70
+          },
+          {
+            "left_core": 71,
+            "right_core": 71
+          },
+          {
+            "left_core": 72,
+            "right_core": 72
+          },
+          {
+            "left_core": 73,
+            "right_core": 73
+          },
+          {
+            "left_core": 74,
+            "right_core": 74
+          },
+          {
+            "left_core": 75,
+            "right_core": 75
+          },
+          {
+            "left_core": 76,
+            "right_core": 76
+          },
+          {
+            "left_core": 77,
+            "right_core": 77
+          },
+          {
+            "left_core": 78,
+            "right_core": 78
+          },
+          {
+            "left_core": 79,
+            "right_core": 79
+          },
+          {
+            "left_core": 80,
+            "right_core": 80
+          },
+          {
+            "left_core": 81,
+            "right_core": 81
+          },
+          {
+            "left_core": 82,
+            "right_core": 82
+          },
+          {
+            "left_core": 83,
+            "right_core": 83
+          },
+          {
+            "left_core": 84,
+            "right_core": 84
+          },
+          {
+            "left_core": 85,
+            "right_core": 85
+          },
+          {
+            "left_core": 86,
+            "right_core": 86
+          },
+          {
+            "left_core": 87,
+            "right_core": 87
+          },
+          {
+            "left_core": 88,
+            "right_core": 88
+          },
+          {
+            "left_core": 89,
+            "right_core": 89
+          },
+          {
+            "left_core": 90,
+            "right_core": 90
+          },
+          {
+            "left_core": 91,
+            "right_core": 91
+          },
+          {
+            "left_core": 92,
+            "right_core": 92
+          },
+          {
+            "left_core": 93,
+            "right_core": 93
+          },
+          {
+            "left_core": 94,
+            "right_core": 94
+          },
+          {
+            "left_core": 95,
+            "right_core": 95
+          },
+          {
+            "left_core": 96,
+            "right_core": 96
+          },
+          {
+            "left_core": 97,
+            "right_core": 97
+          },
+          {
+            "left_core": 98,
+            "right_core": 98
+          },
+          {
+            "left_core": 99,
+            "right_core": 99
+          },
+          {
+            "left_core": 100,
+            "right_core": 100
+          },
+          {
+            "left_core": 101,
+            "right_core": 101
+          },
+          {
+            "left_core": 102,
+            "right_core": 102
+          },
+          {
+            "left_core": 103,
+            "right_core": 103
+          },
+          {
+            "left_core": 104,
+            "right_core": 104
+          },
+          {
+            "left_core": 105,
+            "right_core": 105
+          },
+          {
+            "left_core": 106,
+            "right_core": 106
+          },
+          {
+            "left_core": 107,
+            "right_core": 107
+          },
+          {
+            "left_core": 108,
+            "right_core": 108
+          },
+          {
+            "left_core": 109,
+            "right_core": 109
+          },
+          {
+            "left_core": 110,
+            "right_core": 110
+          },
+          {
+            "left_core": 111,
+            "right_core": 111
+          },
+          {
+            "left_core": 112,
+            "right_core": 112
+          },
+          {
+            "left_core": 113,
+            "right_core": 113
+          },
+          {
+            "left_core": 114,
+            "right_core": 114
+          },
+          {
+            "left_core": 115,
+            "right_core": 115
+          },
+          {
+            "left_core": 116,
+            "right_core": 116
+          },
+          {
+            "left_core": 117,
+            "right_core": 117
+          },
+          {
+            "left_core": 118,
+            "right_core": 118
+          },
+          {
+            "left_core": 119,
+            "right_core": 119
+          },
+          {
+            "left_core": 120,
+            "right_core": 120
+          },
+          {
+            "left_core": 121,
+            "right_core": 121
+          },
+          {
+            "left_core": 122,
+            "right_core": 122
+          },
+          {
+            "left_core": 123,
+            "right_core": 123
+          },
+          {
+            "left_core": 124,
+            "right_core": 124
+          },
+          {
+            "left_core": 125,
+            "right_core": 125
+          },
+          {
+            "left_core": 126,
+            "right_core": 126
+          },
+          {
+            "left_core": 127,
+            "right_core": 127
+          },
+          {
+            "left_core": 128,
+            "right_core": 128
+          },
+          {
+            "left_core": 129,
+            "right_core": 129
+          },
+          {
+            "left_core": 130,
+            "right_core": 130
+          },
+          {
+            "left_core": 131,
+            "right_core": 131
+          },
+          {
+            "left_core": 132,
+            "right_core": 132
+          },
+          {
+            "left_core": 133,
+            "right_core": 133
+          },
+          {
+            "left_core": 134,
+            "right_core": 134
+          },
+          {
+            "left_core": 135,
+            "right_core": 135
+          },
+          {
+            "left_core": 136,
+            "right_core": 136
+          },
+          {
+            "left_core": 137,
+            "right_core": 137
+          },
+          {
+            "left_core": 138,
+            "right_core": 138
+          },
+          {
+            "left_core": 139,
+            "right_core": 139
+          },
+          {
+            "left_core": 140,
+            "right_core": 140
+          },
+          {
+            "left_core": 141,
+            "right_core": 141
+          },
+          {
+            "left_core": 142,
+            "right_core": 142
+          },
+          {
+            "left_core": 143,
+            "right_core": 143
+          },
+          {
+            "left_core": 144,
+            "right_core": 144
+          },
+          {
+            "left_core": 145,
+            "right_core": 145
+          },
+          {
+            "left_core": 146,
+            "right_core": 146
+          },
+          {
+            "left_core": 147,
+            "right_core": 147
+          },
+          {
+            "left_core": 148,
+            "right_core": 148
+          },
+          {
+            "left_core": 149,
+            "right_core": 149
+          },
+          {
+            "left_core": 150,
+            "right_core": 150
+          },
+          {
+            "left_core": 151,
+            "right_core": 151
+          },
+          {
+            "left_core": 152,
+            "right_core": 152
+          },
+          {
+            "left_core": 153,
+            "right_core": 153
+          },
+          {
+            "left_core": 154,
+            "right_core": 154
+          },
+          {
+            "left_core": 155,
+            "right_core": 155
+          },
+          {
+            "left_core": 156,
+            "right_core": 156
+          },
+          {
+            "left_core": 157,
+            "right_core": 157
+          },
+          {
+            "left_core": 158,
+            "right_core": 158
+          },
+          {
+            "left_core": 159,
+            "right_core": 159
+          },
+          {
+            "left_core": 160,
+            "right_core": 160
+          },
+          {
+            "left_core": 161,
+            "right_core": 161
+          },
+          {
+            "left_core": 162,
+            "right_core": 162
+          },
+          {
+            "left_core": 163,
+            "right_core": 163
+          },
+          {
+            "left_core": 164,
+            "right_core": 164
+          },
+          {
+            "left_core": 165,
+            "right_core": 165
+          },
+          {
+            "left_core": 166,
+            "right_core": 166
+          },
+          {
+            "left_core": 167,
+            "right_core": 167
+          },
+          {
+            "left_core": 168,
+            "right_core": 168
+          },
+          {
+            "left_core": 169,
+            "right_core": 169
+          },
+          {
+            "left_core": 170,
+            "right_core": 170
+          },
+          {
+            "left_core": 171,
+            "right_core": 171
+          },
+          {
+            "left_core": 172,
+            "right_core": 172
+          },
+          {
+            "left_core": 173,
+            "right_core": 173
+          },
+          {
+            "left_core": 174,
+            "right_core": 174
+          },
+          {
+            "left_core": 175,
+            "right_core": 175
+          },
+          {
+            "left_core": 176,
+            "right_core": 176
+          },
+          {
+            "left_core": 177,
+            "right_core": 177
+          },
+          {
+            "left_core": 178,
+            "right_core": 178
+          },
+          {
+            "left_core": 179,
+            "right_core": 179
+          },
+          {
+            "left_core": 180,
+            "right_core": 180
+          },
+          {
+            "left_core": 181,
+            "right_core": 181
+          },
+          {
+            "left_core": 182,
+            "right_core": 182
+          },
+          {
+            "left_core": 183,
+            "right_core": 183
+          },
+          {
+            "left_core": 184,
+            "right_core": 184
+          },
+          {
+            "left_core": 185,
+            "right_core": 185
+          },
+          {
+            "left_core": 186,
+            "right_core": 186
+          },
+          {
+            "left_core": 187,
+            "right_core": 187
+          },
+          {
+            "left_core": 188,
+            "right_core": 188
+          },
+          {
+            "left_core": 189,
+            "right_core": 189
+          },
+          {
+            "left_core": 190,
+            "right_core": 190
+          },
+          {
+            "left_core": 191,
+            "right_core": 191
+          },
+          {
+            "left_core": 192,
+            "right_core": 192
+          },
+          {
+            "left_core": 193,
+            "right_core": 193
+          },
+          {
+            "left_core": 194,
+            "right_core": 194
+          },
+          {
+            "left_core": 195,
+            "right_core": 195
+          },
+          {
+            "left_core": 196,
+            "right_core": 196
+          },
+          {
+            "left_core": 197,
+            "right_core": 197
+          },
+          {
+            "left_core": 198,
+            "right_core": 198
+          },
+          {
+            "left_core": 199,
+            "right_core": 199
+          },
+          {
+            "left_core": 200,
+            "right_core": 200
+          },
+          {
+            "left_core": 201,
+            "right_core": 201
+          },
+          {
+            "left_core": 202,
+            "right_core": 202
+          },
+          {
+            "left_core": 203,
+            "right_core": 203
+          },
+          {
+            "left_core": 204,
+            "right_core": 204
+          },
+          {
+            "left_core": 205,
+            "right_core": 205
+          },
+          {
+            "left_core": 206,
+            "right_core": 206
+          },
+          {
+            "left_core": 207,
+            "right_core": 207
+          },
+          {
+            "left_core": 208,
+            "right_core": 208
+          },
+          {
+            "left_core": 209,
+            "right_core": 209
+          },
+          {
+            "left_core": 210,
+            "right_core": 210
+          },
+          {
+            "left_core": 211,
+            "right_core": 211
+          },
+          {
+            "left_core": 212,
+            "right_core": 212
+          },
+          {
+            "left_core": 213,
+            "right_core": 213
+          },
+          {
+            "left_core": 214,
+            "right_core": 214
+          },
+          {
+            "left_core": 215,
+            "right_core": 215
+          },
+          {
+            "left_core": 216,
+            "right_core": 216
+          },
+          {
+            "left_core": 217,
+            "right_core": 217
+          },
+          {
+            "left_core": 218,
+            "right_core": 218
+          },
+          {
+            "left_core": 219,
+            "right_core": 219
+          },
+          {
+            "left_core": 220,
+            "right_core": 220
+          },
+          {
+            "left_core": 221,
+            "right_core": 221
+          },
+          {
+            "left_core": 222,
+            "right_core": 222
+          },
+          {
+            "left_core": 223,
+            "right_core": 223
+          },
+          {
+            "left_core": 224,
+            "right_core": 224
+          },
+          {
+            "left_core": 225,
+            "right_core": 225
+          },
+          {
+            "left_core": 226,
+            "right_core": 226
+          },
+          {
+            "left_core": 227,
+            "right_core": 227
+          },
+          {
+            "left_core": 228,
+            "right_core": 228
+          },
+          {
+            "left_core": 229,
+            "right_core": 229
+          },
+          {
+            "left_core": 230,
+            "right_core": 230
+          },
+          {
+            "left_core": 231,
+            "right_core": 231
+          },
+          {
+            "left_core": 232,
+            "right_core": 232
+          },
+          {
+            "left_core": 233,
+            "right_core": 233
+          },
+          {
+            "left_core": 234,
+            "right_core": 234
+          },
+          {
+            "left_core": 235,
+            "right_core": 235
+          },
+          {
+            "left_core": 236,
+            "right_core": 236
+          },
+          {
+            "left_core": 237,
+            "right_core": 237
+          },
+          {
+            "left_core": 238,
+            "right_core": 238
+          },
+          {
+            "left_core": 239,
+            "right_core": 239
+          },
+          {
+            "left_core": 240,
+            "right_core": 240
+          },
+          {
+            "left_core": 241,
+            "right_core": 241
+          },
+          {
+            "left_core": 242,
+            "right_core": 242
+          },
+          {
+            "left_core": 243,
+            "right_core": 243
+          },
+          {
+            "left_core": 244,
+            "right_core": 244
+          },
+          {
+            "left_core": 245,
+            "right_core": 245
+          },
+          {
+            "left_core": 246,
+            "right_core": 246
+          },
+          {
+            "left_core": 247,
+            "right_core": 247
+          },
+          {
+            "left_core": 248,
+            "right_core": 248
+          },
+          {
+            "left_core": 249,
+            "right_core": 249
+          },
+          {
+            "left_core": 250,
+            "right_core": 250
+          },
+          {
+            "left_core": 251,
+            "right_core": 251
+          },
+          {
+            "left_core": 252,
+            "right_core": 252
+          },
+          {
+            "left_core": 253,
+            "right_core": 253
+          },
+          {
+            "left_core": 254,
+            "right_core": 254
+          },
+          {
+            "left_core": 255,
+            "right_core": 255
+          },
+          {
+            "left_core": 256,
+            "right_core": 256
+          },
+          {
+            "left_core": 257,
+            "right_core": 257
+          },
+          {
+            "left_core": 258,
+            "right_core": 258
+          },
+          {
+            "left_core": 259,
+            "right_core": 259
+          },
+          {
+            "left_core": 260,
+            "right_core": 260
+          },
+          {
+            "left_core": 261,
+            "right_core": 261
+          },
+          {
+            "left_core": 262,
+            "right_core": 262
+          },
+          {
+            "left_core": 263,
+            "right_core": 263
+          },
+          {
+            "left_core": 264,
+            "right_core": 264
+          },
+          {
+            "left_core": 265,
+            "right_core": 265
+          },
+          {
+            "left_core": 266,
+            "right_core": 266
+          },
+          {
+            "left_core": 267,
+            "right_core": 267
+          },
+          {
+            "left_core": 268,
+            "right_core": 268
+          },
+          {
+            "left_core": 269,
+            "right_core": 269
+          },
+          {
+            "left_core": 270,
+            "right_core": 270
+          },
+          {
+            "left_core": 271,
+            "right_core": 271
+          },
+          {
+            "left_core": 272,
+            "right_core": 272
+          },
+          {
+            "left_core": 273,
+            "right_core": 273
+          },
+          {
+            "left_core": 274,
+            "right_core": 274
+          },
+          {
+            "left_core": 275,
+            "right_core": 275
+          },
+          {
+            "left_core": 276,
+            "right_core": 276
+          },
+          {
+            "left_core": 277,
+            "right_core": 277
+          },
+          {
+            "left_core": 278,
+            "right_core": 278
+          },
+          {
+            "left_core": 279,
+            "right_core": 279
+          },
+          {
+            "left_core": 280,
+            "right_core": 280
+          },
+          {
+            "left_core": 281,
+            "right_core": 281
+          },
+          {
+            "left_core": 282,
+            "right_core": 282
+          },
+          {
+            "left_core": 283,
+            "right_core": 283
+          },
+          {
+            "left_core": 284,
+            "right_core": 284
+          },
+          {
+            "left_core": 285,
+            "right_core": 285
+          },
+          {
+            "left_core": 286,
+            "right_core": 286
+          },
+          {
+            "left_core": 287,
+            "right_core": 287
+          },
+          {
+            "left_core": 288,
+            "right_core": 288
+          },
+          {
+            "left_core": 289,
+            "right_core": 289
+          },
+          {
+            "left_core": 290,
+            "right_core": 290
+          },
+          {
+            "left_core": 291,
+            "right_core": 291
+          },
+          {
+            "left_core": 292,
+            "right_core": 292
+          },
+          {
+            "left_core": 293,
+            "right_core": 293
+          },
+          {
+            "left_core": 294,
+            "right_core": 294
+          },
+          {
+            "left_core": 295,
+            "right_core": 295
+          },
+          {
+            "left_core": 296,
+            "right_core": 296
+          },
+          {
+            "left_core": 297,
+            "right_core": 297
+          },
+          {
+            "left_core": 298,
+            "right_core": 298
+          },
+          {
+            "left_core": 299,
+            "right_core": 299
+          },
+          {
+            "left_core": 300,
+            "right_core": 300
+          }
+        ],
+        "no_neighbor_left_cores": []
+      },
+      "new_core_contained_in_reference_core_matching": {
+        "matching_size": 300,
+        "perfect": false,
+        "matching": [
+          {
+            "left_core": 0,
+            "right_core": 0
+          },
+          {
+            "left_core": 1,
+            "right_core": 1
+          },
+          {
+            "left_core": 2,
+            "right_core": 2
+          },
+          {
+            "left_core": 3,
+            "right_core": 3
+          },
+          {
+            "left_core": 4,
+            "right_core": 4
+          },
+          {
+            "left_core": 5,
+            "right_core": 5
+          },
+          {
+            "left_core": 6,
+            "right_core": 6
+          },
+          {
+            "left_core": 7,
+            "right_core": 7
+          },
+          {
+            "left_core": 8,
+            "right_core": 8
+          },
+          {
+            "left_core": 9,
+            "right_core": 9
+          },
+          {
+            "left_core": 10,
+            "right_core": 10
+          },
+          {
+            "left_core": 11,
+            "right_core": 11
+          },
+          {
+            "left_core": 12,
+            "right_core": 12
+          },
+          {
+            "left_core": 13,
+            "right_core": 13
+          },
+          {
+            "left_core": 14,
+            "right_core": 14
+          },
+          {
+            "left_core": 15,
+            "right_core": 15
+          },
+          {
+            "left_core": 16,
+            "right_core": 16
+          },
+          {
+            "left_core": 17,
+            "right_core": 17
+          },
+          {
+            "left_core": 18,
+            "right_core": 18
+          },
+          {
+            "left_core": 19,
+            "right_core": 19
+          },
+          {
+            "left_core": 20,
+            "right_core": 20
+          },
+          {
+            "left_core": 21,
+            "right_core": 21
+          },
+          {
+            "left_core": 22,
+            "right_core": 22
+          },
+          {
+            "left_core": 23,
+            "right_core": 23
+          },
+          {
+            "left_core": 24,
+            "right_core": 24
+          },
+          {
+            "left_core": 25,
+            "right_core": 25
+          },
+          {
+            "left_core": 26,
+            "right_core": 26
+          },
+          {
+            "left_core": 27,
+            "right_core": 27
+          },
+          {
+            "left_core": 28,
+            "right_core": 28
+          },
+          {
+            "left_core": 29,
+            "right_core": 29
+          },
+          {
+            "left_core": 30,
+            "right_core": 30
+          },
+          {
+            "left_core": 31,
+            "right_core": 31
+          },
+          {
+            "left_core": 32,
+            "right_core": 32
+          },
+          {
+            "left_core": 33,
+            "right_core": 33
+          },
+          {
+            "left_core": 34,
+            "right_core": 34
+          },
+          {
+            "left_core": 35,
+            "right_core": 35
+          },
+          {
+            "left_core": 36,
+            "right_core": 36
+          },
+          {
+            "left_core": 37,
+            "right_core": 37
+          },
+          {
+            "left_core": 38,
+            "right_core": 38
+          },
+          {
+            "left_core": 39,
+            "right_core": 39
+          },
+          {
+            "left_core": 40,
+            "right_core": 40
+          },
+          {
+            "left_core": 41,
+            "right_core": 41
+          },
+          {
+            "left_core": 42,
+            "right_core": 42
+          },
+          {
+            "left_core": 43,
+            "right_core": 43
+          },
+          {
+            "left_core": 44,
+            "right_core": 44
+          },
+          {
+            "left_core": 45,
+            "right_core": 45
+          },
+          {
+            "left_core": 46,
+            "right_core": 46
+          },
+          {
+            "left_core": 47,
+            "right_core": 47
+          },
+          {
+            "left_core": 48,
+            "right_core": 48
+          },
+          {
+            "left_core": 49,
+            "right_core": 49
+          },
+          {
+            "left_core": 50,
+            "right_core": 50
+          },
+          {
+            "left_core": 51,
+            "right_core": 51
+          },
+          {
+            "left_core": 52,
+            "right_core": 52
+          },
+          {
+            "left_core": 53,
+            "right_core": 53
+          },
+          {
+            "left_core": 54,
+            "right_core": 54
+          },
+          {
+            "left_core": 55,
+            "right_core": 55
+          },
+          {
+            "left_core": 56,
+            "right_core": 56
+          },
+          {
+            "left_core": 57,
+            "right_core": 57
+          },
+          {
+            "left_core": 58,
+            "right_core": 58
+          },
+          {
+            "left_core": 59,
+            "right_core": 59
+          },
+          {
+            "left_core": 60,
+            "right_core": 60
+          },
+          {
+            "left_core": 61,
+            "right_core": 61
+          },
+          {
+            "left_core": 62,
+            "right_core": 62
+          },
+          {
+            "left_core": 63,
+            "right_core": 63
+          },
+          {
+            "left_core": 64,
+            "right_core": 64
+          },
+          {
+            "left_core": 65,
+            "right_core": 65
+          },
+          {
+            "left_core": 66,
+            "right_core": 66
+          },
+          {
+            "left_core": 67,
+            "right_core": 67
+          },
+          {
+            "left_core": 68,
+            "right_core": 68
+          },
+          {
+            "left_core": 69,
+            "right_core": 69
+          },
+          {
+            "left_core": 70,
+            "right_core": 70
+          },
+          {
+            "left_core": 71,
+            "right_core": 71
+          },
+          {
+            "left_core": 72,
+            "right_core": 72
+          },
+          {
+            "left_core": 73,
+            "right_core": 73
+          },
+          {
+            "left_core": 74,
+            "right_core": 74
+          },
+          {
+            "left_core": 75,
+            "right_core": 75
+          },
+          {
+            "left_core": 76,
+            "right_core": 76
+          },
+          {
+            "left_core": 77,
+            "right_core": 77
+          },
+          {
+            "left_core": 78,
+            "right_core": 78
+          },
+          {
+            "left_core": 79,
+            "right_core": 79
+          },
+          {
+            "left_core": 80,
+            "right_core": 80
+          },
+          {
+            "left_core": 81,
+            "right_core": 81
+          },
+          {
+            "left_core": 82,
+            "right_core": 82
+          },
+          {
+            "left_core": 83,
+            "right_core": 83
+          },
+          {
+            "left_core": 84,
+            "right_core": 84
+          },
+          {
+            "left_core": 85,
+            "right_core": 85
+          },
+          {
+            "left_core": 86,
+            "right_core": 86
+          },
+          {
+            "left_core": 87,
+            "right_core": 87
+          },
+          {
+            "left_core": 88,
+            "right_core": 88
+          },
+          {
+            "left_core": 89,
+            "right_core": 89
+          },
+          {
+            "left_core": 90,
+            "right_core": 90
+          },
+          {
+            "left_core": 91,
+            "right_core": 91
+          },
+          {
+            "left_core": 92,
+            "right_core": 92
+          },
+          {
+            "left_core": 93,
+            "right_core": 93
+          },
+          {
+            "left_core": 94,
+            "right_core": 94
+          },
+          {
+            "left_core": 95,
+            "right_core": 95
+          },
+          {
+            "left_core": 96,
+            "right_core": 96
+          },
+          {
+            "left_core": 97,
+            "right_core": 97
+          },
+          {
+            "left_core": 98,
+            "right_core": 98
+          },
+          {
+            "left_core": 99,
+            "right_core": 99
+          },
+          {
+            "left_core": 100,
+            "right_core": 100
+          },
+          {
+            "left_core": 101,
+            "right_core": 101
+          },
+          {
+            "left_core": 102,
+            "right_core": 102
+          },
+          {
+            "left_core": 103,
+            "right_core": 103
+          },
+          {
+            "left_core": 104,
+            "right_core": 104
+          },
+          {
+            "left_core": 105,
+            "right_core": 105
+          },
+          {
+            "left_core": 106,
+            "right_core": 106
+          },
+          {
+            "left_core": 107,
+            "right_core": 107
+          },
+          {
+            "left_core": 108,
+            "right_core": 108
+          },
+          {
+            "left_core": 109,
+            "right_core": 109
+          },
+          {
+            "left_core": 110,
+            "right_core": 110
+          },
+          {
+            "left_core": 111,
+            "right_core": 111
+          },
+          {
+            "left_core": 112,
+            "right_core": 112
+          },
+          {
+            "left_core": 113,
+            "right_core": 113
+          },
+          {
+            "left_core": 114,
+            "right_core": 114
+          },
+          {
+            "left_core": 115,
+            "right_core": 115
+          },
+          {
+            "left_core": 116,
+            "right_core": 116
+          },
+          {
+            "left_core": 117,
+            "right_core": 117
+          },
+          {
+            "left_core": 118,
+            "right_core": 118
+          },
+          {
+            "left_core": 119,
+            "right_core": 119
+          },
+          {
+            "left_core": 120,
+            "right_core": 120
+          },
+          {
+            "left_core": 121,
+            "right_core": 121
+          },
+          {
+            "left_core": 122,
+            "right_core": 122
+          },
+          {
+            "left_core": 123,
+            "right_core": 123
+          },
+          {
+            "left_core": 124,
+            "right_core": 124
+          },
+          {
+            "left_core": 125,
+            "right_core": 125
+          },
+          {
+            "left_core": 126,
+            "right_core": 126
+          },
+          {
+            "left_core": 127,
+            "right_core": 127
+          },
+          {
+            "left_core": 128,
+            "right_core": 128
+          },
+          {
+            "left_core": 129,
+            "right_core": 129
+          },
+          {
+            "left_core": 130,
+            "right_core": 130
+          },
+          {
+            "left_core": 131,
+            "right_core": 131
+          },
+          {
+            "left_core": 132,
+            "right_core": 132
+          },
+          {
+            "left_core": 133,
+            "right_core": 133
+          },
+          {
+            "left_core": 134,
+            "right_core": 134
+          },
+          {
+            "left_core": 135,
+            "right_core": 135
+          },
+          {
+            "left_core": 136,
+            "right_core": 136
+          },
+          {
+            "left_core": 137,
+            "right_core": 137
+          },
+          {
+            "left_core": 138,
+            "right_core": 138
+          },
+          {
+            "left_core": 139,
+            "right_core": 139
+          },
+          {
+            "left_core": 140,
+            "right_core": 140
+          },
+          {
+            "left_core": 141,
+            "right_core": 141
+          },
+          {
+            "left_core": 142,
+            "right_core": 142
+          },
+          {
+            "left_core": 143,
+            "right_core": 143
+          },
+          {
+            "left_core": 144,
+            "right_core": 144
+          },
+          {
+            "left_core": 145,
+            "right_core": 145
+          },
+          {
+            "left_core": 146,
+            "right_core": 146
+          },
+          {
+            "left_core": 147,
+            "right_core": 147
+          },
+          {
+            "left_core": 148,
+            "right_core": 148
+          },
+          {
+            "left_core": 149,
+            "right_core": 149
+          },
+          {
+            "left_core": 150,
+            "right_core": 150
+          },
+          {
+            "left_core": 151,
+            "right_core": 151
+          },
+          {
+            "left_core": 152,
+            "right_core": 152
+          },
+          {
+            "left_core": 153,
+            "right_core": 153
+          },
+          {
+            "left_core": 154,
+            "right_core": 154
+          },
+          {
+            "left_core": 155,
+            "right_core": 155
+          },
+          {
+            "left_core": 156,
+            "right_core": 156
+          },
+          {
+            "left_core": 157,
+            "right_core": 157
+          },
+          {
+            "left_core": 158,
+            "right_core": 158
+          },
+          {
+            "left_core": 159,
+            "right_core": 159
+          },
+          {
+            "left_core": 160,
+            "right_core": 160
+          },
+          {
+            "left_core": 161,
+            "right_core": 161
+          },
+          {
+            "left_core": 162,
+            "right_core": 162
+          },
+          {
+            "left_core": 163,
+            "right_core": 163
+          },
+          {
+            "left_core": 164,
+            "right_core": 164
+          },
+          {
+            "left_core": 165,
+            "right_core": 165
+          },
+          {
+            "left_core": 166,
+            "right_core": 166
+          },
+          {
+            "left_core": 167,
+            "right_core": 167
+          },
+          {
+            "left_core": 168,
+            "right_core": 168
+          },
+          {
+            "left_core": 169,
+            "right_core": 169
+          },
+          {
+            "left_core": 170,
+            "right_core": 170
+          },
+          {
+            "left_core": 171,
+            "right_core": 171
+          },
+          {
+            "left_core": 172,
+            "right_core": 172
+          },
+          {
+            "left_core": 173,
+            "right_core": 173
+          },
+          {
+            "left_core": 174,
+            "right_core": 174
+          },
+          {
+            "left_core": 175,
+            "right_core": 175
+          },
+          {
+            "left_core": 176,
+            "right_core": 176
+          },
+          {
+            "left_core": 177,
+            "right_core": 177
+          },
+          {
+            "left_core": 178,
+            "right_core": 178
+          },
+          {
+            "left_core": 179,
+            "right_core": 179
+          },
+          {
+            "left_core": 180,
+            "right_core": 180
+          },
+          {
+            "left_core": 181,
+            "right_core": 181
+          },
+          {
+            "left_core": 182,
+            "right_core": 182
+          },
+          {
+            "left_core": 183,
+            "right_core": 183
+          },
+          {
+            "left_core": 184,
+            "right_core": 184
+          },
+          {
+            "left_core": 185,
+            "right_core": 185
+          },
+          {
+            "left_core": 186,
+            "right_core": 186
+          },
+          {
+            "left_core": 187,
+            "right_core": 187
+          },
+          {
+            "left_core": 188,
+            "right_core": 188
+          },
+          {
+            "left_core": 189,
+            "right_core": 189
+          },
+          {
+            "left_core": 190,
+            "right_core": 190
+          },
+          {
+            "left_core": 191,
+            "right_core": 191
+          },
+          {
+            "left_core": 193,
+            "right_core": 193
+          },
+          {
+            "left_core": 194,
+            "right_core": 194
+          },
+          {
+            "left_core": 195,
+            "right_core": 195
+          },
+          {
+            "left_core": 196,
+            "right_core": 196
+          },
+          {
+            "left_core": 197,
+            "right_core": 197
+          },
+          {
+            "left_core": 198,
+            "right_core": 198
+          },
+          {
+            "left_core": 199,
+            "right_core": 199
+          },
+          {
+            "left_core": 200,
+            "right_core": 200
+          },
+          {
+            "left_core": 201,
+            "right_core": 201
+          },
+          {
+            "left_core": 202,
+            "right_core": 202
+          },
+          {
+            "left_core": 203,
+            "right_core": 203
+          },
+          {
+            "left_core": 204,
+            "right_core": 204
+          },
+          {
+            "left_core": 205,
+            "right_core": 205
+          },
+          {
+            "left_core": 206,
+            "right_core": 206
+          },
+          {
+            "left_core": 207,
+            "right_core": 207
+          },
+          {
+            "left_core": 208,
+            "right_core": 208
+          },
+          {
+            "left_core": 209,
+            "right_core": 209
+          },
+          {
+            "left_core": 210,
+            "right_core": 210
+          },
+          {
+            "left_core": 211,
+            "right_core": 211
+          },
+          {
+            "left_core": 212,
+            "right_core": 212
+          },
+          {
+            "left_core": 213,
+            "right_core": 213
+          },
+          {
+            "left_core": 214,
+            "right_core": 214
+          },
+          {
+            "left_core": 215,
+            "right_core": 215
+          },
+          {
+            "left_core": 216,
+            "right_core": 216
+          },
+          {
+            "left_core": 217,
+            "right_core": 217
+          },
+          {
+            "left_core": 218,
+            "right_core": 218
+          },
+          {
+            "left_core": 219,
+            "right_core": 219
+          },
+          {
+            "left_core": 220,
+            "right_core": 220
+          },
+          {
+            "left_core": 221,
+            "right_core": 221
+          },
+          {
+            "left_core": 222,
+            "right_core": 222
+          },
+          {
+            "left_core": 223,
+            "right_core": 223
+          },
+          {
+            "left_core": 224,
+            "right_core": 224
+          },
+          {
+            "left_core": 225,
+            "right_core": 225
+          },
+          {
+            "left_core": 226,
+            "right_core": 226
+          },
+          {
+            "left_core": 227,
+            "right_core": 227
+          },
+          {
+            "left_core": 228,
+            "right_core": 228
+          },
+          {
+            "left_core": 229,
+            "right_core": 229
+          },
+          {
+            "left_core": 230,
+            "right_core": 230
+          },
+          {
+            "left_core": 231,
+            "right_core": 231
+          },
+          {
+            "left_core": 232,
+            "right_core": 232
+          },
+          {
+            "left_core": 233,
+            "right_core": 233
+          },
+          {
+            "left_core": 234,
+            "right_core": 234
+          },
+          {
+            "left_core": 235,
+            "right_core": 235
+          },
+          {
+            "left_core": 236,
+            "right_core": 236
+          },
+          {
+            "left_core": 237,
+            "right_core": 237
+          },
+          {
+            "left_core": 238,
+            "right_core": 238
+          },
+          {
+            "left_core": 239,
+            "right_core": 239
+          },
+          {
+            "left_core": 240,
+            "right_core": 240
+          },
+          {
+            "left_core": 241,
+            "right_core": 241
+          },
+          {
+            "left_core": 242,
+            "right_core": 242
+          },
+          {
+            "left_core": 243,
+            "right_core": 243
+          },
+          {
+            "left_core": 244,
+            "right_core": 244
+          },
+          {
+            "left_core": 245,
+            "right_core": 245
+          },
+          {
+            "left_core": 246,
+            "right_core": 246
+          },
+          {
+            "left_core": 247,
+            "right_core": 247
+          },
+          {
+            "left_core": 248,
+            "right_core": 248
+          },
+          {
+            "left_core": 249,
+            "right_core": 249
+          },
+          {
+            "left_core": 250,
+            "right_core": 250
+          },
+          {
+            "left_core": 251,
+            "right_core": 251
+          },
+          {
+            "left_core": 252,
+            "right_core": 252
+          },
+          {
+            "left_core": 253,
+            "right_core": 253
+          },
+          {
+            "left_core": 254,
+            "right_core": 254
+          },
+          {
+            "left_core": 255,
+            "right_core": 255
+          },
+          {
+            "left_core": 256,
+            "right_core": 256
+          },
+          {
+            "left_core": 257,
+            "right_core": 257
+          },
+          {
+            "left_core": 258,
+            "right_core": 258
+          },
+          {
+            "left_core": 259,
+            "right_core": 259
+          },
+          {
+            "left_core": 260,
+            "right_core": 260
+          },
+          {
+            "left_core": 261,
+            "right_core": 261
+          },
+          {
+            "left_core": 262,
+            "right_core": 262
+          },
+          {
+            "left_core": 263,
+            "right_core": 263
+          },
+          {
+            "left_core": 264,
+            "right_core": 264
+          },
+          {
+            "left_core": 265,
+            "right_core": 265
+          },
+          {
+            "left_core": 266,
+            "right_core": 266
+          },
+          {
+            "left_core": 267,
+            "right_core": 267
+          },
+          {
+            "left_core": 268,
+            "right_core": 268
+          },
+          {
+            "left_core": 269,
+            "right_core": 269
+          },
+          {
+            "left_core": 270,
+            "right_core": 270
+          },
+          {
+            "left_core": 271,
+            "right_core": 271
+          },
+          {
+            "left_core": 272,
+            "right_core": 272
+          },
+          {
+            "left_core": 273,
+            "right_core": 273
+          },
+          {
+            "left_core": 274,
+            "right_core": 274
+          },
+          {
+            "left_core": 275,
+            "right_core": 275
+          },
+          {
+            "left_core": 276,
+            "right_core": 276
+          },
+          {
+            "left_core": 277,
+            "right_core": 277
+          },
+          {
+            "left_core": 278,
+            "right_core": 278
+          },
+          {
+            "left_core": 279,
+            "right_core": 279
+          },
+          {
+            "left_core": 280,
+            "right_core": 280
+          },
+          {
+            "left_core": 281,
+            "right_core": 281
+          },
+          {
+            "left_core": 282,
+            "right_core": 282
+          },
+          {
+            "left_core": 283,
+            "right_core": 283
+          },
+          {
+            "left_core": 284,
+            "right_core": 284
+          },
+          {
+            "left_core": 285,
+            "right_core": 285
+          },
+          {
+            "left_core": 286,
+            "right_core": 286
+          },
+          {
+            "left_core": 287,
+            "right_core": 287
+          },
+          {
+            "left_core": 288,
+            "right_core": 288
+          },
+          {
+            "left_core": 289,
+            "right_core": 289
+          },
+          {
+            "left_core": 290,
+            "right_core": 290
+          },
+          {
+            "left_core": 291,
+            "right_core": 291
+          },
+          {
+            "left_core": 292,
+            "right_core": 292
+          },
+          {
+            "left_core": 293,
+            "right_core": 293
+          },
+          {
+            "left_core": 294,
+            "right_core": 294
+          },
+          {
+            "left_core": 295,
+            "right_core": 295
+          },
+          {
+            "left_core": 296,
+            "right_core": 296
+          },
+          {
+            "left_core": 297,
+            "right_core": 297
+          },
+          {
+            "left_core": 298,
+            "right_core": 298
+          },
+          {
+            "left_core": 299,
+            "right_core": 299
+          },
+          {
+            "left_core": 300,
+            "right_core": 300
+          }
+        ],
+        "no_neighbor_left_cores": [
+          192
+        ]
+      },
+      "new_domain_is_subset_of_reference": true,
+      "reference_domain_is_subset_of_new": false
+    },
+    {
+      "parent_sha256": "776fb3305de42bfde8c8d23c4deab8e42854e6d0cf42ca3808ee52547c7007fd",
+      "reference_core_contained_in_new_core_matching": {
+        "matching_size": 298,
+        "perfect": false,
+        "matching": [
+          {
+            "left_core": 0,
+            "right_core": 0
+          },
+          {
+            "left_core": 1,
+            "right_core": 1
+          },
+          {
+            "left_core": 2,
+            "right_core": 2
+          },
+          {
+            "left_core": 3,
+            "right_core": 3
+          },
+          {
+            "left_core": 4,
+            "right_core": 4
+          },
+          {
+            "left_core": 5,
+            "right_core": 5
+          },
+          {
+            "left_core": 6,
+            "right_core": 6
+          },
+          {
+            "left_core": 7,
+            "right_core": 7
+          },
+          {
+            "left_core": 8,
+            "right_core": 8
+          },
+          {
+            "left_core": 9,
+            "right_core": 9
+          },
+          {
+            "left_core": 11,
+            "right_core": 11
+          },
+          {
+            "left_core": 12,
+            "right_core": 12
+          },
+          {
+            "left_core": 13,
+            "right_core": 13
+          },
+          {
+            "left_core": 14,
+            "right_core": 14
+          },
+          {
+            "left_core": 15,
+            "right_core": 15
+          },
+          {
+            "left_core": 16,
+            "right_core": 16
+          },
+          {
+            "left_core": 17,
+            "right_core": 17
+          },
+          {
+            "left_core": 18,
+            "right_core": 18
+          },
+          {
+            "left_core": 19,
+            "right_core": 19
+          },
+          {
+            "left_core": 20,
+            "right_core": 20
+          },
+          {
+            "left_core": 21,
+            "right_core": 21
+          },
+          {
+            "left_core": 22,
+            "right_core": 22
+          },
+          {
+            "left_core": 23,
+            "right_core": 23
+          },
+          {
+            "left_core": 24,
+            "right_core": 24
+          },
+          {
+            "left_core": 25,
+            "right_core": 25
+          },
+          {
+            "left_core": 26,
+            "right_core": 26
+          },
+          {
+            "left_core": 27,
+            "right_core": 27
+          },
+          {
+            "left_core": 28,
+            "right_core": 28
+          },
+          {
+            "left_core": 29,
+            "right_core": 29
+          },
+          {
+            "left_core": 30,
+            "right_core": 30
+          },
+          {
+            "left_core": 31,
+            "right_core": 31
+          },
+          {
+            "left_core": 32,
+            "right_core": 32
+          },
+          {
+            "left_core": 33,
+            "right_core": 33
+          },
+          {
+            "left_core": 35,
+            "right_core": 35
+          },
+          {
+            "left_core": 36,
+            "right_core": 36
+          },
+          {
+            "left_core": 37,
+            "right_core": 37
+          },
+          {
+            "left_core": 38,
+            "right_core": 38
+          },
+          {
+            "left_core": 39,
+            "right_core": 39
+          },
+          {
+            "left_core": 40,
+            "right_core": 40
+          },
+          {
+            "left_core": 41,
+            "right_core": 41
+          },
+          {
+            "left_core": 42,
+            "right_core": 42
+          },
+          {
+            "left_core": 43,
+            "right_core": 43
+          },
+          {
+            "left_core": 44,
+            "right_core": 44
+          },
+          {
+            "left_core": 45,
+            "right_core": 45
+          },
+          {
+            "left_core": 46,
+            "right_core": 46
+          },
+          {
+            "left_core": 47,
+            "right_core": 47
+          },
+          {
+            "left_core": 48,
+            "right_core": 48
+          },
+          {
+            "left_core": 49,
+            "right_core": 49
+          },
+          {
+            "left_core": 50,
+            "right_core": 50
+          },
+          {
+            "left_core": 51,
+            "right_core": 51
+          },
+          {
+            "left_core": 52,
+            "right_core": 52
+          },
+          {
+            "left_core": 53,
+            "right_core": 53
+          },
+          {
+            "left_core": 54,
+            "right_core": 54
+          },
+          {
+            "left_core": 55,
+            "right_core": 55
+          },
+          {
+            "left_core": 56,
+            "right_core": 56
+          },
+          {
+            "left_core": 57,
+            "right_core": 57
+          },
+          {
+            "left_core": 58,
+            "right_core": 58
+          },
+          {
+            "left_core": 59,
+            "right_core": 59
+          },
+          {
+            "left_core": 60,
+            "right_core": 60
+          },
+          {
+            "left_core": 61,
+            "right_core": 61
+          },
+          {
+            "left_core": 62,
+            "right_core": 62
+          },
+          {
+            "left_core": 63,
+            "right_core": 63
+          },
+          {
+            "left_core": 64,
+            "right_core": 64
+          },
+          {
+            "left_core": 65,
+            "right_core": 65
+          },
+          {
+            "left_core": 66,
+            "right_core": 66
+          },
+          {
+            "left_core": 67,
+            "right_core": 67
+          },
+          {
+            "left_core": 68,
+            "right_core": 68
+          },
+          {
+            "left_core": 69,
+            "right_core": 69
+          },
+          {
+            "left_core": 70,
+            "right_core": 70
+          },
+          {
+            "left_core": 71,
+            "right_core": 71
+          },
+          {
+            "left_core": 72,
+            "right_core": 72
+          },
+          {
+            "left_core": 73,
+            "right_core": 73
+          },
+          {
+            "left_core": 74,
+            "right_core": 74
+          },
+          {
+            "left_core": 75,
+            "right_core": 75
+          },
+          {
+            "left_core": 76,
+            "right_core": 76
+          },
+          {
+            "left_core": 77,
+            "right_core": 77
+          },
+          {
+            "left_core": 78,
+            "right_core": 78
+          },
+          {
+            "left_core": 79,
+            "right_core": 79
+          },
+          {
+            "left_core": 80,
+            "right_core": 80
+          },
+          {
+            "left_core": 81,
+            "right_core": 81
+          },
+          {
+            "left_core": 82,
+            "right_core": 82
+          },
+          {
+            "left_core": 83,
+            "right_core": 83
+          },
+          {
+            "left_core": 84,
+            "right_core": 84
+          },
+          {
+            "left_core": 85,
+            "right_core": 85
+          },
+          {
+            "left_core": 86,
+            "right_core": 86
+          },
+          {
+            "left_core": 87,
+            "right_core": 87
+          },
+          {
+            "left_core": 88,
+            "right_core": 88
+          },
+          {
+            "left_core": 89,
+            "right_core": 89
+          },
+          {
+            "left_core": 90,
+            "right_core": 90
+          },
+          {
+            "left_core": 91,
+            "right_core": 91
+          },
+          {
+            "left_core": 92,
+            "right_core": 92
+          },
+          {
+            "left_core": 93,
+            "right_core": 93
+          },
+          {
+            "left_core": 94,
+            "right_core": 94
+          },
+          {
+            "left_core": 95,
+            "right_core": 95
+          },
+          {
+            "left_core": 96,
+            "right_core": 96
+          },
+          {
+            "left_core": 97,
+            "right_core": 97
+          },
+          {
+            "left_core": 98,
+            "right_core": 98
+          },
+          {
+            "left_core": 99,
+            "right_core": 99
+          },
+          {
+            "left_core": 100,
+            "right_core": 100
+          },
+          {
+            "left_core": 101,
+            "right_core": 101
+          },
+          {
+            "left_core": 102,
+            "right_core": 102
+          },
+          {
+            "left_core": 103,
+            "right_core": 103
+          },
+          {
+            "left_core": 104,
+            "right_core": 104
+          },
+          {
+            "left_core": 105,
+            "right_core": 105
+          },
+          {
+            "left_core": 106,
+            "right_core": 106
+          },
+          {
+            "left_core": 107,
+            "right_core": 107
+          },
+          {
+            "left_core": 108,
+            "right_core": 108
+          },
+          {
+            "left_core": 109,
+            "right_core": 109
+          },
+          {
+            "left_core": 110,
+            "right_core": 110
+          },
+          {
+            "left_core": 111,
+            "right_core": 111
+          },
+          {
+            "left_core": 112,
+            "right_core": 112
+          },
+          {
+            "left_core": 113,
+            "right_core": 113
+          },
+          {
+            "left_core": 114,
+            "right_core": 114
+          },
+          {
+            "left_core": 115,
+            "right_core": 115
+          },
+          {
+            "left_core": 116,
+            "right_core": 116
+          },
+          {
+            "left_core": 117,
+            "right_core": 117
+          },
+          {
+            "left_core": 118,
+            "right_core": 118
+          },
+          {
+            "left_core": 119,
+            "right_core": 119
+          },
+          {
+            "left_core": 120,
+            "right_core": 120
+          },
+          {
+            "left_core": 121,
+            "right_core": 121
+          },
+          {
+            "left_core": 122,
+            "right_core": 122
+          },
+          {
+            "left_core": 124,
+            "right_core": 124
+          },
+          {
+            "left_core": 125,
+            "right_core": 125
+          },
+          {
+            "left_core": 126,
+            "right_core": 126
+          },
+          {
+            "left_core": 127,
+            "right_core": 127
+          },
+          {
+            "left_core": 128,
+            "right_core": 128
+          },
+          {
+            "left_core": 129,
+            "right_core": 129
+          },
+          {
+            "left_core": 130,
+            "right_core": 130
+          },
+          {
+            "left_core": 131,
+            "right_core": 131
+          },
+          {
+            "left_core": 132,
+            "right_core": 132
+          },
+          {
+            "left_core": 133,
+            "right_core": 133
+          },
+          {
+            "left_core": 134,
+            "right_core": 134
+          },
+          {
+            "left_core": 135,
+            "right_core": 135
+          },
+          {
+            "left_core": 136,
+            "right_core": 136
+          },
+          {
+            "left_core": 137,
+            "right_core": 137
+          },
+          {
+            "left_core": 138,
+            "right_core": 138
+          },
+          {
+            "left_core": 139,
+            "right_core": 139
+          },
+          {
+            "left_core": 140,
+            "right_core": 140
+          },
+          {
+            "left_core": 141,
+            "right_core": 141
+          },
+          {
+            "left_core": 142,
+            "right_core": 142
+          },
+          {
+            "left_core": 143,
+            "right_core": 143
+          },
+          {
+            "left_core": 144,
+            "right_core": 144
+          },
+          {
+            "left_core": 145,
+            "right_core": 145
+          },
+          {
+            "left_core": 146,
+            "right_core": 146
+          },
+          {
+            "left_core": 147,
+            "right_core": 147
+          },
+          {
+            "left_core": 148,
+            "right_core": 148
+          },
+          {
+            "left_core": 149,
+            "right_core": 149
+          },
+          {
+            "left_core": 150,
+            "right_core": 150
+          },
+          {
+            "left_core": 151,
+            "right_core": 151
+          },
+          {
+            "left_core": 152,
+            "right_core": 152
+          },
+          {
+            "left_core": 153,
+            "right_core": 153
+          },
+          {
+            "left_core": 154,
+            "right_core": 154
+          },
+          {
+            "left_core": 155,
+            "right_core": 155
+          },
+          {
+            "left_core": 156,
+            "right_core": 156
+          },
+          {
+            "left_core": 157,
+            "right_core": 157
+          },
+          {
+            "left_core": 158,
+            "right_core": 158
+          },
+          {
+            "left_core": 159,
+            "right_core": 159
+          },
+          {
+            "left_core": 160,
+            "right_core": 160
+          },
+          {
+            "left_core": 161,
+            "right_core": 161
+          },
+          {
+            "left_core": 162,
+            "right_core": 162
+          },
+          {
+            "left_core": 163,
+            "right_core": 163
+          },
+          {
+            "left_core": 164,
+            "right_core": 164
+          },
+          {
+            "left_core": 165,
+            "right_core": 165
+          },
+          {
+            "left_core": 166,
+            "right_core": 166
+          },
+          {
+            "left_core": 167,
+            "right_core": 167
+          },
+          {
+            "left_core": 168,
+            "right_core": 168
+          },
+          {
+            "left_core": 169,
+            "right_core": 169
+          },
+          {
+            "left_core": 170,
+            "right_core": 170
+          },
+          {
+            "left_core": 171,
+            "right_core": 171
+          },
+          {
+            "left_core": 172,
+            "right_core": 172
+          },
+          {
+            "left_core": 173,
+            "right_core": 173
+          },
+          {
+            "left_core": 174,
+            "right_core": 174
+          },
+          {
+            "left_core": 175,
+            "right_core": 175
+          },
+          {
+            "left_core": 176,
+            "right_core": 176
+          },
+          {
+            "left_core": 177,
+            "right_core": 177
+          },
+          {
+            "left_core": 178,
+            "right_core": 178
+          },
+          {
+            "left_core": 179,
+            "right_core": 179
+          },
+          {
+            "left_core": 180,
+            "right_core": 180
+          },
+          {
+            "left_core": 181,
+            "right_core": 181
+          },
+          {
+            "left_core": 182,
+            "right_core": 182
+          },
+          {
+            "left_core": 183,
+            "right_core": 183
+          },
+          {
+            "left_core": 184,
+            "right_core": 184
+          },
+          {
+            "left_core": 185,
+            "right_core": 185
+          },
+          {
+            "left_core": 186,
+            "right_core": 186
+          },
+          {
+            "left_core": 187,
+            "right_core": 187
+          },
+          {
+            "left_core": 188,
+            "right_core": 188
+          },
+          {
+            "left_core": 189,
+            "right_core": 189
+          },
+          {
+            "left_core": 190,
+            "right_core": 190
+          },
+          {
+            "left_core": 191,
+            "right_core": 191
+          },
+          {
+            "left_core": 192,
+            "right_core": 192
+          },
+          {
+            "left_core": 193,
+            "right_core": 193
+          },
+          {
+            "left_core": 194,
+            "right_core": 194
+          },
+          {
+            "left_core": 195,
+            "right_core": 195
+          },
+          {
+            "left_core": 196,
+            "right_core": 196
+          },
+          {
+            "left_core": 197,
+            "right_core": 197
+          },
+          {
+            "left_core": 198,
+            "right_core": 198
+          },
+          {
+            "left_core": 199,
+            "right_core": 199
+          },
+          {
+            "left_core": 200,
+            "right_core": 200
+          },
+          {
+            "left_core": 201,
+            "right_core": 201
+          },
+          {
+            "left_core": 202,
+            "right_core": 202
+          },
+          {
+            "left_core": 203,
+            "right_core": 203
+          },
+          {
+            "left_core": 204,
+            "right_core": 204
+          },
+          {
+            "left_core": 205,
+            "right_core": 205
+          },
+          {
+            "left_core": 206,
+            "right_core": 206
+          },
+          {
+            "left_core": 207,
+            "right_core": 207
+          },
+          {
+            "left_core": 208,
+            "right_core": 208
+          },
+          {
+            "left_core": 209,
+            "right_core": 209
+          },
+          {
+            "left_core": 210,
+            "right_core": 210
+          },
+          {
+            "left_core": 211,
+            "right_core": 211
+          },
+          {
+            "left_core": 212,
+            "right_core": 212
+          },
+          {
+            "left_core": 213,
+            "right_core": 213
+          },
+          {
+            "left_core": 214,
+            "right_core": 214
+          },
+          {
+            "left_core": 215,
+            "right_core": 215
+          },
+          {
+            "left_core": 216,
+            "right_core": 216
+          },
+          {
+            "left_core": 217,
+            "right_core": 217
+          },
+          {
+            "left_core": 218,
+            "right_core": 218
+          },
+          {
+            "left_core": 219,
+            "right_core": 219
+          },
+          {
+            "left_core": 220,
+            "right_core": 220
+          },
+          {
+            "left_core": 221,
+            "right_core": 221
+          },
+          {
+            "left_core": 222,
+            "right_core": 222
+          },
+          {
+            "left_core": 223,
+            "right_core": 223
+          },
+          {
+            "left_core": 224,
+            "right_core": 224
+          },
+          {
+            "left_core": 225,
+            "right_core": 225
+          },
+          {
+            "left_core": 226,
+            "right_core": 226
+          },
+          {
+            "left_core": 227,
+            "right_core": 227
+          },
+          {
+            "left_core": 228,
+            "right_core": 228
+          },
+          {
+            "left_core": 229,
+            "right_core": 229
+          },
+          {
+            "left_core": 230,
+            "right_core": 230
+          },
+          {
+            "left_core": 231,
+            "right_core": 231
+          },
+          {
+            "left_core": 232,
+            "right_core": 232
+          },
+          {
+            "left_core": 233,
+            "right_core": 233
+          },
+          {
+            "left_core": 234,
+            "right_core": 234
+          },
+          {
+            "left_core": 235,
+            "right_core": 235
+          },
+          {
+            "left_core": 236,
+            "right_core": 236
+          },
+          {
+            "left_core": 237,
+            "right_core": 237
+          },
+          {
+            "left_core": 238,
+            "right_core": 238
+          },
+          {
+            "left_core": 239,
+            "right_core": 239
+          },
+          {
+            "left_core": 240,
+            "right_core": 240
+          },
+          {
+            "left_core": 241,
+            "right_core": 241
+          },
+          {
+            "left_core": 242,
+            "right_core": 242
+          },
+          {
+            "left_core": 243,
+            "right_core": 243
+          },
+          {
+            "left_core": 244,
+            "right_core": 244
+          },
+          {
+            "left_core": 245,
+            "right_core": 245
+          },
+          {
+            "left_core": 246,
+            "right_core": 246
+          },
+          {
+            "left_core": 247,
+            "right_core": 247
+          },
+          {
+            "left_core": 248,
+            "right_core": 248
+          },
+          {
+            "left_core": 249,
+            "right_core": 249
+          },
+          {
+            "left_core": 250,
+            "right_core": 250
+          },
+          {
+            "left_core": 251,
+            "right_core": 251
+          },
+          {
+            "left_core": 252,
+            "right_core": 252
+          },
+          {
+            "left_core": 253,
+            "right_core": 253
+          },
+          {
+            "left_core": 254,
+            "right_core": 254
+          },
+          {
+            "left_core": 255,
+            "right_core": 255
+          },
+          {
+            "left_core": 256,
+            "right_core": 256
+          },
+          {
+            "left_core": 257,
+            "right_core": 257
+          },
+          {
+            "left_core": 258,
+            "right_core": 258
+          },
+          {
+            "left_core": 259,
+            "right_core": 259
+          },
+          {
+            "left_core": 260,
+            "right_core": 260
+          },
+          {
+            "left_core": 261,
+            "right_core": 261
+          },
+          {
+            "left_core": 262,
+            "right_core": 262
+          },
+          {
+            "left_core": 263,
+            "right_core": 263
+          },
+          {
+            "left_core": 264,
+            "right_core": 264
+          },
+          {
+            "left_core": 265,
+            "right_core": 265
+          },
+          {
+            "left_core": 266,
+            "right_core": 266
+          },
+          {
+            "left_core": 267,
+            "right_core": 267
+          },
+          {
+            "left_core": 268,
+            "right_core": 268
+          },
+          {
+            "left_core": 269,
+            "right_core": 269
+          },
+          {
+            "left_core": 270,
+            "right_core": 270
+          },
+          {
+            "left_core": 271,
+            "right_core": 271
+          },
+          {
+            "left_core": 272,
+            "right_core": 272
+          },
+          {
+            "left_core": 273,
+            "right_core": 273
+          },
+          {
+            "left_core": 274,
+            "right_core": 274
+          },
+          {
+            "left_core": 275,
+            "right_core": 275
+          },
+          {
+            "left_core": 276,
+            "right_core": 276
+          },
+          {
+            "left_core": 277,
+            "right_core": 277
+          },
+          {
+            "left_core": 278,
+            "right_core": 278
+          },
+          {
+            "left_core": 279,
+            "right_core": 279
+          },
+          {
+            "left_core": 280,
+            "right_core": 280
+          },
+          {
+            "left_core": 281,
+            "right_core": 281
+          },
+          {
+            "left_core": 282,
+            "right_core": 282
+          },
+          {
+            "left_core": 283,
+            "right_core": 283
+          },
+          {
+            "left_core": 284,
+            "right_core": 284
+          },
+          {
+            "left_core": 285,
+            "right_core": 285
+          },
+          {
+            "left_core": 286,
+            "right_core": 286
+          },
+          {
+            "left_core": 287,
+            "right_core": 287
+          },
+          {
+            "left_core": 288,
+            "right_core": 288
+          },
+          {
+            "left_core": 289,
+            "right_core": 289
+          },
+          {
+            "left_core": 290,
+            "right_core": 290
+          },
+          {
+            "left_core": 291,
+            "right_core": 291
+          },
+          {
+            "left_core": 292,
+            "right_core": 292
+          },
+          {
+            "left_core": 293,
+            "right_core": 293
+          },
+          {
+            "left_core": 294,
+            "right_core": 294
+          },
+          {
+            "left_core": 295,
+            "right_core": 295
+          },
+          {
+            "left_core": 296,
+            "right_core": 296
+          },
+          {
+            "left_core": 297,
+            "right_core": 297
+          },
+          {
+            "left_core": 298,
+            "right_core": 298
+          },
+          {
+            "left_core": 299,
+            "right_core": 299
+          },
+          {
+            "left_core": 300,
+            "right_core": 300
+          }
+        ],
+        "no_neighbor_left_cores": [
+          10,
+          34,
+          123
+        ]
+      },
+      "new_core_contained_in_reference_core_matching": {
+        "matching_size": 300,
+        "perfect": false,
+        "matching": [
+          {
+            "left_core": 0,
+            "right_core": 0
+          },
+          {
+            "left_core": 1,
+            "right_core": 1
+          },
+          {
+            "left_core": 2,
+            "right_core": 2
+          },
+          {
+            "left_core": 3,
+            "right_core": 3
+          },
+          {
+            "left_core": 4,
+            "right_core": 4
+          },
+          {
+            "left_core": 5,
+            "right_core": 5
+          },
+          {
+            "left_core": 6,
+            "right_core": 6
+          },
+          {
+            "left_core": 7,
+            "right_core": 7
+          },
+          {
+            "left_core": 8,
+            "right_core": 8
+          },
+          {
+            "left_core": 9,
+            "right_core": 9
+          },
+          {
+            "left_core": 10,
+            "right_core": 10
+          },
+          {
+            "left_core": 11,
+            "right_core": 11
+          },
+          {
+            "left_core": 12,
+            "right_core": 12
+          },
+          {
+            "left_core": 13,
+            "right_core": 13
+          },
+          {
+            "left_core": 14,
+            "right_core": 14
+          },
+          {
+            "left_core": 15,
+            "right_core": 15
+          },
+          {
+            "left_core": 16,
+            "right_core": 16
+          },
+          {
+            "left_core": 17,
+            "right_core": 17
+          },
+          {
+            "left_core": 18,
+            "right_core": 18
+          },
+          {
+            "left_core": 19,
+            "right_core": 19
+          },
+          {
+            "left_core": 20,
+            "right_core": 20
+          },
+          {
+            "left_core": 21,
+            "right_core": 21
+          },
+          {
+            "left_core": 22,
+            "right_core": 22
+          },
+          {
+            "left_core": 23,
+            "right_core": 23
+          },
+          {
+            "left_core": 24,
+            "right_core": 24
+          },
+          {
+            "left_core": 25,
+            "right_core": 25
+          },
+          {
+            "left_core": 26,
+            "right_core": 26
+          },
+          {
+            "left_core": 27,
+            "right_core": 27
+          },
+          {
+            "left_core": 28,
+            "right_core": 28
+          },
+          {
+            "left_core": 29,
+            "right_core": 29
+          },
+          {
+            "left_core": 30,
+            "right_core": 30
+          },
+          {
+            "left_core": 31,
+            "right_core": 31
+          },
+          {
+            "left_core": 32,
+            "right_core": 32
+          },
+          {
+            "left_core": 33,
+            "right_core": 33
+          },
+          {
+            "left_core": 34,
+            "right_core": 34
+          },
+          {
+            "left_core": 35,
+            "right_core": 35
+          },
+          {
+            "left_core": 36,
+            "right_core": 36
+          },
+          {
+            "left_core": 37,
+            "right_core": 37
+          },
+          {
+            "left_core": 38,
+            "right_core": 38
+          },
+          {
+            "left_core": 39,
+            "right_core": 39
+          },
+          {
+            "left_core": 40,
+            "right_core": 40
+          },
+          {
+            "left_core": 41,
+            "right_core": 41
+          },
+          {
+            "left_core": 42,
+            "right_core": 42
+          },
+          {
+            "left_core": 43,
+            "right_core": 43
+          },
+          {
+            "left_core": 44,
+            "right_core": 44
+          },
+          {
+            "left_core": 45,
+            "right_core": 45
+          },
+          {
+            "left_core": 46,
+            "right_core": 46
+          },
+          {
+            "left_core": 47,
+            "right_core": 47
+          },
+          {
+            "left_core": 48,
+            "right_core": 48
+          },
+          {
+            "left_core": 49,
+            "right_core": 49
+          },
+          {
+            "left_core": 50,
+            "right_core": 50
+          },
+          {
+            "left_core": 51,
+            "right_core": 51
+          },
+          {
+            "left_core": 52,
+            "right_core": 52
+          },
+          {
+            "left_core": 53,
+            "right_core": 53
+          },
+          {
+            "left_core": 54,
+            "right_core": 54
+          },
+          {
+            "left_core": 55,
+            "right_core": 55
+          },
+          {
+            "left_core": 56,
+            "right_core": 56
+          },
+          {
+            "left_core": 57,
+            "right_core": 57
+          },
+          {
+            "left_core": 58,
+            "right_core": 58
+          },
+          {
+            "left_core": 59,
+            "right_core": 59
+          },
+          {
+            "left_core": 60,
+            "right_core": 60
+          },
+          {
+            "left_core": 61,
+            "right_core": 61
+          },
+          {
+            "left_core": 62,
+            "right_core": 62
+          },
+          {
+            "left_core": 63,
+            "right_core": 63
+          },
+          {
+            "left_core": 64,
+            "right_core": 64
+          },
+          {
+            "left_core": 65,
+            "right_core": 65
+          },
+          {
+            "left_core": 66,
+            "right_core": 66
+          },
+          {
+            "left_core": 67,
+            "right_core": 67
+          },
+          {
+            "left_core": 68,
+            "right_core": 68
+          },
+          {
+            "left_core": 69,
+            "right_core": 69
+          },
+          {
+            "left_core": 70,
+            "right_core": 70
+          },
+          {
+            "left_core": 71,
+            "right_core": 71
+          },
+          {
+            "left_core": 72,
+            "right_core": 72
+          },
+          {
+            "left_core": 73,
+            "right_core": 73
+          },
+          {
+            "left_core": 74,
+            "right_core": 74
+          },
+          {
+            "left_core": 75,
+            "right_core": 75
+          },
+          {
+            "left_core": 76,
+            "right_core": 76
+          },
+          {
+            "left_core": 77,
+            "right_core": 77
+          },
+          {
+            "left_core": 78,
+            "right_core": 78
+          },
+          {
+            "left_core": 79,
+            "right_core": 79
+          },
+          {
+            "left_core": 80,
+            "right_core": 80
+          },
+          {
+            "left_core": 81,
+            "right_core": 81
+          },
+          {
+            "left_core": 82,
+            "right_core": 82
+          },
+          {
+            "left_core": 83,
+            "right_core": 83
+          },
+          {
+            "left_core": 84,
+            "right_core": 84
+          },
+          {
+            "left_core": 85,
+            "right_core": 85
+          },
+          {
+            "left_core": 86,
+            "right_core": 86
+          },
+          {
+            "left_core": 87,
+            "right_core": 87
+          },
+          {
+            "left_core": 88,
+            "right_core": 88
+          },
+          {
+            "left_core": 89,
+            "right_core": 89
+          },
+          {
+            "left_core": 90,
+            "right_core": 90
+          },
+          {
+            "left_core": 91,
+            "right_core": 91
+          },
+          {
+            "left_core": 92,
+            "right_core": 92
+          },
+          {
+            "left_core": 93,
+            "right_core": 93
+          },
+          {
+            "left_core": 94,
+            "right_core": 94
+          },
+          {
+            "left_core": 95,
+            "right_core": 95
+          },
+          {
+            "left_core": 96,
+            "right_core": 96
+          },
+          {
+            "left_core": 97,
+            "right_core": 97
+          },
+          {
+            "left_core": 98,
+            "right_core": 98
+          },
+          {
+            "left_core": 99,
+            "right_core": 99
+          },
+          {
+            "left_core": 100,
+            "right_core": 100
+          },
+          {
+            "left_core": 101,
+            "right_core": 101
+          },
+          {
+            "left_core": 102,
+            "right_core": 102
+          },
+          {
+            "left_core": 103,
+            "right_core": 103
+          },
+          {
+            "left_core": 104,
+            "right_core": 104
+          },
+          {
+            "left_core": 105,
+            "right_core": 105
+          },
+          {
+            "left_core": 106,
+            "right_core": 106
+          },
+          {
+            "left_core": 107,
+            "right_core": 107
+          },
+          {
+            "left_core": 108,
+            "right_core": 108
+          },
+          {
+            "left_core": 109,
+            "right_core": 109
+          },
+          {
+            "left_core": 110,
+            "right_core": 110
+          },
+          {
+            "left_core": 111,
+            "right_core": 111
+          },
+          {
+            "left_core": 112,
+            "right_core": 112
+          },
+          {
+            "left_core": 113,
+            "right_core": 113
+          },
+          {
+            "left_core": 114,
+            "right_core": 114
+          },
+          {
+            "left_core": 115,
+            "right_core": 115
+          },
+          {
+            "left_core": 116,
+            "right_core": 116
+          },
+          {
+            "left_core": 117,
+            "right_core": 117
+          },
+          {
+            "left_core": 118,
+            "right_core": 118
+          },
+          {
+            "left_core": 119,
+            "right_core": 119
+          },
+          {
+            "left_core": 120,
+            "right_core": 120
+          },
+          {
+            "left_core": 121,
+            "right_core": 121
+          },
+          {
+            "left_core": 122,
+            "right_core": 122
+          },
+          {
+            "left_core": 123,
+            "right_core": 123
+          },
+          {
+            "left_core": 124,
+            "right_core": 124
+          },
+          {
+            "left_core": 125,
+            "right_core": 125
+          },
+          {
+            "left_core": 126,
+            "right_core": 126
+          },
+          {
+            "left_core": 127,
+            "right_core": 127
+          },
+          {
+            "left_core": 128,
+            "right_core": 128
+          },
+          {
+            "left_core": 129,
+            "right_core": 129
+          },
+          {
+            "left_core": 130,
+            "right_core": 130
+          },
+          {
+            "left_core": 131,
+            "right_core": 131
+          },
+          {
+            "left_core": 132,
+            "right_core": 132
+          },
+          {
+            "left_core": 133,
+            "right_core": 133
+          },
+          {
+            "left_core": 134,
+            "right_core": 134
+          },
+          {
+            "left_core": 135,
+            "right_core": 135
+          },
+          {
+            "left_core": 136,
+            "right_core": 136
+          },
+          {
+            "left_core": 137,
+            "right_core": 137
+          },
+          {
+            "left_core": 138,
+            "right_core": 138
+          },
+          {
+            "left_core": 139,
+            "right_core": 139
+          },
+          {
+            "left_core": 140,
+            "right_core": 140
+          },
+          {
+            "left_core": 141,
+            "right_core": 141
+          },
+          {
+            "left_core": 142,
+            "right_core": 142
+          },
+          {
+            "left_core": 143,
+            "right_core": 143
+          },
+          {
+            "left_core": 144,
+            "right_core": 144
+          },
+          {
+            "left_core": 145,
+            "right_core": 145
+          },
+          {
+            "left_core": 146,
+            "right_core": 146
+          },
+          {
+            "left_core": 147,
+            "right_core": 147
+          },
+          {
+            "left_core": 148,
+            "right_core": 148
+          },
+          {
+            "left_core": 149,
+            "right_core": 149
+          },
+          {
+            "left_core": 150,
+            "right_core": 150
+          },
+          {
+            "left_core": 151,
+            "right_core": 151
+          },
+          {
+            "left_core": 152,
+            "right_core": 152
+          },
+          {
+            "left_core": 153,
+            "right_core": 153
+          },
+          {
+            "left_core": 154,
+            "right_core": 154
+          },
+          {
+            "left_core": 155,
+            "right_core": 155
+          },
+          {
+            "left_core": 156,
+            "right_core": 156
+          },
+          {
+            "left_core": 157,
+            "right_core": 157
+          },
+          {
+            "left_core": 158,
+            "right_core": 158
+          },
+          {
+            "left_core": 159,
+            "right_core": 159
+          },
+          {
+            "left_core": 160,
+            "right_core": 160
+          },
+          {
+            "left_core": 161,
+            "right_core": 161
+          },
+          {
+            "left_core": 162,
+            "right_core": 162
+          },
+          {
+            "left_core": 163,
+            "right_core": 163
+          },
+          {
+            "left_core": 164,
+            "right_core": 164
+          },
+          {
+            "left_core": 165,
+            "right_core": 165
+          },
+          {
+            "left_core": 166,
+            "right_core": 166
+          },
+          {
+            "left_core": 167,
+            "right_core": 167
+          },
+          {
+            "left_core": 168,
+            "right_core": 168
+          },
+          {
+            "left_core": 169,
+            "right_core": 169
+          },
+          {
+            "left_core": 170,
+            "right_core": 170
+          },
+          {
+            "left_core": 171,
+            "right_core": 171
+          },
+          {
+            "left_core": 172,
+            "right_core": 172
+          },
+          {
+            "left_core": 173,
+            "right_core": 173
+          },
+          {
+            "left_core": 174,
+            "right_core": 174
+          },
+          {
+            "left_core": 175,
+            "right_core": 175
+          },
+          {
+            "left_core": 176,
+            "right_core": 176
+          },
+          {
+            "left_core": 177,
+            "right_core": 177
+          },
+          {
+            "left_core": 178,
+            "right_core": 178
+          },
+          {
+            "left_core": 179,
+            "right_core": 179
+          },
+          {
+            "left_core": 180,
+            "right_core": 180
+          },
+          {
+            "left_core": 181,
+            "right_core": 181
+          },
+          {
+            "left_core": 182,
+            "right_core": 182
+          },
+          {
+            "left_core": 183,
+            "right_core": 183
+          },
+          {
+            "left_core": 184,
+            "right_core": 184
+          },
+          {
+            "left_core": 185,
+            "right_core": 185
+          },
+          {
+            "left_core": 186,
+            "right_core": 186
+          },
+          {
+            "left_core": 187,
+            "right_core": 187
+          },
+          {
+            "left_core": 188,
+            "right_core": 188
+          },
+          {
+            "left_core": 189,
+            "right_core": 189
+          },
+          {
+            "left_core": 190,
+            "right_core": 190
+          },
+          {
+            "left_core": 191,
+            "right_core": 191
+          },
+          {
+            "left_core": 193,
+            "right_core": 193
+          },
+          {
+            "left_core": 194,
+            "right_core": 194
+          },
+          {
+            "left_core": 195,
+            "right_core": 195
+          },
+          {
+            "left_core": 196,
+            "right_core": 196
+          },
+          {
+            "left_core": 197,
+            "right_core": 197
+          },
+          {
+            "left_core": 198,
+            "right_core": 198
+          },
+          {
+            "left_core": 199,
+            "right_core": 199
+          },
+          {
+            "left_core": 200,
+            "right_core": 200
+          },
+          {
+            "left_core": 201,
+            "right_core": 201
+          },
+          {
+            "left_core": 202,
+            "right_core": 202
+          },
+          {
+            "left_core": 203,
+            "right_core": 203
+          },
+          {
+            "left_core": 204,
+            "right_core": 204
+          },
+          {
+            "left_core": 205,
+            "right_core": 205
+          },
+          {
+            "left_core": 206,
+            "right_core": 206
+          },
+          {
+            "left_core": 207,
+            "right_core": 207
+          },
+          {
+            "left_core": 208,
+            "right_core": 208
+          },
+          {
+            "left_core": 209,
+            "right_core": 209
+          },
+          {
+            "left_core": 210,
+            "right_core": 210
+          },
+          {
+            "left_core": 211,
+            "right_core": 211
+          },
+          {
+            "left_core": 212,
+            "right_core": 212
+          },
+          {
+            "left_core": 213,
+            "right_core": 213
+          },
+          {
+            "left_core": 214,
+            "right_core": 214
+          },
+          {
+            "left_core": 215,
+            "right_core": 215
+          },
+          {
+            "left_core": 216,
+            "right_core": 216
+          },
+          {
+            "left_core": 217,
+            "right_core": 217
+          },
+          {
+            "left_core": 218,
+            "right_core": 218
+          },
+          {
+            "left_core": 219,
+            "right_core": 219
+          },
+          {
+            "left_core": 220,
+            "right_core": 220
+          },
+          {
+            "left_core": 221,
+            "right_core": 221
+          },
+          {
+            "left_core": 222,
+            "right_core": 222
+          },
+          {
+            "left_core": 223,
+            "right_core": 223
+          },
+          {
+            "left_core": 224,
+            "right_core": 224
+          },
+          {
+            "left_core": 225,
+            "right_core": 225
+          },
+          {
+            "left_core": 226,
+            "right_core": 226
+          },
+          {
+            "left_core": 227,
+            "right_core": 227
+          },
+          {
+            "left_core": 228,
+            "right_core": 228
+          },
+          {
+            "left_core": 229,
+            "right_core": 229
+          },
+          {
+            "left_core": 230,
+            "right_core": 230
+          },
+          {
+            "left_core": 231,
+            "right_core": 231
+          },
+          {
+            "left_core": 232,
+            "right_core": 232
+          },
+          {
+            "left_core": 233,
+            "right_core": 233
+          },
+          {
+            "left_core": 234,
+            "right_core": 234
+          },
+          {
+            "left_core": 235,
+            "right_core": 235
+          },
+          {
+            "left_core": 236,
+            "right_core": 236
+          },
+          {
+            "left_core": 237,
+            "right_core": 237
+          },
+          {
+            "left_core": 238,
+            "right_core": 238
+          },
+          {
+            "left_core": 239,
+            "right_core": 239
+          },
+          {
+            "left_core": 240,
+            "right_core": 240
+          },
+          {
+            "left_core": 241,
+            "right_core": 241
+          },
+          {
+            "left_core": 242,
+            "right_core": 242
+          },
+          {
+            "left_core": 243,
+            "right_core": 243
+          },
+          {
+            "left_core": 244,
+            "right_core": 244
+          },
+          {
+            "left_core": 245,
+            "right_core": 245
+          },
+          {
+            "left_core": 246,
+            "right_core": 246
+          },
+          {
+            "left_core": 247,
+            "right_core": 247
+          },
+          {
+            "left_core": 248,
+            "right_core": 248
+          },
+          {
+            "left_core": 249,
+            "right_core": 249
+          },
+          {
+            "left_core": 250,
+            "right_core": 250
+          },
+          {
+            "left_core": 251,
+            "right_core": 251
+          },
+          {
+            "left_core": 252,
+            "right_core": 252
+          },
+          {
+            "left_core": 253,
+            "right_core": 253
+          },
+          {
+            "left_core": 254,
+            "right_core": 254
+          },
+          {
+            "left_core": 255,
+            "right_core": 255
+          },
+          {
+            "left_core": 256,
+            "right_core": 256
+          },
+          {
+            "left_core": 257,
+            "right_core": 257
+          },
+          {
+            "left_core": 258,
+            "right_core": 258
+          },
+          {
+            "left_core": 259,
+            "right_core": 259
+          },
+          {
+            "left_core": 260,
+            "right_core": 260
+          },
+          {
+            "left_core": 261,
+            "right_core": 261
+          },
+          {
+            "left_core": 262,
+            "right_core": 262
+          },
+          {
+            "left_core": 263,
+            "right_core": 263
+          },
+          {
+            "left_core": 264,
+            "right_core": 264
+          },
+          {
+            "left_core": 265,
+            "right_core": 265
+          },
+          {
+            "left_core": 266,
+            "right_core": 266
+          },
+          {
+            "left_core": 267,
+            "right_core": 267
+          },
+          {
+            "left_core": 268,
+            "right_core": 268
+          },
+          {
+            "left_core": 269,
+            "right_core": 269
+          },
+          {
+            "left_core": 270,
+            "right_core": 270
+          },
+          {
+            "left_core": 271,
+            "right_core": 271
+          },
+          {
+            "left_core": 272,
+            "right_core": 272
+          },
+          {
+            "left_core": 273,
+            "right_core": 273
+          },
+          {
+            "left_core": 274,
+            "right_core": 274
+          },
+          {
+            "left_core": 275,
+            "right_core": 275
+          },
+          {
+            "left_core": 276,
+            "right_core": 276
+          },
+          {
+            "left_core": 277,
+            "right_core": 277
+          },
+          {
+            "left_core": 278,
+            "right_core": 278
+          },
+          {
+            "left_core": 279,
+            "right_core": 279
+          },
+          {
+            "left_core": 280,
+            "right_core": 280
+          },
+          {
+            "left_core": 281,
+            "right_core": 281
+          },
+          {
+            "left_core": 282,
+            "right_core": 282
+          },
+          {
+            "left_core": 283,
+            "right_core": 283
+          },
+          {
+            "left_core": 284,
+            "right_core": 284
+          },
+          {
+            "left_core": 285,
+            "right_core": 285
+          },
+          {
+            "left_core": 286,
+            "right_core": 286
+          },
+          {
+            "left_core": 287,
+            "right_core": 287
+          },
+          {
+            "left_core": 288,
+            "right_core": 288
+          },
+          {
+            "left_core": 289,
+            "right_core": 289
+          },
+          {
+            "left_core": 290,
+            "right_core": 290
+          },
+          {
+            "left_core": 291,
+            "right_core": 291
+          },
+          {
+            "left_core": 292,
+            "right_core": 292
+          },
+          {
+            "left_core": 293,
+            "right_core": 293
+          },
+          {
+            "left_core": 294,
+            "right_core": 294
+          },
+          {
+            "left_core": 295,
+            "right_core": 295
+          },
+          {
+            "left_core": 296,
+            "right_core": 296
+          },
+          {
+            "left_core": 297,
+            "right_core": 297
+          },
+          {
+            "left_core": 298,
+            "right_core": 298
+          },
+          {
+            "left_core": 299,
+            "right_core": 299
+          },
+          {
+            "left_core": 300,
+            "right_core": 300
+          }
+        ],
+        "no_neighbor_left_cores": [
+          192
+        ]
+      },
+      "new_domain_is_subset_of_reference": false,
+      "reference_domain_is_subset_of_new": false
+    }
+  ]
+}

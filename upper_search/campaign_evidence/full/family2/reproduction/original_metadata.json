@@ -1,0 +1,62 @@
+{
+  "run_id": "run_1263",
+  "pid": 28528,
+  "slot": 2,
+  "seed": 1263,
+  "tenure": 12,
+  "noise": 0.02,
+  "noweight": false,
+  "argv": [
+    "/workspace/cover_search/campaign/archive/binaries/1a69ed1ef1d336cfde2422c0582e49775706b0f32749000592c27e009e9ae8d8",
+    "54",
+    "16",
+    "4",
+    "302",
+    "600",
+    "1263",
+    "/workspace/cover_search/campaign/runs/run_1263/input.txt",
+    "12",
+    "0.02",
+    "301"
+  ],
+  "seconds": 600,
+  "target_blocks": 301,
+  "allowed_intermediate_level": 302,
+  "minimum_runtime_seconds": 600,
+  "partial_stall_limit_seconds": 600,
+  "input_path": "/workspace/cover_search/campaign/runs/run_1263/input.txt",
+  "input_sha256": "c9e8a996383ddd7a2c1563c05989e16b639223726cd581c1384c0a4230d00d3e",
+  "input_source_path": "/workspace/cover_search/campaign/archive/partial/partial_c9e8a996383ddd7a.txt",
+  "input_provenance": null,
+  "input_blocks": 302,
+  "input_uncovered": 5,
+  "input_mode": "explicit",
+  "input_recipe": {
+    "path": "/workspace/cover_search/campaign/runs/run_1263/input_recipe.json",
+    "sha256": "881f7bcfafe872ab20d5fc215de72c067a53056c523c7a29b44b850b283ef9e2"
+  },
+  "source_path": "/workspace/cover_search/campaign/runs/run_1263/source/wls_sparse_compact_equal_v2_direct.cpp",
+  "source_sha256": "03c10c78dbcc434ab4687c2fa33442db21adc340dd8ecf257aa95fc1684bfa65",
+  "original_source_path": "/workspace/cover_search/alternatives/direct_colex_v1/wls_sparse_compact_equal_v2_direct.cpp",
+  "source_files": {
+    "/workspace/cover_search/campaign/runs/run_1263/source/wls_sparse_compact_equal_v2_direct.cpp": "03c10c78dbcc434ab4687c2fa33442db21adc340dd8ecf257aa95fc1684bfa65"
+  },
+  "original_executable": "/workspace/cover_search/alternatives/direct_colex_v1/wls_sparse_compact_equal_v2_direct",
+  "binary_sha256": "1a69ed1ef1d336cfde2422c0582e49775706b0f32749000592c27e009e9ae8d8",
+  "extra_env": {},
+  "background_cap_from_input": false,
+  "background_cap_slack": null,
+  "checkpoint_environment": {
+    "SAVE_PARTIAL": "/workspace/cover_search/campaign/runs/run_1263/best_partial.txt",
+    "SAVE_FINAL": "/workspace/cover_search/campaign/runs/run_1263/final_state.txt",
+    "SAVE_EQUAL_PARTIAL": "/workspace/cover_search/campaign/runs/run_1263/equal_partial.txt",
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "32"
+  },
+  "compiler_command": "g++ -O3 -march=native -std=c++17 wls_sparse_compact_equal_v2_direct.cpp -o wls_sparse_compact_equal_v2_direct",
+  "compiler_working_directory": "/workspace/cover_search/campaign/runs/run_1263/source",
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "start_utc": "2026-11-06T17:04:22.649550+00:00",
+  "start_monotonic": 15311.582742525,
+  "directory": "/workspace/cover_search/campaign/runs/run_1263"
+}

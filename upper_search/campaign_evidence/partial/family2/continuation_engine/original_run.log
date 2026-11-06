@@ -1,0 +1,303 @@
+init: loaded 301 blocks, uncovered 13
+BACKGROUND_CANDIDATES step=1 holes=13 zero=0 one=328 two=1039 cap=17 max_loss=2
+BACKGROUND_MOVE count=1 step=1 row=101 outgoing=18 incoming=15 loss=1 holes=14
+BACKGROUND_CANDIDATES step=256 holes=17 zero=36 one=0 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=2 step=256 row=45 outgoing=43 incoming=26 loss=0 holes=17
+BACKGROUND_CANDIDATES step=384 holes=17 zero=37 one=0 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=3 step=384 row=162 outgoing=37 incoming=15 loss=0 holes=17
+BACKGROUND_CANDIDATES step=768 holes=15 zero=37 one=512 two=841 cap=17 max_loss=2
+BACKGROUND_MOVE count=4 step=768 row=24 outgoing=32 incoming=4 loss=0 holes=15
+BACKGROUND_CANDIDATES step=896 holes=17 zero=37 one=0 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=5 step=896 row=162 outgoing=3 incoming=27 loss=0 holes=17
+BACKGROUND_CANDIDATES step=1024 holes=17 zero=0 one=0 two=0 cap=17 max_loss=2
+BACKGROUND_CANDIDATES step=1152 holes=16 zero=0 one=622 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=6 step=1152 row=162 outgoing=38 incoming=13 loss=1 holes=17
+BACKGROUND_CANDIDATES step=1664 holes=16 zero=0 one=514 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=7 step=1664 row=110 outgoing=43 incoming=16 loss=1 holes=17
+BACKGROUND_CANDIDATES step=1792 holes=16 zero=0 one=580 two=0 cap=17 max_loss=2
+BACKGROUND_MOVE count=8 step=1792 row=208 outgoing=23 incoming=25 loss=1 holes=17
+BEST b=301 uncovered=12 step=2388
+BEST b=301 uncovered=11 step=44046
+BACKGROUND_MOVE count=128 step=46208 row=80 outgoing=41 incoming=15 loss=0 holes=17
+BEST b=301 uncovered=10 step=56160
+BACKGROUND_MOVE count=256 step=81920 row=84 outgoing=37 incoming=51 loss=2 holes=14
+BACKGROUND_MOVE count=384 step=108160 row=131 outgoing=14 incoming=34 loss=0 holes=15
+BEST b=301 uncovered=9 step=126124
+BACKGROUND_MOVE count=512 step=132864 row=45 outgoing=29 incoming=7 loss=0 holes=14
+BACKGROUND_MOVE count=640 step=162816 row=39 outgoing=32 incoming=6 loss=1 holes=17
+BACKGROUND_MOVE count=768 step=207232 row=101 outgoing=50 incoming=3 loss=0 holes=16
+BACKGROUND_MOVE count=896 step=251648 row=77 outgoing=37 incoming=19 loss=0 holes=17
+BACKGROUND_MOVE count=1024 step=295552 row=208 outgoing=35 incoming=42 loss=0 holes=16
+PROGRESS b=301 best=9 current=20 step=304128 elapsed=10.0
+EQUAL_PARTIAL count=1 step=315873 blocks=301 holes=9
+BACKGROUND_MOVE count=1152 step=326784 row=199 outgoing=41 incoming=15 loss=1 holes=16
+BACKGROUND_MOVE count=1280 step=354560 row=183 outgoing=49 incoming=32 loss=0 holes=14
+BACKGROUND_MOVE count=1408 step=385536 row=174 outgoing=10 incoming=46 loss=1 holes=17
+BACKGROUND_MOVE count=1536 step=415744 row=78 outgoing=11 incoming=20 loss=0 holes=17
+BACKGROUND_MOVE count=1664 step=448000 row=14 outgoing=46 incoming=41 loss=0 holes=17
+BACKGROUND_MOVE count=1792 step=493440 row=186 outgoing=34 incoming=11 loss=1 holes=13
+BACKGROUND_MOVE count=1920 step=527104 row=164 outgoing=10 incoming=32 loss=0 holes=17
+BACKGROUND_MOVE count=2048 step=558464 row=270 outgoing=2 incoming=39 loss=1 holes=17
+BACKGROUND_MOVE count=2176 step=604928 row=45 outgoing=33 incoming=48 loss=0 holes=16
+PROGRESS b=301 best=9 current=20 step=610304 elapsed=20.0
+BACKGROUND_MOVE count=2304 step=653568 row=101 outgoing=44 incoming=23 loss=1 holes=15
+BACKGROUND_MOVE count=2432 step=677760 row=67 outgoing=43 incoming=42 loss=1 holes=17
+BACKGROUND_MOVE count=2560 step=712064 row=84 outgoing=37 incoming=26 loss=0 holes=15
+BACKGROUND_MOVE count=2688 step=740736 row=45 outgoing=29 incoming=52 loss=0 holes=13
+BACKGROUND_MOVE count=2816 step=779392 row=270 outgoing=54 incoming=21 loss=1 holes=17
+BACKGROUND_MOVE count=2944 step=808576 row=208 outgoing=23 incoming=28 loss=0 holes=17
+EQUAL_PARTIAL count=2 step=818821 blocks=301 holes=9
+BACKGROUND_MOVE count=3072 step=832384 row=188 outgoing=14 incoming=19 loss=0 holes=16
+BACKGROUND_MOVE count=3200 step=857088 row=268 outgoing=10 incoming=12 loss=1 holes=16
+BACKGROUND_MOVE count=3328 step=889088 row=45 outgoing=33 incoming=24 loss=1 holes=17
+PROGRESS b=301 best=9 current=17 step=909312 elapsed=30.1
+BACKGROUND_MOVE count=3456 step=914944 row=45 outgoing=29 incoming=34 loss=1 holes=16
+BACKGROUND_MOVE count=3584 step=947072 row=208 outgoing=9 incoming=14 loss=0 holes=16
+BACKGROUND_MOVE count=3712 step=995968 row=80 outgoing=44 incoming=49 loss=0 holes=16
+BACKGROUND_MOVE count=3840 step=1124736 row=44 outgoing=1 incoming=34 loss=0 holes=16
+BACKGROUND_MOVE count=3968 step=1153920 row=266 outgoing=24 incoming=5 loss=2 holes=16
+BACKGROUND_MOVE count=4096 step=1181568 row=134 outgoing=17 incoming=6 loss=1 holes=17
+BACKGROUND_MOVE count=4224 step=1213696 row=45 outgoing=29 incoming=2 loss=0 holes=14
+EQUAL_PARTIAL count=3 step=1230499 blocks=301 holes=9
+PROGRESS b=301 best=9 current=17 step=1239040 elapsed=40.1
+BACKGROUND_MOVE count=4352 step=1239424 row=293 outgoing=41 incoming=27 loss=1 holes=17
+BACKGROUND_MOVE count=4480 step=1267840 row=101 outgoing=30 incoming=54 loss=2 holes=17
+BACKGROUND_MOVE count=4608 step=1291264 row=293 outgoing=41 incoming=32 loss=0 holes=16
+BACKGROUND_MOVE count=4736 step=1345536 row=249 outgoing=54 incoming=8 loss=2 holes=17
+BACKGROUND_MOVE count=4864 step=1382528 row=148 outgoing=24 incoming=31 loss=0 holes=17
+BACKGROUND_MOVE count=4992 step=1412096 row=101 outgoing=12 incoming=44 loss=2 holes=15
+BACKGROUND_MOVE count=5120 step=1448576 row=78 outgoing=10 incoming=44 loss=0 holes=13
+BACKGROUND_MOVE count=5248 step=1538560 row=208 outgoing=37 incoming=1 loss=0 holes=15
+PROGRESS b=301 best=9 current=19 step=1552384 elapsed=50.1
+BACKGROUND_MOVE count=5376 step=1584640 row=293 outgoing=49 incoming=8 loss=0 holes=14
+BACKGROUND_MOVE count=5504 step=1619584 row=200 outgoing=39 incoming=22 loss=0 holes=16
+BACKGROUND_MOVE count=5632 step=1652864 row=67 outgoing=25 incoming=15 loss=2 holes=15
+EQUAL_PARTIAL count=4 step=1679236 blocks=301 holes=9
+BACKGROUND_MOVE count=5760 step=1691136 row=109 outgoing=37 incoming=31 loss=0 holes=17
+BACKGROUND_MOVE count=5888 step=1722624 row=174 outgoing=37 incoming=10 loss=1 holes=15
+BACKGROUND_MOVE count=6016 step=1748224 row=210 outgoing=39 incoming=18 loss=0 holes=15
+BACKGROUND_MOVE count=6144 step=1782400 row=164 outgoing=52 incoming=47 loss=0 holes=17
+PROGRESS b=301 best=9 current=22 step=1821696 elapsed=60.2
+BACKGROUND_MOVE count=6272 step=1829120 row=109 outgoing=25 incoming=10 loss=0 holes=17
+BACKGROUND_MOVE count=6400 step=1854976 row=134 outgoing=12 incoming=53 loss=1 holes=14
+BACKGROUND_MOVE count=6528 step=1896192 row=44 outgoing=41 incoming=39 loss=0 holes=17
+BACKGROUND_MOVE count=6656 step=1933056 row=186 outgoing=46 incoming=44 loss=1 holes=17
+BACKGROUND_MOVE count=6784 step=1967360 row=150 outgoing=20 incoming=24 loss=1 holes=17
+BACKGROUND_MOVE count=6912 step=1995904 row=67 outgoing=42 incoming=41 loss=1 holes=17
+BACKGROUND_MOVE count=7040 step=2027776 row=45 outgoing=33 incoming=49 loss=1 holes=15
+BACKGROUND_MOVE count=7168 step=2068736 row=39 outgoing=49 incoming=28 loss=1 holes=17
+PROGRESS b=301 best=9 current=16 step=2117632 elapsed=70.2
+BACKGROUND_MOVE count=7296 step=2129536 row=208 outgoing=30 incoming=23 loss=0 holes=17
+BACKGROUND_MOVE count=7424 step=2230784 row=293 outgoing=41 incoming=51 loss=0 holes=12
+EQUAL_PARTIAL count=5 step=2232261 blocks=301 holes=9
+BACKGROUND_MOVE count=7552 step=2259200 row=45 outgoing=12 incoming=26 loss=1 holes=15
+BACKGROUND_MOVE count=7680 step=2308736 row=44 outgoing=11 incoming=53 loss=0 holes=14
+BACKGROUND_MOVE count=7808 step=2341504 row=44 outgoing=33 incoming=6 loss=0 holes=17
+BACKGROUND_MOVE count=7936 step=2389248 row=210 outgoing=54 incoming=49 loss=0 holes=16
+BACKGROUND_MOVE count=8064 step=2435072 row=151 outgoing=12 incoming=10 loss=1 holes=17
+PROGRESS b=301 best=9 current=17 step=2460672 elapsed=80.2
+BACKGROUND_MOVE count=8192 step=2469888 row=44 outgoing=24 incoming=48 loss=0 holes=17
+BACKGROUND_MOVE count=8320 step=2495872 row=136 outgoing=37 incoming=36 loss=0 holes=14
+BACKGROUND_MOVE count=8448 step=2531328 row=67 outgoing=1 incoming=25 loss=2 holes=16
+BACKGROUND_MOVE count=8576 step=2567552 row=208 outgoing=23 incoming=29 loss=0 holes=16
+BACKGROUND_MOVE count=8704 step=2604928 row=183 outgoing=32 incoming=52 loss=0 holes=17
+BACKGROUND_MOVE count=8832 step=2636544 row=162 outgoing=36 incoming=20 loss=0 holes=17
+BACKGROUND_MOVE count=8960 step=2688896 row=210 outgoing=14 incoming=11 loss=1 holes=17
+BACKGROUND_MOVE count=9088 step=2713984 row=155 outgoing=30 incoming=23 loss=1 holes=17
+BACKGROUND_MOVE count=9216 step=2748160 row=293 outgoing=2 incoming=6 loss=1 holes=17
+PROGRESS b=301 best=9 current=15 step=2759680 elapsed=90.2
+EQUAL_PARTIAL count=6 step=2771593 blocks=301 holes=9
+BACKGROUND_MOVE count=9344 step=2771968 row=155 outgoing=14 incoming=40 loss=1 holes=15
+BACKGROUND_MOVE count=9472 step=2806144 row=164 outgoing=22 incoming=43 loss=0 holes=17
+BACKGROUND_MOVE count=9600 step=2840576 row=136 outgoing=14 incoming=19 loss=1 holes=17
+BACKGROUND_MOVE count=9728 step=2875648 row=67 outgoing=14 incoming=29 loss=1 holes=17
+BACKGROUND_MOVE count=9856 step=2907008 row=164 outgoing=21 incoming=38 loss=1 holes=16
+BACKGROUND_MOVE count=9984 step=2934912 row=14 outgoing=13 incoming=4 loss=2 holes=15
+BACKGROUND_MOVE count=10112 step=2975360 row=39 outgoing=49 incoming=22 loss=2 holes=16
+BACKGROUND_MOVE count=10240 step=3024000 row=164 outgoing=44 incoming=22 loss=0 holes=15
+PROGRESS b=301 best=9 current=16 step=3030016 elapsed=100.2
+EQUAL_PARTIAL count=7 step=3059764 blocks=301 holes=9
+BACKGROUND_MOVE count=10368 step=3066752 row=44 outgoing=11 incoming=5 loss=1 holes=16
+BACKGROUND_MOVE count=10496 step=3108608 row=196 outgoing=1 incoming=24 loss=1 holes=17
+BACKGROUND_MOVE count=10624 step=3134848 row=208 outgoing=23 incoming=38 loss=0 holes=17
+BACKGROUND_MOVE count=10752 step=3172480 row=162 outgoing=18 incoming=40 loss=1 holes=15
+BACKGROUND_MOVE count=10880 step=3199232 row=14 outgoing=13 incoming=18 loss=1 holes=14
+BACKGROUND_MOVE count=11008 step=3233536 row=39 outgoing=49 incoming=47 loss=1 holes=17
+BACKGROUND_MOVE count=11136 step=3260928 row=39 outgoing=32 incoming=44 loss=0 holes=15
+BACKGROUND_MOVE count=11264 step=3285888 row=14 outgoing=13 incoming=33 loss=1 holes=16
+PROGRESS b=301 best=9 current=15 step=3307520 elapsed=110.2
+BACKGROUND_MOVE count=11392 step=3316864 row=162 outgoing=6 incoming=21 loss=0 holes=17
+BACKGROUND_MOVE count=11520 step=3345408 row=101 outgoing=33 incoming=10 loss=1 holes=15
+BACKGROUND_MOVE count=11648 step=3377536 row=162 outgoing=47 incoming=21 loss=1 holes=16
+BACKGROUND_MOVE count=11776 step=3411584 row=39 outgoing=32 incoming=19 loss=1 holes=16
+BACKGROUND_MOVE count=11904 step=3446656 row=208 outgoing=23 incoming=53 loss=0 holes=14
+BACKGROUND_MOVE count=12032 step=3475456 row=164 outgoing=21 incoming=46 loss=1 holes=17
+BACKGROUND_MOVE count=12160 step=3504000 row=14 outgoing=13 incoming=33 loss=2 holes=15
+EQUAL_PARTIAL count=8 step=3531484 blocks=301 holes=9
+BACKGROUND_MOVE count=12288 step=3532032 row=39 outgoing=41 incoming=50 loss=0 holes=14
+BACKGROUND_MOVE count=12416 step=3563776 row=164 outgoing=18 incoming=19 loss=0 holes=15
+PROGRESS b=301 best=9 current=14 step=3569664 elapsed=120.2
+BACKGROUND_MOVE count=12544 step=3593088 row=44 outgoing=11 incoming=32 loss=1 holes=13
+BACKGROUND_MOVE count=12672 step=3622656 row=45 outgoing=2 incoming=50 loss=0 holes=14
+BACKGROUND_MOVE count=12800 step=3646592 row=99 outgoing=25 incoming=53 loss=0 holes=16
+BACKGROUND_MOVE count=12928 step=3680512 row=164 outgoing=17 incoming=44 loss=0 holes=16
+BACKGROUND_MOVE count=13056 step=3714304 row=293 outgoing=36 incoming=47 loss=1 holes=15
+BACKGROUND_MOVE count=13184 step=3749120 row=174 outgoing=19 incoming=6 loss=1 holes=17
+EQUAL_PARTIAL count=9 step=3758856 blocks=301 holes=9
+BACKGROUND_MOVE count=13312 step=3776640 row=186 outgoing=25 incoming=29 loss=1 holes=17
+BACKGROUND_MOVE count=13440 step=3804416 row=150 outgoing=11 incoming=47 loss=1 holes=17
+BACKGROUND_MOVE count=13568 step=3830272 row=208 outgoing=37 incoming=28 loss=1 holes=17
+PROGRESS b=301 best=9 current=17 step=3834880 elapsed=130.3
+BACKGROUND_MOVE count=13696 step=3856128 row=210 outgoing=16 incoming=30 loss=1 holes=16
+BACKGROUND_MOVE count=13824 step=3890688 row=57 outgoing=45 incoming=27 loss=0 holes=15
+BACKGROUND_MOVE count=13952 step=3930112 row=210 outgoing=32 incoming=51 loss=0 holes=15
+BACKGROUND_MOVE count=14080 step=3960960 row=45 outgoing=47 incoming=32 loss=0 holes=15
+BACKGROUND_MOVE count=14208 step=3985408 row=269 outgoing=24 incoming=32 loss=0 holes=16
+BACKGROUND_MOVE count=14336 step=4013824 row=270 outgoing=13 incoming=8 loss=1 holes=15
+BACKGROUND_MOVE count=14464 step=4044928 row=249 outgoing=54 incoming=21 loss=0 holes=14
+EQUAL_PARTIAL count=10 step=4061307 blocks=301 holes=9
+BACKGROUND_MOVE count=14592 step=4078976 row=78 outgoing=6 incoming=9 loss=0 holes=17
+BACKGROUND_MOVE count=14720 step=4110720 row=53 outgoing=27 incoming=15 loss=2 holes=17
+PROGRESS b=301 best=9 current=14 step=4113408 elapsed=140.3
+BACKGROUND_MOVE count=14848 step=4138112 row=143 outgoing=37 incoming=34 loss=1 holes=15
+BACKGROUND_MOVE count=14976 step=4168576 row=131 outgoing=27 incoming=51 loss=0 holes=16
+BACKGROUND_MOVE count=15104 step=4210944 row=188 outgoing=14 incoming=8 loss=0 holes=17
+BACKGROUND_MOVE count=15232 step=4238848 row=270 outgoing=29 incoming=23 loss=0 holes=17
+BACKGROUND_MOVE count=15360 step=4263808 row=110 outgoing=43 incoming=45 loss=1 holes=17
+BACKGROUND_MOVE count=15488 step=4289920 row=136 outgoing=27 incoming=6 loss=1 holes=17
+BACKGROUND_MOVE count=15616 step=4325120 row=53 outgoing=20 incoming=34 loss=1 holes=17
+BACKGROUND_MOVE count=15744 step=4359552 row=174 outgoing=37 incoming=42 loss=1 holes=14
+PROGRESS b=301 best=9 current=21 step=4380672 elapsed=150.3
+BACKGROUND_MOVE count=15872 step=4390784 row=208 outgoing=13 incoming=44 loss=1 holes=17
+EQUAL_PARTIAL count=11 step=4412198 blocks=301 holes=9
+BACKGROUND_MOVE count=16000 step=4422272 row=183 outgoing=28 incoming=31 loss=0 holes=16
+BACKGROUND_MOVE count=16128 step=4448640 row=67 outgoing=37 incoming=28 loss=1 holes=15
+BACKGROUND_MOVE count=16256 step=4483328 row=24 outgoing=23 incoming=13 loss=1 holes=17
+BACKGROUND_MOVE count=16384 step=4515072 row=136 outgoing=27 incoming=35 loss=0 holes=14
+BACKGROUND_MOVE count=16512 step=4549248 row=208 outgoing=23 incoming=48 loss=0 holes=15
+BACKGROUND_MOVE count=16640 step=4579584 row=210 outgoing=14 incoming=13 loss=2 holes=17
+BACKGROUND_MOVE count=16768 step=4605952 row=293 outgoing=41 incoming=19 loss=0 holes=16
+BACKGROUND_MOVE count=16896 step=4633728 row=186 outgoing=27 incoming=2 loss=0 holes=17
+PROGRESS b=301 best=9 current=17 step=4644864 elapsed=160.3
+BACKGROUND_MOVE count=17024 step=4662400 row=210 outgoing=14 incoming=42 loss=1 holes=16
+BACKGROUND_MOVE count=17152 step=4708352 row=293 outgoing=49 incoming=43 loss=1 holes=16
+BACKGROUND_MOVE count=17280 step=4729984 row=186 outgoing=1 incoming=13 loss=0 holes=15
+EQUAL_PARTIAL count=12 step=4752721 blocks=301 holes=9
+BACKGROUND_MOVE count=17408 step=4754048 row=210 outgoing=5 incoming=8 loss=1 holes=17
+BACKGROUND_MOVE count=17536 step=4776704 row=44 outgoing=10 incoming=12 loss=0 holes=14
+BACKGROUND_MOVE count=17664 step=4806528 row=101 outgoing=28 incoming=17 loss=0 holes=15
+BACKGROUND_MOVE count=17792 step=4834816 row=57 outgoing=37 incoming=22 loss=1 holes=17
+BACKGROUND_MOVE count=17920 step=4865408 row=101 outgoing=46 incoming=5 loss=1 holes=12
+BACKGROUND_MOVE count=18048 step=4895104 row=186 outgoing=32 incoming=48 loss=0 holes=15
+PROGRESS b=301 best=9 current=17 step=4913152 elapsed=170.3
+BACKGROUND_MOVE count=18176 step=4921856 row=78 outgoing=50 incoming=35 loss=0 holes=17
+BACKGROUND_MOVE count=18304 step=4948480 row=162 outgoing=18 incoming=45 loss=1 holes=17
+BACKGROUND_MOVE count=18432 step=4977024 row=208 outgoing=47 incoming=8 loss=0 holes=17
+BACKGROUND_MOVE count=18560 step=5002624 row=11 outgoing=42 incoming=10 loss=0 holes=15
+BACKGROUND_MOVE count=18688 step=5042432 row=200 outgoing=39 incoming=7 loss=1 holes=14
+EQUAL_PARTIAL count=13 step=5062162 blocks=301 holes=9
+BACKGROUND_MOVE count=18816 step=5070208 row=77 outgoing=41 incoming=2 loss=0 holes=16
+BACKGROUND_MOVE count=18944 step=5101824 row=67 outgoing=30 incoming=54 loss=1 holes=15
+BACKGROUND_MOVE count=19072 step=5128192 row=162 outgoing=18 incoming=31 loss=1 holes=14
+BACKGROUND_MOVE count=19200 step=5159040 row=268 outgoing=16 incoming=53 loss=2 holes=17
+PROGRESS b=301 best=9 current=17 step=5167104 elapsed=180.3
+BACKGROUND_MOVE count=19328 step=5197056 row=208 outgoing=37 incoming=17 loss=1 holes=17
+BACKGROUND_MOVE count=19456 step=5241472 row=208 outgoing=23 incoming=41 loss=0 holes=17
+BACKGROUND_MOVE count=19584 step=5272448 row=39 outgoing=32 incoming=7 loss=0 holes=17
+BACKGROUND_MOVE count=19712 step=5305472 row=39 outgoing=52 incoming=31 loss=1 holes=17
+BACKGROUND_MOVE count=19840 step=5339392 row=39 outgoing=49 incoming=44 loss=0 holes=14
+BACKGROUND_MOVE count=19968 step=5373440 row=169 outgoing=7 incoming=31 loss=1 holes=16
+BACKGROUND_MOVE count=20096 step=5406336 row=177 outgoing=28 incoming=18 loss=1 holes=15
+PROGRESS b=301 best=9 current=19 step=5429248 elapsed=190.3
+BACKGROUND_MOVE count=20224 step=5440256 row=183 outgoing=26 incoming=11 loss=0 holes=17
+EQUAL_PARTIAL count=14 step=5452006 blocks=301 holes=9
+BACKGROUND_MOVE count=20352 step=5467264 row=136 outgoing=32 incoming=1 loss=1 holes=14
+BACKGROUND_MOVE count=20480 step=5506688 row=39 outgoing=41 incoming=37 loss=0 holes=17
+BACKGROUND_MOVE count=20608 step=5565312 row=186 outgoing=32 incoming=54 loss=1 holes=17
+BACKGROUND_MOVE count=20736 step=5638528 row=17 outgoing=48 incoming=20 loss=0 holes=15
+BACKGROUND_MOVE count=20864 step=5710464 row=77 outgoing=25 incoming=37 loss=2 holes=16
+BACKGROUND_MOVE count=20992 step=5770752 row=169 outgoing=44 incoming=24 loss=0 holes=17
+PROGRESS b=301 best=9 current=17 step=5772288 elapsed=200.4
+BACKGROUND_MOVE count=21120 step=5825408 row=278 outgoing=13 incoming=23 loss=0 holes=17
+BACKGROUND_MOVE count=21248 step=5861760 row=136 outgoing=49 incoming=25 loss=0 holes=16
+BACKGROUND_MOVE count=21376 step=5901824 row=293 outgoing=2 incoming=35 loss=0 holes=14
+BACKGROUND_MOVE count=21504 step=5941504 row=200 outgoing=13 incoming=11 loss=1 holes=17
+BACKGROUND_MOVE count=21632 step=5983360 row=208 outgoing=23 incoming=30 loss=0 holes=16
+BACKGROUND_MOVE count=21760 step=6025344 row=14 outgoing=3 incoming=52 loss=0 holes=17
+BACKGROUND_MOVE count=21888 step=6061184 row=196 outgoing=37 incoming=11 loss=1 holes=16
+PROGRESS b=301 best=9 current=18 step=6067200 elapsed=210.4
+BACKGROUND_MOVE count=22016 step=6102784 row=201 outgoing=45 incoming=2 loss=0 holes=16
+BACKGROUND_MOVE count=22144 step=6144512 row=249 outgoing=54 incoming=21 loss=1 holes=16
+BACKGROUND_MOVE count=22272 step=6187904 row=14 outgoing=46 incoming=14 loss=1 holes=17
+BACKGROUND_MOVE count=22400 step=6226304 row=78 outgoing=19 incoming=31 loss=1 holes=17
+BACKGROUND_MOVE count=22528 step=6272896 row=208 outgoing=9 incoming=37 loss=0 holes=17
+BACKGROUND_MOVE count=22656 step=6318848 row=208 outgoing=37 incoming=52 loss=1 holes=16
+PROGRESS b=301 best=9 current=20 step=6346752 elapsed=220.4
+BACKGROUND_MOVE count=22784 step=6393344 row=278 outgoing=34 incoming=14 loss=1 holes=17
+BACKGROUND_MOVE count=22912 step=6431616 row=14 outgoing=45 incoming=33 loss=1 holes=16
+BACKGROUND_MOVE count=23040 step=6495232 row=237 outgoing=42 incoming=31 loss=2 holes=17
+BACKGROUND_MOVE count=23168 step=6553600 row=210 outgoing=16 incoming=33 loss=1 holes=17
+BACKGROUND_MOVE count=23296 step=6618496 row=188 outgoing=48 incoming=52 loss=1 holes=17
+PROGRESS b=301 best=9 current=19 step=6647808 elapsed=230.4
+BACKGROUND_MOVE count=23424 step=6660736 row=53 outgoing=54 incoming=40 loss=0 holes=17
+BACKGROUND_MOVE count=23552 step=6710912 row=11 outgoing=42 incoming=22 loss=1 holes=14
+BACKGROUND_MOVE count=23680 step=6745472 row=208 outgoing=23 incoming=26 loss=1 holes=14
+BACKGROUND_MOVE count=23808 step=6775168 row=44 outgoing=48 incoming=46 loss=0 holes=17
+BACKGROUND_MOVE count=23936 step=6831360 row=45 outgoing=2 incoming=26 loss=0 holes=16
+BACKGROUND_MOVE count=24064 step=6865152 row=201 outgoing=52 incoming=40 loss=2 holes=17
+BACKGROUND_MOVE count=24192 step=6902144 row=136 outgoing=14 incoming=35 loss=1 holes=16
+BACKGROUND_MOVE count=24320 step=6943744 row=77 outgoing=24 incoming=13 loss=1 holes=15
+PROGRESS b=301 best=9 current=15 step=6943744 elapsed=240.4
+BACKGROUND_MOVE count=24448 step=6972928 row=266 outgoing=23 incoming=14 loss=1 holes=14
+BACKGROUND_MOVE count=24576 step=7008384 row=45 outgoing=12 incoming=8 loss=1 holes=17
+BACKGROUND_MOVE count=24704 step=7047808 row=266 outgoing=1 incoming=41 loss=0 holes=17
+BACKGROUND_MOVE count=24832 step=7090304 row=266 outgoing=4 incoming=34 loss=0 holes=15
+BACKGROUND_MOVE count=24960 step=7155072 row=266 outgoing=23 incoming=25 loss=2 holes=16
+BACKGROUND_MOVE count=25088 step=7198848 row=204 outgoing=25 incoming=29 loss=2 holes=17
+BACKGROUND_MOVE count=25216 step=7236608 row=18 outgoing=41 incoming=12 loss=0 holes=17
+PROGRESS b=301 best=9 current=18 step=7244800 elapsed=250.5
+BACKGROUND_MOVE count=25344 step=7277824 row=44 outgoing=26 incoming=13 loss=2 holes=16
+BACKGROUND_MOVE count=25472 step=7312128 row=186 outgoing=27 incoming=54 loss=1 holes=14
+BACKGROUND_MOVE count=25600 step=7344000 row=53 outgoing=54 incoming=25 loss=0 holes=17
+BACKGROUND_MOVE count=25728 step=7381376 row=186 outgoing=14 incoming=38 loss=1 holes=16
+BACKGROUND_MOVE count=25856 step=7422336 row=5 outgoing=11 incoming=4 loss=1 holes=17
+BACKGROUND_MOVE count=25984 step=7490560 row=237 outgoing=40 incoming=21 loss=1 holes=17
+BACKGROUND_MOVE count=26112 step=7529984 row=110 outgoing=3 incoming=39 loss=1 holes=17
+PROGRESS b=301 best=9 current=17 step=7573504 elapsed=260.5
+BACKGROUND_MOVE count=26240 step=7579392 row=136 outgoing=37 incoming=4 loss=0 holes=13
+BACKGROUND_MOVE count=26368 step=7611776 row=80 outgoing=41 incoming=53 loss=0 holes=14
+BACKGROUND_MOVE count=26496 step=7652224 row=110 outgoing=44 incoming=14 loss=0 holes=17
+BACKGROUND_MOVE count=26624 step=7689472 row=18 outgoing=27 incoming=21 loss=2 holes=17
+BACKGROUND_MOVE count=26752 step=7717376 row=53 outgoing=54 incoming=24 loss=0 holes=16
+BACKGROUND_MOVE count=26880 step=7744512 row=201 outgoing=10 incoming=46 loss=0 holes=17
+BACKGROUND_MOVE count=27008 step=7789312 row=201 outgoing=52 incoming=13 loss=1 holes=17
+BACKGROUND_MOVE count=27136 step=7831680 row=164 outgoing=18 incoming=52 loss=0 holes=16
+PROGRESS b=301 best=9 current=19 step=7870464 elapsed=270.5
+BACKGROUND_MOVE count=27264 step=7883392 row=5 outgoing=4 incoming=6 loss=1 holes=17
+BACKGROUND_MOVE count=27392 step=7918336 row=164 outgoing=37 incoming=23 loss=0 holes=14
+BACKGROUND_MOVE count=27520 step=7956096 row=266 outgoing=53 incoming=1 loss=0 holes=17
+BACKGROUND_MOVE count=27648 step=7990400 row=266 outgoing=1 incoming=39 loss=0 holes=16
+BACKGROUND_MOVE count=27776 step=8028288 row=145 outgoing=30 incoming=34 loss=1 holes=16
+BACKGROUND_MOVE count=27904 step=8054144 row=164 outgoing=30 incoming=17 loss=1 holes=16
+BACKGROUND_MOVE count=28032 step=8078336 row=201 outgoing=23 incoming=40 loss=1 holes=16
+BACKGROUND_MOVE count=28160 step=8111744 row=109 outgoing=2 incoming=26 loss=1 holes=17
+BACKGROUND_MOVE count=28288 step=8153344 row=80 outgoing=2 incoming=15 loss=1 holes=17
+PROGRESS b=301 best=9 current=18 step=8166400 elapsed=280.5
+BACKGROUND_MOVE count=28416 step=8194304 row=45 outgoing=54 incoming=18 loss=0 holes=16
+BACKGROUND_MOVE count=28544 step=8229248 row=278 outgoing=41 incoming=50 loss=1 holes=15
+BACKGROUND_MOVE count=28672 step=8264832 row=77 outgoing=25 incoming=34 loss=0 holes=17
+BACKGROUND_MOVE count=28800 step=8310016 row=208 outgoing=37 incoming=32 loss=0 holes=17
+BACKGROUND_MOVE count=28928 step=8401792 row=266 outgoing=41 incoming=25 loss=1 holes=17
+BACKGROUND_MOVE count=29056 step=8442240 row=27 outgoing=3 incoming=15 loss=0 holes=16
+BACKGROUND_MOVE count=29184 step=8498176 row=27 outgoing=43 incoming=30 loss=0 holes=15
+PROGRESS b=301 best=9 current=16 step=8510464 elapsed=290.5
+BACKGROUND_MOVE count=29312 step=8550272 row=27 outgoing=19 incoming=46 loss=0 holes=16
+BACKGROUND_MOVE count=29440 step=8585856 row=27 outgoing=49 incoming=2 loss=0 holes=17
+BACKGROUND_MOVE count=29568 step=8628096 row=27 outgoing=8 incoming=44 loss=0 holes=15
+BACKGROUND_MOVE count=29696 step=8663936 row=27 outgoing=54 incoming=8 loss=0 holes=16
+BACKGROUND_MOVE count=29824 step=8715648 row=27 outgoing=41 incoming=48 loss=0 holes=16
+BACKGROUND_MOVE count=29952 step=8755072 row=80 outgoing=2 incoming=15 loss=1 holes=14
+BACKGROUND_MOVE count=30080 step=8793344 row=201 outgoing=9 incoming=45 loss=1 holes=17
+BACKGROUND MOVES 30147
+BACKGROUND_LOSS_COUNTS zero=14491 one=13610 two=2046
+WLS2 C(54,16,4) b=301 seed=1287: best 9 uncovered, 8821760 steps, 300.0s (29406 steps/s)

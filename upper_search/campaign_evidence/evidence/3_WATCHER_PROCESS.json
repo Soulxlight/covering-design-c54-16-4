@@ -1,0 +1,8 @@
+{
+  "pid": 45156,
+  "utc": "2026-11-06T19:35:11.499883+00:00",
+  "previous_pid": 38932,
+  "reason": "Explicit terminal-stopped exact-controller branch; preserve all prior stop audit records",
+  "log": "/workspace/cover_search/independent_long/watcher_detached.log",
+  "detached": true
+}

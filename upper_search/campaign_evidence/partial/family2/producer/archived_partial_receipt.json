@@ -1,0 +1,45 @@
+{
+  "blocks": 301,
+  "covered_targets": 316243,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "path": "/workspace/cover_search/campaign/archive/partial/partial_90d3b8659234e50a.txt",
+  "provenance": {
+    "dependencies": {
+      "highspy": "1.15.1",
+      "numpy": "2.3.5",
+      "ortools": "9.15.6755",
+      "python-sat": "1.9.dev21"
+    },
+    "dependency_trace": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/candidate.moves.json",
+    "input_metadata": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/input_metadata.json",
+    "kind": "exact-protected-point-cp",
+    "log_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/solver.log",
+    "replay_argv": [
+      "python",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/replay.py",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/input_metadata.json",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/candidate_result.json",
+      "replay-output"
+    ],
+    "result_metadata": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_solve/candidate_result.json",
+    "source_files": {
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_certificate.json": "d4a68a4500134b761a07c8324b928ae82b2a1c1ef5781e520aa0905bac2b81aa",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_kernel.json": "458c49981b5502308b02e71d388dc6d783eed9ee21db8ac3d9e20ab1df9d4998",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/bootstrap_weak_map.json": "defaefc6d7db4d1024e371e9a6edf5d98a7460a67069797a641bb43e9074a6e9",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/kernel_hole_lp.py": "cd98cf0fac345f6f2ea9953546d7f2b4c246cdb937945948967b16f7570964a3",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/membership_lns.py": "1689f1c1ace454262f4261e97e6db98192776af2a6c0904b428c0f8b1e66d00a",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/price_kernel_release.py": "2bf053b66ccff6acebd6e4756abf4b5a48f208ef2673717f0cb6ae3e0dc1eb3d",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/replay.py": "70c4cbec4dd3a14a5210102d40062f5cf41e7e92a8cb0c8270943bf7025f784d",
+      "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/run_adaptive.py": "dbfa2ac289b11181787ccffc59974ae674253b1a7b8447c02660344ea23b9468"
+    }
+  },
+  "sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402",
+  "total_targets": 316251,
+  "uncovered_targets": 8,
+  "valid": false,
+  "verified_utc": "2026-11-06T18:07:14.451147+00:00"
+}

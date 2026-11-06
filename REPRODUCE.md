@@ -107,3 +107,13 @@ is historical. The frozen230 checker keeps its historical upper336 output;
 current upper-bound search evidence is separate. The retained manifest base commit
 identifies the lower230 release ancestry, while publication_parent_commit
 identifies this update's parent. These commands verify; they do not publish.
+
+## Final campaign packet
+
+The final 302 result, three complete search families and explicitly incomplete
+301-row checkpoints are indexed by `upper_search/CAMPAIGN_FINAL.json`.
+Run `python -B upper_search/campaign_evidence/verify_evidence.py` to verify their
+exact coverage/deficits and the compact replay records without running search.
+Every `partial/` packet is NOT A COVER and has its own continuation instructions.
+The current combined release verifier includes these checks. The retained lower
+proofs, prior milestones and their reproduction commands are unchanged.

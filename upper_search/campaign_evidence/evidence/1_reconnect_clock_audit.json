@@ -1,0 +1,31 @@
+{
+  "audit_utc": "2026-11-06T18:23:21.556694+00:00",
+  "campaign_status_utc": "2026-11-06T18:23:19.452297+00:00",
+  "independent_status_utc": "2026-11-06T18:23:21.340565+00:00",
+  "complete_blocks": 302,
+  "last_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "persistent_wall_gap_seconds": 6648.526015,
+  "persistent_monotonic_gap_seconds": 6648.5237213380005,
+  "clock_gap_difference_seconds": 0.0022936619998290553,
+  "same_boot_id": true,
+  "strict_stall_threshold_exceeded": false,
+  "stopping_reason": null,
+  "watcher": {
+    "status": "DETACHED_INDEPENDENT_WATCHER_RUNNING",
+    "pid": 38932,
+    "started_utc": "2026-11-06T18:21:40.975423+00:00",
+    "replaced_pids": [
+      38856
+    ],
+    "argv": [
+      "python",
+      "-B",
+      "/workspace/cover_search/independent_long/audit_campaign.py",
+      "--watch",
+      "--interval",
+      "20"
+    ],
+    "log_path": "/workspace/cover_search/independent_long/watcher_detached.log",
+    "campaign_clock_reset": false
+  }
+}

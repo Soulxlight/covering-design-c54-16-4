@@ -1,0 +1,85 @@
+{
+  "status": "ALL_SIXTEEN_REJECTED",
+  "controls": [
+    {
+      "change": "capacity",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "capacity",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "target_owner",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "target_owner",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "forcing",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "forcing",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "permuted_forcing",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "permuted_forcing",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "permuted_support",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "permuted_support",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "duplicate_label",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "duplicate_label",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "parameter_metadata",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "parameter_metadata",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "change": "noncanonical_row",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "change": "noncanonical_row",
+      "optimized": true,
+      "rejected": true
+    }
+  ]
+}

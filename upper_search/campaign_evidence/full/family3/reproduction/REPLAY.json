@@ -1,0 +1,64 @@
+{
+  "algorithm_environment": {},
+  "checkpoint_environment": {
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "32",
+    "SAVE_EQUAL_PARTIAL": "@WORK_DIR@/equal_partial.txt",
+    "SAVE_FINAL": "@WORK_DIR@/final_state.txt",
+    "SAVE_PARTIAL": "@WORK_DIR@/best_partial.txt"
+  },
+  "cleared_environment_variables": [
+    "EQUAL_INTERVAL",
+    "EQUAL_MAX_HOLES",
+    "MAX_STEPS",
+    "NOWEIGHT",
+    "SAVE_EQUAL_PARTIAL",
+    "SAVE_FINAL",
+    "SAVE_PARTIAL"
+  ],
+  "compile_argv": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "wls_sparse_compact_equal_v2_direct.cpp",
+    "-o",
+    "@BINARY@"
+  ],
+  "expected_output_filename": "shrink_cover_54_16_4_302_1289.txt",
+  "expected_witness_sha256": "b02a347dfbc3254bd950ad1d13a0c17834792d4f089594b7feb513f5a874f684",
+  "input_ancestry_record": "provenance/INPUT_ANCESTRY.json",
+  "input_blocks": 303,
+  "input_is_complete_cover": true,
+  "input_sha256": "d9a3161912aff04717bc9667d3db7d2d71fc432a234240a394b412e0e3929bf4",
+  "input_uncovered": 0,
+  "kind": "weighted_local_search",
+  "log_snapshot_utc": "2026-11-06T18:07:19.326190+00:00",
+  "noise": 0.01,
+  "original_compiler_command": "g++ -O3 -march=native -std=c++17 wls_sparse_compact_equal_v2_direct.cpp -o wls_sparse_compact_equal_v2_direct",
+  "original_compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "recorded_wall_clock_seconds": 600,
+  "replay_limit": "Wall-clock stopping, compiler/standard-library differences and hardware speed can affect exact search reproduction. Exhaustive witness verification is deterministic.",
+  "run_argv": [
+    "@BINARY@",
+    "54",
+    "16",
+    "4",
+    "303",
+    "600",
+    "1289",
+    "@INPUT@",
+    "17",
+    "0.01",
+    "302"
+  ],
+  "seed": 1289,
+  "targetB": 302,
+  "target_blocks": 302,
+  "tenure": 17
+}

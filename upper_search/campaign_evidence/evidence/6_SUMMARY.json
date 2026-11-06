@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "35a5967311f565bf239d0cd1efcfd8eefa24c83901c5b3aa45e2f2e400c14a2b",
+  "release_status": "PASS_COMBINED_WHITELIST_AND_EXACT_ARITHMETIC",
+  "verified_upper_bound": 302,
+  "normal_optimized_mathematics_equal": true,
+  "checks": {
+    "negative_covers": {
+      "check": "negative_covers",
+      "argv": [
+        "python",
+        "-B",
+        "upper334/validate_controls.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.148,
+      "rejected_cases": 12
+    },
+    "negative_inventory": {
+      "check": "negative_inventory",
+      "argv": [
+        "python",
+        "-B",
+        "audit224/check_release_inventory.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.982,
+      "status": "PASS_COMPLETE_RELEASE_INVENTORY_CONTROLS",
+      "physical_process_rejections": 32,
+      "manifest_variants": 13,
+      "normal_and_optimized_rejected_all": true
+    },
+    "negative_lower230": {
+      "check": "negative_lower230",
+      "argv": [
+        "python",
+        "-B",
+        "audit230/run_corruption_checks.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 19.121,
+      "rejected_processes": 34
+    },
+    "release_normal": {
+      "check": "release_normal",
+      "argv": [
+        "python",
+        "-B",
+        "verify_release.py",
+        "--manifest-sha256",
+        "35a5967311f565bf239d0cd1efcfd8eefa24c83901c5b3aa45e2f2e400c14a2b"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 21.274
+    },
+    "release_optimized": {
+      "check": "release_optimized",
+      "argv": [
+        "python",
+        "-B",
+        "-O",
+        "verify_release.py",
+        "--manifest-sha256",
+        "35a5967311f565bf239d0cd1efcfd8eefa24c83901c5b3aa45e2f2e400c14a2b"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 24.58
+    },
+    "tests_normal": {
+      "check": "tests_normal",
+      "argv": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.741,
+      "tests_passed": 28
+    },
+    "tests_optimized": {
+      "check": "tests_optimized",
+      "argv": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.146,
+      "tests_passed": 28
+    }
+  },
+  "protected_unchanged_file_count": 201,
+  "portable_compilation": "PASS: identical source/header/flags compiled in staged302 packet with g++ -O3 -std=c++17 wls_balance_sparse_equal_v2.cpp",
+  "source_inventory_verified": true,
+  "whitespace_check": "PASS with CRLF handling and preserved source/LICENSE blank EOF lines",
+  "reproduction302_inventory": 13,
+  "final_review_utc": "2026-11-06T16:39:37.431470+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "complete_upper_bound": 302,
+  "complete_witness_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "evidence_directory": "upper_search/campaign_evidence",
+  "evidence_manifest_sha256": "743584a0b5ec124cfaf67e49cb6655461d1061276b8b6240efd90da6b6fca532",
+  "external_publication_performed": false,
+  "full_family_count": 3,
+  "incomplete_resume_checkpoints": [
+    {
+      "blocks": 301,
+      "family": "primary",
+      "is_complete_cover": false,
+      "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+      "uncovered_quadruples": 7
+    },
+    {
+      "blocks": 301,
+      "family": "family2",
+      "is_complete_cover": false,
+      "sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402",
+      "uncovered_quadruples": 8
+    },
+    {
+      "blocks": 301,
+      "family": "family3",
+      "is_complete_cover": false,
+      "sha256": "e8b05593d30ff9f54e4bbdb1bf550686b3ca2964968a953d5e1ec01bfa112f60",
+      "uncovered_quadruples": 19
+    }
+  ],
+  "last_strict_full_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "optimality_claimed": false,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "parent_commit": "7ec215d60629761654874c2d4f1fdd8b71db3fe5",
+  "producer_quiescence_and_final_drain_verified": true,
+  "status": "FINAL_LOCAL_CAMPAIGN_VERIFIED",
+  "stopped_utc": "2026-11-06T19:32:53.625553+00:00",
+  "stopping_reason": "more_than_10800_seconds_without_verified_improvement",
+  "strictly_more_than_three_hours": true,
+  "verified_stall_seconds": 10820.594874
+}

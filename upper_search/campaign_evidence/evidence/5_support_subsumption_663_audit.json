@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_POOL_SUPPORT_SUBSUMPTION",
+  "certificate_sha256": "5469753bf501ac5db3a89c9aed4539de0b7cc04b47c1ba36ce1797611d858f63",
+  "model_sha256": "89fe1599e99dfe5aaf8edaf5a172c08531806046a252022a0e9a6a5ed93092c2",
+  "pool_rows": 663,
+  "fixed_common_rows": 19,
+  "minimum_common_singleton_count": 308,
+  "max_holes": 6,
+  "constant_holes": 0,
+  "reconstructed_signature_groups": 111129,
+  "retained_hard": 1444,
+  "retained_soft": 33813,
+  "omitted_with_checked_subset_witnesses": 75872,
+  "fixed_core_covered_targets": 33328,
+  "residual_targets": 282923,
+  "all316251_targets_accounted_for": true,
+  "method": "Fresh point-incidence reconstruction of every quadruple, every listed group target, singleton forcing, exact weights and all subset witnesses; no optimizer or producer verifier used.",
+  "proof": "At the stated defect cap every retained hard support must be hit. Hitting that support also hits each certified superset, so omitted groups have zero deficit on all feasible selections. Remaining soft weights exactly measure residual defects.",
+  "scope": "This is an equivalence certificate for the pinned finite pool under the given hole cap. It does not prove infeasibility, an optimum, or an unrestricted covering-number lower bound.",
+  "audit_utc": "2026-11-06T18:43:48.040148+00:00",
+  "checker_source_path": "/workspace/cover_search/independent_long/support_subsumption_663_checker.py",
+  "checker_source_sha256": "132af01724b36141b576afed9990e6faa0530702c1cf206c258b520c137c6878"
+}

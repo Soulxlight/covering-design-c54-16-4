@@ -1,0 +1,22 @@
+{
+  "blocks": 302,
+  "campaign_continues_after_snapshot": true,
+  "campaign_status_at_snapshot": "running",
+  "checkpoint_count": 16,
+  "external_publication_performed": false,
+  "input_ancestry_record": null,
+  "input_uncovered": 9,
+  "last_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "optimality_claimed": false,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "reproduction_kind": "weighted_local_search",
+  "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "staged_utc": "2026-11-06T16:32:39.806047+00:00",
+  "stopping_reason_at_snapshot": null,
+  "verified_utc": "2026-11-06T16:32:33.030679+00:00",
+  "witness": "data/cover-302.txt"
+}

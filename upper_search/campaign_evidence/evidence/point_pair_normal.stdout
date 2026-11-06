@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "parent_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "current_holes": 7,
+  "strict_target": 6,
+  "fixed_bound_rejections": 821,
+  "conditional_parity_rejections": 610,
+  "scope": "For this exact301-row parent, no coordinated a/b switches among rows containing exactly one ofa,b can reach six holes, for any of1431 point pairs. Not a global covering-design lower bound."
+}

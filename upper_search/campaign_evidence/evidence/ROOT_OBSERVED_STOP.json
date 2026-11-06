@@ -1,0 +1,61 @@
+{
+  "ack": {
+    "all_candidate_tickets_committed": true,
+    "completed_jobs": 790,
+    "inbox": "/workspace/cover_search/campaign/inbox",
+    "no_active_solver": true,
+    "no_auxiliary_lease": true,
+    "pid": 38927,
+    "request_id": "19a46d2a-18f0-47c7-8e11-c2317f175e52",
+    "utc": "2026-11-06T19:32:53.031527+00:00"
+  },
+  "best_blocks": 302,
+  "best_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "checked_utc": "2026-11-06T19:33:02.287718+00:00",
+  "gap_seconds": 10820.592557909999,
+  "inbox_json_count": 48,
+  "independent_producer": {
+    "agent": "identify_cover",
+    "all_created_candidate_tickets_committed": true,
+    "current_full_blocks": 302,
+    "current_full_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+    "last_candidate_sha256": "4c3c2912c7b9c122418ed57a71afc7f4b62ec26963bb602a5766d5c0f41981f1",
+    "last_full_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+    "last_generation_utc": "2026-11-06T19:13:11.432670+00:00",
+    "no_active_candidate_producing_audit": true,
+    "no_future_candidate_generation_until_new_smaller_full_or_explicit_root_reactivation": true,
+    "permitted_remaining_actions": [
+      "read-only independent witness verification",
+      "staging immutable existing witnesses and provenance",
+      "portable certificate verification after coordinated stop",
+      "final packaging and authorized local repository edits"
+    ],
+    "scope": "This agent has no candidate-producing process. The detached independent watcher remains active and is not a search producer.",
+    "status": "CANDIDATE_PRODUCER_QUIESCED_VERIFICATION_CONTINUES",
+    "utc": "2026-11-06T19:17:03.123774+00:00"
+  },
+  "last_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "reason": "more_than_10800_seconds_without_verified_improvement",
+  "status": "stopped",
+  "stopped_utc": "2026-11-06T19:32:53.625553+00:00",
+  "workers": [
+    {
+      "active": false,
+      "pid": 44704,
+      "process_state": null,
+      "run": "run_1324"
+    },
+    {
+      "active": false,
+      "pid": 44964,
+      "process_state": null,
+      "run": "run_1326"
+    },
+    {
+      "active": false,
+      "pid": 45002,
+      "process_state": null,
+      "run": "run_1327"
+    }
+  ]
+}

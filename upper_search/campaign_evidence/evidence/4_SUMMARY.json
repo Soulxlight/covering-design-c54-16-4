@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "covered_quadruples": 316228,
+      "distinct_rows": 301,
+      "duplicate_working_rows_preserved": 0,
+      "excess_points": 90,
+      "input_format": "mixed-variable-cardinality",
+      "original_path": "/workspace/cover_search/campaign/runs/run_1294/mixed_state.txt",
+      "oversized_rows": 90,
+      "row_size_histogram": {
+        "16": 211,
+        "17": 90
+      },
+      "rows": 301,
+      "sha256": "bed648531ded1b163ca36f4d8860b76c8a096ee64598a83a5b8e67b245aa17d8",
+      "snapshot_path": "/workspace/cover_search/independent_long/homotopy_run1294/mixed_state.txt",
+      "status": "VERIFIED_MIXED_SEARCH_INPUT_NOT_A_UNIFORM_COVER_CLAIM",
+      "total_quadruples": 316251,
+      "two_independent_methods_agree": true,
+      "uncovered_quadruples": 23,
+      "uniform_C_54_16_4_cover_claimed": false
+    },
+    {
+      "covered_quadruples": 315822,
+      "distinct_rows": 301,
+      "duplicate_working_rows_preserved": 0,
+      "excess_points": 90,
+      "input_format": "mixed-variable-cardinality",
+      "original_path": "/workspace/cover_search/campaign/runs/run_1294/mixed_final.txt",
+      "oversized_rows": 90,
+      "row_size_histogram": {
+        "16": 211,
+        "17": 90
+      },
+      "rows": 301,
+      "sha256": "833c2761f91ee1fa981040fb894d1e7e1a4e005320be2a60399ee05791e06270",
+      "snapshot_path": "/workspace/cover_search/independent_long/homotopy_run1294/mixed_final.txt",
+      "status": "VERIFIED_MIXED_SEARCH_INPUT_NOT_A_UNIFORM_COVER_CLAIM",
+      "total_quadruples": 316251,
+      "two_independent_methods_agree": true,
+      "uncovered_quadruples": 429,
+      "uniform_C_54_16_4_cover_claimed": false
+    }
+  ],
+  "status": "INDEPENDENT_MIXED_STATE_AUDIT",
+  "uniform_cover_claimed": false
+}

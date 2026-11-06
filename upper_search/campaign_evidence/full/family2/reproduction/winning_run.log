@@ -1,0 +1,83 @@
+init: loaded 302 blocks, uncovered 5
+BEST b=302 uncovered=4 step=1
+PROGRESS b=302 best=4 current=416 step=263168 elapsed=10.0
+PROGRESS b=302 best=4 current=83 step=653312 elapsed=20.0
+PROGRESS b=302 best=4 current=39 step=1053696 elapsed=30.0
+EQUAL_PARTIAL count=1 step=1227698 blocks=302 holes=4
+BEST b=302 uncovered=3 step=1232399
+BEST b=302 uncovered=2 step=1281480
+BEST b=302 uncovered=1 step=1285264
+BEST b=302 uncovered=0 step=1297500
+FULL 302 blocks at 35.3s
+BEST b=301 uncovered=118 step=1297503
+BEST b=301 uncovered=116 step=1297518
+BEST b=301 uncovered=114 step=1297522
+BEST b=301 uncovered=112 step=1297524
+BEST b=301 uncovered=111 step=1297534
+BEST b=301 uncovered=108 step=1297645
+BEST b=301 uncovered=106 step=1297665
+BEST b=301 uncovered=105 step=1297700
+BEST b=301 uncovered=104 step=1298114
+BEST b=301 uncovered=98 step=1298822
+BEST b=301 uncovered=97 step=1300144
+BEST b=301 uncovered=96 step=1301453
+BEST b=301 uncovered=94 step=1301462
+BEST b=301 uncovered=92 step=1301463
+BEST b=301 uncovered=91 step=1301469
+BEST b=301 uncovered=89 step=1301471
+BEST b=301 uncovered=87 step=1301472
+BEST b=301 uncovered=85 step=1301549
+BEST b=301 uncovered=84 step=1301622
+BEST b=301 uncovered=83 step=1301624
+BEST b=301 uncovered=81 step=1301774
+BEST b=301 uncovered=79 step=1301783
+BEST b=301 uncovered=75 step=1303039
+BEST b=301 uncovered=74 step=1303048
+BEST b=301 uncovered=73 step=1303050
+BEST b=301 uncovered=72 step=1306088
+BEST b=301 uncovered=69 step=1306095
+BEST b=301 uncovered=68 step=1306681
+BEST b=301 uncovered=67 step=1306766
+BEST b=301 uncovered=66 step=1306959
+BEST b=301 uncovered=65 step=1307433
+BEST b=301 uncovered=64 step=1307434
+BEST b=301 uncovered=63 step=1307435
+BEST b=301 uncovered=59 step=1307443
+BEST b=301 uncovered=55 step=1307446
+BEST b=301 uncovered=54 step=1392295
+BEST b=301 uncovered=53 step=1393242
+BEST b=301 uncovered=52 step=1395652
+BEST b=301 uncovered=51 step=1395653
+BEST b=301 uncovered=50 step=1395654
+BEST b=301 uncovered=48 step=1395656
+PROGRESS b=301 best=48 current=389 step=1440768 elapsed=40.0
+PROGRESS b=301 best=48 current=139 step=1712128 elapsed=50.0
+PROGRESS b=301 best=48 current=588 step=1988608 elapsed=60.1
+PROGRESS b=301 best=48 current=134 step=2292736 elapsed=70.1
+PROGRESS b=301 best=48 current=162 step=2622464 elapsed=80.1
+PROGRESS b=301 best=48 current=116 step=2963456 elapsed=90.1
+BEST b=301 uncovered=47 step=3082330
+BEST b=301 uncovered=46 step=3082332
+BEST b=301 uncovered=45 step=3082842
+BEST b=301 uncovered=43 step=3082843
+BEST b=301 uncovered=42 step=3082999
+BEST b=301 uncovered=41 step=3083002
+BEST b=301 uncovered=38 step=3083004
+BEST b=301 uncovered=34 step=3086778
+BEST b=301 uncovered=33 step=3109975
+BEST b=301 uncovered=29 step=3117528
+EQUAL_PARTIAL count=2 step=3117528 blocks=301 holes=29
+BEST b=301 uncovered=28 step=3117534
+BEST b=301 uncovered=26 step=3135338
+PROGRESS b=301 best=26 current=427 step=3340288 elapsed=100.1
+PROGRESS b=301 best=26 current=91 step=3677184 elapsed=110.1
+PROGRESS b=301 best=26 current=782 step=4027392 elapsed=120.1
+PROGRESS b=301 best=26 current=781 step=4205568 elapsed=130.1
+PROGRESS b=301 best=26 current=271 step=4381696 elapsed=140.2
+PROGRESS b=301 best=26 current=264 step=4676608 elapsed=150.2
+PROGRESS b=301 best=26 current=249 step=4903936 elapsed=160.2
+PROGRESS b=301 best=26 current=106 step=5298176 elapsed=170.2
+PROGRESS b=301 best=26 current=159 step=5673984 elapsed=180.2
+PROGRESS b=301 best=26 current=121 step=6037504 elapsed=190.2
+PROGRESS b=301 best=26 current=538 step=6466560 elapsed=200.2
+PROGRESS b=301 best=26 current=481 step=6766592 elapsed=210.3

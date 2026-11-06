@@ -1,0 +1,356 @@
+{
+  "input": "/workspace/cover_search/alternatives/three_point_recolor_v3/strict_20261106T192341/input.txt",
+  "input_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "input_holes": 7,
+  "target": 6,
+  "results": [
+    {
+      "status": "UNSAT",
+      "points_one_based": [
+        9,
+        22,
+        44
+      ],
+      "target": 6,
+      "input_holes": 7,
+      "fixed_parent": false,
+      "formula": {
+        "infeasible": null,
+        "budget": 5,
+        "nv": 46785,
+        "original_hard_violations": 0,
+        "original_cost": 6,
+        "original_budget_pass": false,
+        "conditional_fixed": 1,
+        "domain_passes": 1,
+        "support_groups": 37032
+      },
+      "hard_clauses": 58701,
+      "native_cost_literals": 46131,
+      "solver_statistics": {
+        "restarts": 14,
+        "conflicts": 2297,
+        "decisions": 24744,
+        "propagations": 34170895
+      },
+      "timeline": [
+        {
+          "stage": "start",
+          "wall_seconds": 5.327998223947361e-06,
+          "cpu_seconds": 2.4740000000023077e-06
+        },
+        {
+          "stage": "model_built",
+          "wall_seconds": 0.5620557549991645,
+          "cpu_seconds": 0.550571169,
+          "groups": 37032,
+          "variables": 218,
+          "current_holes": 7,
+          "capacity_bound": 2
+        },
+        {
+          "stage": "formula_built",
+          "wall_seconds": 0.7888271580013679,
+          "cpu_seconds": 0.777328132,
+          "infeasible": null,
+          "budget": 5,
+          "nv": 46785,
+          "original_hard_violations": 0,
+          "original_cost": 6,
+          "original_budget_pass": false,
+          "conditional_fixed": 1,
+          "domain_passes": 1,
+          "support_groups": 37032,
+          "hard_clauses": 58701,
+          "cost_literals": 46131
+        },
+        {
+          "stage": "solver_loaded",
+          "wall_seconds": 0.8391223520011408,
+          "cpu_seconds": 0.827609782,
+          "native_atmost_constraints": true
+        },
+        {
+          "stage": "solve_started",
+          "wall_seconds": 0.8395426950010005,
+          "cpu_seconds": 0.828027823
+        },
+        {
+          "stage": "solve_finished",
+          "wall_seconds": 1.5564805819994945,
+          "cpu_seconds": 1.539140895,
+          "answer": false
+        },
+        {
+          "stage": "complete",
+          "wall_seconds": 1.55879032699886,
+          "cpu_seconds": 1.541436602
+        }
+      ],
+      "child_wall_seconds": 1.6315092280019599,
+      "directory": "/workspace/cover_search/alternatives/three_point_recolor_v3/strict_20261106T192341/triple_9_22_44"
+    },
+    {
+      "status": "UNSAT",
+      "points_one_based": [
+        9,
+        49,
+        44
+      ],
+      "target": 6,
+      "input_holes": 7,
+      "fixed_parent": false,
+      "formula": {
+        "infeasible": null,
+        "budget": 5,
+        "nv": 47166,
+        "original_hard_violations": 0,
+        "original_cost": 6,
+        "original_budget_pass": false,
+        "conditional_fixed": 1,
+        "domain_passes": 1,
+        "support_groups": 36930
+      },
+      "hard_clauses": 59921,
+      "native_cost_literals": 46488,
+      "solver_statistics": {
+        "restarts": 15,
+        "conflicts": 3178,
+        "decisions": 29040,
+        "propagations": 42892828
+      },
+      "timeline": [
+        {
+          "stage": "start",
+          "wall_seconds": 5.65799928153865e-06,
+          "cpu_seconds": 2.3530000000000773e-06
+        },
+        {
+          "stage": "model_built",
+          "wall_seconds": 0.5390367779982626,
+          "cpu_seconds": 0.5356793,
+          "groups": 36930,
+          "variables": 226,
+          "current_holes": 7,
+          "capacity_bound": 2
+        },
+        {
+          "stage": "formula_built",
+          "wall_seconds": 0.7687920949974796,
+          "cpu_seconds": 0.763187498,
+          "infeasible": null,
+          "budget": 5,
+          "nv": 47166,
+          "original_hard_violations": 0,
+          "original_cost": 6,
+          "original_budget_pass": false,
+          "conditional_fixed": 1,
+          "domain_passes": 1,
+          "support_groups": 36930,
+          "hard_clauses": 59921,
+          "cost_literals": 46488
+        },
+        {
+          "stage": "solver_loaded",
+          "wall_seconds": 0.8125707879989932,
+          "cpu_seconds": 0.805306396,
+          "native_atmost_constraints": true
+        },
+        {
+          "stage": "solve_started",
+          "wall_seconds": 0.8129699800010712,
+          "cpu_seconds": 0.805704207
+        },
+        {
+          "stage": "solve_finished",
+          "wall_seconds": 1.7548169490000873,
+          "cpu_seconds": 1.744463161,
+          "answer": false
+        },
+        {
+          "stage": "complete",
+          "wall_seconds": 1.757230957999127,
+          "cpu_seconds": 1.746860428
+        }
+      ],
+      "child_wall_seconds": 1.856253096000728,
+      "directory": "/workspace/cover_search/alternatives/three_point_recolor_v3/strict_20261106T192341/triple_9_49_44"
+    },
+    {
+      "status": "UNSAT",
+      "points_one_based": [
+        45,
+        22,
+        44
+      ],
+      "target": 6,
+      "input_holes": 7,
+      "fixed_parent": false,
+      "formula": {
+        "infeasible": null,
+        "budget": 5,
+        "nv": 48243,
+        "original_hard_violations": 0,
+        "original_cost": 6,
+        "original_budget_pass": false,
+        "conditional_fixed": 1,
+        "domain_passes": 1,
+        "support_groups": 38214
+      },
+      "hard_clauses": 60979,
+      "native_cost_literals": 47676,
+      "solver_statistics": {
+        "restarts": 1,
+        "conflicts": 34,
+        "decisions": 22517,
+        "propagations": 717671
+      },
+      "timeline": [
+        {
+          "stage": "start",
+          "wall_seconds": 8.323000656673685e-06,
+          "cpu_seconds": 4.025999999997254e-06
+        },
+        {
+          "stage": "model_built",
+          "wall_seconds": 0.6311538230002043,
+          "cpu_seconds": 0.6294715329999999,
+          "groups": 38214,
+          "variables": 189,
+          "current_holes": 7,
+          "capacity_bound": 1
+        },
+        {
+          "stage": "formula_built",
+          "wall_seconds": 0.8571882420001202,
+          "cpu_seconds": 0.854972701,
+          "infeasible": null,
+          "budget": 5,
+          "nv": 48243,
+          "original_hard_violations": 0,
+          "original_cost": 6,
+          "original_budget_pass": false,
+          "conditional_fixed": 1,
+          "domain_passes": 1,
+          "support_groups": 38214,
+          "hard_clauses": 60979,
+          "cost_literals": 47676
+        },
+        {
+          "stage": "solver_loaded",
+          "wall_seconds": 0.8995948470001167,
+          "cpu_seconds": 0.8973658459999999,
+          "native_atmost_constraints": true
+        },
+        {
+          "stage": "solve_started",
+          "wall_seconds": 0.8999807190011779,
+          "cpu_seconds": 0.8977495259999999
+        },
+        {
+          "stage": "solve_finished",
+          "wall_seconds": 0.9171900209985324,
+          "cpu_seconds": 0.9130643009999999,
+          "answer": false
+        },
+        {
+          "stage": "complete",
+          "wall_seconds": 0.9190983100015728,
+          "cpu_seconds": 0.914959915
+        }
+      ],
+      "child_wall_seconds": 1.0017658410033619,
+      "directory": "/workspace/cover_search/alternatives/three_point_recolor_v3/strict_20261106T192341/triple_45_22_44"
+    },
+    {
+      "status": "UNSAT",
+      "points_one_based": [
+        45,
+        49,
+        44
+      ],
+      "target": 6,
+      "input_holes": 7,
+      "fixed_parent": false,
+      "formula": {
+        "infeasible": null,
+        "budget": 5,
+        "nv": 48093,
+        "original_hard_violations": 0,
+        "original_cost": 6,
+        "original_budget_pass": false,
+        "conditional_fixed": 1,
+        "domain_passes": 1,
+        "support_groups": 38031
+      },
+      "hard_clauses": 60936,
+      "native_cost_literals": 47511,
+      "solver_statistics": {
+        "restarts": 1,
+        "conflicts": 51,
+        "decisions": 24583,
+        "propagations": 617402
+      },
+      "timeline": [
+        {
+          "stage": "start",
+          "wall_seconds": 5.146997864358127e-06,
+          "cpu_seconds": 2.303999999998113e-06
+        },
+        {
+          "stage": "model_built",
+          "wall_seconds": 0.6666356489986356,
+          "cpu_seconds": 0.663288257,
+          "groups": 38031,
+          "variables": 194,
+          "current_holes": 7,
+          "capacity_bound": 3
+        },
+        {
+          "stage": "formula_built",
+          "wall_seconds": 0.9561276499989617,
+          "cpu_seconds": 0.952107821,
+          "infeasible": null,
+          "budget": 5,
+          "nv": 48093,
+          "original_hard_violations": 0,
+          "original_cost": 6,
+          "original_budget_pass": false,
+          "conditional_fixed": 1,
+          "domain_passes": 1,
+          "support_groups": 38031,
+          "hard_clauses": 60936,
+          "cost_literals": 47511
+        },
+        {
+          "stage": "solver_loaded",
+          "wall_seconds": 1.0051714639994316,
+          "cpu_seconds": 1.001139256,
+          "native_atmost_constraints": true
+        },
+        {
+          "stage": "solve_started",
+          "wall_seconds": 1.0055667799970252,
+          "cpu_seconds": 1.001531828
+        },
+        {
+          "stage": "solve_finished",
+          "wall_seconds": 1.0365953269974852,
+          "cpu_seconds": 1.0226117080000001,
+          "answer": false
+        },
+        {
+          "stage": "complete",
+          "wall_seconds": 1.0393942769987916,
+          "cpu_seconds": 1.025406615
+        }
+      ],
+      "child_wall_seconds": 1.1264697349979542,
+      "directory": "/workspace/cover_search/alternatives/three_point_recolor_v3/strict_20261106T192341/triple_45_49_44"
+    }
+  ],
+  "tickets": [],
+  "cpu_seconds": 6.053658713999999,
+  "wall_seconds": 6.064089666000655,
+  "scope": "Only the selected three-point recolorings on this pinned parent. Watchdog terminations are UNKNOWN, not infeasible."
+}

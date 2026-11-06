@@ -1,0 +1,154 @@
+{
+  "scope": "Every exact-lane result JSON and output-like text file modified between18:10UTC and the18:17:02 reconnect; active auxiliary file inventory is separately preserved in recovery.json. Earlier jobs were completed before durable paused619 status.",
+  "window_start": "2026-11-06T18:10:00Z",
+  "window_end": "2026-11-06T18:17:02Z",
+  "records": [
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000610_result.json",
+      "sha256": "fa04c4ea0aa5a823977d23a90cab6f1646733274a8fa0bda83f05609c7d15e72",
+      "mtime_utc": "2026-11-06T18:12:48.145163+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000614_result.json",
+      "sha256": "b3cb8afc0148578c9cb3cbbb075f6d58b1faef285a61fb29223b9bd1df04e90c",
+      "mtime_utc": "2026-11-06T18:13:20.527942+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000617_result.json",
+      "sha256": "44d9ba0bf13ebb580d9f2f49a49dd9eea4e945fcb7996b6e73c871a12192618f",
+      "mtime_utc": "2026-11-06T18:15:37.932629+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000606_result.json",
+      "sha256": "bece2e8a8d3f7c2eeff77b862b6118561137a9f7d567cce5b18192cc03e22f3c",
+      "mtime_utc": "2026-11-06T18:10:35.739466+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000616_result.json",
+      "sha256": "026737fc2b5d649f2d4975b838439fe9cc76aa9eac0042971389ee9356976ce0",
+      "mtime_utc": "2026-11-06T18:15:08.269002+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000611_result.json",
+      "sha256": "e8d8972939b47fd10f8b9aabc27743ab42a944bf81da2a7560b31681765075d4",
+      "mtime_utc": "2026-11-06T18:13:18.194137+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 7
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000607_result.json",
+      "sha256": "8f7e800f414d8ab30f1229afd885acc12eadf1d0f38d35afdaf7b3c65b5deb31",
+      "mtime_utc": "2026-11-06T18:11:05.786683+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000618_result.json",
+      "sha256": "30e6969f172b46e253aecd277cfeffde00671e3fa4987ba76ef2e1923998cd16",
+      "mtime_utc": "2026-11-06T18:16:08.177747+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000609_result.json",
+      "sha256": "c194037f703ebf6c8bbca9b18fc80ce57a6304191f018213bd7f4e0a46be33d1",
+      "mtime_utc": "2026-11-06T18:12:17.730294+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 7
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000608_result.json",
+      "sha256": "8c2d93ad5574eb2930c2850444b8fbf66dd7e8b467b8b29b356865432008d2e3",
+      "mtime_utc": "2026-11-06T18:11:36.027955+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 7
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000612_result.json",
+      "sha256": "a0e910516541a1a3a19d2b0683946bdc6b9aefe1997944f6fbc21e1218786adc",
+      "mtime_utc": "2026-11-06T18:13:18.291656+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000615_result.json",
+      "sha256": "f4a0d9e6554c1b420844848ea398285c398bc9b68d78147f0fbb9db94f2a2e4c",
+      "mtime_utc": "2026-11-06T18:13:50.067069+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000613_result.json",
+      "sha256": "9bb4fa88700cb25d2b2098c01b67f22d95a274661cf8eb2feafd188a5c367c1c",
+      "mtime_utc": "2026-11-06T18:13:20.418351+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/campaign_v5/jobs/job_0000605_result.json",
+      "sha256": "ff97d8490183b37c8b1a0e44853a289484ce58630b05f27c813167fcfb8376e3",
+      "mtime_utc": "2026-11-06T18:10:05.681978+00:00",
+      "status": "NO_FULL",
+      "referenced_outputs": {
+        "best_holes": 8
+      }
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988830213846438/round_01/solver.json",
+      "sha256": "eb82aa7f0ebe6f87d918e967780c0c2ba0b8c5fa4dd618e9fa93e4795ce66ef7",
+      "mtime_utc": "2026-11-06T18:14:37.679185+00:00",
+      "status": "Infeasible",
+      "referenced_outputs": {}
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988830213846438/baseline_solve/solver.json",
+      "sha256": "6a152a75c22f7307fb387c9d506eff1a3bb8dff7872251e7c70d17e90190d0a2",
+      "mtime_utc": "2026-11-06T18:13:56.501227+00:00",
+      "status": "Infeasible",
+      "referenced_outputs": {}
+    },
+    {
+      "path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988830213846438/round_00/solver.json",
+      "sha256": "7701a7a285e0f6f4befc9e603080e0847002b4ed92dea9c3ac54d85219e16c0c",
+      "mtime_utc": "2026-11-06T18:14:12.249271+00:00",
+      "status": "Infeasible",
+      "referenced_outputs": {}
+    }
+  ]
+}

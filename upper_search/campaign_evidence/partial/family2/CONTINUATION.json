@@ -1,0 +1,56 @@
+{
+  "algorithm_environment": {
+    "BACKGROUND_CAP": "17",
+    "BACKGROUND_EVERY": "128",
+    "BACKGROUND_LOSS2_PROB": "0.2",
+    "BACKGROUND_MAX_LOSS": "2",
+    "BACKGROUND_START": "1",
+    "NOWEIGHT": "1"
+  },
+  "ancestor_run": "run_1287",
+  "ancestor_sha256_chain": [
+    "2682681740d289d87be8736f23496959840165ed034f16364bd31f243d5fefc3"
+  ],
+  "checkpoint_environment": {
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "32",
+    "SAVE_EQUAL_PARTIAL": "@WORK_DIR@/equal_partial.txt",
+    "SAVE_FINAL": "@WORK_DIR@/final_state.txt",
+    "SAVE_PARTIAL": "@WORK_DIR@/best_partial.txt"
+  },
+  "cleared_environment_variables": [
+    "BACKGROUND_CAP",
+    "BACKGROUND_EVERY",
+    "BACKGROUND_LOSS2_PROB",
+    "BACKGROUND_MAX_LOSS",
+    "BACKGROUND_START",
+    "EQUAL_INTERVAL",
+    "EQUAL_MAX_HOLES",
+    "MAX_STEPS",
+    "NOWEIGHT",
+    "SAVE_EQUAL_PARTIAL",
+    "SAVE_FINAL",
+    "SAVE_PARTIAL"
+  ],
+  "compile_argv": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "wls_background_loss2_direct.cpp",
+    "-o",
+    "@BINARY@"
+  ],
+  "default_seconds": 3600,
+  "engine_provenance": "WLS engine of the actual exact-input ancestor, separate from the exact producing engine.",
+  "input_blocks": 301,
+  "input_holes": 8,
+  "input_sha256": "90d3b8659234e50a3f481851dc6825157596dcb48d83d86e10bd056eadccd402",
+  "noise": 0.05,
+  "seed": 1287,
+  "source_directory": "continuation_engine/source",
+  "state_initialization": "New WLS continuation from the exact-produced partial; RNG, tabu and dynamic weights initialize afresh.",
+  "status": "SEARCH_FROM_INCOMPLETE_INPUT",
+  "targetB": 301,
+  "tenure": 7
+}

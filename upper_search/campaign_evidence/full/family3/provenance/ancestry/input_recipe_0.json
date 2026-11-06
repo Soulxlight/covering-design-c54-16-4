@@ -1,0 +1,21 @@
+{
+  "kind": "fresh weighted restart from historically completed303 family",
+  "input_path": "/workspace/cover_search/campaign/archive/full/cover_303_d9a3161912aff047.txt",
+  "input_sha256": "d9a3161912aff04717bc9667d3db7d2d71fc432a234240a394b412e0e3929bf4",
+  "input_blocks": 303,
+  "input_holes": 0,
+  "direct_launches_at_planning": [],
+  "producer_run": "run_1230",
+  "producer_had_short_plain_continuation": true,
+  "producer_final_best_partial": {
+    "blocks": 302,
+    "holes": 27,
+    "path": "/workspace/cover_search/campaign/archive/partial/partial_fdf9dd395a41766d.txt"
+  },
+  "current_complete_bound": 302,
+  "allowed_intermediate_level": 302,
+  "target_blocks": 301,
+  "seconds": 600,
+  "tenure": 17,
+  "noise": 0.01
+}

@@ -1,0 +1,145 @@
+{
+  "blocks": 301,
+  "colex": {
+    "blocks": 301,
+    "covered_targets": 316244,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+    "total_targets": 316251,
+    "uncovered_targets": 7,
+    "valid": false
+  },
+  "covered_quadruples": 316244,
+  "exact_holes": [
+    [
+      1,
+      22,
+      25,
+      49
+    ],
+    [
+      3,
+      14,
+      30,
+      52
+    ],
+    [
+      9,
+      11,
+      42,
+      45
+    ],
+    [
+      9,
+      15,
+      18,
+      45
+    ],
+    [
+      21,
+      22,
+      31,
+      49
+    ],
+    [
+      32,
+      44,
+      47,
+      54
+    ],
+    [
+      37,
+      40,
+      43,
+      44
+    ]
+  ],
+  "incidence": {
+    "all_blocks_legal": true,
+    "blocks": 301,
+    "candidate_bytes": 13616,
+    "candidate_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+    "coverage_multiplicity_histogram": {
+      "0": 7,
+      "1": 186964,
+      "10": 99,
+      "11": 54,
+      "12": 6,
+      "13": 7,
+      "14": 2,
+      "2": 78143,
+      "3": 24934,
+      "4": 8945,
+      "5": 12406,
+      "6": 3264,
+      "7": 936,
+      "8": 309,
+      "9": 175
+    },
+    "covered_quadruples": 316244,
+    "distinct_blocks": 301,
+    "first_uncovered_quadruples": [
+      [
+        1,
+        22,
+        25,
+        49
+      ],
+      [
+        3,
+        14,
+        30,
+        52
+      ],
+      [
+        9,
+        11,
+        42,
+        45
+      ],
+      [
+        9,
+        15,
+        18,
+        45
+      ],
+      [
+        21,
+        22,
+        31,
+        49
+      ],
+      [
+        32,
+        44,
+        47,
+        54
+      ],
+      [
+        37,
+        40,
+        43,
+        44
+      ]
+    ],
+    "method": "Point-incidence integer bitset intersections over every increasing quadruple",
+    "parameters": {
+      "k": 16,
+      "t": 4,
+      "v": 54
+    },
+    "quadruples_checked": 316251,
+    "status": "FAIL",
+    "total_coverage_incidence": 547820,
+    "uncovered_quadruples": 7
+  },
+  "independent_methods_agree": true,
+  "is_complete_cover": false,
+  "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "status": "VERIFIED_PARTIAL_NOT_A_COVER",
+  "uncovered_quadruples": 7
+}

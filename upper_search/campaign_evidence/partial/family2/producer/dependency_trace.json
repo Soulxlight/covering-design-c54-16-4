@@ -1,0 +1,52 @@
+[
+  {
+    "block": 32,
+    "remove": 37,
+    "insert": 16
+  },
+  {
+    "block": 44,
+    "remove": 53,
+    "insert": 41
+  },
+  {
+    "block": 78,
+    "remove": 48,
+    "insert": 19
+  },
+  {
+    "block": 99,
+    "remove": 27,
+    "insert": 48
+  },
+  {
+    "block": 101,
+    "remove": 33,
+    "insert": 44
+  },
+  {
+    "block": 143,
+    "remove": 10,
+    "insert": 1
+  },
+  {
+    "block": 174,
+    "remove": 43,
+    "insert": 11
+  },
+  {
+    "block": 184,
+    "remove": 34,
+    "insert": 18
+  },
+  {
+    "block": 186,
+    "remove": 38,
+    "insert": 25
+  },
+  {
+    "block": 196,
+    "remove": 14,
+    "insert": 25
+  }
+]

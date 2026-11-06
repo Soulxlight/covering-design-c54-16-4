@@ -1,0 +1,84 @@
+{
+  "colex": {
+    "blocks": 302,
+    "covered_targets": 316246,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "c9e8a996383ddd7a2c1563c05989e16b639223726cd581c1384c0a4230d00d3e",
+    "total_targets": 316251,
+    "uncovered_targets": 5,
+    "valid": false
+  },
+  "incidence": {
+    "all_blocks_legal": true,
+    "blocks": 302,
+    "candidate_bytes": 13660,
+    "candidate_sha256": "c9e8a996383ddd7a2c1563c05989e16b639223726cd581c1384c0a4230d00d3e",
+    "coverage_multiplicity_histogram": {
+      "0": 5,
+      "1": 184461,
+      "10": 54,
+      "11": 31,
+      "12": 7,
+      "13": 1,
+      "15": 1,
+      "2": 80273,
+      "3": 25425,
+      "4": 8811,
+      "5": 12617,
+      "6": 3381,
+      "7": 830,
+      "8": 246,
+      "9": 108
+    },
+    "covered_quadruples": 316246,
+    "distinct_blocks": 302,
+    "first_uncovered_quadruples": [
+      [
+        2,
+        17,
+        21,
+        24
+      ],
+      [
+        3,
+        18,
+        39,
+        52
+      ],
+      [
+        3,
+        25,
+        39,
+        43
+      ],
+      [
+        11,
+        35,
+        37,
+        54
+      ],
+      [
+        17,
+        18,
+        41,
+        52
+      ]
+    ],
+    "method": "Point-incidence integer bitset intersections over every increasing quadruple",
+    "parameters": {
+      "k": 16,
+      "t": 4,
+      "v": 54
+    },
+    "quadruples_checked": 316251,
+    "status": "FAIL",
+    "total_coverage_incidence": 549640,
+    "uncovered_quadruples": 5
+  },
+  "independent_methods_agree": true,
+  "input_is_complete_cover": false
+}

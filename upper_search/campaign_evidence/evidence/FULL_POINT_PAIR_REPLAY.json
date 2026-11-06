@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/alternatives/point_pair_switch_v1/certificate_a2e1_v2/verify.py"
+      ],
+      "elapsed_seconds": 30.609091099999205,
+      "exit_code": 0,
+      "result": {
+        "conditional_parity_rejections": 610,
+        "current_holes": 7,
+        "fixed_bound_rejections": 821,
+        "parent_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+        "scope": "For this exact301-row parent, no coordinated a/b switches among rows containing exactly one ofa,b can reach six holes, for any of1431 point pairs. Not a global covering-design lower bound.",
+        "status": "verified",
+        "strict_target": 6
+      }
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "-O",
+        "/workspace/cover_search/alternatives/point_pair_switch_v1/certificate_a2e1_v2/verify.py"
+      ],
+      "elapsed_seconds": 31.2163446079976,
+      "exit_code": 0,
+      "result": {
+        "conditional_parity_rejections": 610,
+        "current_holes": 7,
+        "fixed_bound_rejections": 821,
+        "parent_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+        "scope": "For this exact301-row parent, no coordinated a/b switches among rows containing exactly one ofa,b can reach six holes, for any of1431 point pairs. Not a global covering-design lower bound.",
+        "status": "verified",
+        "strict_target": 6
+      }
+    }
+  ],
+  "created_utc": "2026-11-06T19:36:18.195550+00:00",
+  "independent_stop_audit_sha256": "a71b5d885e868ecb8c61429f28b7497fd2efcee7422e8d6351f57e612cd0746b",
+  "normal_optimized_identical": true,
+  "scope": "All1431 coordinated two-label switch neighborhoods of the pinned301/7 parent; no global covering-number lower bound.",
+  "source_directory": "/workspace/cover_search/alternatives/point_pair_switch_v1/certificate_a2e1_v2",
+  "source_manifest_sha256": "778cfa226d654d64ef91131eb230656a34ceb3a388a7ed13363b4f8557a6a476",
+  "status": "PASS_FULL_POINT_PAIR_REPLAY_BOTH_MODES"
+}

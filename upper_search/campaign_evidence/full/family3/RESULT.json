@@ -1,0 +1,28 @@
+{
+  "blocks": 302,
+  "campaign_continues_after_snapshot": true,
+  "campaign_incumbent_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "campaign_status_at_snapshot": "running",
+  "checkpoint_count": 0,
+  "external_publication_performed": false,
+  "history_scope": "The shared improvement ledger is retained at the bundle root; duplicate intermediate witnesses and platform binaries are omitted from this compact copy.",
+  "input_ancestry_record": "provenance/INPUT_ANCESTRY.json",
+  "input_uncovered": 0,
+  "last_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "optimality_claimed": false,
+  "original_staged_checkpoint_count": 16,
+  "packet_status": "FINAL_STOPPED_VERIFIED",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "reproduction_kind": "weighted_local_search",
+  "sha256": "b02a347dfbc3254bd950ad1d13a0c17834792d4f089594b7feb513f5a874f684",
+  "snapshot_role": "additional_verified_cover",
+  "staged_utc": "2026-11-06T18:07:19.338993+00:00",
+  "staging_resets_improvement_clock": false,
+  "stopping_reason_at_snapshot": null,
+  "verified_utc": "2026-11-06T18:05:25.845327+00:00",
+  "witness": "data/cover-302.txt"
+}

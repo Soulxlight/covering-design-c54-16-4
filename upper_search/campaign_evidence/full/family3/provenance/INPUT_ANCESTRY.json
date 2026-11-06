@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "kind": "input_recipe",
+      "packet_path": "provenance/ancestry/input_recipe_0.json",
+      "sha256": "f3b761cc681ba7f8a13d51d0eb523d688fc02546e6dc6826d83cd3424c661fe4",
+      "source_pointer": {
+        "path": "/workspace/cover_search/campaign/runs/run_1289/input_recipe.json",
+        "sha256": "f3b761cc681ba7f8a13d51d0eb523d688fc02546e6dc6826d83cd3424c661fe4"
+      }
+    }
+  ],
+  "scope": "Preserved recipe/provenance pointers and metadata snapshots; complete ancestor search replay is not claimed",
+  "winning_input_sha256": "d9a3161912aff04717bc9667d3db7d2d71fc432a234240a394b412e0e3929bf4"
+}

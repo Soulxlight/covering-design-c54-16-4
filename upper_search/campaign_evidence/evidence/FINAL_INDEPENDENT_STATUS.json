@@ -1,0 +1,109 @@
+{
+  "audit_utc": "2026-11-06T19:38:11.766048+00:00",
+  "baseline_restart_utc": "2026-11-06T13:16:33+00:00",
+  "best_blocks": 302,
+  "best_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "best_snapshot": "/workspace/cover_search/independent_long/full/cover-302-96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd.txt",
+  "elapsed_since_verified_improvement_seconds": 11138.735369,
+  "last_verified_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "partial_pool": {
+    "common_uncovered_quadruples": [
+      [
+        1,
+        22,
+        25,
+        49
+      ],
+      [
+        9,
+        15,
+        18,
+        45
+      ],
+      [
+        21,
+        22,
+        31,
+        49
+      ],
+      [
+        32,
+        44,
+        47,
+        54
+      ]
+    ],
+    "independently_checked_snapshots": 6,
+    "minimum_uncovered": 7,
+    "pending_hashes": [],
+    "scope": "Intersection of holes in the selected immutable parent witnesses; not a fixed-size cover.",
+    "snapshot_sha256s": [
+      "1ced798f44d5d8946dc8d11dd9da0060117ec523a88121f1a5c0040f9aa204d9",
+      "2f24dfe9a176fe2cb6f302f82925a4d3cefe223c43120eb09abac48d6be1c81f",
+      "69cda9a9b2229aeb3ffcf03a6ea58b48f9c7cd97810c1ece606dd92099188039",
+      "776fb3305de42bfde8c8d23c4deab8e42854e6d0cf42ca3808ee52547c7007fd",
+      "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+      "eaa5620cbb3a2c8f1866bf6b3129f8b503d88532fe6e213aa598b94b13f4658c"
+    ],
+    "target_blocks": 301
+  },
+  "partials": [
+    {
+      "audit_utc": "2026-11-06T19:27:19.795771+00:00",
+      "blocks": 301,
+      "sha256": "8f7486397f853a2a63e3177cfd973c56430b1a9589dd833142e9f4097f4b86fc",
+      "snapshot": "/workspace/cover_search/independent_long/partial/run_1324-b301-h61-8f7486397f853a2a63e3177cfd973c56430b1a9589dd833142e9f4097f4b86fc.txt",
+      "uncovered_quadruples": 61,
+      "warnings": [],
+      "worker": "run_1324"
+    },
+    {
+      "audit_utc": "2026-11-06T19:30:00.278037+00:00",
+      "blocks": 301,
+      "sha256": "1ced798f44d5d8946dc8d11dd9da0060117ec523a88121f1a5c0040f9aa204d9",
+      "snapshot": "/workspace/cover_search/independent_long/partial/run_1326-b301-h7-1ced798f44d5d8946dc8d11dd9da0060117ec523a88121f1a5c0040f9aa204d9.txt",
+      "uncovered_quadruples": 7,
+      "warnings": [],
+      "worker": "run_1326"
+    },
+    {
+      "audit_utc": "2026-11-06T19:31:20.645548+00:00",
+      "blocks": 301,
+      "sha256": "61fbbb44d81168fdbdc9cfa54a4e718c21bfb4801772391a6127d49c886520de",
+      "snapshot": "/workspace/cover_search/independent_long/partial/run_1327-b301-h8-61fbbb44d81168fdbdc9cfa54a4e718c21bfb4801772391a6127d49c886520de.txt",
+      "uncovered_quadruples": 8,
+      "warnings": [],
+      "worker": "run_1327"
+    }
+  ],
+  "stall_threshold_seconds": 10800,
+  "stall_threshold_strictly_exceeded": true,
+  "status_source_present": true,
+  "stop_audit": {
+    "campaign_status_is_stopped": true,
+    "elapsed_seconds": 10820.594874,
+    "exact_active_namespace_processes": [],
+    "exact_active_supervisor_or_descendants": [],
+    "exact_auxiliary_lease_absent": true,
+    "exact_completed_jobs_match_both_acks": true,
+    "exact_controller_shutdown_pass": true,
+    "exact_quiescence_flags_all_true": true,
+    "exact_request_ack_ids_match": true,
+    "exact_request_id": "19a46d2a-18f0-47c7-8e11-c2317f175e52",
+    "exact_status_is_quiesced": false,
+    "exact_terminal_pid": 38927,
+    "exact_terminal_process_state": "Z",
+    "exact_terminal_stopped_binding_pass": true,
+    "exact_terminal_timestamp_after_both_acks": true,
+    "last_verified_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+    "live_wls_processes": [],
+    "producer_shutdown_barrier_pass": true,
+    "stop_utc": "2026-11-06T19:32:53.625553+00:00",
+    "stopping_reason": "more_than_10800_seconds_without_verified_improvement",
+    "strictly_exceeds_10800_seconds": true,
+    "supervisor_gap_strictly_exceeds_10800_seconds": true,
+    "supervisor_reported_gap_seconds": 10820.592557909999,
+    "unaudited_archived_full_hashes": [],
+    "unprocessed_inbox_tickets": []
+  }
+}

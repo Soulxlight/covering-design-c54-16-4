@@ -1,0 +1,20 @@
+{
+  "agent": "identify_cover",
+  "all_created_candidate_tickets_committed": true,
+  "current_full_blocks": 302,
+  "current_full_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "last_candidate_sha256": "4c3c2912c7b9c122418ed57a71afc7f4b62ec26963bb602a5766d5c0f41981f1",
+  "last_full_improvement_utc": "2026-11-06T16:32:33.030679+00:00",
+  "last_generation_utc": "2026-11-06T19:13:11.432670+00:00",
+  "no_active_candidate_producing_audit": true,
+  "no_future_candidate_generation_until_new_smaller_full_or_explicit_root_reactivation": true,
+  "permitted_remaining_actions": [
+    "read-only independent witness verification",
+    "staging immutable existing witnesses and provenance",
+    "portable certificate verification after coordinated stop",
+    "final packaging and authorized local repository edits"
+  ],
+  "scope": "This agent has no candidate-producing process. The detached independent watcher remains active and is not a search producer.",
+  "status": "CANDIDATE_PRODUCER_QUIESCED_VERIFICATION_CONTINUES",
+  "utc": "2026-11-06T19:17:03.123774+00:00"
+}

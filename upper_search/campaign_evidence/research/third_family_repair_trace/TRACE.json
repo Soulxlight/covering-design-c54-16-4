@@ -1,0 +1,67 @@
+{
+  "status": "RECORDED_INCOMPLETE_FAMILY_REPAIRS_NOT_A_COVER",
+  "parent_sha256": "a56eb0d9d345e17807df4a19fa2a1209ddcf84f9a926d5b1afdb7f4a70868e9c",
+  "parent_holes": 26,
+  "blocks": 301,
+  "row_indices": "zero-based",
+  "point_labels": "one-based1..54",
+  "steps": [
+    {
+      "holes": 25,
+      "sha256": "efe7436ba35044370f6d1cc59e9108a6064e57379fb8ed49fd4aa226144295fe",
+      "moves": [
+        [
+          213,
+          18,
+          12
+        ]
+      ]
+    },
+    {
+      "holes": 24,
+      "sha256": "cda70b62a2e6b70fe6f26be3670a0b431d3ddd7c44647c61e117c7b8c731b829",
+      "moves": [
+        [
+          180,
+          45,
+          2
+        ],
+        [
+          182,
+          48,
+          45
+        ]
+      ]
+    },
+    {
+      "holes": 23,
+      "sha256": "792f237a825a48e84f7ed11e4c02287df8ce06b355a1064a8f0116d5e2ba499d",
+      "moves": [
+        [
+          28,
+          8,
+          20
+        ],
+        [
+          45,
+          43,
+          49
+        ]
+      ]
+    },
+    {
+      "holes": 22,
+      "sha256": "4c3c2912c7b9c122418ed57a71afc7f4b62ec26963bb602a5766d5c0f41981f1",
+      "moves": [
+        [
+          2,
+          41,
+          44
+        ]
+      ]
+    }
+  ],
+  "global_partial_best_at_discovery": 7,
+  "global_bound_improvement_claimed": false,
+  "scope": "Recorded deterministic one-point and two-row repairs in the third full302 family. This improves that family checkpoint only; every result remains incomplete."
+}

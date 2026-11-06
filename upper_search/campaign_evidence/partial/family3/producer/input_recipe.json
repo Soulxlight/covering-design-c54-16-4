@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-06T19:14:20.148099+00:00",
+  "purpose": "One plain mixed-loss-two continuation after independent repairs improved third-family26 to22 holes",
+  "parent_partial": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 301,
+    "total_targets": 316251,
+    "covered_targets": 316229,
+    "uncovered_targets": 22,
+    "valid": false,
+    "sha256": "4c3c2912c7b9c122418ed57a71afc7f4b62ec26963bb602a5766d5c0f41981f1",
+    "path": "/workspace/cover_search/campaign/archive/partial/partial_4c3c2912c7b9c122.txt",
+    "verified_utc": "2026-11-06T19:13:32.373224+00:00",
+    "provenance": {
+      "kind": "independent-compound-swap-partial",
+      "input_metadata": "/workspace/cover_search/independent_long/row_compound_b301_h23_792f237a825a48e8_r3_d-1/producer_4c3c2912c7b9c122/input_metadata.json",
+      "result_metadata": "/workspace/cover_search/independent_long/row_compound_b301_h23_792f237a825a48e8_r3_d-1/producer_4c3c2912c7b9c122/result_metadata.json",
+      "source_files": {
+        "/workspace/cover_search/independent_long/row_compound_b301_h23_792f237a825a48e8_r3_d-1/producer_4c3c2912c7b9c122/row_compound_probe.py": "685a6d49a8a0bdd2b000f5dd20d34bc075d5b1b891c55800c0beb83588fa842e",
+        "/workspace/cover_search/independent_long/row_compound_b301_h23_792f237a825a48e8_r3_d-1/producer_4c3c2912c7b9c122/audit_campaign.py": "c1ce7ad48437aacc90953232782663b9644a14c0db608ba97350c8ce417beba0"
+      },
+      "log_path": "/workspace/cover_search/independent_long/row_compound_b301_h23_792f237a825a48e8_r3_d-1/producer_4c3c2912c7b9c122/enumeration_report.json",
+      "replay_mode": "Complete deterministic recorded row changes; original enumeration source preserved"
+    }
+  },
+  "ancestry": "Full302 b02a347 -> run1289 target301/41 -> run1310 target301/26 -> independent repair chain26/25/24/23/22",
+  "seconds": 300,
+  "minimum_runtime_seconds": 300,
+  "preparatory_cap": 28,
+  "cap_semantics": "Only the immediate state after a preparatory move is capped; ordinary focused moves can exceed28",
+  "full_clock_reset": false
+}

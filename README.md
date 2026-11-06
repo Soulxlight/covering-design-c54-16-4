@@ -16,10 +16,14 @@ search source, input snapshots, and run logs. The preserved
 [334-block milestone](upper334/README.md) records the first improvement; the
 [318-block checkpoint](upper_search/README-318.md) is retained with its complete history.
 The [305-block checkpoint](upper_search/README-305.md) and its winning search are also retained.
-The current 302 checkpoint is preserved while the search continues.
+The campaign stopped after more than three hours without a smaller complete cover and a final output drain.
+The [final evidence packet](upper_search/campaign_evidence/README.md) preserves three
+non-isomorphic 302-block covers and incomplete 301-block restart files with 7, 8, 19 holes.
+Those partial files are **not covers**. All lower-proof bytes remain unchanged.
 
 ```text
 python -B upper_search/verify_best.py
+python -B upper_search/campaign_evidence/verify_evidence.py
 ```
 
 These artifacts are local research results. This update does not claim

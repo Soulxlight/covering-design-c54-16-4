@@ -1,0 +1,52 @@
+{
+  "data/cover-302.txt": {
+    "bytes": 13657,
+    "original_path": "/workspace/cover_search/campaign/archive/full/cover_302_b02a347dfbc3254b.txt",
+    "sha256": "b02a347dfbc3254bd950ad1d13a0c17834792d4f089594b7feb513f5a874f684"
+  },
+  "licenses/PROJECT-LICENSE": {
+    "bytes": 1067,
+    "original_path": "/workspace/covering-design-c54-16-4/LICENSE",
+    "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
+  },
+  "provenance/ancestry/input_recipe_0.json": {
+    "bytes": 731,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1289/input_recipe.json",
+    "sha256": "f3b761cc681ba7f8a13d51d0eb523d688fc02546e6dc6826d83cd3424c661fe4"
+  },
+  "reproduction/input.txt": {
+    "bytes": 13700,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1289/input.txt",
+    "sha256": "d9a3161912aff04717bc9667d3db7d2d71fc432a234240a394b412e0e3929bf4"
+  },
+  "reproduction/original_metadata.json": {
+    "bytes": 2794,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1289/metadata.json",
+    "sha256": "7e944d7f3d296e98c4e856ff4c4d437e7b72ee47ddb9e55fdec191b56990eaf4"
+  },
+  "reproduction/source/LICENSE": {
+    "bytes": 1075,
+    "original_path": "/workspace/cover_search/campaign/source/LICENSE",
+    "sha256": "c6746cda8606b4759c70cbb1a6ca9ea4494576a3166d73cb1e45ec2badb99ee7"
+  },
+  "reproduction/source/wls_sparse_compact_equal_v2_direct.cpp": {
+    "bytes": 17276,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1289/source/wls_sparse_compact_equal_v2_direct.cpp",
+    "sha256": "03c10c78dbcc434ab4687c2fa33442db21adc340dd8ecf257aa95fc1684bfa65"
+  },
+  "reproduction/winning_run.log": {
+    "bytes": 8563,
+    "original_path": "/workspace/cover_search/campaign/runs/run_1289/run.log",
+    "sha256": "e41ae356d224b7a6a66609083726b78fe309175dfe9cb50985ec70351ad6dded"
+  },
+  "verification/verify_colex.py": {
+    "bytes": 2312,
+    "original_path": "/workspace/covering-design-c54-16-4/upper334/verify_colex.py",
+    "sha256": "da37c01a9e45d9bff95457e026a887562289630a8aa53465bea6fc2e3390ab3e"
+  },
+  "verification/verify_incidence.py": {
+    "bytes": 3045,
+    "original_path": "/workspace/covering-design-c54-16-4/upper334/verify_incidence.py",
+    "sha256": "2aeb38d2927c90d0f509c93ba3f47410e79b7e55289d6f099ab1c3d27bb1142e"
+  }
+}

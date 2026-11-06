@@ -1,0 +1,69 @@
+init: loaded 301 blocks, uncovered 9
+BACKGROUND_CANDIDATES step=1 holes=9 zero=0 one=559 cap=11
+BACKGROUND_MOVE count=1 step=1 row=80 outgoing=1 incoming=48 loss=1 holes=10
+BACKGROUND_CANDIDATES step=1024 holes=10 zero=0 one=667 cap=11
+BACKGROUND_MOVE count=2 step=1024 row=167 outgoing=13 incoming=7 loss=1 holes=11
+BACKGROUND_CANDIDATES step=1536 holes=10 zero=0 one=709 cap=11
+BACKGROUND_MOVE count=3 step=1536 row=64 outgoing=36 incoming=39 loss=1 holes=11
+BACKGROUND_CANDIDATES step=2304 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=3200 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=4096 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=5504 holes=10 zero=0 one=783 cap=11
+BACKGROUND_MOVE count=4 step=5504 row=64 outgoing=27 incoming=6 loss=1 holes=11
+BACKGROUND_CANDIDATES step=5888 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=13568 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=13824 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=14720 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=17152 holes=11 zero=38 one=0 cap=11
+BACKGROUND_MOVE count=5 step=17152 row=167 outgoing=19 incoming=21 loss=0 holes=11
+BACKGROUND_CANDIDATES step=18432 holes=11 zero=38 one=0 cap=11
+BACKGROUND_MOVE count=6 step=18432 row=47 outgoing=22 incoming=32 loss=0 holes=11
+BACKGROUND_CANDIDATES step=18688 holes=11 zero=0 one=0 cap=11
+BACKGROUND_CANDIDATES step=23424 holes=11 zero=38 one=0 cap=11
+BACKGROUND_MOVE count=7 step=23424 row=47 outgoing=25 incoming=8 loss=0 holes=11
+BACKGROUND_CANDIDATES step=24960 holes=10 zero=0 one=783 cap=11
+BACKGROUND_MOVE count=8 step=24960 row=101 outgoing=30 incoming=11 loss=1 holes=11
+PROGRESS b=301 best=9 current=15 step=300032 elapsed=10.0
+PROGRESS b=301 best=9 current=15 step=717824 elapsed=20.0
+EQUAL_PARTIAL count=1 step=1021492 blocks=301 holes=9
+PROGRESS b=301 best=9 current=18 step=1223680 elapsed=30.0
+EQUAL_PARTIAL count=2 step=1345200 blocks=301 holes=9
+PROGRESS b=301 best=9 current=17 step=1659904 elapsed=40.0
+EQUAL_PARTIAL count=3 step=1712100 blocks=301 holes=9
+EQUAL_PARTIAL count=4 step=1999696 blocks=301 holes=9
+PROGRESS b=301 best=9 current=14 step=2100224 elapsed=50.1
+EQUAL_PARTIAL count=5 step=2235960 blocks=301 holes=9
+PROGRESS b=301 best=9 current=17 step=2564096 elapsed=60.1
+PROGRESS b=301 best=9 current=16 step=3028992 elapsed=70.1
+EQUAL_PARTIAL count=6 step=3324487 blocks=301 holes=9
+PROGRESS b=301 best=9 current=14 step=3493888 elapsed=80.1
+EQUAL_PARTIAL count=7 step=3800360 blocks=301 holes=9
+PROGRESS b=301 best=9 current=13 step=3964928 elapsed=90.1
+BEST b=301 uncovered=8 step=3973652
+EQUAL_PARTIAL count=8 step=4005135 blocks=301 holes=8
+PROGRESS b=301 best=8 current=19 step=4422656 elapsed=100.1
+PROGRESS b=301 best=8 current=15 step=4850688 elapsed=110.1
+BACKGROUND_MOVE count=128 step=5278848 row=162 outgoing=45 incoming=46 loss=0 holes=11
+PROGRESS b=301 best=8 current=17 step=5309440 elapsed=120.1
+PROGRESS b=301 best=8 current=16 step=5758976 elapsed=130.1
+PROGRESS b=301 best=8 current=16 step=6106112 elapsed=140.1
+PROGRESS b=301 best=8 current=12 step=6528000 elapsed=150.2
+PROGRESS b=301 best=8 current=16 step=6981632 elapsed=160.2
+PROGRESS b=301 best=8 current=18 step=7434240 elapsed=170.2
+PROGRESS b=301 best=8 current=18 step=7944192 elapsed=180.2
+PROGRESS b=301 best=8 current=14 step=8382464 elapsed=190.2
+PROGRESS b=301 best=8 current=15 step=8851456 elapsed=200.2
+PROGRESS b=301 best=8 current=14 step=9335808 elapsed=210.2
+PROGRESS b=301 best=8 current=18 step=9780224 elapsed=220.3
+PROGRESS b=301 best=8 current=13 step=10207232 elapsed=230.3
+PROGRESS b=301 best=8 current=15 step=10684416 elapsed=240.3
+EQUAL_PARTIAL count=9 step=10847052 blocks=301 holes=8
+BACKGROUND_MOVE count=256 step=10847232 row=189 outgoing=41 incoming=10 loss=0 holes=11
+BEST b=301 uncovered=7 step=10853493
+PROGRESS b=301 best=7 current=15 step=11185152 elapsed=250.3
+PROGRESS b=301 best=7 current=15 step=11632640 elapsed=260.3
+PROGRESS b=301 best=7 current=14 step=12110848 elapsed=270.3
+PROGRESS b=301 best=7 current=15 step=12546048 elapsed=280.3
+PROGRESS b=301 best=7 current=14 step=13041664 elapsed=290.3
+BACKGROUND MOVES 326
+WLS2 C(54,16,4) b=301 seed=1291: best 7 uncovered, 13474816 steps, 300.0s (44916 steps/s)

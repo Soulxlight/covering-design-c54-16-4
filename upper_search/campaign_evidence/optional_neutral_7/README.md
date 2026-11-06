@@ -1,0 +1,1 @@
+Every file here is an incomplete301-row design with exactly7 uncovered quadruples. RECIPES.json records the parent and exact row/point changes. The bundle verifier reconstructs each file and checks its deficit by both methods. These optional seeds do not establish a301-block cover.

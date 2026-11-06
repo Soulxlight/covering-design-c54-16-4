@@ -1,0 +1,178 @@
+{
+  "blocks": 301,
+  "checkpoints": [
+    {
+      "holes": 7,
+      "is_complete_cover": false,
+      "moves": [
+        {
+          "add": 37,
+          "remove": 31,
+          "row": 101
+        }
+      ],
+      "new_holes_created": [
+        [
+          31,
+          32,
+          40,
+          43
+        ]
+      ],
+      "old_holes_closed": [
+        [
+          37,
+          40,
+          43,
+          44
+        ]
+      ],
+      "path": "1ced798f44d5d8946dc8d11dd9da0060117ec523a88121f1a5c0040f9aa204d9.txt",
+      "sha256": "1ced798f44d5d8946dc8d11dd9da0060117ec523a88121f1a5c0040f9aa204d9",
+      "source_path": "/workspace/cover_search/independent_long/neutral_checkpoints/20261106T183855651816Z/1ced798f44d5d894/partial.txt",
+      "ticket": "/workspace/cover_search/campaign/inbox/independent_neutral_1ced798f44d5d8946dc8d11d.json"
+    },
+    {
+      "holes": 7,
+      "is_complete_cover": false,
+      "moves": [
+        {
+          "add": 52,
+          "remove": 36,
+          "row": 123
+        }
+      ],
+      "new_holes_created": [
+        [
+          9,
+          36,
+          37,
+          38
+        ]
+      ],
+      "old_holes_closed": [
+        [
+          3,
+          14,
+          30,
+          52
+        ]
+      ],
+      "path": "69cda9a9b2229aeb3ffcf03a6ea58b48f9c7cd97810c1ece606dd92099188039.txt",
+      "sha256": "69cda9a9b2229aeb3ffcf03a6ea58b48f9c7cd97810c1ece606dd92099188039",
+      "source_path": "/workspace/cover_search/independent_long/neutral_checkpoints/20261106T183855651816Z/69cda9a9b2229aeb/partial.txt",
+      "ticket": "/workspace/cover_search/campaign/inbox/independent_neutral_69cda9a9b2229aeb3ffcf03a.json"
+    },
+    {
+      "holes": 7,
+      "is_complete_cover": false,
+      "moves": [
+        {
+          "add": 45,
+          "remove": 41,
+          "row": 189
+        }
+      ],
+      "new_holes_created": [
+        [
+          9,
+          18,
+          41,
+          53
+        ]
+      ],
+      "old_holes_closed": [
+        [
+          9,
+          11,
+          42,
+          45
+        ]
+      ],
+      "path": "eaa5620cbb3a2c8f1866bf6b3129f8b503d88532fe6e213aa598b94b13f4658c.txt",
+      "sha256": "eaa5620cbb3a2c8f1866bf6b3129f8b503d88532fe6e213aa598b94b13f4658c",
+      "source_path": "/workspace/cover_search/independent_long/neutral_checkpoints/20261106T183855651816Z/eaa5620cbb3a2c8f/partial.txt",
+      "ticket": "/workspace/cover_search/campaign/inbox/independent_neutral_eaa5620cbb3a2c8f1866bf6b.json"
+    },
+    {
+      "holes": 7,
+      "is_complete_cover": false,
+      "moves": [
+        {
+          "add": 52,
+          "delta": 0,
+          "remove": 36,
+          "row": 123
+        },
+        {
+          "add": 36,
+          "delta": 1,
+          "remove": 30,
+          "row": 167
+        }
+      ],
+      "new_holes_created": [
+        [
+          9,
+          28,
+          30,
+          38
+        ]
+      ],
+      "old_holes_closed": [
+        [
+          3,
+          14,
+          30,
+          52
+        ]
+      ],
+      "path": "776fb3305de42bfde8c8d23c4deab8e42854e6d0cf42ca3808ee52547c7007fd.txt",
+      "sha256": "776fb3305de42bfde8c8d23c4deab8e42854e6d0cf42ca3808ee52547c7007fd",
+      "source_path": "/workspace/cover_search/independent_long/neutral_checkpoints/20261106T183855651816Z/776fb3305de42bfd/partial.txt",
+      "ticket": "/workspace/cover_search/campaign/inbox/independent_neutral_776fb3305de42bfde8c8d23c.json"
+    },
+    {
+      "holes": 7,
+      "is_complete_cover": false,
+      "moves": [
+        {
+          "add": 45,
+          "delta": 0,
+          "remove": 41,
+          "row": 189
+        },
+        {
+          "add": 41,
+          "delta": 1,
+          "remove": 54,
+          "row": 277
+        }
+      ],
+      "new_holes_created": [
+        [
+          22,
+          27,
+          35,
+          54
+        ]
+      ],
+      "old_holes_closed": [
+        [
+          9,
+          11,
+          42,
+          45
+        ]
+      ],
+      "path": "2f24dfe9a176fe2cb6f302f82925a4d3cefe223c43120eb09abac48d6be1c81f.txt",
+      "sha256": "2f24dfe9a176fe2cb6f302f82925a4d3cefe223c43120eb09abac48d6be1c81f",
+      "source_path": "/workspace/cover_search/independent_long/neutral_checkpoints/20261106T183855651816Z/2f24dfe9a176fe2c/partial.txt",
+      "ticket": "/workspace/cover_search/campaign/inbox/independent_neutral_2f24dfe9a176fe2cb6f302f8.json"
+    }
+  ],
+  "parent_holes": 7,
+  "parent_sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "scope": "Recorded deterministic point changes relocate defects without lowering their number. No improvement of the global partial count or complete upper bound is claimed.",
+  "status": "NOT_A_COVER_EQUAL_DEFECT_DIVERSIFIERS"
+}

@@ -6,10 +6,11 @@ all 316,251 quadruples. This improves the supplied 335-block incumbent by 33 blo
 Optimality is not claimed. [RESULT.json](RESULT.json) pins the witness SHA-256:
 `96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd`.
 
-The cover was verified on 6 November 2026 at 16:32:33 UTC. This fixed checkpoint
-is preserved while the campaign continues; newer results require separate
-verification and an explicit update. The combined certificate check is
-[VERIFICATION.json](VERIFICATION.json).
+The cover was verified on 6 November 2026 at 16:32:33 UTC. The campaign stopped
+after a strict three-hour full-size stall and final producer/output drain at
+2026-11-06T19:32:53.625553+00:00. The observed gap was 10820.594874 seconds.
+[CAMPAIGN_FINAL.json](CAMPAIGN_FINAL.json) records the final stop and retained
+search families. The complete-witness check remains [VERIFICATION.json](VERIFICATION.json).
 
 ## Verify the certificate
 
@@ -57,6 +58,31 @@ is not claimed. The pinned witness and exhaustive checks establish the bound.
 The direct input came from run 1242. The preserved original metadata records
 its immutable path/hash and the producing environment. Complete replay of all
 earlier search ancestors is not claimed.
+
+## Final evidence and resumable incomplete checkpoints
+
+The [portable evidence packet](campaign_evidence/README.md) retains three
+pairwise non-isomorphic 302-block full covers and their actual source, direct
+input, license, settings and replay provenance. Their differing point-degree
+spectra independently rule out isomorphism.
+
+The three useful 301-block restart files have 7, 8, 19 uncovered quadruples.
+**Every restart file is incomplete; none establishes a 301-block cover.** Each
+packet includes its exact holes, independent verification and portable continuation.
+The [research notes](campaign_evidence/RESEARCH_NOTES.md) distinguish mathematical
+witnesses, local neighborhood exclusions, finite-pool solver results and exploratory
+mixed-cardinality states. No unrestricted optimality claim is made.
+
+```sh
+python -B upper_search/campaign_evidence/verify_evidence.py
+python -B -O upper_search/campaign_evidence/verify_evidence.py
+```
+
+This verifies all retained full and partial witnesses without running search.
+The combined release verifier also checks the packet. Optional reproduction of
+the longer point-pair research certificate needs a C++17 compiler; its complete
+normal and optimized replays passed before this freeze. Verification, partial
+deficit improvements and equal-size covers never reset the full-size stall clock.
 
 ## Retained history and attribution
 

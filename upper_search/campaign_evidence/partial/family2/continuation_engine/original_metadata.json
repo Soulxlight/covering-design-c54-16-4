@@ -1,0 +1,71 @@
+{
+  "run_id": "run_1287",
+  "pid": 31934,
+  "slot": 2,
+  "seed": 1287,
+  "tenure": 7,
+  "noise": 0.05,
+  "noweight": true,
+  "argv": [
+    "/workspace/cover_search/campaign/archive/binaries/be642f1a242bcd945e5b437b19d14f4e08b255e58d7130fceaea1723184d71af",
+    "54",
+    "16",
+    "4",
+    "301",
+    "300",
+    "1287",
+    "/workspace/cover_search/campaign/runs/run_1287/input.txt",
+    "7",
+    "0.05",
+    "230"
+  ],
+  "seconds": 300,
+  "target_blocks": 230,
+  "allowed_intermediate_level": null,
+  "minimum_runtime_seconds": 300,
+  "partial_stall_limit_seconds": 180,
+  "input_path": "/workspace/cover_search/campaign/runs/run_1287/input.txt",
+  "input_sha256": "60ff969a627f97a9e5e8a2abdbab32d315e3ac3368156d199539ed5642d5aaac",
+  "input_source_path": "/workspace/cover_search/campaign/archive/partial/partial_60ff969a627f97a9.txt",
+  "input_provenance": null,
+  "input_selection_kind": "ordinary",
+  "input_seed_family": null,
+  "input_blocks": 301,
+  "input_uncovered": 13,
+  "input_mode": "explicit",
+  "input_recipe": {
+    "path": "/workspace/cover_search/campaign/runs/run_1287/input_recipe.json",
+    "sha256": "ef03408d6e04cf12449367d01552bf9c9d581c617b261439d734a45d5f7f9f1e"
+  },
+  "source_path": "/workspace/cover_search/campaign/runs/run_1287/source/wls_background_loss2_direct.cpp",
+  "source_sha256": "76cf9c27c60748aaab3284e8d7db8c4835d5544b3faf7436c7c778c465296d4b",
+  "original_source_path": "/workspace/cover_search/alternatives/direct_colex_v1/wls_background_loss2_direct.cpp",
+  "source_files": {
+    "/workspace/cover_search/campaign/runs/run_1287/source/wls_background_loss2_direct.cpp": "76cf9c27c60748aaab3284e8d7db8c4835d5544b3faf7436c7c778c465296d4b",
+    "/workspace/cover_search/campaign/runs/run_1287/source/background_loss2.hpp": "ff9011d807f5fe6a2dabc7541137c6e48206814046abf99c6c5d2004113ed2e3"
+  },
+  "original_executable": "/workspace/cover_search/alternatives/direct_colex_v1/wls_background_loss2_direct",
+  "binary_sha256": "be642f1a242bcd945e5b437b19d14f4e08b255e58d7130fceaea1723184d71af",
+  "extra_env": {
+    "BACKGROUND_EVERY": "128",
+    "BACKGROUND_START": "1",
+    "BACKGROUND_MAX_LOSS": "2",
+    "BACKGROUND_LOSS2_PROB": "0.2",
+    "BACKGROUND_CAP": "17"
+  },
+  "background_cap_from_input": true,
+  "background_cap_slack": 4,
+  "checkpoint_environment": {
+    "SAVE_PARTIAL": "/workspace/cover_search/campaign/runs/run_1287/best_partial.txt",
+    "SAVE_FINAL": "/workspace/cover_search/campaign/runs/run_1287/final_state.txt",
+    "SAVE_EQUAL_PARTIAL": "/workspace/cover_search/campaign/runs/run_1287/equal_partial.txt",
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "32"
+  },
+  "compiler_command": "g++ -O3 -march=native -std=c++17 wls_background_loss2_direct.cpp -o wls_background_loss2_direct",
+  "compiler_working_directory": "/workspace/cover_search/campaign/runs/run_1287/source",
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "start_utc": "2026-11-06T17:51:43.136219+00:00",
+  "start_monotonic": 18152.069409272,
+  "directory": "/workspace/cover_search/campaign/runs/run_1287"
+}

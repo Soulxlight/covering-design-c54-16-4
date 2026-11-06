@@ -1,0 +1,25 @@
+{
+  "blocks": 301,
+  "covered_quadruples": 316244,
+  "current_complete_upper_bound": 302,
+  "current_complete_witness_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "is_complete_cover": false,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "producer_input_blocks": 301,
+  "producer_input_format": "uniform-sixteen-sets",
+  "producer_input_holes": 9,
+  "producer_input_is_uniform_covering_candidate": true,
+  "producer_run": "run_1291",
+  "producer_seed": 1291,
+  "sha256": "a2e1f34a0ba9b4d45052cccf2580791504b13707ab5c63b81c35f9d50e84aaa6",
+  "staged_utc": "2026-11-06T18:13:23.981868+00:00",
+  "status": "NOT_A_COVER",
+  "uncovered_quadruples": 7,
+  "upper_bound_improvement_claimed": false,
+  "verified_utc": "2026-11-06T18:11:00.779280+00:00",
+  "witness": "partial.txt"
+}

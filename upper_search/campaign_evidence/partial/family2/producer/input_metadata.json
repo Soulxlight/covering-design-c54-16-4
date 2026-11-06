@@ -1,0 +1,69 @@
+{
+  "input_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/input.txt",
+  "input_sha256": "2682681740d289d87be8736f23496959840165ed034f16364bd31f243d5fefc3",
+  "input_verification": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 301,
+    "total_targets": 316251,
+    "covered_targets": 316242,
+    "uncovered_targets": 9,
+    "valid": false,
+    "sha256": "2682681740d289d87be8736f23496959840165ed034f16364bd31f243d5fefc3"
+  },
+  "source_files": {
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_certificate.json": "d4a68a4500134b761a07c8324b928ae82b2a1c1ef5781e520aa0905bac2b81aa",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/replay.py": "70c4cbec4dd3a14a5210102d40062f5cf41e7e92a8cb0c8270943bf7025f784d",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_kernel.json": "458c49981b5502308b02e71d388dc6d783eed9ee21db8ac3d9e20ab1df9d4998",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/kernel_hole_lp.py": "cd98cf0fac345f6f2ea9953546d7f2b4c246cdb937945948967b16f7570964a3",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/bootstrap_weak_map.json": "defaefc6d7db4d1024e371e9a6edf5d98a7460a67069797a641bb43e9074a6e9",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/run_adaptive.py": "dbfa2ac289b11181787ccffc59974ae674253b1a7b8447c02660344ea23b9468",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/price_kernel_release.py": "2bf053b66ccff6acebd6e4756abf4b5a48f208ef2673717f0cb6ae3e0dc1eb3d",
+    "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/membership_lns.py": "1689f1c1ace454262f4261e97e6db98192776af2a6c0904b428c0f8b1e66d00a"
+  },
+  "dependencies": {
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755",
+    "highspy": "1.15.1",
+    "python-sat": "1.9.dev21"
+  },
+  "initial_certificate": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_certificate.json",
+  "initial_kernel": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_kernel.json",
+  "settings": {
+    "certificate": "/workspace/cover_search/campaign/archive/partial/partial_2682681740d289d8.txt",
+    "weak_override": null,
+    "fixed_rows": "",
+    "hole_budget": null,
+    "bootstrap_threshold": 3,
+    "rounds": 2,
+    "batch": 4,
+    "mip_seconds": 20.0,
+    "engine": "mip",
+    "changed_rows": null,
+    "prune_dominated": false,
+    "certificate_fixing": false,
+    "certificate_overlap_caps": false,
+    "offset_objective": false,
+    "allow_equal_size": false,
+    "skip_baseline_solve": false,
+    "wall_seconds": 80.0,
+    "prefer_existing": true,
+    "prefer_gain": true,
+    "retain_incumbent": false,
+    "native_solver": "gluecard4"
+  },
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "start_utc": "2026-11-06T18:07:04.820954+00:00",
+  "hole_budget": 8,
+  "global_partial_best_holes_at_start": 8,
+  "goal_scope": "parent-relative family diversification",
+  "round": "baseline",
+  "kernel_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_kernel.json",
+  "certificate_path": "/workspace/cover_search/exact_long/adaptive_kernel/run_1793988422367980225/baseline_certificate.json"
+}

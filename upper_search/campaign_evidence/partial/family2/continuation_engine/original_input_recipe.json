@@ -1,0 +1,30 @@
+{
+  "pinned_diverse_seed": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 301,
+    "total_targets": 316251,
+    "covered_targets": 316238,
+    "uncovered_targets": 13,
+    "valid": false,
+    "sha256": "60ff969a627f97a9e5e8a2abdbab32d315e3ac3368156d199539ed5642d5aaac",
+    "path": "/workspace/cover_search/campaign/archive/partial/partial_60ff969a627f97a9.txt",
+    "verified_utc": "2026-11-06T17:14:07.123289+00:00",
+    "provenance": {
+      "run_id": "run_1263",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1263/metadata.json"
+    }
+  },
+  "comparison_near_seed": {
+    "path": "/workspace/cover_search/campaign/archive/partial/partial_24965b163e89f7f5.txt",
+    "sha256": "24965b163e89f7f5fb1550b627bcd83ada422a77c4d80c5793c9820764412eaa",
+    "blocks": 301,
+    "holes": 8
+  },
+  "shared_rows_with_near_seed": 21,
+  "shared_rows_with_its_full302_parent": 49,
+  "replaces_earlier_301_h26_packet": true
+}

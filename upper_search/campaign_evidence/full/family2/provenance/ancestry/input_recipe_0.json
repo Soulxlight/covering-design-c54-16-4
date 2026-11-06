@@ -1,0 +1,16 @@
+{
+  "kind": "historical near-cover continuation with reset weights",
+  "input_path": "/workspace/cover_search/campaign/archive/partial/partial_c9e8a996383ddd7a.txt",
+  "input_sha256": "c9e8a996383ddd7a2c1563c05989e16b639223726cd581c1384c0a4230d00d3e",
+  "input_blocks": 302,
+  "input_holes": 5,
+  "producer_run": "run_1244",
+  "producer_metadata": "/workspace/cover_search/campaign/runs/run_1244/metadata.json",
+  "current_full302_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "shared_rows_with_current_full302": 25,
+  "shared_rows_with_current301_h9": 28,
+  "allowed_intermediate_complete_size": 302,
+  "target_blocks": 301,
+  "seconds": 600,
+  "note": "An equal-size302 completion is archived for structural diversity and never resets the full-improvement clock."
+}
