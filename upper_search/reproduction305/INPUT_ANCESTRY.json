@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "kind": "input_recipe",
+      "packet_path": "ancestry/input_recipe_0.json",
+      "sha256": "26970e05cc1c81b62a79eea17a8d2f2ad4aba9a6440fac4774758416c68b2187",
+      "source_pointer": {
+        "path": "/workspace/cover_search/campaign/runs/run_1167/input_recipe.json",
+        "sha256": "26970e05cc1c81b62a79eea17a8d2f2ad4aba9a6440fac4774758416c68b2187"
+      }
+    },
+    {
+      "kind": "predecessor_metadata",
+      "packet_path": "ancestry/predecessor_metadata_0.json",
+      "sha256": "1cb42661970839a9233f384ed52e4c8121d055e7d3f6af8137ccb1eacfd7a371",
+      "source_pointer": "/workspace/cover_search/campaign/runs/run_1160/metadata.json"
+    },
+    {
+      "kind": "input_recipe",
+      "packet_path": "ancestry/input_recipe_1.json",
+      "sha256": "c77da6fb84706355ebe8464bb130010ca6fe53051f7c6cb2b6b02307cad81c97",
+      "source_pointer": {
+        "path": "/workspace/cover_search/campaign/runs/run_1160/input_recipe.json",
+        "sha256": "c77da6fb84706355ebe8464bb130010ca6fe53051f7c6cb2b6b02307cad81c97"
+      }
+    }
+  ],
+  "scope": "Preserved recipe/provenance pointers and metadata snapshots; complete ancestor search replay is not claimed",
+  "winning_input_sha256": "be2608951b5d805151b32d5230aef3040bee6998383aa94097545ffabd9c4ee1"
+}

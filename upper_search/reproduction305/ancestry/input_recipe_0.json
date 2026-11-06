@@ -1,0 +1,19 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "blocks": 305,
+  "total_targets": 316251,
+  "covered_targets": 316246,
+  "uncovered_targets": 5,
+  "valid": false,
+  "sha256": "be2608951b5d805151b32d5230aef3040bee6998383aa94097545ffabd9c4ee1",
+  "path": "/workspace/cover_search/campaign/archive/partial/partial_be2608951b5d8051.txt",
+  "verified_utc": "2026-11-06T14:19:49.304640+00:00",
+  "provenance": {
+    "run_id": "run_1160",
+    "metadata_path": "/workspace/cover_search/campaign/runs/run_1160/metadata.json"
+  }
+}

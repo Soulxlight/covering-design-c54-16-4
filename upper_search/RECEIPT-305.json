@@ -1,0 +1,21 @@
+{
+  "blocks": 305,
+  "covered_targets": 316251,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "path": "/workspace/cover_search/campaign/archive/full/cover_305_570f1791870e31e8.txt",
+  "provenance": {
+    "kind": "wls",
+    "log_path": "/workspace/cover_search/campaign/runs/run_1167/run.log",
+    "metadata_path": "/workspace/cover_search/campaign/runs/run_1167/metadata.json",
+    "run_id": "run_1167"
+  },
+  "sha256": "570f1791870e31e8b8f1b721848f8e37ce4d5d5dd3d683faf93c48162d5d4f65",
+  "total_targets": 316251,
+  "uncovered_targets": 0,
+  "valid": true,
+  "verified_utc": "2026-11-06T14:28:10.492466+00:00"
+}

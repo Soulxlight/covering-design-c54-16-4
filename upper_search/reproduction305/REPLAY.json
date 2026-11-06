@@ -1,0 +1,57 @@
+{
+  "algorithm_environment": {
+    "BALANCE_PAIR": "1",
+    "BALANCE_POINT": "16"
+  },
+  "cleared_environment_variables": [
+    "NOWEIGHT",
+    "MAX_STEPS",
+    "SAVE_PARTIAL",
+    "SAVE_FINAL"
+  ],
+  "compile_argv": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "wls_balance_sparse.cpp",
+    "-o",
+    "@BINARY@"
+  ],
+  "expected_output_filename": "shrink_cover_54_16_4_305_1167.txt",
+  "expected_witness_sha256": "570f1791870e31e8b8f1b721848f8e37ce4d5d5dd3d683faf93c48162d5d4f65",
+  "input_ancestry_record": "INPUT_ANCESTRY.json",
+  "input_blocks": 305,
+  "input_is_complete_cover": false,
+  "input_sha256": "be2608951b5d805151b32d5230aef3040bee6998383aa94097545ffabd9c4ee1",
+  "input_uncovered": 5,
+  "kind": "weighted_local_search",
+  "log_snapshot_utc": "2026-11-06T14:31:54.179971+00:00",
+  "noise": 0.05,
+  "original_compiler_command": "g++ -O3 -march=native -std=c++17 wls_balance_sparse.cpp -o wls_balance_sparse",
+  "original_compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "recorded_wall_clock_seconds": 600,
+  "replay_limit": "Wall-clock stopping, compiler/standard-library differences and hardware speed can affect exact search reproduction. Exhaustive witness verification is deterministic.",
+  "run_argv": [
+    "@BINARY@",
+    "54",
+    "16",
+    "4",
+    "305",
+    "600",
+    "1167",
+    "@INPUT@",
+    "3",
+    "0.05",
+    "305"
+  ],
+  "seed": 1167,
+  "targetB": 305,
+  "target_blocks": 305,
+  "tenure": 3
+}

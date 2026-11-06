@@ -1,6 +1,6 @@
 # Covering designs for C(54,16,4)
 
-The project records **internally reviewed lower bound230 and verified upper bound318**. The
+The project records **internally reviewed lower bound 230 and verified upper bound 305**. The
 [reviewer entry point](audit230/REVIEWER_START.md) presents the complete internally
 reviewed computer-assisted proof **C(54,16,4)>=230**. Qualified external human
 acceptance, proof-assistant verification and literature priority remain pending.
@@ -9,11 +9,13 @@ under Perry Kern's direction. No exact covering number or optimality is claimed.
 
 ## New upper-bound search, 6 November 2026
 
-The new search has produced a verified **318-block cover**, improving the
+The new search has produced a verified **305-block cover**, improving the
 supplied 335-block incumbent. The [current witness and verification record](upper_search/README.md)
 include two independent exhaustive checks of all 316,251 quadruples, exact
 search source, input snapshots, and run logs. The preserved
-[334-block milestone](upper334/README.md) records the first improvement.
+[334-block milestone](upper334/README.md) records the first improvement; the
+[318-block checkpoint](upper_search/README-318.md) is retained with its complete history.
+The current 305 checkpoint is preserved while the search continues.
 
 ```text
 python -B upper_search/verify_best.py
@@ -60,7 +62,7 @@ cover-to-model implications.
 
 The previous upper336 and **Franco Atzeni** credit are retained as historical
 [Covering Repository](https://coveringrepository.com/systems.aspx?li=2) context.
-The new335 witness is independently verified here. Repository-curator acceptance
+The retained 335 and current 305 witnesses are independently verified here. Repository-curator acceptance
 and literature priority remain separate, unconfirmed statuses. [Citations](CITATIONS.md) and the retained
 [dated search](audit224/prior_art/SEARCH_REPORT.md) state attribution and access
 limits. General rank, projection, moment and point-link methods have prior art;

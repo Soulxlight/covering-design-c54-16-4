@@ -11,7 +11,12 @@ python -B upper334/validate_controls.py
 The pinned result in `upper_search/RESULT.json` determines the latest block
 count and witness hash. Both exhaustive methods must report zero uncovered
 quadruples. See `upper_search/README.md` for the search reproduction recipe.
-The older 335-block commands below remain useful historical checks.
+The current 305 checkpoint preserves a 305-block input with five holes, the
+winning source/header, seed 1167, environment and ancestry in
+`upper_search/reproduction305/`. Its standalone replay driver is
+`python -B upper_search/reproduction305/replay.py`; use `--compile-only`
+to check the portable C++17 build. Search replay is separate from certificate
+verification. The older 335-block commands below remain historical checks.
 
 Python3.10+; standard library only for the release runner and lower proofs.
 The independent Node cover check uses Node18+. Inspect the proofs and executable source.
@@ -96,7 +101,7 @@ semantic implication nor authentication of a replaced code/manifest set.
 
 Independent internal review is PASS WITH LIMITS for the complete ordinary 230
 proof. Qualified external human acceptance, formal-kernel verification and
-priority remain pending. The new335 upper witness is independently exhaustively verified; optimality
+priority remain pending. The retained 335 and current 305 upper witnesses are independently exhaustively verified; optimality
 and external endorsement are not claimed. The prior336/Franco Atzeni context
 is historical. The frozen230 checker keeps its historical upper336 output;
 current upper-bound search evidence is separate. The retained manifest base commit

@@ -1,0 +1,71 @@
+{
+  "kind": "hole_union_replacement",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "input": "/workspace/cover_search/campaign/archive/partial/partial_e0ba3b9b812f5f71.txt",
+  "input_sha256": "e0ba3b9b812f5f7161b6b7f0a2956accdeb962c66701811aad388f460302e15c",
+  "output": "/workspace/cover_search/alternatives/union_original305/union_b305_h14_row167_d3_00.txt",
+  "output_sha256": "b56ff77946826bbc89a6ba78dab385c7bfb433d607091e48c1058a6a27096238",
+  "row_index": 167,
+  "row_index_base": 0,
+  "point_label_base": 1,
+  "removed": [
+    20,
+    45,
+    52
+  ],
+  "added": [
+    11,
+    32,
+    53
+  ],
+  "holes_before": [
+    [
+      11,
+      47,
+      49,
+      54
+    ],
+    [
+      30,
+      31,
+      32,
+      53
+    ]
+  ],
+  "holes_after": 14,
+  "independent_verification": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 305,
+    "total_targets": 316251,
+    "covered_targets": 316237,
+    "uncovered_targets": 14,
+    "valid": false,
+    "sha256": "b56ff77946826bbc89a6ba78dab385c7bfb433d607091e48c1058a6a27096238"
+  },
+  "generator": "/workspace/cover_search/alternatives/hole_union_replacements.py",
+  "generator_sha256": "389dfd97e8c5fb9aa1f1cb2a381bbd7c4f5df381d2bf38650837f29e1ef9f490",
+  "generator_command": [
+    "python3",
+    "/workspace/cover_search/alternatives/hole_union_replacements.py",
+    "/workspace/cover_search/campaign/archive/partial/partial_e0ba3b9b812f5f71.txt",
+    "/workspace/cover_search/alternatives/union_original305",
+    "--limit",
+    "12"
+  ],
+  "candidates_evaluated": 826893,
+  "suggested_environment": {
+    "FREEZE_ROW": "167",
+    "FREEZE_STEPS": "300000",
+    "FREEZE_SECONDS": "0"
+  },
+  "generator_snapshot": "/workspace/cover_search/alternatives/union_original305/generator.py",
+  "generator_snapshot_sha256": "389dfd97e8c5fb9aa1f1cb2a381bbd7c4f5df381d2bf38650837f29e1ef9f490"
+}

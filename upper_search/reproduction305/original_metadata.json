@@ -1,0 +1,52 @@
+{
+  "run_id": "run_1167",
+  "pid": 6276,
+  "slot": 2,
+  "seed": 1167,
+  "tenure": 3,
+  "noise": 0.05,
+  "noweight": false,
+  "argv": [
+    "/workspace/cover_search/campaign/archive/binaries/da05df821d2a5c8b9ff5ad19c8be9ae6b408231f1099c26e31ba87b3e96e580e",
+    "54",
+    "16",
+    "4",
+    "305",
+    "600",
+    "1167",
+    "/workspace/cover_search/campaign/runs/run_1167/input.txt",
+    "3",
+    "0.05",
+    "230"
+  ],
+  "seconds": 600,
+  "minimum_runtime_seconds": 600,
+  "input_path": "/workspace/cover_search/campaign/runs/run_1167/input.txt",
+  "input_sha256": "be2608951b5d805151b32d5230aef3040bee6998383aa94097545ffabd9c4ee1",
+  "input_blocks": 305,
+  "input_uncovered": 5,
+  "input_mode": "explicit",
+  "input_recipe": {
+    "path": "/workspace/cover_search/campaign/runs/run_1167/input_recipe.json",
+    "sha256": "26970e05cc1c81b62a79eea17a8d2f2ad4aba9a6440fac4774758416c68b2187"
+  },
+  "source_path": "/workspace/cover_search/campaign/runs/run_1167/source/wls_balance_sparse.cpp",
+  "source_sha256": "3537773b41d5234cb54992e635a7ee0009fb774aa962552bb2918de89435d655",
+  "original_source_path": "/workspace/cover_search/alternatives/wls_balance_sparse.cpp",
+  "source_files": {
+    "/workspace/cover_search/campaign/runs/run_1167/source/wls_balance_sparse.cpp": "3537773b41d5234cb54992e635a7ee0009fb774aa962552bb2918de89435d655",
+    "/workspace/cover_search/campaign/runs/run_1167/source/balance_move_sparse.hpp": "b593c78a94b73f06507eea7eeade09be522ab970f3a44fbc84aac8110f50bd6a"
+  },
+  "original_executable": "/workspace/cover_search/alternatives/wls_balance_sparse",
+  "binary_sha256": "da05df821d2a5c8b9ff5ad19c8be9ae6b408231f1099c26e31ba87b3e96e580e",
+  "extra_env": {
+    "BALANCE_POINT": "16",
+    "BALANCE_PAIR": "1"
+  },
+  "compiler_command": "g++ -O3 -march=native -std=c++17 wls_balance_sparse.cpp -o wls_balance_sparse",
+  "compiler_working_directory": "/workspace/cover_search/campaign/runs/run_1167/source",
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "start_utc": "2026-11-06T14:25:13.724817+00:00",
+  "start_monotonic": 5762.658017359,
+  "directory": "/workspace/cover_search/campaign/runs/run_1167"
+}

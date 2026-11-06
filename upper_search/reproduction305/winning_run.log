@@ -1,0 +1,59 @@
+init: loaded 305 blocks, uncovered 5
+PROGRESS b=305 best=5 current=232 step=221184 elapsed=10.0
+PROGRESS b=305 best=5 current=205 step=541696 elapsed=20.0
+PROGRESS b=305 best=5 current=118 step=754688 elapsed=30.0
+PROGRESS b=305 best=5 current=74 step=1142784 elapsed=40.0
+PROGRESS b=305 best=5 current=80 step=1453056 elapsed=50.1
+PROGRESS b=305 best=5 current=301 step=1843200 elapsed=60.1
+PROGRESS b=305 best=5 current=436 step=2055168 elapsed=70.1
+PROGRESS b=305 best=5 current=172 step=2360320 elapsed=80.2
+PROGRESS b=305 best=5 current=141 step=2668544 elapsed=90.2
+PROGRESS b=305 best=5 current=352 step=3046400 elapsed=100.2
+PROGRESS b=305 best=5 current=49 step=3477504 elapsed=110.2
+PROGRESS b=305 best=5 current=229 step=3845120 elapsed=120.3
+PROGRESS b=305 best=5 current=226 step=4231168 elapsed=130.3
+PROGRESS b=305 best=5 current=37 step=4613120 elapsed=140.3
+PROGRESS b=305 best=5 current=34 step=5036032 elapsed=150.3
+PROGRESS b=305 best=5 current=32 step=5412864 elapsed=160.4
+PROGRESS b=305 best=5 current=15 step=5823488 elapsed=170.4
+BEST b=305 uncovered=4 step=6023671
+BEST b=305 uncovered=3 step=6029706
+BEST b=305 uncovered=2 step=6029709
+BEST b=305 uncovered=1 step=6030097
+BEST b=305 uncovered=0 step=6037122
+FULL 305 blocks at 175.3s
+BEST b=304 uncovered=95 step=6037123
+BEST b=304 uncovered=94 step=6037124
+BEST b=304 uncovered=91 step=6037125
+BEST b=304 uncovered=90 step=6037128
+BEST b=304 uncovered=86 step=6037134
+BEST b=304 uncovered=79 step=6037150
+BEST b=304 uncovered=76 step=6037164
+BEST b=304 uncovered=74 step=6037165
+BEST b=304 uncovered=72 step=6037563
+BEST b=304 uncovered=71 step=6041891
+BEST b=304 uncovered=69 step=6042772
+BEST b=304 uncovered=68 step=6044150
+PROGRESS b=304 best=68 current=652 step=6189056 elapsed=180.4
+BEST b=304 uncovered=67 step=6312422
+PROGRESS b=304 best=67 current=109 step=6445056 elapsed=190.4
+PROGRESS b=304 best=67 current=274 step=6651904 elapsed=200.4
+PROGRESS b=304 best=67 current=491 step=6868992 elapsed=210.5
+PROGRESS b=304 best=67 current=801 step=7036928 elapsed=220.5
+PROGRESS b=304 best=67 current=275 step=7244800 elapsed=230.5
+PROGRESS b=304 best=67 current=203 step=7491584 elapsed=240.5
+PROGRESS b=304 best=67 current=306 step=7713792 elapsed=250.5
+PROGRESS b=304 best=67 current=390 step=7967744 elapsed=260.6
+PROGRESS b=304 best=67 current=806 step=8158208 elapsed=270.6
+PROGRESS b=304 best=67 current=395 step=8293376 elapsed=280.6
+PROGRESS b=304 best=67 current=288 step=8506368 elapsed=290.6
+PROGRESS b=304 best=67 current=468 step=8685568 elapsed=300.7
+PROGRESS b=304 best=67 current=335 step=8902656 elapsed=310.7
+PROGRESS b=304 best=67 current=330 step=9136128 elapsed=320.8
+PROGRESS b=304 best=67 current=332 step=9290752 elapsed=330.8
+PROGRESS b=304 best=67 current=378 step=9449472 elapsed=340.9
+PROGRESS b=304 best=67 current=228 step=9672704 elapsed=350.9
+PROGRESS b=304 best=67 current=248 step=9878528 elapsed=360.9
+PROGRESS b=304 best=67 current=565 step=10114048 elapsed=370.9
+PROGRESS b=304 best=67 current=373 step=10348544 elapsed=381.0
+PROGRESS b=304 best=67 current=329 step=10530816 elapsed=391.0

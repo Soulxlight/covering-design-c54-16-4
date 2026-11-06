@@ -1,0 +1,51 @@
+{
+  "run_id": "run_1160",
+  "pid": 5786,
+  "slot": 2,
+  "seed": 1160,
+  "tenure": 7,
+  "noise": 0.05,
+  "noweight": false,
+  "argv": [
+    "/workspace/cover_search/campaign/archive/binaries/628a4567556a928d5faf58055216eeaa47967bc688352611020442319154f732",
+    "54",
+    "16",
+    "4",
+    "305",
+    "300",
+    "1160",
+    "/workspace/cover_search/campaign/runs/run_1160/input.txt",
+    "7",
+    "0.05",
+    "230"
+  ],
+  "seconds": 300,
+  "input_path": "/workspace/cover_search/campaign/runs/run_1160/input.txt",
+  "input_sha256": "b56ff77946826bbc89a6ba78dab385c7bfb433d607091e48c1058a6a27096238",
+  "input_blocks": 305,
+  "input_uncovered": 14,
+  "input_mode": "explicit",
+  "input_recipe": {
+    "path": "/workspace/cover_search/campaign/runs/run_1160/input_recipe.json",
+    "sha256": "c77da6fb84706355ebe8464bb130010ca6fe53051f7c6cb2b6b02307cad81c97"
+  },
+  "source_path": "/workspace/cover_search/campaign/runs/run_1160/source/wls_freeze_sparse.cpp",
+  "source_sha256": "06bdefaf51be5ec02dcf6c92cce754763d1956407e230a9fea10078cd48407f8",
+  "original_source_path": "/workspace/cover_search/alternatives/wls_freeze_sparse.cpp",
+  "source_files": {
+    "/workspace/cover_search/campaign/runs/run_1160/source/wls_freeze_sparse.cpp": "06bdefaf51be5ec02dcf6c92cce754763d1956407e230a9fea10078cd48407f8"
+  },
+  "original_executable": "/workspace/cover_search/alternatives/wls_freeze_sparse",
+  "binary_sha256": "628a4567556a928d5faf58055216eeaa47967bc688352611020442319154f732",
+  "extra_env": {
+    "FREEZE_ROW": "167",
+    "FREEZE_STEPS": "300000",
+    "FREEZE_SECONDS": "0"
+  },
+  "compiler_command": "g++ -O3 -march=native -std=c++17 wls_freeze_sparse.cpp -o wls_freeze_sparse",
+  "compiler_working_directory": "/workspace/cover_search/campaign/runs/run_1160/source",
+  "compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "start_utc": "2026-11-06T14:17:48.127378+00:00",
+  "start_monotonic": 5317.060572112,
+  "directory": "/workspace/cover_search/campaign/runs/run_1160"
+}

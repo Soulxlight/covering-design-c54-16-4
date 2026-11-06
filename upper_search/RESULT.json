@@ -1,17 +1,25 @@
 {
+  "baseline_blocks": 335,
+  "blocks": 305,
+  "checkpoint_parent_commit": "771d4150b6ef4ed303e9d786222c71c8f327f800",
+  "checkpoint_status": "Verified 305-block milestone; campaign search continues",
+  "date": "2026-11-06",
+  "external_publication_performed": false,
+  "input_ancestry": "upper_search/reproduction305/INPUT_ANCESTRY.json",
+  "input_blocks": 305,
+  "input_uncovered": 5,
+  "optimality_claimed": false,
   "parameters": [
     54,
     16,
     4
   ],
-  "blocks": 318,
-  "witness": "data/cover-318.txt",
-  "sha256": "1a6fc9eda36010fade6996b371ffb8b30f0bff1b9054d1ea6f6c74544211f364",
-  "date": "2026-11-06",
-  "source_seed": 603,
-  "baseline_blocks": 335,
-  "optimality_claimed": false,
-  "published_upper_bound_checked": 335,
   "published_bound_source": "https://www.coveringrepository.com/download_archive_vkt.aspx",
-  "starting_repository_commit": "6fb3d962ff4faa202eeb5a8d740b77146a8648d6"
+  "published_upper_bound_checked": 335,
+  "reproduction": "upper_search/reproduction305/REPLAY.json",
+  "sha256": "570f1791870e31e8b8f1b721848f8e37ce4d5d5dd3d683faf93c48162d5d4f65",
+  "source_seed": 1167,
+  "starting_repository_commit": "6fb3d962ff4faa202eeb5a8d740b77146a8648d6",
+  "verified_utc": "2026-11-06T14:28:10.492466+00:00",
+  "witness": "data/cover-305.txt"
 }

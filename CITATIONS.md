@@ -63,7 +63,11 @@ source blob `9e2769fc0c661483ced24b541e521a29a2d89ebe`, under its MIT license.
 The original license and successful first-search source are preserved in
 `upper334/`; the subsequent optimized source and run records are in
 `upper_search/`. Changes include 64-bit point masks, progress checkpoints,
-and cached quadruple ranks. The supplied 335-block witness is the incumbent
+and cached quadruple ranks. The 305 checkpoint adds sparse move scoring,
+point/pair incidence balancing, and an input branch obtained by a targeted
+row replacement followed by a search that temporarily fixed that row. Its
+exact source/header, five-hole input, log and ancestry records are preserved
+in `upper_search/reproduction305/`. The supplied 335-block witness is the incumbent
 from this project and retains the attribution documented in `upper335/`.
 
 The searches and independent verification were performed with AI assistance

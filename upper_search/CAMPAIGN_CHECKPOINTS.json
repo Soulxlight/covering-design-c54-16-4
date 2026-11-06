@@ -1,0 +1,158 @@
+[
+  {
+    "blocks": 317,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1001/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1001/metadata.json",
+      "run_id": "run_1001"
+    },
+    "sha256": "645b6530e33b800e39e2b9ce6d5c29bf930cd4f74ea66e9ba158de43fb4256d7",
+    "verified_utc": "2026-11-06T13:20:10.692141+00:00",
+    "witness": "checkpoints/cover-317-645b6530e33b800e.txt"
+  },
+  {
+    "blocks": 316,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1003/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1003/metadata.json",
+      "run_id": "run_1003"
+    },
+    "sha256": "4a32dd6943856d78c54a64efd293d126460cd63eeebb83b0a411d631cd16aea8",
+    "verified_utc": "2026-11-06T13:22:25.019724+00:00",
+    "witness": "checkpoints/cover-316-4a32dd6943856d78.txt"
+  },
+  {
+    "blocks": 315,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1003/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1003/metadata.json",
+      "run_id": "run_1003"
+    },
+    "sha256": "4a74244b64c5db37b69cd2d1f5b2fcf1841233e3be17ffeb1a903ec03f7dff86",
+    "verified_utc": "2026-11-06T13:23:24.208875+00:00",
+    "witness": "checkpoints/cover-315-4a74244b64c5db37.txt"
+  },
+  {
+    "blocks": 314,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1102/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1102/metadata.json",
+      "run_id": "run_1102"
+    },
+    "sha256": "fef38e44012ba943fc04b8e9dde0b47089eb171b9bd8f3dcb4589349eabbddf8",
+    "verified_utc": "2026-11-06T13:24:54.211822+00:00",
+    "witness": "checkpoints/cover-314-fef38e44012ba943.txt"
+  },
+  {
+    "blocks": 313,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1112/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1112/metadata.json",
+      "run_id": "run_1112"
+    },
+    "sha256": "cfd9015eb0c471c243f7c887d6f6e23bfd7cab46aeb340e6ae2eaa8dc6e797ae",
+    "verified_utc": "2026-11-06T13:26:28.240031+00:00",
+    "witness": "checkpoints/cover-313-cfd9015eb0c471c2.txt"
+  },
+  {
+    "blocks": 312,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1114/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1114/metadata.json",
+      "run_id": "run_1114"
+    },
+    "sha256": "64c0eb7f5be162b802398a02d56d80d1cbe6789c08a59998782ebd57941a8727",
+    "verified_utc": "2026-11-06T13:26:46.145920+00:00",
+    "witness": "checkpoints/cover-312-64c0eb7f5be162b8.txt"
+  },
+  {
+    "blocks": 311,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1115/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1115/metadata.json",
+      "run_id": "run_1115"
+    },
+    "sha256": "b2464e3975574c79cf4cb420fd812a842742f017923ed4ae120267e58752c2f2",
+    "verified_utc": "2026-11-06T13:28:42.515494+00:00",
+    "witness": "checkpoints/cover-311-b2464e3975574c79.txt"
+  },
+  {
+    "blocks": 310,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1125/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1125/metadata.json",
+      "run_id": "run_1125"
+    },
+    "sha256": "910df16b93a064ef7ccf6e1db550748af195d02149ddb19fb514967105241649",
+    "verified_utc": "2026-11-06T13:41:18.420433+00:00",
+    "witness": "checkpoints/cover-310-910df16b93a064ef.txt"
+  },
+  {
+    "blocks": 309,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1127/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1127/metadata.json",
+      "run_id": "run_1127"
+    },
+    "sha256": "57398d32c611350d7a33eecae4f2f5f4ec293f572e23c24c59d66d64f008701c",
+    "verified_utc": "2026-11-06T13:44:44.234062+00:00",
+    "witness": "checkpoints/cover-309-57398d32c611350d.txt"
+  },
+  {
+    "blocks": 308,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1131/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1131/metadata.json",
+      "run_id": "run_1131"
+    },
+    "sha256": "fb644563058e7fe1c164fff503f46ae319a95f3c3bf9693fed56ccb041e7e30f",
+    "verified_utc": "2026-11-06T13:46:03.300941+00:00",
+    "witness": "checkpoints/cover-308-fb644563058e7fe1.txt"
+  },
+  {
+    "blocks": 307,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1131/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1131/metadata.json",
+      "run_id": "run_1131"
+    },
+    "sha256": "b71901fdc453a19093e2c4c70f3fff83d2d7702e7b6b904341e7c0c362fe355a",
+    "verified_utc": "2026-11-06T13:46:14.351230+00:00",
+    "witness": "checkpoints/cover-307-b71901fdc453a190.txt"
+  },
+  {
+    "blocks": 306,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1132/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1132/metadata.json",
+      "run_id": "run_1132"
+    },
+    "sha256": "3c64392c47317b99b995010bb503c171d6541fb722155dbff80986361d9fbcd1",
+    "verified_utc": "2026-11-06T13:46:28.451339+00:00",
+    "witness": "checkpoints/cover-306-3c64392c47317b99.txt"
+  },
+  {
+    "blocks": 305,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1167/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1167/metadata.json",
+      "run_id": "run_1167"
+    },
+    "sha256": "570f1791870e31e8b8f1b721848f8e37ce4d5d5dd3d683faf93c48162d5d4f65",
+    "verified_utc": "2026-11-06T14:28:10.494453+00:00",
+    "witness": "checkpoints/cover-305-570f1791870e31e8.txt"
+  }
+]
