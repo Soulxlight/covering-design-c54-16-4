@@ -11,10 +11,10 @@ python -B upper334/validate_controls.py
 The pinned result in `upper_search/RESULT.json` determines the latest block
 count and witness hash. Both exhaustive methods must report zero uncovered
 quadruples. See `upper_search/README.md` for the search reproduction recipe.
-The current 305 checkpoint preserves a 305-block input with five holes, the
-winning source/header, seed 1167, environment and ancestry in
-`upper_search/reproduction305/`. Its standalone replay driver is
-`python -B upper_search/reproduction305/replay.py`; use `--compile-only`
+The current 302 checkpoint preserves a 302-block input with nine holes, the
+winning source/header, seed 1243, environment and run log in
+`upper_search/reproduction302/`. Its standalone replay driver is
+`python -B upper_search/reproduction302/replay.py`; use `--compile-only`
 to check the portable C++17 build. Search replay is separate from certificate
 verification. The older 335-block commands below remain historical checks.
 

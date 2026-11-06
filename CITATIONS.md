@@ -67,7 +67,11 @@ and cached quadruple ranks. The 305 checkpoint adds sparse move scoring,
 point/pair incidence balancing, and an input branch obtained by a targeted
 row replacement followed by a search that temporarily fixed that row. Its
 exact source/header, five-hole input, log and ancestry records are preserved
-in `upper_search/reproduction305/`. The supplied 335-block witness is the incumbent
+in `upper_search/reproduction305/`. The 302 checkpoint retains the same
+point/pair balancing approach, with sparse scoring and equal-partial
+checkpoints; its nine-hole direct input, source/header, actual environment
+and winning run are preserved in `upper_search/reproduction302/`.
+The supplied 335-block witness is the incumbent
 from this project and retains the attribution documented in `upper335/`.
 
 The searches and independent verification were performed with AI assistance

@@ -154,5 +154,41 @@
     "sha256": "570f1791870e31e8b8f1b721848f8e37ce4d5d5dd3d683faf93c48162d5d4f65",
     "verified_utc": "2026-11-06T14:28:10.494453+00:00",
     "witness": "checkpoints/cover-305-570f1791870e31e8.txt"
+  },
+  {
+    "blocks": 304,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1226/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1226/metadata.json",
+      "run_id": "run_1226"
+    },
+    "sha256": "386a1ca21b46af82a395566e51f9af954390857f13fdcbdb14e910b8af0833c6",
+    "verified_utc": "2026-11-06T16:06:56.389959+00:00",
+    "witness": "checkpoints/cover-304-386a1ca21b46af82.txt"
+  },
+  {
+    "blocks": 303,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1226/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1226/metadata.json",
+      "run_id": "run_1226"
+    },
+    "sha256": "6c6e9b52628b8dbf174bb9b0e45c14ffb51438b5b034cd026809a3075ad3679e",
+    "verified_utc": "2026-11-06T16:09:43.486678+00:00",
+    "witness": "checkpoints/cover-303-6c6e9b52628b8dbf.txt"
+  },
+  {
+    "blocks": 302,
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/campaign/runs/run_1243/run.log",
+      "metadata_path": "/workspace/cover_search/campaign/runs/run_1243/metadata.json",
+      "run_id": "run_1243"
+    },
+    "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+    "verified_utc": "2026-11-06T16:32:33.032996+00:00",
+    "witness": "checkpoints/cover-302-96c6adca7d06f51c.txt"
   }
 ]

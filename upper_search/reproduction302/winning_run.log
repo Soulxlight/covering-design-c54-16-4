@@ -1,0 +1,49 @@
+init: loaded 302 blocks, uncovered 9
+PROGRESS b=302 best=9 current=317 step=181248 elapsed=10.0
+PROGRESS b=302 best=9 current=192 step=468992 elapsed=20.0
+PROGRESS b=302 best=9 current=134 step=808960 elapsed=30.0
+PROGRESS b=302 best=9 current=85 step=1168384 elapsed=40.0
+PROGRESS b=302 best=9 current=304 step=1489920 elapsed=50.1
+PROGRESS b=302 best=9 current=293 step=1813504 elapsed=60.1
+PROGRESS b=302 best=9 current=40 step=2152448 elapsed=70.1
+PROGRESS b=302 best=9 current=67 step=2538496 elapsed=80.1
+PROGRESS b=302 best=9 current=53 step=2975744 elapsed=90.1
+EQUAL_PARTIAL count=1 step=3091188 blocks=302 holes=9
+BEST b=302 uncovered=8 step=3126943
+BEST b=302 uncovered=7 step=3126947
+BEST b=302 uncovered=6 step=3128657
+BEST b=302 uncovered=5 step=3186592
+PROGRESS b=302 best=5 current=68 step=3318784 elapsed=100.1
+EQUAL_PARTIAL count=2 step=3468107 blocks=302 holes=5
+BEST b=302 uncovered=4 step=3468363
+BEST b=302 uncovered=3 step=3599474
+EQUAL_PARTIAL count=3 step=3694009 blocks=302 holes=3
+PROGRESS b=302 best=3 current=8 step=3694592 elapsed=110.1
+BEST b=302 uncovered=1 step=3703301
+PROGRESS b=302 best=1 current=18 step=4082688 elapsed=120.1
+PROGRESS b=302 best=1 current=42 step=4460544 elapsed=130.2
+EQUAL_PARTIAL count=4 step=4527881 blocks=302 holes=1
+BEST b=302 uncovered=0 step=4528541
+FULL 302 blocks at 131.7s
+BEST b=301 uncovered=94 step=4528544
+BEST b=301 uncovered=92 step=4528545
+BEST b=301 uncovered=88 step=4528553
+BEST b=301 uncovered=85 step=4528573
+BEST b=301 uncovered=83 step=4528575
+BEST b=301 uncovered=81 step=4528584
+BEST b=301 uncovered=75 step=4528683
+BEST b=301 uncovered=70 step=4528686
+BEST b=301 uncovered=69 step=4528687
+BEST b=301 uncovered=66 step=4528690
+BEST b=301 uncovered=63 step=4534433
+BEST b=301 uncovered=62 step=4534935
+BEST b=301 uncovered=60 step=4537783
+BEST b=301 uncovered=58 step=4556744
+BEST b=301 uncovered=57 step=4600218
+BEST b=301 uncovered=55 step=4600348
+BEST b=301 uncovered=54 step=4600350
+BEST b=301 uncovered=53 step=4603326
+BEST b=301 uncovered=51 step=4614225
+BEST b=301 uncovered=44 step=4616620
+BEST b=301 uncovered=41 step=4616622
+PROGRESS b=301 best=41 current=304 step=4770816 elapsed=140.2
