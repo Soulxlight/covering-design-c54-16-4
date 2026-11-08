@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-11-08T19:49:06.409193+00:00",
+  "kind": "bounded-neutral-walk-then-ordinary-repair",
+  "input_receipt": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 301,
+    "total_targets": 316251,
+    "covered_targets": 316250,
+    "uncovered_targets": 1,
+    "valid": false,
+    "sha256": "278f2de9c645889ea7e9188ab90e972450fffe52bebc727466f41d7e43aa6554",
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_278f2de9c645889e.txt",
+    "verified_utc": "2026-11-08T19:17:41.762716+00:00",
+    "provenance": {
+      "run_id": "run_21042",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21042/metadata.json"
+    }
+  },
+  "preparation_policy": {
+    "executable": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2",
+    "source_path": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2.cpp",
+    "extra_sources": [
+      "/workspace/cover_search/alternatives/equal_snapshots_v2/background_move.hpp"
+    ],
+    "extra_env": {
+      "BACKGROUND_EVERY": "1",
+      "BACKGROUND_CAP": "1",
+      "BACKGROUND_START": "1",
+      "MAX_STEPS": "1024",
+      "EQUAL_INTERVAL": "32",
+      "EQUAL_MAX_HOLES": "1"
+    },
+    "seconds": 60,
+    "minimum_runtime_seconds": 60,
+    "noweight": true,
+    "tenure": 7,
+    "noise": 0.01,
+    "input_path": "/workspace/cover_search/resume_20261108/wls/experiments/neutral_two_phase_20261108T194906Z/input.txt",
+    "input_when_best_blocks": 302,
+    "active_when_best_blocks": 302,
+    "active_when_best_partial_holes": 1,
+    "fallback_policy": {
+      "executable": "/workspace/cover_search/alternatives/direct_colex_v1/wls_sparse_compact_equal_v2_direct",
+      "source_path": "/workspace/cover_search/alternatives/direct_colex_v1/wls_sparse_compact_equal_v2_direct.cpp",
+      "extra_sources": [],
+      "seconds": 1800,
+      "minimum_runtime_seconds": 600,
+      "noweight": false,
+      "partial_stall_limit_seconds": 600,
+      "preserve_near_best_margin": 2
+    },
+    "recipe_path": "/workspace/cover_search/resume_20261108/wls/experiments/neutral_two_phase_20261108T194906Z/recipe.json",
+    "successor_policy": {
+      "total_seconds": 180,
+      "maximum_holes": 1,
+      "policy": {
+        "executable": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2",
+        "source_path": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2.cpp",
+        "extra_sources": [
+          "/workspace/cover_search/alternatives/equal_snapshots_v2/background_move.hpp"
+        ],
+        "extra_env": {
+          "BACKGROUND_EVERY": "128",
+          "BACKGROUND_CAP": "5",
+          "BACKGROUND_START": "1"
+        },
+        "noweight": true,
+        "tenure": 7,
+        "noise": 0.01,
+        "recipe_path": "/workspace/cover_search/resume_20261108/wls/experiments/neutral_two_phase_20261108T194906Z/recipe.json"
+      }
+    }
+  },
+  "repair_policy": {
+    "executable": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2",
+    "source_path": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2.cpp",
+    "extra_sources": [
+      "/workspace/cover_search/alternatives/equal_snapshots_v2/background_move.hpp"
+    ],
+    "extra_env": {
+      "BACKGROUND_EVERY": "128",
+      "BACKGROUND_CAP": "5",
+      "BACKGROUND_START": "1"
+    },
+    "noweight": true,
+    "tenure": 7,
+    "noise": 0.01,
+    "recipe_path": "/workspace/cover_search/resume_20261108/wls/experiments/neutral_two_phase_20261108T194906Z/recipe.json"
+  },
+  "phase_lifecycle": "Both phases are registered native WLS workers in slot2. Natural phase-one completion queues the verified terminal one-hole endpoint; best checkpoint is fallback. Durable phase_handoffs receipts bind the child run and selected endpoint. Both source/input/argv snapshots are preserved.",
+  "preparation_bound": "MAX_STEPS1024 and native60-second wall limit; source checks these limits at each1024-step boundary.",
+  "combined_budget_seconds": 180,
+  "serialization_note": "EQUAL_INTERVAL32 is observational. The existing single-file hook can coalesce snapshots; terminal and last equal snapshots are preserved, not necessarily every transient serialization.",
+  "strict_clock_effect": "Equal-quality neutral endpoints do not reset strict-progress or full clocks."
+}

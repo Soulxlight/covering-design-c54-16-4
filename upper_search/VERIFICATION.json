@@ -1,7 +1,7 @@
 {
-  "blocks": 302,
+  "blocks": 301,
   "covered_quadruples": 316251,
-  "distinct_blocks": 302,
+  "distinct_blocks": 301,
   "independent_methods": [
     "colex subset enumeration",
     "point-incidence intersections"
@@ -12,7 +12,7 @@
     16,
     4
   ],
-  "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
+  "sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602",
   "status": "PASS",
   "uncovered_quadruples": 0
 }

@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "kind": "registered_two_phase_handoff",
+      "packet_path": "provenance/ancestry/phase_handoff.json",
+      "preparation_input": "provenance/ancestry/preparation_input.txt",
+      "preparation_metadata": "provenance/ancestry/preparation_metadata.json",
+      "sha256": "e7e98c1103d73223ccf668bd7c8e484dd4d3b6268437f33fcc8997e6a428890f",
+      "winning_input_sha256": "0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937"
+    }
+  ],
+  "scope": "Preserved recipe/provenance pointers and metadata snapshots; complete ancestor search replay is not claimed",
+  "winning_input_sha256": "0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937"
+}

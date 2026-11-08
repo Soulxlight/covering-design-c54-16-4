@@ -1,0 +1,14 @@
+{
+  "additional_progress_guard": "Also require more than10800 seconds without a strict verified decrease of the current target deficit; equal states do not reset it",
+  "complete_301_first_verified_utc": "2026-11-08T19:51:33.674693+00:00",
+  "complete_301_sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602",
+  "current_search_target_at_checkpoint": 300,
+  "external_publication_performed": false,
+  "full_stall_clock": "Reset by a strictly smaller independently verified complete cover only",
+  "historical_Nov6_stop_receipts_preserved": true,
+  "independent_first_verified_utc": "2026-11-08T19:51:43.929677+00:00",
+  "repository_checkpoint_resets_clocks": false,
+  "search_stop_claimed": false,
+  "session_started_utc": "2026-11-08T17:26:44.018230+00:00",
+  "status": "RUNNING_AT_301_CHECKPOINT"
+}

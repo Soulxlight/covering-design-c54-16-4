@@ -1,0 +1,40 @@
+{
+  "parent_run_id": "run_21057",
+  "slot": 2,
+  "policy": {
+    "executable": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2",
+    "source_path": "/workspace/cover_search/alternatives/equal_snapshots_v2/wls_background_sparse_equal_v2.cpp",
+    "extra_sources": [
+      "/workspace/cover_search/alternatives/equal_snapshots_v2/background_move.hpp"
+    ],
+    "extra_env": {
+      "BACKGROUND_EVERY": "128",
+      "BACKGROUND_CAP": "5",
+      "BACKGROUND_START": "1"
+    },
+    "noweight": true,
+    "tenure": 7,
+    "noise": 0.01,
+    "recipe_path": "/workspace/cover_search/resume_20261108/wls/experiments/neutral_two_phase_20261108T194906Z/recipe.json",
+    "input_path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_0aca4d6eece82a92.txt",
+    "input_when_best_blocks": 302,
+    "seconds": 173,
+    "minimum_runtime_seconds": 173,
+    "input_mode": "explicit"
+  },
+  "selected_endpoint": {
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_0aca4d6eece82a92.txt",
+    "sha256": "0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937",
+    "blocks": 301,
+    "uncovered_targets": 1,
+    "selection": "final_state"
+  },
+  "phase_one_metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21057/metadata.json",
+  "phase_one_elapsed_seconds": 6.210518982001304,
+  "status": "launched",
+  "created_utc": "2026-11-08T19:49:28.551463+00:00",
+  "child_run_id": "run_21058",
+  "child_metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21058/metadata.json",
+  "launched_utc": "2026-11-08T19:49:28.820179+00:00",
+  "actual_input_sha256": "0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937"
+}

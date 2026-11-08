@@ -1,0 +1,59 @@
+init: loaded 301 blocks, uncovered 1
+BACKGROUND_CANDIDATES step=1 holes=1 zero=38 one=0 cap=1
+BACKGROUND_MOVE count=1 step=1 row=278 outgoing=29 incoming=53 loss=0 holes=1
+BACKGROUND_CANDIDATES step=2 holes=1 zero=37 one=0 cap=1
+BACKGROUND_MOVE count=2 step=2 row=278 outgoing=53 incoming=50 loss=0 holes=1
+BACKGROUND_CANDIDATES step=3 holes=1 zero=36 one=0 cap=1
+BACKGROUND_MOVE count=3 step=3 row=278 outgoing=50 incoming=31 loss=0 holes=1
+BACKGROUND_CANDIDATES step=4 holes=1 zero=35 one=0 cap=1
+BACKGROUND_MOVE count=4 step=4 row=278 outgoing=31 incoming=37 loss=0 holes=1
+BACKGROUND_CANDIDATES step=5 holes=1 zero=34 one=0 cap=1
+BACKGROUND_MOVE count=5 step=5 row=278 outgoing=37 incoming=11 loss=0 holes=1
+BACKGROUND_CANDIDATES step=6 holes=1 zero=33 one=0 cap=1
+BACKGROUND_MOVE count=6 step=6 row=278 outgoing=11 incoming=49 loss=0 holes=1
+BACKGROUND_CANDIDATES step=7 holes=1 zero=32 one=0 cap=1
+BACKGROUND_MOVE count=7 step=7 row=278 outgoing=49 incoming=5 loss=0 holes=1
+BACKGROUND_CANDIDATES step=8 holes=1 zero=31 one=0 cap=1
+BACKGROUND_MOVE count=8 step=8 row=278 outgoing=5 incoming=4 loss=0 holes=1
+EQUAL_PARTIAL count=1 step=32 blocks=301 holes=1
+EQUAL_PARTIAL count=2 step=64 blocks=301 holes=1
+EQUAL_PARTIAL count=3 step=96 blocks=301 holes=1
+BACKGROUND_MOVE count=128 step=128 row=278 outgoing=41 incoming=9 loss=0 holes=1
+EQUAL_PARTIAL count=4 step=128 blocks=301 holes=1
+EQUAL_PARTIAL count=5 step=160 blocks=301 holes=1
+EQUAL_PARTIAL count=6 step=192 blocks=301 holes=1
+EQUAL_PARTIAL count=7 step=224 blocks=301 holes=1
+BACKGROUND_MOVE count=256 step=256 row=278 outgoing=45 incoming=17 loss=0 holes=1
+EQUAL_PARTIAL count=8 step=256 blocks=301 holes=1
+EQUAL_PARTIAL count=9 step=288 blocks=301 holes=1
+EQUAL_PARTIAL count=10 step=320 blocks=301 holes=1
+EQUAL_PARTIAL count=11 step=352 blocks=301 holes=1
+BACKGROUND_MOVE count=384 step=384 row=278 outgoing=5 incoming=41 loss=0 holes=1
+EQUAL_PARTIAL count=12 step=384 blocks=301 holes=1
+EQUAL_PARTIAL count=13 step=416 blocks=301 holes=1
+EQUAL_PARTIAL count=14 step=448 blocks=301 holes=1
+EQUAL_PARTIAL count=15 step=480 blocks=301 holes=1
+BACKGROUND_MOVE count=512 step=512 row=278 outgoing=42 incoming=19 loss=0 holes=1
+EQUAL_PARTIAL count=16 step=512 blocks=301 holes=1
+EQUAL_PARTIAL count=17 step=544 blocks=301 holes=1
+EQUAL_PARTIAL count=18 step=576 blocks=301 holes=1
+EQUAL_PARTIAL count=19 step=608 blocks=301 holes=1
+BACKGROUND_MOVE count=640 step=640 row=278 outgoing=31 incoming=13 loss=0 holes=1
+EQUAL_PARTIAL count=20 step=640 blocks=301 holes=1
+EQUAL_PARTIAL count=21 step=672 blocks=301 holes=1
+EQUAL_PARTIAL count=22 step=704 blocks=301 holes=1
+EQUAL_PARTIAL count=23 step=736 blocks=301 holes=1
+BACKGROUND_MOVE count=768 step=768 row=278 outgoing=10 incoming=41 loss=0 holes=1
+EQUAL_PARTIAL count=24 step=768 blocks=301 holes=1
+EQUAL_PARTIAL count=25 step=800 blocks=301 holes=1
+EQUAL_PARTIAL count=26 step=832 blocks=301 holes=1
+EQUAL_PARTIAL count=27 step=864 blocks=301 holes=1
+BACKGROUND_MOVE count=896 step=896 row=278 outgoing=36 incoming=51 loss=0 holes=1
+EQUAL_PARTIAL count=28 step=896 blocks=301 holes=1
+EQUAL_PARTIAL count=29 step=928 blocks=301 holes=1
+EQUAL_PARTIAL count=30 step=960 blocks=301 holes=1
+EQUAL_PARTIAL count=31 step=992 blocks=301 holes=1
+BACKGROUND_MOVE count=1024 step=1024 row=278 outgoing=46 incoming=25 loss=0 holes=1
+EQUAL_PARTIAL count=32 step=1024 blocks=301 holes=1
+BACKGROUND MOVES 1024
+WLS2 C(54,16,4) b=301 seed=21057: best 1 uncovered, 1024 steps, 3.2s (322 steps/s)

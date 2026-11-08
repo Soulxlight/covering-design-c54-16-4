@@ -10,9 +10,9 @@
       "sha256": "ae158835b82b917b4ba6b53fc3ba96a7e55cb2c4e299a0bf9b63e018aca8635d"
     },
     {
-      "bytes": 7315,
+      "bytes": 8023,
       "path": "CITATIONS.md",
-      "sha256": "3fff1f403717eb52637fb8e2183de53d6af85a8b825de61235a42f04c53c7763"
+      "sha256": "478445a144fc5b6b11380d6c054d98f9353c88753159600765c842a972540cc1"
     },
     {
       "bytes": 1067,
@@ -20,19 +20,19 @@
       "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
     },
     {
-      "bytes": 5352,
+      "bytes": 5575,
       "path": "README.md",
-      "sha256": "515071dab5d2422ce929fd53ec9db897a5b50ba15e60724bb9b5f841fdd8d41a"
+      "sha256": "4ff2c144c9d421d48b6267ddc720f5c6955ffac24d9b671b6ef65dbab0067575"
     },
     {
-      "bytes": 6238,
+      "bytes": 6290,
       "path": "REPRODUCE.md",
-      "sha256": "9ecd32753647be131276ca5f989263d0705a4abcd020b9974b3c24b6c0a884d9"
+      "sha256": "baf07337583ae8776a51b943f44b7a72d18f81de70a2dd749f28379c5ef29240"
     },
     {
       "bytes": 3386,
       "path": "SHA256SUMS",
-      "sha256": "49586c8debd007d74c2de193dc9d8b0157fe78409200c39c3a1fd7bba137a977"
+      "sha256": "ce03003c41d390cd343c9e01cb2bc5de745735d79d4d6a2fae085998590c28a8"
     },
     {
       "bytes": 3889,
@@ -62,7 +62,7 @@
     {
       "bytes": 6793,
       "path": "audit/PUBLIC_MANIFEST.json",
-      "sha256": "2b3e96cc08711efc9a39c54a11c4da4881f4524ee0d4d2482f003a588b25b5ba"
+      "sha256": "f252e7312f217e0769530793f3b322a980ce9f6556d990d045fcebabbecc4c2a"
     },
     {
       "bytes": 2630,
@@ -625,6 +625,11 @@
       "sha256": "9483912feec907e2f4b2118d1ebd2d83bcf881602d41ecbdf8d5674e03c0d973"
     },
     {
+      "bytes": 13665,
+      "path": "data/cover-301.txt",
+      "sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602"
+    },
+    {
       "bytes": 13656,
       "path": "data/cover-302.txt",
       "sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd"
@@ -790,14 +795,29 @@
       "sha256": "424ed173431a0eb0cfdf5a6f11400bb4d7a9da5388ead1c15c132ac6194e445b"
     },
     {
-      "bytes": 7427,
+      "bytes": 7969,
       "path": "upper_search/CAMPAIGN_CHECKPOINTS.json",
-      "sha256": "29b3036746f349068dd5200052769f3fca82d0b8a4be5d6f3aaa15d0e5af5164"
+      "sha256": "93372edcb7b5abde1f6352cdfed602e54bb91a8684088c939b3d609bab18a5eb"
     },
     {
       "bytes": 1559,
       "path": "upper_search/CAMPAIGN_FINAL.json",
       "sha256": "28de8fd2a0756a574934b462176c1be990948f19e36a9441c05a2838e974c02e"
+    },
+    {
+      "bytes": 1662,
+      "path": "upper_search/INDEPENDENT-301.json",
+      "sha256": "af1f58f176c7f7f8b1c83527a72918e0492631d38b418e748b8c2a7df102fc14"
+    },
+    {
+      "bytes": 1728,
+      "path": "upper_search/PUBLIC_BOUND-20261108.json",
+      "sha256": "4d2fa196d154c61915ee3bb0a9d95f52b00bafb30a990ca3b5ed32ec94e77491"
+    },
+    {
+      "bytes": 6307,
+      "path": "upper_search/README-302.md",
+      "sha256": "b06bc869ea13292c0530ee6312cb1b6fbf86d0c9a23bc0365d88da0fdd308364"
     },
     {
       "bytes": 5138,
@@ -810,9 +830,14 @@
       "sha256": "a3a3013b986508cd62541b2b0d4fc5356a9e828acdf6ffbfa840c83ee3b77e55"
     },
     {
-      "bytes": 5738,
+      "bytes": 4009,
       "path": "upper_search/README.md",
-      "sha256": "6a77445e4641f76b921404ddd91010d21bbf23009466bc212c2c127531b87e55"
+      "sha256": "98810a1b62a23291d8fce6ffed6ed4a34b5b03d719156d62649da1f580476592"
+    },
+    {
+      "bytes": 650,
+      "path": "upper_search/RECEIPT-301.json",
+      "sha256": "90e7e2b35b6e04ab94773adb88f3f6d73b8251dab9e0aba752e03dcd082c1b32"
     },
     {
       "bytes": 614,
@@ -825,6 +850,11 @@
       "sha256": "10911a2cbd309ca9b9e510a7f9b4848f07b79f1029fa213747f77d6c9d5d6350"
     },
     {
+      "bytes": 1137,
+      "path": "upper_search/RESULT-302.json",
+      "sha256": "2be06613943a20a0b86c0f08d56b3fdc7483949c81273dd13c019cc0268d5cc6"
+    },
+    {
       "bytes": 926,
       "path": "upper_search/RESULT-305.json",
       "sha256": "d9851a4530bf96e93e6f66d42b6c69faa770855613eef0a8cca9dc7f7c79ecd9"
@@ -835,9 +865,19 @@
       "sha256": "ca18b64bec0d5031924f4899def44a76a1132ecd5a9a0e003c9932edc9bed070"
     },
     {
-      "bytes": 1137,
+      "bytes": 1270,
       "path": "upper_search/RESULT.json",
-      "sha256": "2be06613943a20a0b86c0f08d56b3fdc7483949c81273dd13c019cc0268d5cc6"
+      "sha256": "2907e9d3066f95aa875b0169fa797086a8aa509916216e3e06165526eb898c35"
+    },
+    {
+      "bytes": 824,
+      "path": "upper_search/SESSION-20261108.json",
+      "sha256": "693192c94b3d498734e53fc2ffc165e423a53e3164d6ace1afe3f34b561c9909"
+    },
+    {
+      "bytes": 383,
+      "path": "upper_search/VERIFICATION-302.json",
+      "sha256": "4122fbae4f6681348f44c25b009fef1dc7a560e3e99e5ff1863d3eba6b0e00f5"
     },
     {
       "bytes": 383,
@@ -852,7 +892,7 @@
     {
       "bytes": 383,
       "path": "upper_search/VERIFICATION.json",
-      "sha256": "4122fbae4f6681348f44c25b009fef1dc7a560e3e99e5ff1863d3eba6b0e00f5"
+      "sha256": "8d763bcd4b0cbd2bb5aa032fea2bf4a14df44edc71a25769ceaa1305325a30dc"
     },
     {
       "bytes": 36795,
@@ -2000,14 +2040,19 @@
       "sha256": "9737d09435b54c7ff564bad3a407311fe7d08ee20faeb11298da03d30318423f"
     },
     {
-      "bytes": 7856,
+      "bytes": 8384,
       "path": "upper_search/campaign_improvements.jsonl",
-      "sha256": "cbd6897eaaa7563d6fad3cb918ddd5b41b43b86773e90aa9a6975bfd5d9aef80"
+      "sha256": "664890856d0628a757225aca342c6458cb106ab4bf32789c4ce280e745155346"
     },
     {
       "bytes": 14456,
       "path": "upper_search/checkpoints/campaign-baseline-318.txt",
       "sha256": "1a6fc9eda36010fade6996b371ffb8b30f0bff1b9054d1ea6f6c74544211f364"
+    },
+    {
+      "bytes": 13665,
+      "path": "upper_search/checkpoints/cover-301-84b0b0692729a279.txt",
+      "sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602"
     },
     {
       "bytes": 13656,
@@ -2148,6 +2193,121 @@
       "bytes": 13583,
       "path": "upper_search/reproduction/wls64.cpp",
       "sha256": "a5d186a87902d27dba84fe3881eae68e5a7830612bd0c17717486c2ee8d34a3c"
+    },
+    {
+      "bytes": 1591,
+      "path": "upper_search/reproduction301/README.md",
+      "sha256": "20a4519972f0ea85aa2cf5a03bcb10bb0d19b46c881c5fee8f32d0cdf8173bcc"
+    },
+    {
+      "bytes": 1995,
+      "path": "upper_search/reproduction301/REPLAY.json",
+      "sha256": "6d8d8f350298c97fefa31b0a17b78d2d644975deb8f449f1d920f6361e07270a"
+    },
+    {
+      "bytes": 2127,
+      "path": "upper_search/reproduction301/SHA256SUMS",
+      "sha256": "91d5ed9ff820b95d48de6998a37154298d40f3da1e821f24b673265e1378e518"
+    },
+    {
+      "bytes": 13670,
+      "path": "upper_search/reproduction301/input.txt",
+      "sha256": "0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937"
+    },
+    {
+      "bytes": 3271,
+      "path": "upper_search/reproduction301/original_metadata.json",
+      "sha256": "75450b504bab50ca30af4f246fc90401e632eed1365dc0a220aaf25b6022be44"
+    },
+    {
+      "bytes": 692,
+      "path": "upper_search/reproduction301/provenance/INPUT_ANCESTRY.json",
+      "sha256": "e5dc079c4a99b94cf94ef9b0b950b87db2d2eabdbfa3648ebfaa87a765eaea5b"
+    },
+    {
+      "bytes": 1738,
+      "path": "upper_search/reproduction301/provenance/ancestry/phase_handoff.json",
+      "sha256": "e7e98c1103d73223ccf668bd7c8e484dd4d3b6268437f33fcc8997e6a428890f"
+    },
+    {
+      "bytes": 4454,
+      "path": "upper_search/reproduction301/provenance/ancestry/phase_recipe.json",
+      "sha256": "f1821f5e2fc0f53b42c375dbce4dce09a9ee8a717bb033fa6be5a26e3c68b9f9"
+    },
+    {
+      "bytes": 3496,
+      "path": "upper_search/reproduction301/provenance/ancestry/preparation.log",
+      "sha256": "a35aa490147cf176402c4fa57bbbfd98a4f48732c376d7a2894bfa6fd4f77237"
+    },
+    {
+      "bytes": 13670,
+      "path": "upper_search/reproduction301/provenance/ancestry/preparation_input.txt",
+      "sha256": "278f2de9c645889ea7e9188ab90e972450fffe52bebc727466f41d7e43aa6554"
+    },
+    {
+      "bytes": 4086,
+      "path": "upper_search/reproduction301/provenance/ancestry/preparation_metadata.json",
+      "sha256": "0ece1aa9232d712b57e2edecf70e75e8b7b8cfea1489d3c589c5d65db825aeca"
+    },
+    {
+      "bytes": 2408,
+      "path": "upper_search/reproduction301/provenance/ancestry/preparation_source/background_move.hpp",
+      "sha256": "f877c605643f3b5ba4d4164a0deaff10ac778970264d29154e9f48ec713f86c2"
+    },
+    {
+      "bytes": 17679,
+      "path": "upper_search/reproduction301/provenance/ancestry/preparation_source/wls_background_sparse_equal_v2.cpp",
+      "sha256": "86d63a8e2eb728a4d69f843147ffdf41b50919a2c30e1ec3b2396b4883ea0464"
+    },
+    {
+      "bytes": 3943,
+      "path": "upper_search/reproduction301/replay.py",
+      "sha256": "a64b6a0d4e623a075f47208e857e817eb6647f69dd70c40ca8e1fcde0d0a11db"
+    },
+    {
+      "bytes": 1075,
+      "path": "upper_search/reproduction301/source/LICENSE",
+      "sha256": "c6746cda8606b4759c70cbb1a6ca9ea4494576a3166d73cb1e45ec2badb99ee7"
+    },
+    {
+      "bytes": 2408,
+      "path": "upper_search/reproduction301/source/background_move.hpp",
+      "sha256": "f877c605643f3b5ba4d4164a0deaff10ac778970264d29154e9f48ec713f86c2"
+    },
+    {
+      "bytes": 17679,
+      "path": "upper_search/reproduction301/source/wls_background_sparse_equal_v2.cpp",
+      "sha256": "86d63a8e2eb728a4d69f843147ffdf41b50919a2c30e1ec3b2396b4883ea0464"
+    },
+    {
+      "bytes": 1220,
+      "path": "upper_search/reproduction301/verification/best.json",
+      "sha256": "886c2fa6fecb89b33515dc4ec028721544ef81a6d612ad6a079f0691033f69d7"
+    },
+    {
+      "bytes": 1316,
+      "path": "upper_search/reproduction301/verification/input.json",
+      "sha256": "eccd2718c4224c4396131ef494a05b26d610c68d983ba4aee88c535e976ddfef"
+    },
+    {
+      "bytes": 1316,
+      "path": "upper_search/reproduction301/verification/preparation_input.json",
+      "sha256": "e36f19bc477adc2fc7eae1e6b5271cc99947f03f2587a76740d2c2f771d4c9c2"
+    },
+    {
+      "bytes": 2312,
+      "path": "upper_search/reproduction301/verification/verify_colex.py",
+      "sha256": "da37c01a9e45d9bff95457e026a887562289630a8aa53465bea6fc2e3390ab3e"
+    },
+    {
+      "bytes": 3045,
+      "path": "upper_search/reproduction301/verification/verify_incidence.py",
+      "sha256": "2aeb38d2927c90d0f509c93ba3f47410e79b7e55289d6f099ab1c3d27bb1142e"
+    },
+    {
+      "bytes": 7849,
+      "path": "upper_search/reproduction301/winning_run.log",
+      "sha256": "f0d6bda3f8dd7b0fad08bd2ec64c2e13fc99009c6a2d1c89a2373a4df602c095"
     },
     {
       "bytes": 1738,
@@ -2320,9 +2480,9 @@
       "sha256": "72b7890ef8fd176da313f7fb5c55408de3d9e2e003e7f08f49b3dd01db751150"
     },
     {
-      "bytes": 34786,
+      "bytes": 36700,
       "path": "verify_release.py",
-      "sha256": "323234778daeaca840cbe538cf8feef951b3dff91adb77beba407f7bfbb0de70"
+      "sha256": "f20f8fa652ab71e96b08337b3342580dcbeb0fd5097127942bb074dedb35ea56"
     }
   ],
   "formal_kernel_verified": false,
@@ -2332,15 +2492,15 @@
   "lower_bound": 230,
   "optimality_claimed": false,
   "priority_certified": false,
-  "publication_parent_commit": "7ec215d60629761654874c2d4f1fdd8b71db3fe5",
+  "publication_parent_commit": "114af260ed0593a248f8cec35874fa348c38bb99",
   "qualified_human_accepted": false,
-  "recorded_upper_bound": 302,
-  "release_revision": "upper302-2026-11-06",
+  "recorded_upper_bound": 301,
+  "release_revision": "upper301-2026-11-08",
   "schema": "c54-16-4-combined-public-audit-230-v01",
   "self_excluded": "PUBLIC_MANIFEST.json",
   "upper_credit": "OpenAI Codex search under Perry Kern's direction, using an adapted MIT-licensed weighted local search solver by Wynand van Staden; independent exhaustive verification",
   "upper_search_result": "upper_search/RESULT.json",
-  "upper_witness": "data/cover-302.txt",
-  "upper_witness_sha256": "96c6adca7d06f51c04a029a3a807978fed7ccd587a95abdc04cb1c4130fda4fd",
-  "verified_upper_bound": 302
+  "upper_witness": "data/cover-301.txt",
+  "upper_witness_sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602",
+  "verified_upper_bound": 301
 }

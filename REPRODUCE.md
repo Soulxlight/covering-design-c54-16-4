@@ -11,10 +11,10 @@ python -B upper334/validate_controls.py
 The pinned result in `upper_search/RESULT.json` determines the latest block
 count and witness hash. Both exhaustive methods must report zero uncovered
 quadruples. See `upper_search/README.md` for the search reproduction recipe.
-The current 302 checkpoint preserves a 302-block input with nine holes, the
-winning source/header, seed 1243, environment and run log in
-`upper_search/reproduction302/`. Its standalone replay driver is
-`python -B upper_search/reproduction302/replay.py`; use `--compile-only`
+The current 301 checkpoint preserves a 301-block input with one hole, the
+winning source/header, seed 21058, environment, run log and two-phase ancestry in
+`upper_search/reproduction301/`. Its standalone replay driver is
+`python -B upper_search/reproduction301/replay.py`; use `--compile-only`
 to check the portable C++17 build. Search replay is separate from certificate
 verification. The older 335-block commands below remain historical checks.
 
@@ -101,16 +101,16 @@ semantic implication nor authentication of a replaced code/manifest set.
 
 Independent internal review is PASS WITH LIMITS for the complete ordinary 230
 proof. Qualified external human acceptance, formal-kernel verification and
-priority remain pending. The retained 335 and current 305 upper witnesses are independently exhaustively verified; optimality
+priority remain pending. The retained 335 and current 301 upper witnesses are independently exhaustively verified; optimality
 and external endorsement are not claimed. The prior336/Franco Atzeni context
 is historical. The frozen230 checker keeps its historical upper336 output;
 current upper-bound search evidence is separate. The retained manifest base commit
 identifies the lower230 release ancestry, while publication_parent_commit
 identifies this update's parent. These commands verify; they do not publish.
 
-## Final campaign packet
+## Historical November 6 final campaign packet
 
-The final 302 result, three complete search families and explicitly incomplete
+The November 6 final 302 result, three complete search families and explicitly incomplete
 301-row checkpoints are indexed by `upper_search/CAMPAIGN_FINAL.json`.
 Run `python -B upper_search/campaign_evidence/verify_evidence.py` to verify their
 exact coverage/deficits and the compact replay records without running search.

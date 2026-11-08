@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-11-08T17:31:45.880846+00:00",
+  "source_url": "https://www.coveringrepository.com/download_archive_vkt.aspx",
+  "web_reference": "turn122390view0",
+  "source_line_zero_based": 4912,
+  "raw_row": "54\t16\t04\t04\t\t302",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "public_archive_upper_bound": 302,
+  "below_local302_found": false,
+  "specific_witness_obtained": false,
+  "claim_limits": "The public site displays upper bound 302. Matching count and attribution alone do not identify its exact witness, establish this project's acceptance or priority, or verify its blocks. The displayed lower bound is recorded without changing this project's separately preserved lower-bound proof status.",
+  "filtered_record_page": "https://www.coveringrepository.com/systems.aspx?k=16",
+  "filtered_page_access": "Unavailable through the web fetch tool",
+  "latest_improvements_url": "https://www.coveringrepository.com/systems.aspx?li=2",
+  "latest_improvements_web_reference": "turn315306view0",
+  "latest_improvements_raw_excerpt": "L157: \u301036\u2020v, 16, 04, 04\u3011\nL158: 54  | 16  | 04  | 04  | 302  | 216  | Perry K.  | Coauthor(s): FrancoAtzeni\nL159:  | 08/11/2026  |  | \u301037\u2020Download ^{FREE}\u3011  |\nL160: \u301038\u2020v, 16, 05, 05\u3011",
+  "displayed_author": "Perry K.",
+  "displayed_coauthors": "FrancoAtzeni",
+  "displayed_date": "08/11/2026",
+  "displayed_lower_bound": 216,
+  "download_url": "https://www.coveringrepository.com/download_system.aspx?id=234969",
+  "download_access": {
+    "tool": "public web fetch",
+    "status": 403,
+    "reference": "turn667696view0"
+  },
+  "canonical_comparison": "Not performed: public download returned HTTP 403; no bypass attempted."
+}

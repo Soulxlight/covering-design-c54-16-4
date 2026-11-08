@@ -78,3 +78,15 @@ The searches and independent verification were performed with AI assistance
 under Perry Kern's direction. Exhaustive verification establishes the new
 upper bound; the search method does not establish optimality. No curator
 submission or acceptance of these new files is claimed in this local update.
+
+## November 8 upper-bound checkpoint
+
+The resumed search completed 301 blocks using the retained MIT-licensed sparse
+background-move engine. A registered neutral preparation phase, run 21057,
+produced the one-hole direct input of run 21058; the latter completed the cover.
+The source, input, metadata, log and handoff are preserved in
+`upper_search/reproduction301/`. Perry Kern directed the AI-assisted work.
+The public archive displayed 302 on November 8; its names are transcribed
+verbatim in `upper_search/PUBLIC_BOUND-20261108.json`. The unavailable public
+block list was not identified with any local witness. This 301 checkpoint makes
+no curator-acceptance, priority or optimality claim.

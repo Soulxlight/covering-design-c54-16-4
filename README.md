@@ -1,25 +1,27 @@
 # Covering designs for C(54,16,4)
 
-The project records **internally reviewed lower bound 230 and verified upper bound 302**. The
+The project records **internally reviewed lower bound 230 and verified upper bound 301**. The
 [reviewer entry point](audit230/REVIEWER_START.md) presents the complete internally
 reviewed computer-assisted proof **C(54,16,4)>=230**. Qualified external human
 acceptance, proof-assistant verification and literature priority remain pending.
 The research, manuscript and independent internal review used AI assistance
 under Perry Kern's direction. No exact covering number or optimality is claimed.
 
-## New upper-bound search, 6 November 2026
+## New upper-bound search, 8 November 2026
 
-The new search has produced a verified **302-block cover**, improving the
+The resumed search has produced a verified **301-block cover**, improving the
 supplied 335-block incumbent. The [current witness and verification record](upper_search/README.md)
 include two independent exhaustive checks of all 316,251 quadruples, exact
 search source, input snapshots, and run logs. The preserved
 [334-block milestone](upper334/README.md) records the first improvement; the
 [318-block checkpoint](upper_search/README-318.md) is retained with its complete history.
 The [305-block checkpoint](upper_search/README-305.md) and its winning search are also retained.
-The campaign stopped after more than three hours without a smaller complete cover and a final output drain.
-The [final evidence packet](upper_search/campaign_evidence/README.md) preserves three
-non-isomorphic 302-block covers and incomplete 301-block restart files with 7, 8, 19 holes.
-Those partial files are **not covers**. All lower-proof bytes remain unchanged.
+The [302-block checkpoint](upper_search/README-302.md) and the [November 6 final evidence](upper_search/campaign_evidence/README.md) remain unchanged.
+That earlier campaign stopped after its three-hour stall and final output drain.
+The renewed November 8 search completed 301 blocks and continues toward 300;
+[its checkpoint record](upper_search/SESSION-20261108.json) does not claim a final stop.
+The old 301-block restart files with 7, 8, 19 holes remain **incomplete**;
+[data/cover-301.txt](data/cover-301.txt) is the new complete witness. All lower-proof bytes remain unchanged.
 
 ```text
 python -B upper_search/verify_best.py
@@ -67,7 +69,7 @@ cover-to-model implications.
 
 The previous upper336 and **Franco Atzeni** credit are retained as historical
 [Covering Repository](https://coveringrepository.com/systems.aspx?li=2) context.
-The retained 335 and current 302 witnesses are independently verified here. Repository-curator acceptance
+The retained 335 and current 301 witnesses are independently verified here. Repository-curator acceptance
 and literature priority remain separate, unconfirmed statuses. [Citations](CITATIONS.md) and the retained
 [dated search](audit224/prior_art/SEARCH_REPORT.md) state attribution and access
 limits. General rank, projection, moment and point-link methods have prior art;
