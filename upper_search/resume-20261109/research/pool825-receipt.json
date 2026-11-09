@@ -1,0 +1,585 @@
+{
+  "started_utc": "2026-11-09T03:15:35.725363+00:00",
+  "directory": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial",
+  "lease_id": "5ff52f0f-c57f-4089-8e77-233ccd11cdb7",
+  "allocation_seconds_requested": 60.0,
+  "search_seconds_requested": 30.0,
+  "absolute_deadline_monotonic": null,
+  "target_hole_cap_requested": 1,
+  "solver_kind": "native-sat",
+  "reconstruct_packing_requested": true,
+  "pinned_warm_parent_holes": 2,
+  "summary_sha256": "4682d2880b71eee0f8bcd4ffcdba0f3643d6df9a03f7f1104a998aa3d3566411",
+  "original_input_hashes": {
+    "/workspace/cover_search/resume_20261109/recombination/packets/current_two_priced_plus_supplement825_v1/SUMMARY.json": "4682d2880b71eee0f8bcd4ffcdba0f3643d6df9a03f7f1104a998aa3d3566411",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246.txt": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/60418cdcd3c35010e1b5b09c9469e6f6a8cb2fe9bc9ad551c32f043ffb94562a.txt": "60418cdcd3c35010e1b5b09c9469e6f6a8cb2fe9bc9ad551c32f043ffb94562a",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/5142cc1c8ff996c1ccd085d9b0317caf4661ff5b240fbc5551eeeba0e93935cc.txt": "5142cc1c8ff996c1ccd085d9b0317caf4661ff5b240fbc5551eeeba0e93935cc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/6f2d2d3208daa6ad7c79d95db7e766801d354d310fd1ba4b2ef0029af4a95007.txt": "6f2d2d3208daa6ad7c79d95db7e766801d354d310fd1ba4b2ef0029af4a95007",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/38cdb263fda3624bfe23d88632edc364c7fce6b57d4d1ba6951b4f56a42734be.txt": "38cdb263fda3624bfe23d88632edc364c7fce6b57d4d1ba6951b4f56a42734be",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/de2118b5e4b2d38cd297533f214d0324036df1b0648cc120bf0e33c499e725aa.txt": "de2118b5e4b2d38cd297533f214d0324036df1b0648cc120bf0e33c499e725aa",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/3148902a0465514f4e0567979636d3fbab31ab0d3146e03b8dabbcfa888ef843.txt": "3148902a0465514f4e0567979636d3fbab31ab0d3146e03b8dabbcfa888ef843",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/93c242521cd32e5c4b40b6f85482effdd5dd9d212c1cb5f11ec0683eda6de9e9.txt": "93c242521cd32e5c4b40b6f85482effdd5dd9d212c1cb5f11ec0683eda6de9e9",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/1f0712f3aec7f12f5a09f1014c13aee7e8e2c737230efbdbd2ca96ddbc36d4c7.txt": "1f0712f3aec7f12f5a09f1014c13aee7e8e2c737230efbdbd2ca96ddbc36d4c7",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/222e76b6138e55af1c063afaf98a86df98a8ba87d1209d10294d2a3996a8b2e2.txt": "222e76b6138e55af1c063afaf98a86df98a8ba87d1209d10294d2a3996a8b2e2",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/f833821a4b040c1adeb2558ea976d3e7c9f3dd1d31117a9be9d49a4fdc1e9e74.txt": "f833821a4b040c1adeb2558ea976d3e7c9f3dd1d31117a9be9d49a4fdc1e9e74",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/065df6b49bb1363f012cc75d36ac9d60fb50ab80c64070bfe9f66c9780c45066.txt": "065df6b49bb1363f012cc75d36ac9d60fb50ab80c64070bfe9f66c9780c45066",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/205157f6a46815b62b91b2d8bee99d10440fc4f3a869bdb102492edf884f16eb.txt": "205157f6a46815b62b91b2d8bee99d10440fc4f3a869bdb102492edf884f16eb",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/ee665e96957547c8bca88031c2f93c52532595fcc00902b6beb1e66bfa75dabc.txt": "ee665e96957547c8bca88031c2f93c52532595fcc00902b6beb1e66bfa75dabc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/ff8217d78785504a1597acd25bc8b9ec2adcb157af98f52c149524b606f30718.txt": "ff8217d78785504a1597acd25bc8b9ec2adcb157af98f52c149524b606f30718",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/51b2bf298a38bc98f7a013068a82d2fc0e947383ec9fb2a860dc84cbb7179bfc.txt": "51b2bf298a38bc98f7a013068a82d2fc0e947383ec9fb2a860dc84cbb7179bfc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/da2ddf496e8fd866cb2a69d97776f5f6baa258a726bccc4aeab518776e8a2aa0.txt": "da2ddf496e8fd866cb2a69d97776f5f6baa258a726bccc4aeab518776e8a2aa0",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/4b30d35f87f152e72ffe4ca5a1147a6f758ffc2d8789a8c4e56a967e846c81f2.txt": "4b30d35f87f152e72ffe4ca5a1147a6f758ffc2d8789a8c4e56a967e846c81f2",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/d2098fac0036660831c10c1a5c30c00b959e369bf58b99d53f4752e6858dba6d.txt": "d2098fac0036660831c10c1a5c30c00b959e369bf58b99d53f4752e6858dba6d",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/6d3360b6c82b1747e2dac6ff13f1a1fb43e90b5630b5f9456693186418e1468c.txt": "6d3360b6c82b1747e2dac6ff13f1a1fb43e90b5630b5f9456693186418e1468c",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/4cd821db005237ece8250e215ff38a57cd0dc2753c2ad4533cf6699020c96531.txt": "4cd821db005237ece8250e215ff38a57cd0dc2753c2ad4533cf6699020c96531",
+    "/workspace/cover_search/resume_20261109/recombination/packets/current_two_priced_plus_supplement825_v1/inputs/e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd.txt": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+    "/workspace/cover_search/resume_20261109/recombination/packets/current_two_priced_plus_supplement825_v1/inputs/6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237.txt": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+    "/workspace/cover_search/resume_20261109/recombination/packets/current_two_priced_plus_supplement825_v1/inputs/e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf.txt": "e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/combined795_enrichment_1794194030921147130/trial/generated/columns.txt": "c0c0394f21dade8d694e62e56343504e58b73101f0a5dd0d94e79b3981946a1f",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/combined795_enrichment_1794194030921147130/trial/generated/BANK_RECEIPT.json": "f4824dca0c34f29a5f4f95748d029564dc399efd23509f475eb41748491186f0",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/added_columns_receipt.json": "f4824dca0c34f29a5f4f95748d029564dc399efd23509f475eb41748491186f0",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/added_columns.txt": "c0c0394f21dade8d694e62e56343504e58b73101f0a5dd0d94e79b3981946a1f",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_000.json": "f23bb4127818bb27826ce069b28ada02011326488728b52c7bb5288c31eaff47",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_000_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_000_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_000_aligned.txt": "3caa19fdb097349cc8163c60e6e46d1216e24147b91e68adc43426007af858ce",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_001.json": "0b9c5de7a8564921ef5d10882c863bdf6703db490e307df0c8d8b02f2b109b7a",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_001_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_001_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_001_aligned.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_002.json": "c5f885a274b62362017412c4ea9c6d5f757fc1989bcca69365fd95b1b960c875",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_002_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_002_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current795_cap1_1794193365597800852/trial/inputs/column_alignment/recipe_002_aligned.txt": "12bceea8af7a785e13c0e5d0bc998d6d398472fe94fe830ec4c60f162d005662"
+  },
+  "frozen_input_hashes": {
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246.txt": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/60418cdcd3c35010e1b5b09c9469e6f6a8cb2fe9bc9ad551c32f043ffb94562a.txt": "60418cdcd3c35010e1b5b09c9469e6f6a8cb2fe9bc9ad551c32f043ffb94562a",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/5142cc1c8ff996c1ccd085d9b0317caf4661ff5b240fbc5551eeeba0e93935cc.txt": "5142cc1c8ff996c1ccd085d9b0317caf4661ff5b240fbc5551eeeba0e93935cc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/6f2d2d3208daa6ad7c79d95db7e766801d354d310fd1ba4b2ef0029af4a95007.txt": "6f2d2d3208daa6ad7c79d95db7e766801d354d310fd1ba4b2ef0029af4a95007",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/38cdb263fda3624bfe23d88632edc364c7fce6b57d4d1ba6951b4f56a42734be.txt": "38cdb263fda3624bfe23d88632edc364c7fce6b57d4d1ba6951b4f56a42734be",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/de2118b5e4b2d38cd297533f214d0324036df1b0648cc120bf0e33c499e725aa.txt": "de2118b5e4b2d38cd297533f214d0324036df1b0648cc120bf0e33c499e725aa",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/3148902a0465514f4e0567979636d3fbab31ab0d3146e03b8dabbcfa888ef843.txt": "3148902a0465514f4e0567979636d3fbab31ab0d3146e03b8dabbcfa888ef843",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/93c242521cd32e5c4b40b6f85482effdd5dd9d212c1cb5f11ec0683eda6de9e9.txt": "93c242521cd32e5c4b40b6f85482effdd5dd9d212c1cb5f11ec0683eda6de9e9",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/1f0712f3aec7f12f5a09f1014c13aee7e8e2c737230efbdbd2ca96ddbc36d4c7.txt": "1f0712f3aec7f12f5a09f1014c13aee7e8e2c737230efbdbd2ca96ddbc36d4c7",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/222e76b6138e55af1c063afaf98a86df98a8ba87d1209d10294d2a3996a8b2e2.txt": "222e76b6138e55af1c063afaf98a86df98a8ba87d1209d10294d2a3996a8b2e2",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/f833821a4b040c1adeb2558ea976d3e7c9f3dd1d31117a9be9d49a4fdc1e9e74.txt": "f833821a4b040c1adeb2558ea976d3e7c9f3dd1d31117a9be9d49a4fdc1e9e74",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/065df6b49bb1363f012cc75d36ac9d60fb50ab80c64070bfe9f66c9780c45066.txt": "065df6b49bb1363f012cc75d36ac9d60fb50ab80c64070bfe9f66c9780c45066",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/205157f6a46815b62b91b2d8bee99d10440fc4f3a869bdb102492edf884f16eb.txt": "205157f6a46815b62b91b2d8bee99d10440fc4f3a869bdb102492edf884f16eb",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/ee665e96957547c8bca88031c2f93c52532595fcc00902b6beb1e66bfa75dabc.txt": "ee665e96957547c8bca88031c2f93c52532595fcc00902b6beb1e66bfa75dabc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/ff8217d78785504a1597acd25bc8b9ec2adcb157af98f52c149524b606f30718.txt": "ff8217d78785504a1597acd25bc8b9ec2adcb157af98f52c149524b606f30718",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/51b2bf298a38bc98f7a013068a82d2fc0e947383ec9fb2a860dc84cbb7179bfc.txt": "51b2bf298a38bc98f7a013068a82d2fc0e947383ec9fb2a860dc84cbb7179bfc",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/da2ddf496e8fd866cb2a69d97776f5f6baa258a726bccc4aeab518776e8a2aa0.txt": "da2ddf496e8fd866cb2a69d97776f5f6baa258a726bccc4aeab518776e8a2aa0",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/4b30d35f87f152e72ffe4ca5a1147a6f758ffc2d8789a8c4e56a967e846c81f2.txt": "4b30d35f87f152e72ffe4ca5a1147a6f758ffc2d8789a8c4e56a967e846c81f2",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/d2098fac0036660831c10c1a5c30c00b959e369bf58b99d53f4752e6858dba6d.txt": "d2098fac0036660831c10c1a5c30c00b959e369bf58b99d53f4752e6858dba6d",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/6d3360b6c82b1747e2dac6ff13f1a1fb43e90b5630b5f9456693186418e1468c.txt": "6d3360b6c82b1747e2dac6ff13f1a1fb43e90b5630b5f9456693186418e1468c",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/4cd821db005237ece8250e215ff38a57cd0dc2753c2ad4533cf6699020c96531.txt": "4cd821db005237ece8250e215ff38a57cd0dc2753c2ad4533cf6699020c96531",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd.txt": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237.txt": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf.txt": "e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/added_columns.txt": "c0c0394f21dade8d694e62e56343504e58b73101f0a5dd0d94e79b3981946a1f",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/added_columns_receipt.json": "f4824dca0c34f29a5f4f95748d029564dc399efd23509f475eb41748491186f0",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000.original.json": "f23bb4127818bb27826ce069b28ada02011326488728b52c7bb5288c31eaff47",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_aligned.txt": "3caa19fdb097349cc8163c60e6e46d1216e24147b91e68adc43426007af858ce",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000.json": "72672991ab8f09c5627f7617dd6b53bc4f3dea4816812c97980d363993073156",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001.original.json": "0b9c5de7a8564921ef5d10882c863bdf6703db490e307df0c8d8b02f2b109b7a",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_aligned.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001.json": "265affc4dc7126b0feb756f81544706b61620bd070b2bd44bec51ad2cb28caa3",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002.original.json": "c5f885a274b62362017412c4ea9c6d5f757fc1989bcca69365fd95b1b960c875",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_source.txt": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_source_holes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_aligned.txt": "12bceea8af7a785e13c0e5d0bc998d6d398472fe94fe830ec4c60f162d005662",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002.json": "9ac43dc6f791d2c2647d7b7404371438f27befe88a6291f80f68bde6d87bab9a",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/BANK_RECEIPT.json": "d589d6733e86fba771641100793fcc8269b12738d4530a5fd234750a2a3886a7",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/SUMMARY.json": "e1905c83ae5bb1f2080f43b61648a59d1c7431c0ab1e0e4d7a8ccc04b05cf21d",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/parent_audit.json": "45184316fb1acae8cf6803665545ecf310494ed8b7e23c7e2e1d6cb86d5d3a3e",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model/model.json": "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/presolve/support_presolve.json": "1c878ee62c1f281197d25d048d5e7558a689fb3dd1de58ca78ab2ebed0913fab",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/packing/certificate.json": "f36d46b7733bd0cde60a1e2f574d16e393ba013137e57b9ea0ea8c9d275e4917",
+    "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/reconstructed_packing/certificate.json": "960ce1ac13bf0e562a2e92c4480e63584d995fdf9ddb7c659b726f09ba6edf42"
+  },
+  "source_hashes": {
+    "run_fresh_sat_pool.py": "c857c529905b53ad0154a00ad05b2944c089650fbe14a3b741a3f99f609cb078",
+    "run_short_pool.py": "a157f2740214db90fc4d2b62c1e6530cbb9fe1e1fbe3c94f56683a632f13a6ec",
+    "equal_pool_mip.py": "e15a99951dd87abe8bb80a82faf20f6edc1cce826dcda604d70f84d9f93e4d0d",
+    "minimize_pool.py": "cdc139d7c13ecfca595f30817ef864d1b1e77c46a487b03b1a0e3683a0bfe0fc",
+    "verify_deficit.py": "3e1a3a4caef5f1629d8c2908b51097389f601a422cf0c2f8a52039ad81ee4619",
+    "column_alignment_inputs.py": "a36361cdab6e8798f4b08ee74e2450bf647631bbf7365b3d54a5a1274f99d8b4",
+    "commit_verified_selection.py": "ea1a3559b99863eb1c73a1cadca714bf58c2c8478d28952927f2e2697ac04af8",
+    "complete_short_partial.py": "f31852a93e2d5bf2aebccfe976841238e222e3a1be0d433a1cfc0a966c87cb6b",
+    "replay_completed_pool.py": "6d6b65bba86bf5bfd719609c44440cb1e6a61d36664f32b80fe630dc3c850ef8",
+    "mandatory_fractional.py": "7d23f5792c3f44cf68dc257614156ff11fcae8faace7f38a478ddfa0d6fe16c5",
+    "packing_native_cuts.py": "d60c1c81c82c33e42dcc51b7042cb6c2482c9583785c5272af612ed8bf0cc489",
+    "pool_sat.py": "022fc9859b069480fa92e02932e78f89bffe7f1878dec4b4ff26c37fac4513c9",
+    "verify_pool_inputs.py": "b2bc53df10d20397cf99f256ff19116dfb47a4dc601b86167ee242befd2679d2",
+    "verify_prepared_pool.py": "6d1847d003d049036ad72c6b3051e37bf1b075772f0757245a63d466e4d119a1",
+    "verify_aligned_prepared.py": "bf1b404095379d55bc40fdced6e59f7be206d1332af379fc680f794a990da821",
+    "reconstruct.py": "bff4d868ba72a5823530c87e317ec21cd2006a0572c2e50a34ee36fbe407922d"
+  },
+  "column_alignment_freeze": {
+    "recipe_count": 3,
+    "frozen_receipt_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/BANK_RECEIPT.json",
+    "frozen_receipt_sha256": "d589d6733e86fba771641100793fcc8269b12738d4530a5fd234750a2a3886a7",
+    "dependencies": [
+      {
+        "role": "original_point_permutation_recipe",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000.original.json",
+        "sha256": "f23bb4127818bb27826ce069b28ada02011326488728b52c7bb5288c31eaff47"
+      },
+      {
+        "role": "point_permutation_source",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_source.txt",
+        "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362"
+      },
+      {
+        "role": "point_permutation_source_holes",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_source_holes.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "role": "point_permutation_aligned",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_000_aligned.txt",
+        "sha256": "3caa19fdb097349cc8163c60e6e46d1216e24147b91e68adc43426007af858ce"
+      },
+      {
+        "role": "original_point_permutation_recipe",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001.original.json",
+        "sha256": "0b9c5de7a8564921ef5d10882c863bdf6703db490e307df0c8d8b02f2b109b7a"
+      },
+      {
+        "role": "point_permutation_source",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_source.txt",
+        "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362"
+      },
+      {
+        "role": "point_permutation_source_holes",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_source_holes.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "role": "point_permutation_aligned",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_001_aligned.txt",
+        "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362"
+      },
+      {
+        "role": "original_point_permutation_recipe",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002.original.json",
+        "sha256": "c5f885a274b62362017412c4ea9c6d5f757fc1989bcca69365fd95b1b960c875"
+      },
+      {
+        "role": "point_permutation_source",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_source.txt",
+        "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362"
+      },
+      {
+        "role": "point_permutation_source_holes",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_source_holes.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "role": "point_permutation_aligned",
+        "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/column_alignment/recipe_002_aligned.txt",
+        "sha256": "12bceea8af7a785e13c0e5d0bc998d6d398472fe94fe830ec4c60f162d005662"
+      }
+    ],
+    "target_enumeration_performed": false
+  },
+  "prepared_bundle": null,
+  "scope_checks": [
+    {
+      "stage": "acquisition",
+      "utc": "2026-11-09T03:15:35.743200+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_acquisition.json",
+      "status_sha256": "25ee1a0d3f76662e9241b973de22abab704c1a1b00be96bed98133bbead55bbc"
+    },
+    {
+      "stage": "parent_audit",
+      "utc": "2026-11-09T03:15:35.778003+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_parent_audit.json",
+      "status_sha256": "25ee1a0d3f76662e9241b973de22abab704c1a1b00be96bed98133bbead55bbc"
+    },
+    {
+      "stage": "assemble",
+      "utc": "2026-11-09T03:15:47.103994+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_assemble.json",
+      "status_sha256": "2652d98476137753cc8ad75e7f8cfb9cf2fd4c3d3a2e15be67cac9c15168f68a"
+    },
+    {
+      "stage": "presolve",
+      "utc": "2026-11-09T03:15:50.148589+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_presolve.json",
+      "status_sha256": "2652d98476137753cc8ad75e7f8cfb9cf2fd4c3d3a2e15be67cac9c15168f68a"
+    },
+    {
+      "stage": "packing",
+      "utc": "2026-11-09T03:15:51.940034+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_packing.json",
+      "status_sha256": "b83b55bbf107e2eea7fa4003905a2f36851e687f14365bda2db882ba996caad0"
+    },
+    {
+      "stage": "packing_verify",
+      "utc": "2026-11-09T03:15:53.463591+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_packing_verify.json",
+      "status_sha256": "b83b55bbf107e2eea7fa4003905a2f36851e687f14365bda2db882ba996caad0"
+    },
+    {
+      "stage": "packing_reconstruction",
+      "utc": "2026-11-09T03:15:53.990212+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_packing_reconstruction.json",
+      "status_sha256": "b83b55bbf107e2eea7fa4003905a2f36851e687f14365bda2db882ba996caad0"
+    },
+    {
+      "stage": "reconstructed_packing_verify",
+      "utc": "2026-11-09T03:15:55.425474+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_reconstructed_packing_verify.json",
+      "status_sha256": "b83b55bbf107e2eea7fa4003905a2f36851e687f14365bda2db882ba996caad0"
+    },
+    {
+      "stage": "sat",
+      "utc": "2026-11-09T03:15:55.939306+00:00",
+      "full_bound": 297,
+      "target_blocks": 296,
+      "best_partial_holes": 2,
+      "warm_parent_holes": 2,
+      "live_best_partial_holes": 2,
+      "max_holes": 1,
+      "requested_target_hole_cap": 1,
+      "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best.",
+      "status_path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/campaign_sat.json",
+      "status_sha256": "7f8276b3571d51ac417acab3ab6d18c39705816ed7ded25763783e7a601fd80b"
+    }
+  ],
+  "phases": [
+    {
+      "name": "parent_audit",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/verify_pool_inputs.py",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/SUMMARY.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/parent_audit.json"
+      ],
+      "external_cap_seconds": 15,
+      "started_utc": "2026-11-09T03:15:35.780723+00:00",
+      "returncode": 0,
+      "wall_seconds": 11.294913903002453
+    },
+    {
+      "name": "assemble",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/equal_pool_mip.py",
+        "assemble",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/SUMMARY.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model",
+        "--release-unforced",
+        "--added-columns",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/inputs/added_columns.txt"
+      ],
+      "external_cap_seconds": 10,
+      "started_utc": "2026-11-09T03:15:47.106705+00:00",
+      "returncode": 0,
+      "wall_seconds": 2.605065072006255
+    },
+    {
+      "name": "presolve",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/equal_pool_mip.py",
+        "presolve",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model/model.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/presolve",
+        "--max-holes",
+        "1"
+      ],
+      "external_cap_seconds": 5,
+      "started_utc": "2026-11-09T03:15:50.150624+00:00",
+      "returncode": 0,
+      "wall_seconds": 1.7501195459990413
+    },
+    {
+      "name": "packing",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/mandatory_fractional.py",
+        "emit",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model/model.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/presolve/support_presolve.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/packing",
+        "--max-holes",
+        "1",
+        "--seconds",
+        "1"
+      ],
+      "external_cap_seconds": 5,
+      "started_utc": "2026-11-09T03:15:51.942198+00:00",
+      "returncode": 0,
+      "wall_seconds": 1.4422346249994007
+    },
+    {
+      "name": "packing_verify",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/mandatory_fractional.py",
+        "verify",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/packing/certificate.json"
+      ],
+      "external_cap_seconds": 3,
+      "started_utc": "2026-11-09T03:15:53.465738+00:00",
+      "returncode": 0,
+      "wall_seconds": 0.46614415499789175
+    },
+    {
+      "name": "packing_reconstruction",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/reconstruct.py",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/packing/certificate.json",
+        "--expected-sha256",
+        "f36d46b7733bd0cde60a1e2f574d16e393ba013137e57b9ea0ea8c9d275e4917",
+        "--checker",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/mandatory_fractional.py",
+        "--expected-checker-sha256",
+        "7d23f5792c3f44cf68dc257614156ff11fcae8faace7f38a478ddfa0d6fe16c5",
+        "--output",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/reconstructed_packing/certificate.json"
+      ],
+      "external_cap_seconds": 10,
+      "started_utc": "2026-11-09T03:15:53.992686+00:00",
+      "returncode": 0,
+      "wall_seconds": 1.3934072619958897
+    },
+    {
+      "name": "reconstructed_packing_verify",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/mandatory_fractional.py",
+        "verify",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/reconstructed_packing/certificate.json"
+      ],
+      "external_cap_seconds": 5,
+      "started_utc": "2026-11-09T03:15:55.427569+00:00",
+      "returncode": 0,
+      "wall_seconds": 0.4477889920017333
+    },
+    {
+      "name": "sat",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source/pool_sat.py",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model/model.json",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/sat",
+        "--max-holes",
+        "1",
+        "--seconds",
+        "29.819386342001962",
+        "--expected-model-sha256",
+        "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+        "--engine",
+        "minicard",
+        "--uninterrupted",
+        "--support-certificate",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/presolve/support_presolve.json",
+        "--expected-support-certificate-sha256",
+        "1c878ee62c1f281197d25d048d5e7558a689fb3dd1de58ca78ab2ebed0913fab",
+        "--formula-output",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/sat_formula.json",
+        "--packing-certificate",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/reconstructed_packing/certificate.json",
+        "--expected-packing-certificate-sha256",
+        "960ce1ac13bf0e562a2e92c4480e63584d995fdf9ddb7c659b726f09ba6edf42",
+        "--packing-source-dir",
+        "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/source"
+      ],
+      "external_cap_seconds": 34.81936057400162,
+      "started_utc": "2026-11-09T03:15:55.941819+00:00",
+      "search_watchdog": {
+        "search_started_monotonic": 36927.700083788,
+        "search_finished_reported": true,
+        "search_seconds_budget": 29.819386342001962
+      },
+      "completed_work_finalization_preserved": true,
+      "returncode": 0,
+      "wall_seconds": 1.8630512340023415
+    }
+  ],
+  "pipeline": "Fresh assembly, support presolve, exact checked fractional packing, uninterrupted MiniCard; no old certificate reused.",
+  "last_monitored_scope": {
+    "stage": "sat_monitor",
+    "utc": "2026-11-09T03:15:57.673304+00:00",
+    "full_bound": 297,
+    "target_blocks": 296,
+    "best_partial_holes": 2,
+    "warm_parent_holes": 2,
+    "live_best_partial_holes": 2,
+    "max_holes": 1,
+    "requested_target_hole_cap": 1,
+    "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best."
+  },
+  "scope": {
+    "full_bound": 297,
+    "target_blocks": 296,
+    "best_partial_holes": 2,
+    "warm_parent_holes": 2,
+    "live_best_partial_holes": 2,
+    "max_holes": 1,
+    "requested_target_hole_cap": 1,
+    "goal_scope": "Pinned warm-parent geometry; seek the fixed explicit defect cap while it remains strictly better than live best."
+  },
+  "parent_audit": {
+    "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/parent_audit.json",
+    "sha256": "45184316fb1acae8cf6803665545ecf310494ed8b7e23c7e2e1d6cb86d5d3a3e"
+  },
+  "model": {
+    "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/model/model.json",
+    "sha256": "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+    "common_rows": 46,
+    "alternative_columns": 779,
+    "alternative_budget": 250,
+    "constant_holes": 0
+  },
+  "packing": {
+    "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/reconstructed_packing/certificate.json",
+    "sha256": "960ce1ac13bf0e562a2e92c4480e63584d995fdf9ddb7c659b726f09ba6edf42",
+    "verification": {
+      "valid": true,
+      "certificate_sha256": "960ce1ac13bf0e562a2e92c4480e63584d995fdf9ddb7c659b726f09ba6edf42",
+      "model_sha256": "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+      "alternative_column_lower_bound": 250,
+      "alternative_budget": 250,
+      "infeasible_within_pool_cap": false,
+      "excluded_alternative_columns": 22,
+      "mandatory_overlap_caps": 253,
+      "verification": "Exact integer weights, literal owner lists, capacities and slack arithmetic; optimizer status is not used."
+    },
+    "reconstructed": true,
+    "original_certificate_sha256": "f36d46b7733bd0cde60a1e2f574d16e393ba013137e57b9ea0ea8c9d275e4917"
+  },
+  "original_packing": {
+    "path": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/packing/certificate.json",
+    "sha256": "f36d46b7733bd0cde60a1e2f574d16e393ba013137e57b9ea0ea8c9d275e4917",
+    "verification": {
+      "valid": true,
+      "certificate_sha256": "f36d46b7733bd0cde60a1e2f574d16e393ba013137e57b9ea0ea8c9d275e4917",
+      "model_sha256": "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+      "alternative_column_lower_bound": 250,
+      "alternative_budget": 250,
+      "infeasible_within_pool_cap": false,
+      "excluded_alternative_columns": 22,
+      "mandatory_overlap_caps": 253,
+      "verification": "Exact integer weights, literal owner lists, capacities and slack arithmetic; optimizer status is not used."
+    }
+  },
+  "packing_cut_plan": {
+    "enabled": true,
+    "zero_slack_native_special_case": true,
+    "largest_positive_support": 8,
+    "expanded_weight_terms": 0,
+    "gcd_scale": 1,
+    "positive_support_native_caps": 253,
+    "positive_loss_column_units": 22,
+    "max_support_limit": null,
+    "max_term_limit": null,
+    "fallback": "No expansion is needed: zero-slack cuts use only column units, native owner at-most-one constraints and the exact packing lower bound."
+  },
+  "result": {
+    "status": "UNSAT",
+    "solver_status": "UNSAT",
+    "candidate_path": null,
+    "candidate_sha256": null,
+    "candidate_blocks": null,
+    "actual_uncovered_targets": null,
+    "solver_statistics": {
+      "restarts": 4,
+      "conflicts": 461,
+      "decisions": 3126,
+      "propagations": 2755743
+    },
+    "search_mode": "uninterrupted",
+    "elapsed_seconds": 1.2095749670043006
+  },
+  "commit": {
+    "submitted": false,
+    "skipped_reason": "No returned integer candidate"
+  },
+  "status": "completed",
+  "finished_utc": "2026-11-09T03:15:57.830626+00:00",
+  "allocation_seconds": 22.069502651997027,
+  "finalization_overran_allocation": false
+}

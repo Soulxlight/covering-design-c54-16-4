@@ -1,0 +1,117 @@
+{
+  "status": "PASS_READ_ONLY_CORE_COMPARISON",
+  "utc": "2026-11-09T03:03:32.299804+00:00",
+  "parent_sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+  "source_sha256": "10538ddbeafab3687e41c0f3856ea25deda808f861b39161bb74beebb69196b4",
+  "profile_pins": {
+    "input.txt": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "private_structure.json": "726037f0a72531580d84fb0d313b69bd620c5e5fab54a05451d7f2e54af10b8b",
+    "weak_map_t3.json": "9be6b5972ab934880327f4631e193be67b5bcff12021fae23756298a6626fdae",
+    "weak_map_t4.json": "5c4d67e42706fe6c1d16cf5ddd4ec7907ae44fc7a7803808b57b75ea0c4b1d98"
+  },
+  "input_private_profile_independently_reconstructed": true,
+  "all_candidate_trace_and_hole_hashes_bound": true,
+  "first_candidate_incremental_profile_independently_reconstructed": true,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "path": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/candidate_0.txt",
+      "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "moves": [
+        {
+          "block": 133,
+          "remove": 1,
+          "insert": 24
+        }
+      ],
+      "moves_sha256": "1796fff3aa826090c883d1f774798938d2299ecfdc4079e445e14538e70f2b56",
+      "holes": [
+        [
+          1,
+          8,
+          15,
+          30
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "thresholds": {
+        "3": {
+          "endpoint_contained_in_original_domain": true,
+          "endpoint_violations": [],
+          "newly_released_original_core_memberships": [],
+          "new_domain_is_subset_of_original": true,
+          "mutable_rows": 42,
+          "released_memberships": 53,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "9f2dec3153455fb72d61a575319cfab06a8fe01a7af0b3fff9fdeb9dc8b62038",
+          "core_domain_identical_to_original": true
+        },
+        "4": {
+          "endpoint_contained_in_original_domain": true,
+          "endpoint_violations": [],
+          "newly_released_original_core_memberships": [
+            {
+              "row": 83,
+              "point": 23,
+              "old_private_loss": 6,
+              "new_private_loss": 4
+            },
+            {
+              "row": 171,
+              "point": 20,
+              "old_private_loss": 5,
+              "new_private_loss": 4
+            },
+            {
+              "row": 181,
+              "point": 24,
+              "old_private_loss": 6,
+              "new_private_loss": 4
+            }
+          ],
+          "new_domain_is_subset_of_original": false,
+          "mutable_rows": 58,
+          "released_memberships": 73,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "a709dc247e28cca564fed4e1659cf28cd633c412794cacc3faff1c364d66342a",
+          "core_domain_identical_to_original": false
+        }
+      }
+    }
+  ],
+  "baseline_core_fingerprints": {
+    "3": "9f2dec3153455fb72d61a575319cfab06a8fe01a7af0b3fff9fdeb9dc8b62038",
+    "4": "8b6679815eabcd6fe42b096e09667ad4d8743c06d80d445c1a5cbfc267551fe8"
+  },
+  "new_release_direct_literal_controls": [
+    {
+      "candidate_sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "row": 83,
+      "point": 23,
+      "literal_private_loss": 4,
+      "triples_enumerated": 455
+    },
+    {
+      "candidate_sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "row": 171,
+      "point": 20,
+      "literal_private_loss": 4,
+      "triples_enumerated": 455
+    },
+    {
+      "candidate_sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "row": 181,
+      "point": 24,
+      "literal_private_loss": 4,
+      "triples_enumerated": 455
+    }
+  ],
+  "elapsed_seconds": 0.2808349250044557,
+  "candidate_generation": false,
+  "scope": "Exact same row order is certified by recorded point traces. Endpoint containment and threshold-derived domain comparisons are parent-specific; this does not prove any search domain impossible."
+}

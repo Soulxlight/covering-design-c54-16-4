@@ -1,0 +1,28 @@
+{
+  "status": "PASS_READ_ONLY_REVIEW",
+  "utc": "2026-11-09T03:13:23.540214+00:00",
+  "source_pins": {
+    "pair_soft_sat_v2": {
+      "solve.py": "695c125eed2b25357b9104a5da685acc6bf5e8a8dc7b2f1cc1b7eff8783738e2",
+      "validate.py": "85ab79379002a35d84c9417a0d40a04a2092064957cc3b6d28489f3388eba01f"
+    },
+    "subset_soft_sat_v1": {
+      "solve.py": "248668b5fedc7116f28958c89abc2ec6e2689bad4bcdba3c111a088ad7e662ae",
+      "validate.py": "68e85815530b633f9c808f39b2fd48c997c3a4276884d63ab120c1bf7a3fb473"
+    }
+  },
+  "pair_v2_findings": [
+    "Fixed-control reuse requires fixed_rows is not None AND every decoded row equals the immutable normalized profile family.",
+    "Free SAT and changed fixed rows still rebuild full point-incidence coverage.",
+    "Profile.build independently verifies its tuple-valued holes; no mathematical projection changed."
+  ],
+  "subset_v1_findings": [
+    "Owner classes of size at most max_removed cover exactly all targets that can lose their last owner after deleting the selected two or three rows.",
+    "Residual is old holes plus disjoint owner classes contained in the selected indices.",
+    "All exact row cardinalities, conjunctions, defects and heavy support clauses generalize over the selected row count.",
+    "No two-row clique rigidity assumption is inherited for three rows.",
+    "Timer start/solve/cancel/join and solver lifetime follow the reviewed pair backend.",
+    "Validator includes both two-row and three-row projections and the triangle of three two-point blocks."
+  ],
+  "scope": "Code review only. No validation, native search or actual54-point processing was run by this reviewer. Await separately coordinated normal/-O controls before production."
+}

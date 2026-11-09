@@ -1,0 +1,81 @@
+{
+  "audit_utc": "2026-11-09T03:02:03.278272+00:00",
+  "colex": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+    "total_targets": 316251,
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "incidence": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "holes": [
+      [
+        1,
+        8,
+        15,
+        30
+      ],
+      [
+        9,
+        12,
+        41,
+        54
+      ]
+    ],
+    "method": "point-incidence intersections",
+    "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "is_complete_cover": false,
+  "producer_record": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_e5c5fcad46c8da99.txt",
+    "provenance": {
+      "dependency_trace": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/candidate_0.moves.json",
+      "input_metadata": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/input_metadata.json",
+      "kind": "exact-bounded-defect-dfs",
+      "replay_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/replay.py",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/input_metadata.json",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/candidate_0.result.json",
+        "replay-output"
+      ],
+      "result_metadata": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/candidate_0.result.json",
+      "source_files": {
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/input.txt": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/complete_short_partial.py": "f31852a93e2d5bf2aebccfe976841238e222e3a1be0d433a1cfc0a966c87cb6b",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/incidence.py": "fee62db8043f32b521007435f2dc3d0ad1911102ec29998894575549e768762e",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/neutral_one_row_audit.py": "cc432b1f0c095f87703331935307a9681efdf260f18d53dba35088819f2b3afb",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/owner.py": "dd1ff29a30176ef9654ef2b49645327851ab403992c8f969b600eec38f7eb350",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/replay.py": "2caef6a4044eb2633b957a3faa3e133252c907c75585c486a6d1e652ac1103a7",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/runtime.py": "30d97a262c612625cc5c089ca57fbb852d104a5a13b412fdc60b3622a525f74a",
+        "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/source/verify_cover.py": "da37c01a9e45d9bff95457e026a887562289630a8aa53465bea6fc2e3390ab3e"
+      }
+    },
+    "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+    "total_targets": 316251,
+    "uncovered_targets": 2,
+    "valid": false,
+    "verified_utc": "2026-11-09T03:01:52.137710+00:00"
+  },
+  "snapshot": "/workspace/cover_search/resume_20261108/independent/snapshots/e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd.txt",
+  "source_kind": "archive",
+  "source_path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_e5c5fcad46c8da99.txt",
+  "status": "PASS_DUAL_VERIFIED_PARTIAL_NOT_A_COVER"
+}

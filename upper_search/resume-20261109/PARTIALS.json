@@ -1,0 +1,102 @@
+{
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "status": "INCOMPLETE_RESTART_SEEDS_NOT_COVERS",
+  "partials": [
+    {
+      "path": "partial-296-h2.txt",
+      "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+      "blocks": 296,
+      "uncovered_targets": 2,
+      "holes": [
+        [
+          9,
+          12,
+          41,
+          54
+        ],
+        [
+          23,
+          24,
+          30,
+          42
+        ]
+      ],
+      "valid_cover": false,
+      "status": "NOT_A_COVER",
+      "independent_dual_receipt": "verification/8d47b93b41f94e28.json"
+    },
+    {
+      "path": "partial-296-h2-e5c5fcad46c8da99.txt",
+      "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "blocks": 296,
+      "uncovered_targets": 2,
+      "holes": [
+        [
+          1,
+          8,
+          15,
+          30
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "valid_cover": false,
+      "status": "NOT_A_COVER",
+      "independent_dual_receipt": "verification/e5c5fcad46c8da99.json"
+    },
+    {
+      "path": "partial-296-h2-6b880f38165bbd74.txt",
+      "sha256": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+      "blocks": 296,
+      "uncovered_targets": 2,
+      "holes": [
+        [
+          8,
+          30,
+          38,
+          45
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "valid_cover": false,
+      "status": "NOT_A_COVER",
+      "independent_dual_receipt": "verification/6b880f38165bbd74.json"
+    },
+    {
+      "path": "partial-296-h2-e421ec32e5464a70.txt",
+      "sha256": "e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf",
+      "blocks": 296,
+      "uncovered_targets": 2,
+      "holes": [
+        [
+          1,
+          8,
+          15,
+          30
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "valid_cover": false,
+      "status": "NOT_A_COVER",
+      "independent_dual_receipt": "verification/e421ec32e5464a70.json"
+    }
+  ]
+}

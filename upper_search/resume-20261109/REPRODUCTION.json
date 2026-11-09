@@ -1,0 +1,61 @@
+{
+  "status": "PRODUCER_PROVENANCE_AND_PORTABLE_CONTINUATION",
+  "partial_sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+  "producer_run": "run_21289",
+  "input": "producer/input.txt",
+  "input_sha256": "5142cc1c8ff996c1ccd085d9b0317caf4661ff5b240fbc5551eeeba0e93935cc",
+  "input_blocks": 296,
+  "input_uncovered_targets": 3,
+  "engine_sources_existing_in_repo": {
+    "upper_search/reproduction299/source/wls_background_sparse_equal_v2.cpp": "86d63a8e2eb728a4d69f843147ffdf41b50919a2c30e1ec3b2396b4883ea0464",
+    "upper_search/reproduction299/source/background_move.hpp": "f877c605643f3b5ba4d4164a0deaff10ac778970264d29154e9f48ec713f86c2"
+  },
+  "original_argv": [
+    "/workspace/cover_search/resume_20261108/wls/archive/binaries/4b9586f37276903f6e968d4a1000770070bb60416a340d4692be582e462127c7",
+    "54",
+    "16",
+    "4",
+    "296",
+    "300",
+    "21289",
+    "/workspace/cover_search/resume_20261108/wls/runs/run_21289/input.txt",
+    "3",
+    "0.05",
+    "230"
+  ],
+  "original_algorithm_environment": {
+    "BACKGROUND_EVERY": "128",
+    "BACKGROUND_CAP": "6",
+    "BACKGROUND_START": "1"
+  },
+  "original_checkpoint_environment": {
+    "SAVE_PARTIAL": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/best_partial.txt",
+    "SAVE_FINAL": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/final_state.txt",
+    "SAVE_EQUAL_PARTIAL": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/equal_partial.txt",
+    "EQUAL_INTERVAL": "1000",
+    "EQUAL_MAX_HOLES": "3"
+  },
+  "seed": 21289,
+  "tenure": 3,
+  "noise": 0.05,
+  "weighted": false,
+  "original_targetB": 230,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "portable_compile": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "upper_search/reproduction299/source/wls_background_sparse_equal_v2.cpp",
+    "-o",
+    "/tmp/c54-resume-wls"
+  ],
+  "fresh_continuation_input": "partial-296-h2.txt",
+  "continuation_is_new_search": true,
+  "exact_stochastic_reproduction_not_guaranteed": true,
+  "license": "upper_search/reproduction299/source/LICENSE",
+  "no_automatic_restart": true,
+  "original_weight_environment": {
+    "NOWEIGHT": "1"
+  },
+  "fresh_continuation_weighted": true
+}

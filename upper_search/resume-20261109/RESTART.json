@@ -1,0 +1,108 @@
+{
+  "task": "Ordinary covering design C(54,16,4): legal 16-subsets covering all316251 quadruples",
+  "saved_utc": "2026-11-09T03:20:22.307861+00:00",
+  "status": "STOPPED_AT_EXPLICIT_USER_REQUEST",
+  "user_instruction": "Low usage; summarize and pause. Resume only when user returns. This overrides the earlier three-hour-stall stopping rule.",
+  "repo": "/workspace/covering-design-c54-16-4",
+  "branch": "research/improve-upper-20261106",
+  "verified_full_checkpoint_commit": "2533512be428e70ff60eceb228992ba8a4e419bb",
+  "working_lower_bound": 230,
+  "lower_bound_status": "Existing internally reviewed230 proof and qualified external/formal acceptance status preserved unchanged.",
+  "best_full": {
+    "blocks": 297,
+    "covered_targets": 316251,
+    "holes": 0,
+    "path": "/workspace/covering-design-c54-16-4/data/cover-297.txt",
+    "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "first_verified_utc": "2026-11-09T00:16:45.435477+00:00",
+    "run": "run_21202"
+  },
+  "full_progress": [
+    302,
+    301,
+    300,
+    299,
+    298,
+    297
+  ],
+  "best_partial": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "holes": [
+      [
+        9,
+        12,
+        41,
+        54
+      ],
+      [
+        23,
+        24,
+        30,
+        42
+      ]
+    ],
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_8d47b93b41f94e28.txt",
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "first_verified_utc": "2026-11-09T03:00:45.365830+00:00",
+    "run": "run_21289",
+    "valid_cover": false,
+    "root_independently_verified": true
+  },
+  "active_session_base": "/workspace/cover_search/resume_20261108",
+  "new_tools_base": "/workspace/cover_search/resume_20261109",
+  "authoritative_history": [
+    "resume_20261108/ROOT_HANDOFF.json",
+    "resume_20261108/wls/status.json",
+    "resume_20261108/wls/events.jsonl",
+    "resume_20261108/exact/LIVE_HANDOFF.json"
+  ],
+  "clock_policy": "Preserve all historical discovery/stall receipts. Paused walltime is not active search stall. A future user-authorized campaign must record its own active-search start/resume interval and never silently reset historical clocks. No automatic restart.",
+  "resources": {
+    "actual_cpu_cap": 4,
+    "ram_gb": 17,
+    "layout": "3 WLS workers plus one exclusive exact/aux lane",
+    "aux_protocol": "exclusive AUX_LEASE token, matching PAUSE/sentinel ACK, child join, raw salvage/full-first verification/tickets, token cleanup; never reuse stale stop controls"
+  },
+  "current_parent_results": {
+    "one_row": "Complete arbitrary-one-row nonworsening audit of8d47:2546cases,0strict,1neutral.",
+    "neutral_component": "Complete two-state component8d47<->e5c5 via row133 point1<->24,5092cases total; independent binding receipt current296_h2_complete_component_binding.json. No general local/global optimality claim.",
+    "rigid_pair_filter": "73 old rows have every private pair incidence>1. With fresh same-parent one-row obstruction,18907 pairs excluded for goal<=1.24753 nonrigid pairs remain before native batch.",
+    "pair_native": "First250 ranked nonrigid row pairs allUNSAT forgoal1 after actualparentcap2 controls.24503 remaining nonrigid pairs untested.40.13worker seconds; strictnative2.236,positive1.681.",
+    "795_pool": "46fixed749alternatives250slots; exact rational dual mass500 capacity2 zero slack;257 overlapcuts plus2excludedcolumns; goal1UNSAT1.263s. Finitepoolminimum2 only.",
+    "CP": "Widened58rows73releases UNKNOWN60s; forced persistenthole branchUNKNOWN120s.",
+    "LP": "Fresh58group3411option240target exactLPbound0, no exclusion.",
+    "direct_SAT": "Fresh62row80release containing union UNKNOWN60s, no candidate.",
+    "new_equal_two_states": "6b880f38 changes11rows; e421ec32 changes9rows; both from21289 outside closed8d47 neutral component; no privatezero. Core union62rows80releases max3 mapf6bbec46\u2026.",
+    "parent_scope": "All six-hole/three-hole one-row/two-row/triple/pool exclusions are historical parent-specific only; never transfer to8d47 or new families.",
+    "825_pool": "Latest complete pool:795+21priced newcolumns+9equal2rows;46fixed779alternatives250slots; exactzero-slackpacking22excludedcolumns253caps; goal1UNSAT1.2096s, completed03:15:57.830. Finitepoolminimum2 only. Receipt Nov9/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/run_receipt.json."
+  },
+  "ready_methods": {
+    "pair_soft_sat_v2": "/workspace/cover_search/resume_20261109/pair_soft_sat_v2; solver695c125eed2b25357b9104a5da685acc6bf5e8a8dc7b2f1cc1b7eff8783738e2; checked fast original-parent-control reuse; allfree/changedSAT full incidence audit",
+    "subset_soft_sat_v1": "/workspace/cover_search/resume_20261109/subset_soft_sat_v1; solver248668b5fedc7116f28958c89abc2ec6e2689bad4bcdba3c111a088ad7e662ae; exactowner-group cached2/3row replacements; NO two-row K16 rigidity inference for3",
+    "root_backend_controls": "root_variant_controls_20261109T031430281759Z/RESULT.json; normal/-O pair7632+3816 projections, subset33512+16756; readreviewPASS",
+    "necessary_graph_screen": "Construction prepared whole nonrigid goal1 necessary screen; runtime status to be bound in final agent handoff. Do not assume executed.",
+    "triple_recoloring": "Reviewed Nov9/recolor/triple_owner_v1 accepts fresh parent andgoal; ready usefulU={26,30,54} or{9,30,54}, preserving per-row label-count only",
+    "pricing": "Completed bounded8core helper/unrestrictedgeneration:20newhelpers+1newunrestricted row,13013filler sets tested,maximumhelperweight52, no exhaustiveclaim. All21includedin825 finitepoolgoal1UNSAT. Files Nov9/recombination/detached_jobs/combined795_enrichment_1794194030921147130/trial/generated/RESULT.json. Needgenuinelynew columns/families to escapethatpool."
+  },
+  "recommended_resume": [
+    "Read this file and final pause/process receipts; confirm no old workers/control owners remain.",
+    "Reverify297 full and latest296/2 partial; preserve all public/lower/history qualifications.",
+    "Start new authorized campaign with3 diverse WLS lanes, including sustained weighted fromthen-current minimum; prior pending weighted2 restart was unrun whenpaused.",
+    "825 bank already excludesgoal1; do not repeatunchangedpool. Add genuinely newcolumns/families, then rebuildfreshincidences,forcing,dual.",
+    "Complete necessary pair graphscreen and usefastpairv2 onlyonOPEN/untested cases; or broaden to boundedcached3-row portfolio with no pair-rigidity transfer.",
+    "Exploit fresh equal2 families/coreunion; all results remain parent-specific. Continue toward296full, then295 if successful."
+  ],
+  "external_actions": "No new Drive upload, push, publication or external message authorized; previous302 Drive delivery already completed.",
+  "stopped_utc": "2026-11-09T03:18:38.858311+00:00",
+  "quiescence_request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+  "quiescence_ack_utc": "2026-11-09T03:18:37.824964+00:00",
+  "final_stop_receipts": {
+    "exact": "/workspace/cover_search/resume_20261108/exact/USER_PAUSE_20261109_FINAL.json",
+    "exact_sha256": "8352b0b5e870067f20e6686d1311cb7ed03351c230bf29b76712cec038f1d876",
+    "watcher": "/workspace/cover_search/resume_20261108/independent/WATCHER_STOP_20261109.json",
+    "wls_status": "/workspace/cover_search/resume_20261108/wls/status.json",
+    "quiescence": "/workspace/cover_search/resume_20261108/control/QUIESCED.json",
+    "terminal_facts": "No executing search/sentinel/observer processes; AUX/PAUSE absent;42tickets processed,0pending;finalbest297/partial296h2;weightedprioritycanceledunrun;pausedbyuser,not3hstall"
+  }
+}

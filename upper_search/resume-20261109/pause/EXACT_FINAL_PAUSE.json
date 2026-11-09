@@ -1,0 +1,185 @@
+{
+  "status": "USER_PAUSED_ALL_SEARCH_STOPPED",
+  "utc": "2026-11-09T03:19:50.581488+00:00",
+  "reason": "Explicit user pause; automatic research deadline overridden",
+  "request": {
+    "request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+    "requested_utc": "2026-11-09T03:18:37.753704+00:00",
+    "reason": "explicit_stop_signal",
+    "supervisor_pid": 968,
+    "campaign_path": "/workspace/cover_search/resume_20261108/wls"
+  },
+  "acknowledgment": {
+    "pid": 17492,
+    "utc": "2026-11-09T03:18:37.824964+00:00",
+    "owns_no_solver": true,
+    "request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+    "status": "quiesced",
+    "no_active_solver": true,
+    "all_candidate_tickets_committed": true,
+    "no_auxiliary_lease": true,
+    "no_pause_marker": true,
+    "inbox": "/workspace/cover_search/resume_20261108/wls/inbox"
+  },
+  "terminal_sentinel": {
+    "pid": 17492,
+    "utc": "2026-11-09T03:18:38.944177+00:00",
+    "owns_no_solver": true,
+    "request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+    "status": "stopped",
+    "no_active_solver": true,
+    "all_candidate_tickets_committed": true,
+    "no_auxiliary_lease": true,
+    "no_pause_marker": true,
+    "inbox": "/workspace/cover_search/resume_20261108/wls/inbox"
+  },
+  "campaign_stopped_utc": "2026-11-09T03:18:38.858311+00:00",
+  "saved_ack_identical_to_external": true,
+  "control_markers_absent": true,
+  "no_live_search_or_sentinel_processes": true,
+  "remaining_passive_observers": [],
+  "pending_inbox_json": [],
+  "completed_exact_producer_receipts": [
+    {
+      "receipt": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_one_row_complete_1794193289756792927/run/RESULT.json",
+      "sha256": "7638784c264bc223c74084bbc4ddc1b32764715373088f13cb947632059eee33",
+      "status": "COMPLETE",
+      "completed_utc": "2026-11-09T03:01:47.104535+00:00",
+      "tickets": [
+        "/workspace/cover_search/resume_20261108/wls/inbox/one_row_v4_ffa7ee32-926f-42e3-9fe2-1d092e3f4673_0.json"
+      ],
+      "finalized_candidates": 1,
+      "source_ready_locator": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_ONE_ROW.json"
+    },
+    {
+      "receipt": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/RESULT.json",
+      "sha256": "2189852485e77fcb8511ea7950bc99e9a9a0495c483f77def133e1b89a3e5a74",
+      "status": "FINALIZED",
+      "completed_utc": "2026-11-09T03:05:41.270988+00:00",
+      "tickets": [],
+      "finalized_candidates": [
+        {
+          "path": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/candidate_1.txt",
+          "verification": {
+            "parameters": [
+              54,
+              16,
+              4
+            ],
+            "blocks": 296,
+            "total_targets": 316251,
+            "covered_targets": 316249,
+            "uncovered_targets": 2,
+            "valid": false,
+            "sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd"
+          },
+          "result_metadata": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/candidate_1.result.json",
+          "strict_or_shortened": false
+        }
+      ],
+      "source_ready_locator": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_BFS.json"
+    },
+    {
+      "receipt": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_t4_union_cp_goal1_1794193438154095176/run/RESULT.json",
+      "sha256": "6bc72a6b5fc028e544ee517dc583b3f1e9403cd49e396f52129b9e3f559134f7",
+      "status": "UNKNOWN",
+      "completed_utc": "2026-11-09T03:05:03.094312+00:00",
+      "tickets": [],
+      "finalized_candidates": null,
+      "source_ready_locator": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_T4_UNION.json"
+    },
+    {
+      "receipt": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_forced_hole_cp_goal1_1794193673228729867/run/RESULT.json",
+      "sha256": "bc55245bc2f134003d4ff21e0bcc4186338495af8b47728806076be940aa8057",
+      "status": "UNKNOWN",
+      "completed_utc": "2026-11-09T03:09:57.326426+00:00",
+      "tickets": [],
+      "finalized_candidates": null,
+      "source_ready_locator": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_FORCED_CP.json"
+    },
+    {
+      "receipt": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_union62_sat_v2_goal1_1794193961155487093/run/RESULT.json",
+      "sha256": "9d9fef93a8834419dd28d17b4d5e0c82acddca2f01ca2c1c3919fb4dd2a12c06",
+      "status": "UNKNOWN_INTERRUPTED",
+      "completed_utc": "2026-11-09T03:13:45.650341+00:00",
+      "tickets": [],
+      "finalized_candidates": null,
+      "source_ready_locator": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_UNION62_SAT_V2.json"
+    }
+  ],
+  "last_auxiliary_pool": {
+    "receipt": "/workspace/cover_search/resume_20261109/recombination/detached_jobs/current825_cap1_1794194135620105925/trial/run_receipt.json",
+    "sha256": "69f16c33f1530bd20fd43147cdeebcf332ba42e1fda47e9302768cd064ee4393",
+    "finished_utc": "2026-11-09T03:15:57.830626+00:00",
+    "status": "UNSAT cap1 within825-row finite pool only",
+    "native_seconds": 1.2095749670043006,
+    "model_sha256": "d0954ea4bf88c692756b26f54f0d9ea629ec6a655ebeca7a15bac4168d247286",
+    "candidate": null,
+    "tickets_submitted": false
+  },
+  "best_full": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 297,
+    "total_targets": 316251,
+    "covered_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/full/cover_297_188eaba56fb0260b.txt",
+    "verified_utc": "2026-11-09T00:16:45.435477+00:00",
+    "provenance": {
+      "kind": "wls",
+      "run_id": "run_21202",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/metadata.json",
+      "log_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/run.log"
+    }
+  },
+  "best_partial": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 296,
+    "total_targets": 316251,
+    "covered_targets": 316249,
+    "uncovered_targets": 2,
+    "valid": false,
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_8d47b93b41f94e28.txt",
+    "verified_utc": "2026-11-09T03:00:45.365830+00:00",
+    "provenance": {
+      "kind": "wls_equal_partial",
+      "run_id": "run_21289",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/metadata.json"
+    }
+  },
+  "resume_only_with_explicit_user_authorization": true,
+  "unrun_ready_work": [
+    {
+      "path": "/workspace/cover_search/resume_20261108/strict_pair_graph_296_v1",
+      "kind": "Fresh8d47 whole-nonrigid necessary graph screen; no solver"
+    },
+    {
+      "path": "/workspace/cover_search/resume_20261109/pair_soft_sat_v2",
+      "kind": "Validated faster fixed-original control reuse"
+    },
+    {
+      "path": "/workspace/cover_search/resume_20261109/subset_soft_sat_v1",
+      "kind": "Validated cached2/3-row backend; no three-row K16 inference"
+    },
+    {
+      "path": "/workspace/cover_search/resume_20261108/exact/READY_CURRENT296_H2_SAT_V2.json",
+      "kind": "Old58/73 SAT packet deliberately unrun; superseded by completed62/80 trial"
+    }
+  ],
+  "restart_guide": "/workspace/cover_search/RESTART-20261109.json",
+  "inbox_json_count": 42,
+  "processed_inbox_count": 42,
+  "all_existing_inbox_tickets_consumed": true,
+  "final_inbox_reconciliation_utc": "2026-11-09T03:20:05.998589+00:00"
+}

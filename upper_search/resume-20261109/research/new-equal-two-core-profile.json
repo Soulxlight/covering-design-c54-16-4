@@ -1,0 +1,487 @@
+{
+  "status": "PASS",
+  "candidate_generation": false,
+  "owner": "/root/identify_cover",
+  "lease_id": "e1d1f9cf-7c4b-4700-9290-f292a7916dec",
+  "pid": 20066,
+  "started_utc": "2026-11-09T03:10:21.363548+00:00",
+  "pause_ack": {
+    "pid": 17492,
+    "utc": "2026-11-09T03:10:21.386930+00:00",
+    "owns_no_solver": true,
+    "status": "paused",
+    "lease_id": "e1d1f9cf-7c4b-4700-9290-f292a7916dec"
+  },
+  "results": [
+    {
+      "sha256": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+      "holes": [
+        [
+          8,
+          30,
+          38,
+          45
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "provenance": {
+        "kind": "wls_equal_partial",
+        "run_id": "run_21289",
+        "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/metadata.json"
+      },
+      "row_alignment": "Exact same WLS run21289, same296 block count; reviewed source preserves row positions while mutating memberships. Direct row identity comparison; no inferred isomorphism.",
+      "changed_rows": [
+        {
+          "row": 80,
+          "removed": [
+            10
+          ],
+          "added": [
+            44
+          ]
+        },
+        {
+          "row": 86,
+          "removed": [
+            44
+          ],
+          "added": [
+            23
+          ]
+        },
+        {
+          "row": 120,
+          "removed": [
+            38
+          ],
+          "added": [
+            15
+          ]
+        },
+        {
+          "row": 133,
+          "removed": [
+            1
+          ],
+          "added": [
+            51
+          ]
+        },
+        {
+          "row": 171,
+          "removed": [
+            32
+          ],
+          "added": [
+            42
+          ]
+        },
+        {
+          "row": 180,
+          "removed": [
+            4
+          ],
+          "added": [
+            39
+          ]
+        },
+        {
+          "row": 207,
+          "removed": [
+            8
+          ],
+          "added": [
+            3
+          ]
+        },
+        {
+          "row": 214,
+          "removed": [
+            23
+          ],
+          "added": [
+            4
+          ]
+        },
+        {
+          "row": 221,
+          "removed": [
+            3
+          ],
+          "added": [
+            10
+          ]
+        },
+        {
+          "row": 281,
+          "removed": [
+            10
+          ],
+          "added": [
+            3
+          ]
+        },
+        {
+          "row": 286,
+          "removed": [
+            46
+          ],
+          "added": [
+            10
+          ]
+        }
+      ],
+      "private_zero_memberships": [],
+      "private_target_count_range": [
+        163,
+        1188
+      ],
+      "thresholds": {
+        "3": {
+          "mutable_rows": 47,
+          "released_memberships": 56,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "4bb0eaeb4f464f546fcb7f77dc61c63aef704bb39b0b9a878c4e8da37f084267",
+          "endpoint_contained_in_baseline": false,
+          "endpoint_core_violations": [
+            {
+              "row": 214,
+              "missing_core_points": [
+                23
+              ]
+            },
+            {
+              "row": 221,
+              "missing_core_points": [
+                3
+              ]
+            }
+          ],
+          "newly_released_baseline_core_memberships": [
+            {
+              "row": 50,
+              "point": 30,
+              "old_private_loss": 6,
+              "new_private_loss": 3
+            },
+            {
+              "row": 74,
+              "point": 26,
+              "old_private_loss": 4,
+              "new_private_loss": 3
+            },
+            {
+              "row": 118,
+              "point": 10,
+              "old_private_loss": 4,
+              "new_private_loss": 3
+            },
+            {
+              "row": 195,
+              "point": 54,
+              "old_private_loss": 4,
+              "new_private_loss": 2
+            },
+            {
+              "row": 214,
+              "point": 23,
+              "old_private_loss": 6,
+              "new_private_loss": null
+            },
+            {
+              "row": 221,
+              "point": 3,
+              "old_private_loss": 7,
+              "new_private_loss": null
+            }
+          ],
+          "core_domain_identical_to_baseline": false
+        },
+        "4": {
+          "mutable_rows": 58,
+          "released_memberships": 73,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "a690542b54608e71abaa89526e0e6070693e33f4336ab32b9c0d0fd11d0c541f",
+          "endpoint_contained_in_baseline": false,
+          "endpoint_core_violations": [
+            {
+              "row": 214,
+              "missing_core_points": [
+                23
+              ]
+            },
+            {
+              "row": 221,
+              "missing_core_points": [
+                3
+              ]
+            }
+          ],
+          "newly_released_baseline_core_memberships": [
+            {
+              "row": 27,
+              "point": 30,
+              "old_private_loss": 5,
+              "new_private_loss": 4
+            },
+            {
+              "row": 50,
+              "point": 30,
+              "old_private_loss": 6,
+              "new_private_loss": 3
+            },
+            {
+              "row": 195,
+              "point": 36,
+              "old_private_loss": 6,
+              "new_private_loss": 4
+            },
+            {
+              "row": 214,
+              "point": 23,
+              "old_private_loss": 6,
+              "new_private_loss": null
+            },
+            {
+              "row": 221,
+              "point": 3,
+              "old_private_loss": 7,
+              "new_private_loss": null
+            }
+          ],
+          "core_domain_identical_to_baseline": false
+        }
+      }
+    },
+    {
+      "sha256": "e421ec32e5464a70c3673544c16e9f61faaf76487f0809838b507ac6da086cdf",
+      "holes": [
+        [
+          1,
+          8,
+          15,
+          30
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "provenance": {
+        "kind": "wls_equal_partial",
+        "run_id": "run_21289",
+        "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/metadata.json"
+      },
+      "row_alignment": "Exact same WLS run21289, same296 block count; reviewed source preserves row positions while mutating memberships. Direct row identity comparison; no inferred isomorphism.",
+      "changed_rows": [
+        {
+          "row": 86,
+          "removed": [
+            30
+          ],
+          "added": [
+            45
+          ]
+        },
+        {
+          "row": 96,
+          "removed": [
+            24
+          ],
+          "added": [
+            18
+          ]
+        },
+        {
+          "row": 133,
+          "removed": [
+            1
+          ],
+          "added": [
+            51
+          ]
+        },
+        {
+          "row": 144,
+          "removed": [
+            17
+          ],
+          "added": [
+            31
+          ]
+        },
+        {
+          "row": 207,
+          "removed": [
+            8
+          ],
+          "added": [
+            3
+          ]
+        },
+        {
+          "row": 221,
+          "removed": [
+            3,
+            44
+          ],
+          "added": [
+            17,
+            24
+          ]
+        },
+        {
+          "row": 228,
+          "removed": [
+            31
+          ],
+          "added": [
+            44
+          ]
+        },
+        {
+          "row": 278,
+          "removed": [
+            3
+          ],
+          "added": [
+            27
+          ]
+        },
+        {
+          "row": 281,
+          "removed": [
+            10
+          ],
+          "added": [
+            3
+          ]
+        }
+      ],
+      "private_zero_memberships": [],
+      "private_target_count_range": [
+        162,
+        1163
+      ],
+      "thresholds": {
+        "3": {
+          "mutable_rows": 39,
+          "released_memberships": 50,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "791272aebcbbe65e80f0549b68d1ce7f99c8d2a15043a4970da4cdda7eb022a7",
+          "endpoint_contained_in_baseline": false,
+          "endpoint_core_violations": [
+            {
+              "row": 221,
+              "missing_core_points": [
+                3,
+                44
+              ]
+            },
+            {
+              "row": 228,
+              "missing_core_points": [
+                31
+              ]
+            }
+          ],
+          "newly_released_baseline_core_memberships": [
+            {
+              "row": 171,
+              "point": 20,
+              "old_private_loss": 5,
+              "new_private_loss": 3
+            },
+            {
+              "row": 221,
+              "point": 3,
+              "old_private_loss": 7,
+              "new_private_loss": null
+            },
+            {
+              "row": 221,
+              "point": 44,
+              "old_private_loss": 6,
+              "new_private_loss": null
+            },
+            {
+              "row": 228,
+              "point": 31,
+              "old_private_loss": 5,
+              "new_private_loss": null
+            }
+          ],
+          "core_domain_identical_to_baseline": false
+        },
+        "4": {
+          "mutable_rows": 56,
+          "released_memberships": 71,
+          "maximum_radius": 3,
+          "retained_core_fingerprint": "ab88a0ccee92c7a5b8f5a5c5131ba9727b198c209c2d4b0b6ddbb7f3e9fd33b5",
+          "endpoint_contained_in_baseline": false,
+          "endpoint_core_violations": [
+            {
+              "row": 221,
+              "missing_core_points": [
+                3,
+                44
+              ]
+            },
+            {
+              "row": 228,
+              "missing_core_points": [
+                31
+              ]
+            }
+          ],
+          "newly_released_baseline_core_memberships": [
+            {
+              "row": 27,
+              "point": 30,
+              "old_private_loss": 5,
+              "new_private_loss": 4
+            },
+            {
+              "row": 171,
+              "point": 20,
+              "old_private_loss": 5,
+              "new_private_loss": 3
+            },
+            {
+              "row": 221,
+              "point": 3,
+              "old_private_loss": 7,
+              "new_private_loss": null
+            },
+            {
+              "row": 221,
+              "point": 44,
+              "old_private_loss": 6,
+              "new_private_loss": null
+            },
+            {
+              "row": 228,
+              "point": 31,
+              "old_private_loss": 5,
+              "new_private_loss": null
+            }
+          ],
+          "core_domain_identical_to_baseline": false
+        }
+      }
+    }
+  ],
+  "baseline_sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+  "source_sha256": "f624bf03639b68a5fe9166f7d4c4e497a269d1b3d36649dbd548f45bf7b898cb",
+  "scope": "Read-only point-incidence/private/core reconstruction. No replacement enumeration, optimizer, candidate, or ticket. These are distinct labeled endpoint domains, not proof of different isomorphism classes or a global bound.",
+  "finished_utc": "2026-11-09T03:10:21.971746+00:00",
+  "elapsed_seconds": 0.5573803419974865,
+  "controls_released": true
+}

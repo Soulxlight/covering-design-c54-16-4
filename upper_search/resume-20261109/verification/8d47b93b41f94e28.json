@@ -1,0 +1,63 @@
+{
+  "audit_utc": "2026-11-09T03:01:02.341893+00:00",
+  "colex": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "total_targets": 316251,
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "incidence": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "holes": [
+      [
+        9,
+        12,
+        41,
+        54
+      ],
+      [
+        23,
+        24,
+        30,
+        42
+      ]
+    ],
+    "method": "point-incidence intersections",
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "is_complete_cover": false,
+  "producer_record": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_8d47b93b41f94e28.txt",
+    "provenance": {
+      "kind": "wls_equal_partial",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/metadata.json",
+      "run_id": "run_21289"
+    },
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "total_targets": 316251,
+    "uncovered_targets": 2,
+    "valid": false,
+    "verified_utc": "2026-11-09T03:00:45.365830+00:00"
+  },
+  "snapshot": "/workspace/cover_search/resume_20261108/independent/snapshots/8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246.txt",
+  "source_kind": "archive",
+  "source_path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_8d47b93b41f94e28.txt",
+  "status": "PASS_DUAL_VERIFIED_PARTIAL_NOT_A_COVER"
+}

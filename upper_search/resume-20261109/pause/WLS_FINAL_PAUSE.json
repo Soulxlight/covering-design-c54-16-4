@@ -1,0 +1,108 @@
+{
+  "recorded_utc": "2026-11-09T03:19:49.795577+00:00",
+  "stop_reason": "explicit_user_pause",
+  "stopped_utc": "2026-11-09T03:18:38.858311+00:00",
+  "not_a_stall_or_optimality_claim": true,
+  "best": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 297,
+    "total_targets": 316251,
+    "covered_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/full/cover_297_188eaba56fb0260b.txt",
+    "verified_utc": "2026-11-09T00:16:45.435477+00:00",
+    "provenance": {
+      "kind": "wls",
+      "run_id": "run_21202",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/metadata.json",
+      "log_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/run.log"
+    }
+  },
+  "best_partial": {
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "blocks": 296,
+    "total_targets": 316251,
+    "covered_targets": 316249,
+    "uncovered_targets": 2,
+    "valid": false,
+    "sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/partial/partial_8d47b93b41f94e28.txt",
+    "verified_utc": "2026-11-09T03:00:45.365830+00:00",
+    "provenance": {
+      "kind": "wls_equal_partial",
+      "run_id": "run_21289",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/metadata.json"
+    }
+  },
+  "request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+  "acknowledgment": {
+    "pid": 17492,
+    "utc": "2026-11-09T03:18:37.824964+00:00",
+    "owns_no_solver": true,
+    "request_id": "c01aa2fe-8740-4468-854c-44e19858975f",
+    "status": "quiesced",
+    "no_active_solver": true,
+    "all_candidate_tickets_committed": true,
+    "no_auxiliary_lease": true,
+    "no_pause_marker": true,
+    "inbox": "/workspace/cover_search/resume_20261108/wls/inbox"
+  },
+  "pid_states": [
+    {
+      "pid": 968,
+      "state": "Z",
+      "executing": false
+    },
+    {
+      "pid": 18219,
+      "state": "absent",
+      "executing": false
+    },
+    {
+      "pid": 21508,
+      "state": "absent",
+      "executing": false
+    },
+    {
+      "pid": 21651,
+      "state": "absent",
+      "executing": false
+    },
+    {
+      "pid": 17492,
+      "state": "Z",
+      "executing": false
+    }
+  ],
+  "all_wls_worker_pids_reaped": true,
+  "no_executing_wls_controller_or_worker": true,
+  "no_executing_wls_binary_in_proc": true,
+  "controller_zombie_note": "Exited detached supervisor may remain an inert zombie under PID1; this process is not its parent and cannot reap it.",
+  "raw_full_count": 48,
+  "unknown_or_unseen_raw_full": [],
+  "inbox_count": 42,
+  "unprocessed_inbox_count": 0,
+  "late_raw_outputs_dual_verified": 5,
+  "files_sha256": {
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/status_final.json": "f9cff1c8db37956e4501481fec20adeed71cf038ca9ebcd5176610f0b5a3f5bd",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/QUIESCE_REQUEST.json": "80f5417a736243f5d94774dd904a9b50b95d4693eb67152d500b46d55f468a5d",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/QUIESCED.json": "b294428b6bc33023245ce93e78af81ccf4b197d605ca7a287b95e827cdff9b49",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/exact_control_status.json": "6500a820cb1ae0258cfa0448cb493140f0ba5c71ee1d893421e1033abcbd7a12",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/USER_PAUSE_REQUEST.json": "a84447321614bb87389c19baa9cc1f3511d2603d84d6280dbc0c027b16bf5924",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/raw_full_inventory.json": "45d0ebee2efa081c09e433d306a57dc7c6e9c8c09a2a02c60f0f23ae5ec8c176",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/inbox_inventory.json": "e82cb665666ce3f68f3b21221db5a02a19646a2c88330096f7f6cfe6996ab5f0",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/final_output_dual_verification.json": "1fc9255754fa374bb272b84b5fce7f82021c9376857f905085d9cd6739f94d3b",
+    "/workspace/cover_search/resume_20261108/wls/pause_20261109T031838Z/collect_receipt.py": "f002553181b3c3ac08a0f991bb2cfb8d3e200b37ee9d6df7b89bcea7edbee291"
+  },
+  "canceled_priority_path": "/workspace/cover_search/resume_20261108/wls/pending_weighted_newer_minimum_20261109T030515Z.json"
+}

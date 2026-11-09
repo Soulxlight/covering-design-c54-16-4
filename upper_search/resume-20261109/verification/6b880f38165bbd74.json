@@ -1,0 +1,44 @@
+{
+  "audit_utc": "2026-11-09T03:04:44.458004+00:00",
+  "colex": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+    "total_targets": 316251,
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "incidence": {
+    "blocks": 296,
+    "covered_targets": 316249,
+    "holes": [
+      [
+        8,
+        30,
+        38,
+        45
+      ],
+      [
+        9,
+        12,
+        41,
+        54
+      ]
+    ],
+    "method": "point-incidence intersections",
+    "sha256": "6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237",
+    "uncovered_targets": 2,
+    "valid": false
+  },
+  "is_complete_cover": false,
+  "producer_record": null,
+  "snapshot": "/workspace/cover_search/resume_20261108/independent/snapshots/6b880f38165bbd74ebbee73778a1fce0d795137c0eed454877bd19ca16e1f237.txt",
+  "source_kind": "raw_atomic_worker_checkpoint",
+  "source_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21289/equal_partial.txt",
+  "status": "PASS_DUAL_VERIFIED_PARTIAL_NOT_A_COVER"
+}

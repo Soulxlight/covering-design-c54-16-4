@@ -1,0 +1,29 @@
+{
+  "status": "STOPPED_AFTER_DRAIN",
+  "reason": "explicit_user_pause_low_usage",
+  "utc": "2026-11-09T03:19:45.394796+00:00",
+  "watcher_processes": [
+    [
+      13729,
+      [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "-B",
+        "/workspace/cover_search/resume_20261108/independent/watch.py",
+        "--watch",
+        "--interval",
+        "20"
+      ]
+    ]
+  ],
+  "source_sha256": "0e7c00fe444feace4712ea306a130073cc8c80cab14094ec3b3f760899149545",
+  "final_watcher_status_sha256": "8385b5de39778e37e53dcfdf693c2956e2fb3c1d96cdfc5a16dc9a559cc37cfe",
+  "final_watcher_state_sha256": "0461a8b8f22650acd1bb5eaa44e72d3ea7dda1b804c44f7c35fe077d8900f37b",
+  "checked_witness_hashes": 1835,
+  "archive_records_bound": 1794,
+  "unverified_archive_hashes": [],
+  "errors": [],
+  "source_unmodified": true,
+  "no_future_schedule": true,
+  "pause_not_a_stall_claim": true
+}

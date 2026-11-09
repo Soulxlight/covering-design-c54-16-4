@@ -1,0 +1,139 @@
+{
+  "status": "PASS_INDEPENDENT_TWO_STATE_COMPONENT_BINDING",
+  "utc": "2026-11-09T03:12:44.682977+00:00",
+  "run": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run",
+  "input_sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+  "owner_result_sha256": "2189852485e77fcb8511ea7950bc99e9a9a0495c483f77def133e1b89a3e5a74",
+  "inventory_sha256": "c4dd0044338e552501890c8c9ebbad8ba48f6c9dc7840d4135a96fdb39330140",
+  "source_pins": {
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/complete_short_partial.py": "f31852a93e2d5bf2aebccfe976841238e222e3a1be0d433a1cfc0a966c87cb6b",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/replay.py": "2caef6a4044eb2633b957a3faa3e133252c907c75585c486a6d1e652ac1103a7",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/owner.py": "dbda0f1411f00fddd44aa8ab0953d02215ff9f45387f7edb051b0340d379af5e",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/neutral_frontier_one_row.py": "6bb16d6a2de77d48e4d78f1514ece0cd18786d3e958bd30b15083ecaa3cd7131",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/point_trace_replay_v2.py": "744292a7d5b24e16c52d69f1caca50a360c5a7b3f6a3602e0c7f0a5beed2ed58",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/incidence.py": "fee62db8043f32b521007435f2dc3d0ad1911102ec29998894575549e768762e",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/driver.py": "33ad108cb5603cfa637a353be38b5f75396df5b546d6a979f8317a8f0fcf6203",
+    "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/source/verify_cover.py": "da37c01a9e45d9bff95457e026a887562289630a8aa53465bea6fc2e3390ab3e"
+  },
+  "states": {
+    "8a4d3112c688d50e833abf6fd8751b0f420480afc07105573bf96876d960a808": {
+      "witness_sha256": "8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246",
+      "holes": [
+        [
+          9,
+          12,
+          41,
+          54
+        ],
+        [
+          23,
+          24,
+          30,
+          42
+        ]
+      ],
+      "audit_sha256": "8b3012ac75aedb132ea630cc850fe3f8d2351e34a50f186d65d218a7fd5ca0bf",
+      "audit_path": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/frontier/audits/8a4d3112c688d50e833abf6fd8751b0f420480afc07105573bf96876d960a808.json",
+      "prior_dual_receipt_sha256": "b14e532dfb5e85c5dbadd5cda5a7a11da630caed3b86bcf5a98b2b0ffe4dfe42",
+      "prior_dual_receipt": "/workspace/cover_search/resume_20261108/independent/receipts/8d47b93b41f94e2830689e228e4e3ab119d3fd7da03865e2b3b4ce156da64246.json",
+      "cases": 2546,
+      "checked": 1140,
+      "loss_excluded": 1406
+    },
+    "e90a1f2e7a0c82ec4c5e145569703e42764a82323cd08d195d8445cb4df38e7a": {
+      "witness_sha256": "e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd",
+      "holes": [
+        [
+          1,
+          8,
+          15,
+          30
+        ],
+        [
+          9,
+          12,
+          41,
+          54
+        ]
+      ],
+      "audit_sha256": "77564ee0d7923b35095406951f1b090ea2a8ebb0aa49be7085ef66b4c50db7ad",
+      "audit_path": "/workspace/cover_search/resume_20261108/exact/detached_jobs/current296_h2_complete_neutral_bfs_1794193485795425191/run/frontier/audits/e90a1f2e7a0c82ec4c5e145569703e42764a82323cd08d195d8445cb4df38e7a.json",
+      "prior_dual_receipt_sha256": "52c4b727e319defb6fe9895a09bbd2802558c9e680a1f99b431b404f2a13a43b",
+      "prior_dual_receipt": "/workspace/cover_search/resume_20261108/independent/receipts/e5c5fcad46c8da995a26d78da73fa87c90423aba28fc33a8af328661b295fefd.json",
+      "cases": 2546,
+      "checked": 1140,
+      "loss_excluded": 1406
+    }
+  },
+  "edges": [
+    {
+      "source": "8a4d3112c688d50e833abf6fd8751b0f420480afc07105573bf96876d960a808",
+      "target": "e90a1f2e7a0c82ec4c5e145569703e42764a82323cd08d195d8445cb4df38e7a",
+      "recipe": {
+        "added": [
+          24
+        ],
+        "new_holes": [
+          [
+            1,
+            8,
+            15,
+            30
+          ],
+          [
+            9,
+            12,
+            41,
+            54
+          ]
+        ],
+        "old_holes_closed": 1,
+        "private_targets_lost": 1,
+        "radius": 1,
+        "removed": [
+          1
+        ],
+        "row_index_zero_based": 133,
+        "uncovered_targets": 2
+      }
+    },
+    {
+      "source": "e90a1f2e7a0c82ec4c5e145569703e42764a82323cd08d195d8445cb4df38e7a",
+      "target": "8a4d3112c688d50e833abf6fd8751b0f420480afc07105573bf96876d960a808",
+      "recipe": {
+        "added": [
+          1
+        ],
+        "new_holes": [
+          [
+            9,
+            12,
+            41,
+            54
+          ],
+          [
+            23,
+            24,
+            30,
+            42
+          ]
+        ],
+        "old_holes_closed": 1,
+        "private_targets_lost": 1,
+        "radius": 1,
+        "removed": [
+          24
+        ],
+        "row_index_zero_based": 133,
+        "uncovered_targets": 2
+      }
+    }
+  ],
+  "total_cases_accounted": 5092,
+  "strict_neighbors": 0,
+  "same_hole_nonidentity_neighbors": 0,
+  "canonical_filter_only": true,
+  "neighborhood_reenumerated": false,
+  "optimizer_called": false,
+  "scope": "Bindings, exact point-move edges, complete per-parent accounting and prior independent dual verifications checked. The reviewed complete-neighborhood worker exhausted the two-state component. This is local to arbitrary nonworsening one-row paths from the pinned family; it does not exclude temporarily worsening paths, simultaneous multi-row trades or globally better covers."
+}

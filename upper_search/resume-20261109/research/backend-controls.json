@@ -1,0 +1,52 @@
+{
+  "kind": "tiny_only_two_variant_validation",
+  "source_pins": {
+    "/workspace/cover_search/resume_20261109/root_variant_controls_20261109T031430281759Z/pair_soft_sat_v2/solve.py": "695c125eed2b25357b9104a5da685acc6bf5e8a8dc7b2f1cc1b7eff8783738e2",
+    "/workspace/cover_search/resume_20261109/root_variant_controls_20261109T031430281759Z/pair_soft_sat_v2/validate.py": "85ab79379002a35d84c9417a0d40a04a2092064957cc3b6d28489f3388eba01f",
+    "/workspace/cover_search/resume_20261109/root_variant_controls_20261109T031430281759Z/subset_soft_sat_v1/solve.py": "248668b5fedc7116f28958c89abc2ec6e2689bad4bcdba3c111a088ad7e662ae",
+    "/workspace/cover_search/resume_20261109/root_variant_controls_20261109T031430281759Z/subset_soft_sat_v1/validate.py": "68e85815530b633f9c808f39b2fd48c997c3a4276884d63ab120c1bf7a3fb473"
+  },
+  "lease_id": "df633574-b641-4e74-abbc-97b24f00d1ce",
+  "stages": [
+    {
+      "variant": "pair_soft_sat_v2",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout": "{\"changed_fixed_controls\": 15, \"fixtures\": 4, \"forced_checks\": 3816, \"free_solves\": 84, \"model_equivalence_checks\": 84, \"positive_controls\": 15, \"projected_checks\": 7632, \"rejected_inputs\": 12, \"residual_checks\": 15, \"seconds\": 0.16118900299625238, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "variant": "pair_soft_sat_v2",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout": "{\"changed_fixed_controls\": 15, \"fixtures\": 4, \"forced_checks\": 3816, \"free_solves\": 84, \"model_equivalence_checks\": 84, \"positive_controls\": 15, \"projected_checks\": 7632, \"rejected_inputs\": 12, \"residual_checks\": 15, \"seconds\": 0.13780795600177953, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "variant": "subset_soft_sat_v1",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout": "{\"changed_fixed_controls\": 18, \"fixtures\": 5, \"forced_checks\": 16756, \"free_solves\": 100, \"model_equivalence_checks\": 100, \"positive_controls\": 18, \"projected_checks\": 33512, \"rejected_inputs\": 12, \"residual_checks\": 18, \"seconds\": 0.5020808539993595, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    },
+    {
+      "variant": "subset_soft_sat_v1",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout": "{\"changed_fixed_controls\": 18, \"fixtures\": 5, \"forced_checks\": 16756, \"free_solves\": 100, \"model_equivalence_checks\": 100, \"positive_controls\": 18, \"projected_checks\": 33512, \"rejected_inputs\": 12, \"residual_checks\": 18, \"seconds\": 0.523242087001563, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    }
+  ],
+  "created_utc": "2026-11-09T03:14:30.282419+00:00",
+  "pause_ack": {
+    "pid": 17492,
+    "utc": "2026-11-09T03:14:30.336623+00:00",
+    "owns_no_solver": true,
+    "status": "paused",
+    "lease_id": "df633574-b641-4e74-abbc-97b24f00d1ce"
+  },
+  "status": "PASS",
+  "completed_utc": "2026-11-09T03:14:32.263721+00:00",
+  "wall_seconds": 1.9813176000025123,
+  "controls_released": true
+}
