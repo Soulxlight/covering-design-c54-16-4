@@ -1,0 +1,51 @@
+{
+  "audit_utc": "2026-11-08T22:39:18.511650+00:00",
+  "colex": {
+    "blocks": 300,
+    "covered_targets": 316251,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "b9be6c9645f9da29fd5cb88070f02007f9bbad8d813e6684289e1bb262174372",
+    "total_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true
+  },
+  "incidence": {
+    "blocks": 300,
+    "covered_targets": 316251,
+    "holes": [],
+    "method": "point-incidence intersections",
+    "sha256": "b9be6c9645f9da29fd5cb88070f02007f9bbad8d813e6684289e1bb262174372",
+    "uncovered_targets": 0,
+    "valid": true
+  },
+  "is_complete_cover": true,
+  "producer_record": {
+    "blocks": 300,
+    "covered_targets": 316251,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "path": "/workspace/cover_search/resume_20261108/wls/archive/full/cover_300_b9be6c9645f9da29.txt",
+    "provenance": {
+      "kind": "wls",
+      "log_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21141/run.log",
+      "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21141/metadata.json",
+      "run_id": "run_21141"
+    },
+    "sha256": "b9be6c9645f9da29fd5cb88070f02007f9bbad8d813e6684289e1bb262174372",
+    "total_targets": 316251,
+    "uncovered_targets": 0,
+    "valid": true,
+    "verified_utc": "2026-11-08T22:39:12.255094+00:00"
+  },
+  "snapshot": "/workspace/cover_search/resume_20261108/independent/snapshots/b9be6c9645f9da29fd5cb88070f02007f9bbad8d813e6684289e1bb262174372.txt",
+  "source_kind": "archive",
+  "source_path": "/workspace/cover_search/resume_20261108/wls/archive/full/cover_300_b9be6c9645f9da29.txt",
+  "status": "PASS_DUAL_VERIFIED_FULL"
+}

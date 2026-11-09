@@ -1,0 +1,61 @@
+init: loaded 298 blocks, uncovered 23
+PROGRESS b=298 best=23 current=1263 step=189440 elapsed=10.0
+PROGRESS b=298 best=23 current=1575 step=375808 elapsed=20.1
+PROGRESS b=298 best=23 current=910 step=559104 elapsed=30.1
+PROGRESS b=298 best=23 current=750 step=758784 elapsed=40.1
+PROGRESS b=298 best=23 current=945 step=962560 elapsed=50.1
+PROGRESS b=298 best=23 current=1491 step=1144832 elapsed=60.2
+PROGRESS b=298 best=23 current=1465 step=1339392 elapsed=70.2
+PROGRESS b=298 best=23 current=1424 step=1554432 elapsed=80.2
+PROGRESS b=298 best=23 current=1903 step=1751040 elapsed=90.2
+PROGRESS b=298 best=23 current=1233 step=1947648 elapsed=100.2
+PROGRESS b=298 best=23 current=2013 step=2149376 elapsed=110.2
+PROGRESS b=298 best=23 current=2481 step=2336768 elapsed=120.2
+PROGRESS b=298 best=23 current=2136 step=2537472 elapsed=130.3
+PROGRESS b=298 best=23 current=1947 step=2733056 elapsed=140.3
+PROGRESS b=298 best=23 current=875 step=2925568 elapsed=150.3
+PROGRESS b=298 best=23 current=1012 step=3103744 elapsed=160.3
+PROGRESS b=298 best=23 current=1184 step=3304448 elapsed=170.4
+PROGRESS b=298 best=23 current=1417 step=3494912 elapsed=180.4
+PROGRESS b=298 best=23 current=834 step=3695616 elapsed=190.4
+PROGRESS b=298 best=23 current=722 step=3896320 elapsed=200.5
+PROGRESS b=298 best=23 current=712 step=4119552 elapsed=210.5
+PROGRESS b=298 best=23 current=1372 step=4323328 elapsed=220.5
+PROGRESS b=298 best=23 current=654 step=4543488 elapsed=230.5
+PROGRESS b=298 best=23 current=1021 step=4814848 elapsed=240.6
+PROGRESS b=298 best=23 current=658 step=5105664 elapsed=250.6
+BEST b=298 uncovered=18 step=5360382
+EQUAL_PARTIAL count=1 step=5360382 blocks=298 holes=18
+BEST b=298 uncovered=11 step=5360503
+BEST b=298 uncovered=10 step=5360508
+BEST b=298 uncovered=9 step=5360524
+BEST b=298 uncovered=8 step=5360525
+BEST b=298 uncovered=7 step=5360528
+BEST b=298 uncovered=6 step=5360534
+BEST b=298 uncovered=5 step=5360808
+BEST b=298 uncovered=4 step=5360925
+BEST b=298 uncovered=3 step=5360958
+BEST b=298 uncovered=2 step=5361104
+BEST b=298 uncovered=1 step=5361339
+BEST b=298 uncovered=0 step=5361356
+FULL 298 blocks at 260.5s
+BEST b=297 uncovered=154 step=5361357
+BEST b=297 uncovered=149 step=5361358
+BEST b=297 uncovered=147 step=5361362
+BEST b=297 uncovered=145 step=5361363
+BEST b=297 uncovered=144 step=5361366
+BEST b=297 uncovered=119 step=5361396
+BEST b=297 uncovered=117 step=5361397
+BEST b=297 uncovered=91 step=5361434
+BEST b=297 uncovered=90 step=5361435
+BEST b=297 uncovered=87 step=5361438
+BEST b=297 uncovered=85 step=5361439
+BEST b=297 uncovered=83 step=5361440
+BEST b=297 uncovered=81 step=5361441
+BEST b=297 uncovered=63 step=5361615
+BEST b=297 uncovered=62 step=5361661
+BEST b=297 uncovered=61 step=5361663
+BEST b=297 uncovered=60 step=5361664
+PROGRESS b=297 best=60 current=60 step=5361664 elapsed=260.6
+BEST b=297 uncovered=59 step=5361666
+PROGRESS b=297 best=59 current=235 step=5600256 elapsed=270.6

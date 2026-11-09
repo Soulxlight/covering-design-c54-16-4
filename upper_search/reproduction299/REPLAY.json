@@ -1,0 +1,72 @@
+{
+  "algorithm_environment": {
+    "BACKGROUND_CAP": "6",
+    "BACKGROUND_EVERY": "128",
+    "BACKGROUND_START": "1",
+    "NOWEIGHT": "1"
+  },
+  "checkpoint_environment": {
+    "EQUAL_INTERVAL": "200000",
+    "EQUAL_MAX_HOLES": "4",
+    "SAVE_EQUAL_PARTIAL": "@WORK_DIR@/equal_partial.txt",
+    "SAVE_FINAL": "@WORK_DIR@/final_state.txt",
+    "SAVE_PARTIAL": "@WORK_DIR@/best_partial.txt"
+  },
+  "cleared_environment_variables": [
+    "BACKGROUND_CAP",
+    "BACKGROUND_EVERY",
+    "BACKGROUND_START",
+    "EQUAL_INTERVAL",
+    "EQUAL_MAX_HOLES",
+    "MAX_STEPS",
+    "NOWEIGHT",
+    "SAVE_EQUAL_PARTIAL",
+    "SAVE_FINAL",
+    "SAVE_PARTIAL"
+  ],
+  "compile_argv": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "wls_background_sparse_equal_v2.cpp",
+    "-o",
+    "@BINARY@"
+  ],
+  "expected_output_filename": "shrink_cover_54_16_4_299_21171.txt",
+  "expected_witness_sha256": "d0bf4dfd6f3c41f03d8ca8f5030eacefe04508b2ba5e0348e2a03dd3c21c33b3",
+  "input_ancestry_record": null,
+  "input_blocks": 299,
+  "input_is_complete_cover": false,
+  "input_sha256": "4e128683580f606f9bd0a2edbcd4fac1fda1de80ae6db7b45191f4028f30ff7d",
+  "input_uncovered": 4,
+  "kind": "weighted_local_search",
+  "log_snapshot_utc": "2026-11-09T02:37:45.830185+00:00",
+  "noise": 0.02,
+  "original_compiler_command": "g++ -O3 -march=native -std=c++17 wls_background_sparse_equal_v2.cpp -o wls_background_sparse_equal_v2",
+  "original_compiler_version": "g++ (Debian 14.2.0-19) 14.2.0",
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "recorded_wall_clock_seconds": 300,
+  "replay_limit": "Wall-clock stopping, compiler/standard-library differences and hardware speed can affect exact search reproduction. Exhaustive witness verification is deterministic.",
+  "run_argv": [
+    "@BINARY@",
+    "54",
+    "16",
+    "4",
+    "299",
+    "300",
+    "21171",
+    "@INPUT@",
+    "12",
+    "0.02",
+    "299"
+  ],
+  "seed": 21171,
+  "targetB": 299,
+  "target_blocks": 299,
+  "tenure": 12
+}

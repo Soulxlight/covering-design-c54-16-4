@@ -1,0 +1,30 @@
+{
+  "baseline_blocks": 335,
+  "blocks": 301,
+  "checkpoint_parent_commit": "114af260ed0593a248f8cec35874fa348c38bb99",
+  "checkpoint_status": "Verified301-block milestone; November8 search continues toward300",
+  "date": "2026-11-08",
+  "external_publication_performed": false,
+  "historical_campaign_evidence": "upper_search/campaign_evidence/PACKET.json",
+  "historical_campaign_final": "upper_search/CAMPAIGN_FINAL.json",
+  "input_ancestry": "upper_search/reproduction301/provenance/INPUT_ANCESTRY.json",
+  "input_blocks": 301,
+  "input_uncovered": 1,
+  "optimality_claimed": false,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "public_bound_receipt": "upper_search/PUBLIC_BOUND-20261108.json",
+  "published_bound_checked_date": "2026-11-08",
+  "published_bound_source": "https://www.coveringrepository.com/download_archive_vkt.aspx",
+  "published_upper_bound_checked": 302,
+  "reproduction": "upper_search/reproduction301/REPLAY.json",
+  "session_record": "upper_search/SESSION-20261108.json",
+  "sha256": "84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602",
+  "source_seed": 21058,
+  "starting_repository_commit": "6fb3d962ff4faa202eeb5a8d740b77146a8648d6",
+  "verified_utc": "2026-11-08T19:51:33.674693+00:00",
+  "witness": "data/cover-301.txt"
+}

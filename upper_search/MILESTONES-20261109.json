@@ -1,0 +1,60 @@
+{
+  "external_publication_performed": false,
+  "milestones": [
+    {
+      "blocks": 300,
+      "input_blocks": 300,
+      "input_uncovered": 3,
+      "reproduction": "upper_search/reproduction300/REPLAY.json",
+      "run_id": "run_21141",
+      "seed": 21141,
+      "sha256": "b9be6c9645f9da29fd5cb88070f02007f9bbad8d813e6684289e1bb262174372",
+      "source_packet_manifest_sha256": "245676e92ecc1e3712a496775bbd5aef73f702d8ef3f66e536c857ab11c42c4e",
+      "verified_utc": "2026-11-08T22:39:12.255094+00:00",
+      "witness": "data/cover-300.txt"
+    },
+    {
+      "blocks": 299,
+      "input_blocks": 299,
+      "input_uncovered": 4,
+      "reproduction": "upper_search/reproduction299/REPLAY.json",
+      "run_id": "run_21171",
+      "seed": 21171,
+      "sha256": "d0bf4dfd6f3c41f03d8ca8f5030eacefe04508b2ba5e0348e2a03dd3c21c33b3",
+      "source_packet_manifest_sha256": "81deeb4e4e94aac72f8812d0bfb495799364db3ec42c246d0b525c5ec6f7f3a9",
+      "verified_utc": "2026-11-08T23:21:19.701977+00:00",
+      "witness": "data/cover-299.txt"
+    },
+    {
+      "blocks": 298,
+      "input_blocks": 298,
+      "input_uncovered": 23,
+      "reproduction": "upper_search/reproduction298/REPLAY.json",
+      "run_id": "run_21199",
+      "seed": 21199,
+      "sha256": "8c0e2a39f1bef466eb63dd9373f88185cab55888ee2144ac0075362b0b666542",
+      "source_packet_manifest_sha256": "79103a2a86c67d04b5433995ecf5ba89aa7321fcd8a3caebec9ad74f3337f6b7",
+      "verified_utc": "2026-11-09T00:13:51.875162+00:00",
+      "witness": "data/cover-298.txt"
+    },
+    {
+      "blocks": 297,
+      "input_blocks": 298,
+      "input_uncovered": 0,
+      "reproduction": "upper_search/reproduction297/REPLAY.json",
+      "run_id": "run_21202",
+      "seed": 21202,
+      "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+      "source_packet_manifest_sha256": "0b05365e6afeec0a0653a53c5da003daaec11e7cf196d72065dc612cff090458",
+      "verified_utc": "2026-11-09T00:16:45.435477+00:00",
+      "witness": "data/cover-297.txt"
+    }
+  ],
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "search_continues": true,
+  "status": "VERIFIED_COMPLETE_MILESTONES"
+}

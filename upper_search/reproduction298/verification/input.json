@@ -1,0 +1,174 @@
+{
+  "colex": {
+    "blocks": 298,
+    "covered_targets": 316228,
+    "parameters": [
+      54,
+      16,
+      4
+    ],
+    "sha256": "a14641268e7dc935bfb46fc0aa19144e0539fc64709e1ec8ac99565d3e081a87",
+    "total_targets": 316251,
+    "uncovered_targets": 23,
+    "valid": false
+  },
+  "incidence": {
+    "all_blocks_legal": true,
+    "blocks": 298,
+    "candidate_bytes": 13542,
+    "candidate_sha256": "a14641268e7dc935bfb46fc0aa19144e0539fc64709e1ec8ac99565d3e081a87",
+    "coverage_multiplicity_histogram": {
+      "0": 23,
+      "1": 191305,
+      "10": 92,
+      "11": 27,
+      "12": 7,
+      "13": 4,
+      "15": 1,
+      "2": 74493,
+      "3": 23600,
+      "4": 9387,
+      "5": 13380,
+      "6": 2704,
+      "7": 748,
+      "8": 327,
+      "9": 153
+    },
+    "covered_quadruples": 316228,
+    "distinct_blocks": 298,
+    "first_uncovered_quadruples": [
+      [
+        1,
+        21,
+        42,
+        51
+      ],
+      [
+        1,
+        24,
+        32,
+        53
+      ],
+      [
+        1,
+        42,
+        47,
+        51
+      ],
+      [
+        2,
+        12,
+        49,
+        53
+      ],
+      [
+        3,
+        17,
+        47,
+        48
+      ],
+      [
+        4,
+        20,
+        44,
+        53
+      ],
+      [
+        4,
+        21,
+        33,
+        39
+      ],
+      [
+        4,
+        23,
+        42,
+        48
+      ],
+      [
+        6,
+        21,
+        26,
+        50
+      ],
+      [
+        9,
+        17,
+        44,
+        53
+      ],
+      [
+        11,
+        18,
+        24,
+        33
+      ],
+      [
+        11,
+        24,
+        26,
+        33
+      ],
+      [
+        12,
+        44,
+        47,
+        50
+      ],
+      [
+        14,
+        15,
+        25,
+        53
+      ],
+      [
+        15,
+        23,
+        36,
+        42
+      ],
+      [
+        16,
+        29,
+        36,
+        47
+      ],
+      [
+        17,
+        22,
+        37,
+        39
+      ],
+      [
+        18,
+        21,
+        30,
+        42
+      ],
+      [
+        21,
+        25,
+        49,
+        50
+      ],
+      [
+        21,
+        29,
+        37,
+        40
+      ]
+    ],
+    "method": "Point-incidence integer bitset intersections over every increasing quadruple",
+    "parameters": {
+      "k": 16,
+      "t": 4,
+      "v": 54
+    },
+    "quadruples_checked": 316251,
+    "status": "FAIL",
+    "total_coverage_incidence": 542360,
+    "uncovered_quadruples": 23
+  },
+  "independent_methods_agree": true,
+  "input_is_complete_cover": false
+}

@@ -90,3 +90,14 @@ The public archive displayed 302 on November 8; its names are transcribed
 verbatim in `upper_search/PUBLIC_BOUND-20261108.json`. The unavailable public
 block list was not identified with any local witness. This 301 checkpoint makes
 no curator-acceptance, priority or optimality claim.
+
+## November 9 upper-bound checkpoint
+
+The continuing local search completed 300, 299, 298 and 297 blocks. Each
+winning source, direct input, seed, environment and log is preserved under
+`upper_search/reproduction300/` through `reproduction297/`. The engines
+adapt Wynand van Staden's MIT-licensed WLS2; the original license is retained.
+Perry Kern directed the AI-assisted research and independent checking.
+These local results make no curator-acceptance, priority or optimality claim.
+The dated public-source observation remains the November 8 record; it is
+not presented as a new public bound check. No upload or push was performed.

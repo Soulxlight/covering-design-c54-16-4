@@ -1,0 +1,23 @@
+{
+  "additional_progress_guard": "Also require more than 10800 seconds without a strict current-target deficit improvement; equal states do not reset it",
+  "current_full_cover": {
+    "blocks": 297,
+    "input_blocks": 298,
+    "input_uncovered": 0,
+    "reproduction": "upper_search/reproduction297/REPLAY.json",
+    "run_id": "run_21202",
+    "seed": 21202,
+    "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+    "source_packet_manifest_sha256": "0b05365e6afeec0a0653a53c5da003daaec11e7cf196d72065dc612cff090458",
+    "verified_utc": "2026-11-09T00:16:45.435477+00:00",
+    "witness": "data/cover-297.txt"
+  },
+  "current_search_target_at_checkpoint": 296,
+  "external_publication_performed": false,
+  "full_stall_clock": "Resets only on a strictly smaller verified complete cover",
+  "historical_Nov6_and_Nov8_records_preserved": true,
+  "repository_checkpoint_resets_clocks": false,
+  "search_stop_claimed": false,
+  "session_started_utc": "2026-11-08T17:26:44.018230+00:00",
+  "status": "RUNNING_AT_297_CHECKPOINT"
+}

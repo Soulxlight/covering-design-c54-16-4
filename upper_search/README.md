@@ -1,75 +1,58 @@
-# Verified upper bound C(54,16,4) ≤ 301
+# Verified upper bound C(54,16,4) ≤ 297
 
-The [301-block witness](../data/cover-301.txt) contains 301 distinct legal 16-subsets
-of points 1 through 54 and covers all 316,251 quadruples. Two independent exhaustive
-checks agree. This improves the November 6 bound 302 by one block and the supplied
-335-block incumbent by 34 blocks. Optimality is not claimed.
+The [297-block witness](../data/cover-297.txt) has 297 distinct legal 16-subsets
+of points 1 through 54 and covers all 316,251 quadruples. Independent colex subset
+enumeration and point-incidence intersection checks agree. This improves the
+supplied 335-block incumbent by 38 blocks. Optimality is not claimed.
 
-Witness SHA-256: `84b0b0692729a279c274c65ca07e67a405b2935803f6679e35ca434184c40602`.
-The first owner verification was 2026-11-08T19:51:33.674693+00:00; the independent
-watcher confirmed it at 19:51:43.929677 UTC. [RESULT.json](RESULT.json),
-[VERIFICATION.json](VERIFICATION.json) and [INDEPENDENT-301.json](INDEPENDENT-301.json)
-pin those separate records. The resumed search continues toward 300 blocks.
-This repository checkpoint is not a final campaign-stop report.
+SHA-256: `188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362`.
+[RESULT.json](RESULT.json), [VERIFICATION.json](VERIFICATION.json) and
+[INDEPENDENT-297.json](INDEPENDENT-297.json) pin the witness and separate checks.
+The search remains active toward 296 blocks; [this session record](SESSION-20261109.json)
+is an intermediate checkpoint, not a final stop report.
 
-## Verify the witness
+## Verify
 
-From the project root with standard-library Python 3.10+:
+From the repository root with standard-library Python 3.10+:
 
 ```sh
 python -B upper_search/verify_best.py
 python -B -O upper_search/verify_best.py
 ```
 
-One checker enumerates each block's quadruples by colex rank. The other
-intersects point-to-block incidence bitsets for every target quadruple.
-Both enforce the exact count, distinct legal blocks, pinned hash and zero holes.
+## New complete milestones
 
-## Reproduce the recorded search
+| Blocks | First owner verification, UTC | Producing run | Input blocks / holes | Source and replay |
+| --- | --- | --- | --- | --- |
+| 300 | 2026-11-08T22:39:12.255094+00:00 | run_21141 | 300 / 3 | [replay](reproduction300/README.md) |
+| 299 | 2026-11-08T23:21:19.701977+00:00 | run_21171 | 299 / 4 | [replay](reproduction299/README.md) |
+| 298 | 2026-11-09T00:13:51.875162+00:00 | run_21199 | 298 / 23 | [replay](reproduction298/README.md) |
+| 297 | 2026-11-09T00:16:45.435477+00:00 | run_21202 | 298 / 0 | [replay](reproduction297/README.md) |
 
-[reproduction301](reproduction301/README.md) preserves the actual source/header,
-MIT license, direct input, settings, seed and log snapshot. No executable is
-distributed. Its direct input has 301 blocks and one uncovered quadruple,
-SHA-256 `0aca4d6eece82a9278391c5a1cb5fc676b661e6dc6bf45cb4cfa82d3c02f3937`.
-Run 21058 used seed 21058, tenure 7, noise 0.01, unweighted target scores, and
-`BACKGROUND_EVERY=128`, `BACKGROUND_CAP=5`, `BACKGROUND_START=1`.
-It found the cover after 5,948,881 steps, at 122.4 seconds of its 173-second budget.
+All four complete witnesses are included under `data/`. Their actual producing
+sources, MIT licenses, direct inputs, seeds, environments and logs are preserved.
+The 299-, 300- and 298-block inputs were incomplete; each input's exact deficit
+is explicit in its verification receipt. The 297-block run started from the
+complete 298-block witness, then removed and repaired a block. Portable replay
+uses the actual input count and targetB for each result. A fresh search replay
+is not claimed merely because the certificates and build recipes verify.
 
-```sh
-python -B upper_search/reproduction301/replay.py --compile-only
-python -B upper_search/reproduction301/replay.py
-```
-
-The portable driver compiles the pinned C++17 source and uses targetB=301.
-It requires a fresh external output directory and verifies any newly produced
-cover by both exhaustive methods. Compiler/runtime differences and timing may
-change the search trajectory. Search replay is not required to verify the bound,
-and no fresh search replay is claimed by this checkpoint.
-
-The input came from registered preparation run 21057, which started at the
-first one-hole parent 278f2de9 and ran 1024 bounded neutral steps. Its verified
-terminal one-hole state was passed to run 21058 through a durable handoff.
-The preparation source, input, metadata, log and experiment recipe are included
-in [the ancestry record](reproduction301/provenance/INPUT_ANCESTRY.json).
-This preserves the observed lineage; it does not claim preparation was necessary
-or replay every earlier ancestor.
+[reproduction297](reproduction297/README.md) records seed 21202, tenure 12,
+noise 0.02 and ordinary weighted scores. The direct input hash is
+`8c0e2a39f1bef466eb63dd9373f88185cab55888ee2144ac0075362b0b666542`.
+`MILESTONES-20261109.json` binds the source packets, and the
+[size-improvement ledger](campaign_improvements.jsonl) remains append-only.
 
 ## Preserved history and attribution
 
-The [302 checkpoint](README-302.md), all `reproduction302/` bytes and the
-[November 6 final campaign evidence](campaign_evidence/README.md) remain unchanged.
-That historical packet retains three 302 covers, incomplete 301 restarts with 7, 8, 19
-holes, local research records and its own final stop receipts. Those old partials
-remain incomplete. The 305, 318, 334 and335 milestones and all lower-proof files
-are also retained. The [size ledger](campaign_improvements.jsonl) is append-only.
-
-The search adapts Wynand van Staden's MIT-licensed WLS2. Perry Kern directed
-the AI-assisted search and independent checking; original license attribution
-is preserved. The public Covering Repository displayed 302 on November 8;
-[the dated receipt](PUBLIC_BOUND-20261108.json) does not identify its unavailable
-block list with a local witness or infer acceptance or priority.
-
+The [301 checkpoint](README-301.md), its registered neutral-preparation ancestry,
+all earlier reproduction directories and the [November 6 final evidence](campaign_evidence/README.md)
+remain unchanged. Old incomplete restart files remain explicitly incomplete.
 The internally reviewed lower bound 230 and its pending qualified external-review
-status remain unchanged. No external publication, upload or push was performed
-for this checkpoint. [SESSION-20261108.json](SESSION-20261108.json) distinguishes
-the live session from the preserved November 6 stopped campaign.
+status are unchanged, as are all lower-proof bytes.
+
+The engines adapt Wynand van Staden's MIT-licensed WLS2. Perry Kern directed the
+AI-assisted search and independent checking. The [dated public observation](PUBLIC_BOUND-20261108.json)
+reported 302 on November 8; the unavailable public block list was not identified
+with any local witness. No curator acceptance, literature priority, external
+publication, upload or push is claimed by this local checkpoint.

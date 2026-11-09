@@ -1,0 +1,21 @@
+{
+  "blocks": 297,
+  "covered_targets": 316251,
+  "parameters": [
+    54,
+    16,
+    4
+  ],
+  "path": "/workspace/cover_search/resume_20261108/wls/archive/full/cover_297_188eaba56fb0260b.txt",
+  "provenance": {
+    "kind": "wls",
+    "log_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/run.log",
+    "metadata_path": "/workspace/cover_search/resume_20261108/wls/runs/run_21202/metadata.json",
+    "run_id": "run_21202"
+  },
+  "sha256": "188eaba56fb0260bb6b7c5c2adaf2d0025e10882d52cd24688688ac0dee96362",
+  "total_targets": 316251,
+  "uncovered_targets": 0,
+  "valid": true,
+  "verified_utc": "2026-11-09T00:16:45.435477+00:00"
+}
