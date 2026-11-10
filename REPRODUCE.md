@@ -8,15 +8,20 @@ python -B -O upper_search/verify_best.py
 python -B upper334/validate_controls.py
 ```
 
-The pinned result in `upper_search/RESULT.json` determines the latest block
-count and witness hash. Both exhaustive methods must report zero uncovered
+The [constructive proof](upper_search/README.md#constructive-proof) explains why
+these finite checks establish C(54,16,4) <= 297. The pinned result in
+`upper_search/RESULT.json` determines the latest block count and witness hash. Both exhaustive methods must report zero uncovered
 quadruples. See `upper_search/README.md` for the search reproduction recipe.
 The current 297 checkpoint preserves the complete 298-block direct input, the
 winning source, seed 21202, environment and run log in
 `upper_search/reproduction297/`. Its standalone replay driver is
 `python -B upper_search/reproduction297/replay.py`; use `--compile-only`
 to check the portable C++17 build. Search replay is separate from certificate
-verification. The older 335-block commands below remain historical checks.
+verification. Research is paused; none of the verification commands restarts it.
+The [November 9 restart notes](upper_search/resume-20261109/README.md) preserve
+the incomplete 296-block candidates, which can be checked separately with
+`python -B upper_search/resume-20261109/verify_partials.py`. They are not covers.
+The older 335-block commands below remain historical checks.
 
 Python3.10+; standard library only for the release runner and lower proofs.
 The independent Node cover check uses Node18+. Inspect the proofs and executable source.

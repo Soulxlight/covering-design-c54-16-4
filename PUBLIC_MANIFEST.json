@@ -20,19 +20,19 @@
       "sha256": "ddcf56c87c6aa462a8874ab4660860d3a749147951ad6b464a8c8efe461ad0c9"
     },
     {
-      "bytes": 5661,
+      "bytes": 6164,
       "path": "README.md",
-      "sha256": "763aaaafb4d29770f6d33cc065ba5f8c20f175a57a3ff739e2ee917aeaa7881e"
+      "sha256": "9f98a781625cd3833409f9988b86fada4a3e69f0193bcadae498756b251a42e4"
     },
     {
-      "bytes": 6267,
+      "bytes": 6705,
       "path": "REPRODUCE.md",
-      "sha256": "8f529fdce7224c94e787ff16f73059beaa25ecab7a27ea19d1015a6550d29bdb"
+      "sha256": "384c4db136ce38dc06657c3f27bd0bd30bc902b91fe9792c4c2e975986e0394b"
     },
     {
       "bytes": 3386,
       "path": "SHA256SUMS",
-      "sha256": "5723eb90f09387d322d4fd1a55ab7638b38185ced7f989acd75ca93ae4743a8f"
+      "sha256": "a4eab7168b6083e6ade042e14ce2cf2ce0f2faf68a5a4f0795dd0ff898b756f4"
     },
     {
       "bytes": 3889,
@@ -62,7 +62,7 @@
     {
       "bytes": 6793,
       "path": "audit/PUBLIC_MANIFEST.json",
-      "sha256": "dc8d851e44985c3688a5e7c6969518a2fff60303c19fb81ce9ab5336a108c11d"
+      "sha256": "12e036d9741246bbd6eecf43b0ca861829e65d044ece02b81ddcd8b3882afe13"
     },
     {
       "bytes": 2630,
@@ -880,9 +880,9 @@
       "sha256": "a3a3013b986508cd62541b2b0d4fc5356a9e828acdf6ffbfa840c83ee3b77e55"
     },
     {
-      "bytes": 3210,
+      "bytes": 5469,
       "path": "upper_search/README.md",
-      "sha256": "5ddd63e8add0e437556d26ba78d156da4a82ef0781ef2a4e8aca779cfee91976"
+      "sha256": "58188e224d10517cdd8e2c148d3727c9158af60b44b5fb1e7a02b17cf1986742"
     },
     {
       "bytes": 650,
@@ -940,9 +940,9 @@
       "sha256": "ca18b64bec0d5031924f4899def44a76a1132ecd5a9a0e003c9932edc9bed070"
     },
     {
-      "bytes": 1205,
+      "bytes": 1766,
       "path": "upper_search/RESULT.json",
-      "sha256": "4dbc39a8e3815f3843f652ee849afdc48c6b56e491b17c7f21be6f5bfb044010"
+      "sha256": "5b0db1d56c76e705ab76e14fe61af158fabdb5cc33da32e83cc935b9fc7add5e"
     },
     {
       "bytes": 824,
@@ -3022,10 +3022,10 @@
   "lower_bound": 230,
   "optimality_claimed": false,
   "priority_certified": false,
-  "publication_parent_commit": "2533512be428e70ff60eceb228992ba8a4e419bb",
+  "publication_parent_commit": "5fd9e93de801e7e027a284cb1636e7244a7fc6e8",
   "qualified_human_accepted": false,
   "recorded_upper_bound": 297,
-  "release_revision": "upper297-2026-11-09",
+  "release_revision": "upper297-2026-11-10",
   "schema": "c54-16-4-combined-public-audit-230-v01",
   "self_excluded": "PUBLIC_MANIFEST.json",
   "upper_credit": "OpenAI Codex search under Perry Kern's direction, using an adapted MIT-licensed weighted local search solver by Wynand van Staden; independent exhaustive verification",

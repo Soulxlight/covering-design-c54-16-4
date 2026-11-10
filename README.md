@@ -1,4 +1,4 @@
-# Covering designs for C(54,16,4)
+# Bounds and a verified 297-block cover for C(54,16,4)
 
 The project records **internally reviewed lower bound 230 and verified upper bound 297**. The
 [reviewer entry point](audit230/REVIEWER_START.md) presents the complete internally
@@ -7,19 +7,23 @@ acceptance, proof-assistant verification and literature priority remain pending.
 The research, manuscript and independent internal review used AI assistance
 under Perry Kern's direction. No exact covering number or optimality is claimed.
 
-## New upper-bound search, 9 November 2026
+## Verified upper bound 297, published 10 November 2026
 
 The resumed search has produced a verified **297-block cover**, improving the
 supplied 335-block incumbent. The [current witness and verification record](upper_search/README.md)
-include two independent exhaustive checks of all 316,251 quadruples, exact
-search source, input snapshots, and run logs. The preserved
+include a [constructive proof](upper_search/README.md#constructive-proof), two
+independent exhaustive checks of all 316,251 quadruples, exact search source,
+input snapshots, and run logs. The preserved
 [334-block milestone](upper334/README.md) records the first improvement; the
 [318-block checkpoint](upper_search/README-318.md) is retained with its complete history.
 The [305-block checkpoint](upper_search/README-305.md) and its winning search are also retained.
 The [302-block checkpoint](upper_search/README-302.md) and the [November 6 final evidence](upper_search/campaign_evidence/README.md) remain unchanged.
 That earlier campaign stopped after its three-hour stall and final output drain.
-The renewed search completed 300, 299, 298 and 297 blocks and continues toward 296;
-[its checkpoint record](upper_search/SESSION-20261109.json) does not claim a final stop.
+The renewed search completed 301, 300, 299, 298 and 297 blocks, then was paused
+at the user's request on November 9. The [saved restart checkpoint](upper_search/resume-20261109/README.md)
+contains four incomplete 296-block candidates, each missing two quadruples.
+They do not establish an upper bound of 296. The [earlier running snapshot](upper_search/SESSION-20261109.json)
+retains its historical status; no search is currently running.
 The [301-block checkpoint](upper_search/README-301.md) remains preserved.
 The old 301-block restart files with 7, 8, 19 holes remain **incomplete**;
 [data/cover-297.txt](data/cover-297.txt) is the current complete witness. All lower-proof bytes remain unchanged.
@@ -29,9 +33,10 @@ python -B upper_search/verify_best.py
 python -B upper_search/campaign_evidence/verify_evidence.py
 ```
 
-These artifacts are local research results. This update does not claim
-optimality or public-repository submission. The lower-bound proof and all
-previous witness files remain available.
+This GitHub release publishes the verified 297-block upper-bound certificate
+and its explanation. It does not claim optimality, Covering Repository curator
+acceptance, or literature priority. The lower-bound proof and all previous
+witness files remain available.
 
 ## Retained upper bound335
 
@@ -84,5 +89,6 @@ domains. Frozen generation-era flags are explained separately from current revie
 
 Project-owned code and documentation use the unchanged [MIT license](LICENSE),
 copyright2026 Perry Kern. Third-party sources retain their rights. No private
-correspondence, session record or unrelated private investigation is published.
+correspondence or unrelated private investigation is published. Computational
+session summaries are included as research provenance.
 "Peta Method/Proof" is a working label and makes no priority claim.
